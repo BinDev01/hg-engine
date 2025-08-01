@@ -17,7 +17,7 @@ EIGHT_BADGES equ 6
 /* General Poké Mart Table */
 .org 0x020FBF22
 
-.halfword ITEM_POKEBALL
+.halfword ITEM_POKE_BALL
 .halfword ZERO_BADGES
 
 .halfword ITEM_GREAT_BALL
