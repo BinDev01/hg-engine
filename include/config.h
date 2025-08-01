@@ -49,7 +49,7 @@
 
 // IMPLEMENT_TRANSPARENT_TEXTBOXES should be used if you want to implement transparent textboxes
 // uncommenting this line out will enable transparent textboxes
-//#define IMPLEMENT_TRANSPARENT_TEXTBOXES
+#define IMPLEMENT_TRANSPARENT_TEXTBOXES
 
 // IMPLEMENT_WILD_DOUBLE_BATTLES defines whether or not grass tiles will have a 10% chance of starting a wild double battle
 // commenting this line out disables wild double battles entirely
@@ -74,16 +74,16 @@
 // uncommenting IMPLEMENT_LEVEL_CAP enables the level cap system.  make sure to also uncomment LEVEL_CAP_VARIABLE in the process
 // uncommenting UNCAP_CANDIES_FROM_LEVEL_CAP will allow for rare candies to not be capped by the level cap even with the level cap in place, like run & bun
 // uncommenting ALLOW_LEVEL_CAP_EVOLVE will allow for rare candies to evolve pokemon already at the level cap that can evolve at that level already
-//#define IMPLEMENT_LEVEL_CAP
-//#define LEVEL_CAP_VARIABLE 0x416F
+#define IMPLEMENT_LEVEL_CAP
+#define LEVEL_CAP_VARIABLE 0x416F
 //#define UNCAP_CANDIES_FROM_LEVEL_CAP
 //#define ALLOW_LEVEL_CAP_EVOLVE
 
 // System flags that need to be enabled for the player to use the gimmick. If you want to change them, remember to change them in flags.s as well for consistency
 #define FLAG_MEGA_EVOLUTION_ENABLED 2518
-#define FLAG_Z_MOVE_ENABLED 2519
-#define FLAG_DYNAMAX_ENABLED 2520
-#define FLAG_TERASTALIZATION_ENABLED 2521
+//#define FLAG_Z_MOVE_ENABLED 2519
+//#define FLAG_DYNAMAX_ENABLED 2520
+//#define FLAG_TERASTALIZATION_ENABLED 2521
 
 // UPDATE_OVERWORLD_POISON will remove overworld poison if enabled
 // comment the line out below to retain overworld poison
@@ -112,7 +112,7 @@
 // SHINY_ODDS are the odds that a pokémon will be shiny.  actual odds are SHINY_ODDS over 65,536, by default 8 / 65536 or 1 / 8192
 // note that changing this still has no chance of spawning shiny mons in for trainers like the tutorial's method does
 // this will change existing mons too!  if you want to change the odds of wild mons only, you will have to add a certain amount of pid rerolls to the AddWildPartyPokemon routine
-#define SHINY_ODDS 8
+#define SHINY_ODDS 32
 
 // LEARNSET_TOTAL_MOVES is the amount of moves that each pokémon should be able to learn by level up
 #define LEARNSET_TOTAL_MOVES 41 // 40+terminate - currently driven by gallade
@@ -124,7 +124,7 @@
 
 // Friendship grants additional bonuses.
 // Comment out the line below to revert back to Gen 5- behaviour
-#define FRIENDSHIP_EFFECTS
+//#define FRIENDSHIP_EFFECTS
 
 // RESTORE_ITEMS_AT_BATTLE_END will restore held items that are single-use at the end of battle (Gen 9)
 // comment out the line below to revert back to Gen 8- behavior
