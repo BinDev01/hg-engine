@@ -628,10 +628,10 @@ trainerdata 20, "Falkner"
         ivs 50
         abilityslot 0
         level 9
-        pokemon SPECIES_PIDGEY
+        pokemon SPECIES_HOOTHOOT
         item ITEM_NONE
         move MOVE_TACKLE
-        move MOVE_SAND_ATTACK
+        move MOVE_PECK
         move MOVE_NONE
         move MOVE_NONE
         ballseal 0
@@ -640,11 +640,11 @@ trainerdata 20, "Falkner"
         ivs 50
         abilityslot 0
         level 13
-        pokemon SPECIES_PIDGEOTTO
+        pokemon SPECIES_NOCTOWL
         item ITEM_NONE
         move MOVE_TACKLE
         move MOVE_ROOST
-        move MOVE_GUST
+        move MOVE_PECK
         move MOVE_NONE
         ballseal 0
     endparty
@@ -678,7 +678,7 @@ trainerdata 21, "Bugsy"
         ivs 80
         abilityslot 0
         level 15
-        pokemon SPECIES_KAKUNA
+        pokemon SPECIES_SPINARAK
         item ITEM_NONE
         move MOVE_POISON_STING
         move MOVE_NONE
@@ -690,11 +690,11 @@ trainerdata 21, "Bugsy"
         ivs 80
         abilityslot 0
         level 15
-        pokemon SPECIES_METAPOD
+        pokemon SPECIES_LEDYBA
         item ITEM_NONE
         move MOVE_TACKLE
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_SUPERSONIC
+        move MOVE_MACH_PUNCH
         move MOVE_NONE
         ballseal 0
     endparty
@@ -934,19 +934,19 @@ trainerdata 30, "Whitney"
         // mon 0
         ivs 100
         abilityslot 0
-        level 17
-        pokemon SPECIES_CLEFAIRY
+        level 19
+        pokemon SPECIES_FURRET
         item ITEM_NONE
-        move MOVE_DOUBLE_SLAP
-        move MOVE_MIMIC
-        move MOVE_ENCORE
-        move MOVE_METRONOME
+        move MOVE_QUICK_ATTACK
+        move MOVE_DEFENSE_CURL
+        move MOVE_AGILITY
+        move MOVE_FURY_SWIPES
         ballseal 0
 
         // mon 1
         ivs 100
         abilityslot 32
-        level 19
+        level 21
         pokemon SPECIES_MILTANK
         item ITEM_LUM_BERRY
         move MOVE_ROLLOUT
@@ -972,7 +972,7 @@ trainerdata 31, "Morty"
         // mon 0
         ivs 100
         abilityslot 0
-        level 21
+        level 23
         pokemon SPECIES_GASTLY
         item ITEM_NONE
         move MOVE_LICK
@@ -984,19 +984,19 @@ trainerdata 31, "Morty"
         // mon 1
         ivs 100
         abilityslot 0
-        level 21
-        pokemon SPECIES_HAUNTER
+        level 23
+        pokemon SPECIES_MISDREAVUS
         item ITEM_NONE
-        move MOVE_HYPNOSIS
-        move MOVE_DREAM_EATER
-        move MOVE_CURSE
-        move MOVE_NIGHTMARE
+        move MOVE_HEX
+        move MOVE_CONFUSE_RAY
+        move MOVE_SPITE
+        move MOVE_PSYWAVE
         ballseal 0
 
         // mon 2
         ivs 100
         abilityslot 0
-        level 25
+        level 27
         pokemon SPECIES_GENGAR
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
@@ -1008,7 +1008,7 @@ trainerdata 31, "Morty"
         // mon 3
         ivs 100
         abilityslot 0
-        level 23
+        level 25
         pokemon SPECIES_HAUNTER
         item ITEM_NONE
         move MOVE_CURSE
@@ -1034,19 +1034,19 @@ trainerdata 32, "Pryce"
         // mon 0
         ivs 150
         abilityslot 0
-        level 30
-        pokemon SPECIES_SEEL
+        level 36
+        pokemon SPECIES_SNEASEL
         item ITEM_NONE
-        move MOVE_SNORE
-        move MOVE_HAIL
-        move MOVE_ICY_WIND
-        move MOVE_REST
+        move MOVE_HONE_CLAWS
+        move MOVE_METAL_CLAW
+        move MOVE_ICE_SHARD
+        move MOVE_FEINT_ATTACK
         ballseal 0
 
         // mon 1
         ivs 150
         abilityslot 0
-        level 32
+        level 38
         pokemon SPECIES_DEWGONG
         item ITEM_NONE
         move MOVE_SLEEP_TALK
@@ -1058,7 +1058,7 @@ trainerdata 32, "Pryce"
         // mon 2
         ivs 150
         abilityslot 32
-        level 34
+        level 40
         pokemon SPECIES_PILOSWINE
         item ITEM_SITRUS_BERRY
         move MOVE_HAIL
@@ -1084,7 +1084,7 @@ trainerdata 33, "Jasmine"
         // mon 0
         ivs 150
         abilityslot 0
-        level 30
+        level 36
         pokemon SPECIES_MAGNEMITE
         item ITEM_NONE
         move MOVE_THUNDERBOLT
@@ -1096,19 +1096,19 @@ trainerdata 33, "Jasmine"
         // mon 1
         ivs 150
         abilityslot 32
-        level 30
-        pokemon SPECIES_MAGNEMITE
+        level 38
+        pokemon SPECIES_SKARMORY
         item ITEM_NONE
-        move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        move MOVE_THUNDER_WAVE
+        move MOVE_DRILL_PECK
+        move MOVE_STEEL_WING
+        move MOVE_AGILITY
+        move MOVE_SPIKES
         ballseal 0
 
         // mon 2
         ivs 150
         abilityslot 32
-        level 35
+        level 40
         pokemon SPECIES_STEELIX
         item ITEM_SITRUS_BERRY
         move MOVE_SCREECH
@@ -1134,19 +1134,19 @@ trainerdata 34, "Chuck"
         // mon 0
         ivs 150
         abilityslot 0
-        level 29
-        pokemon SPECIES_PRIMEAPE
+        level 32
+        pokemon SPECIES_HITMONTOP
         item ITEM_NONE
-        move MOVE_LEER
-        move MOVE_DOUBLE_TEAM
-        move MOVE_FOCUS_PUNCH
-        move MOVE_ROCK_SLIDE
+        move MOVE_SUCKER_PUNCH
+        move MOVE_TRIPLE_KICK
+        move MOVE_DETECT
+        move MOVE_FAKE_OUT
         ballseal 0
 
         // mon 1
         ivs 150
         abilityslot 0
-        level 31
+        level 35
         pokemon SPECIES_POLIWRATH
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
@@ -1172,7 +1172,7 @@ trainerdata 35, "Clair"
         // mon 0
         ivs 200
         abilityslot 0
-        level 38
+        level 42
         pokemon SPECIES_GYARADOS
         item ITEM_NONE
         move MOVE_TWISTER
@@ -1184,7 +1184,7 @@ trainerdata 35, "Clair"
         // mon 1
         ivs 200
         abilityslot 0
-        level 38
+        level 42
         pokemon SPECIES_DRAGONAIR
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
@@ -1196,19 +1196,19 @@ trainerdata 35, "Clair"
         // mon 2
         ivs 200
         abilityslot 0
-        level 38
-        pokemon SPECIES_DRAGONAIR
+        level 43
+        pokemon SPECIES_SEADRA
         item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_AQUA_TAIL
-        move MOVE_SLAM
         move MOVE_DRAGON_PULSE
+        move MOVE_BUBBLE_BEAM
+        move MOVE_SMOKESCREEN
+        move MOVE_RAIN_DANCE
         ballseal 0
 
         // mon 3
         ivs 200
         abilityslot 32
-        level 41
+        level 45
         pokemon SPECIES_KINGDRA
         item ITEM_SITRUS_BERRY
         move MOVE_SMOKESCREEN

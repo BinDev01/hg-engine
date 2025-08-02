@@ -3281,7 +3281,7 @@ mondata SPECIES_CYNDAQUIL, "Cyndaquil"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BLAZE, ABILITY_EARTH_EATER
+    abilities ABILITY_DRY_SKIN, ABILITY_BLAZE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_CYNDAQUIL, "It is timid, and always curls itself\nup in a ball. If attacked, it\nflares up its back for protection."
@@ -3302,7 +3302,7 @@ mondata SPECIES_QUILAVA, "Quilava"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BLAZE, ABILITY_EARTH_EATER
+    abilities ABILITY_DRY_SKIN, ABILITY_BLAZE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_QUILAVA, "Be careful if it turns its back\nduring battle. It means that it will\nattack with the fire on its back."
@@ -3323,7 +3323,7 @@ mondata SPECIES_TYPHLOSION, "Typhlosion"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BLAZE, ABILITY_EARTH_EATER
+    abilities ABILITY_DRY_SKIN, ABILITY_BLAZE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_TYPHLOSION, "If its rage peaks, it becomes so\nhot that anything that touches it\nwill instantly go up in flames."
