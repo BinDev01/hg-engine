@@ -20246,10 +20246,10 @@ levelup SPECIES_DRAKLOAK
 
 
 levelup SPECIES_DRAGAPULT
-    learnset MOVE_DRAGON_DARTS, 1
+    learnset MOVE_ASTONISH, 1
     learnset MOVE_DRAGON_BREATH, 1
     learnset MOVE_SUCKER_PUNCH, 1
-    learnset MOVE_ASTONISH, 1
+    learnset MOVE_DRAGON_DARTS, 1
     learnset MOVE_INFESTATION, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_BITE, 1
