@@ -1343,7 +1343,7 @@ mondata SPECIES_ABRA, "Abra"
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_TWISTED_SPOON
+    items ITEM_NONE, ITEM_ALAKAZITE
     genderratio 63
     eggcycles 20
     basefriendship 50
@@ -1679,7 +1679,7 @@ mondata SPECIES_SLOWPOKE, "Slowpoke"
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
-    items ITEM_LAGGING_TAIL, ITEM_KINGS_ROCK
+    items ITEM_LAGGING_TAIL, ITEM_SLOWBRONITE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -1952,7 +1952,7 @@ mondata SPECIES_GASTLY, "Gastly"
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_GENGARITE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -2015,7 +2015,7 @@ mondata SPECIES_ONIX, "Onix"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
-    items ITEM_NONE, ITEM_HARD_STONE
+    items ITEM_NONE, ITEM_STEELIXITE
     genderratio 127
     eggcycles 25
     basefriendship 50
@@ -2435,7 +2435,7 @@ mondata SPECIES_KANGASKHAN, "Kangaskhan"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_KANGASKHANITE
     genderratio 254
     eggcycles 20
     basefriendship 50
@@ -2603,7 +2603,7 @@ mondata SPECIES_SCYTHER, "Scyther"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_SCIZORITE
     genderratio 127
     eggcycles 25
     basefriendship 50
@@ -2687,7 +2687,7 @@ mondata SPECIES_PINSIR, "Pinsir"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_PINSIRITE
     genderratio 127
     eggcycles 25
     basefriendship 50
@@ -2729,7 +2729,7 @@ mondata SPECIES_MAGIKARP, "Magikarp"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_GYARADOSITE
     genderratio 127
     eggcycles 5
     basefriendship 50
@@ -3002,7 +3002,7 @@ mondata SPECIES_AERODACTYL, "Aerodactyl"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_AERODACTYLITE
     genderratio 31
     eggcycles 35
     basefriendship 50
@@ -3779,7 +3779,7 @@ mondata SPECIES_MAREEP, "Mareep"
     catchrate 235
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_AMPHAROSITE
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -4514,7 +4514,7 @@ mondata SPECIES_HERACROSS, "Heracross"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_HERACRONITE
     genderratio 127
     eggcycles 25
     basefriendship 50
@@ -4808,7 +4808,7 @@ mondata SPECIES_HOUNDOUR, "Houndour"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_HOUNDOOMINITE
     genderratio 127
     eggcycles 20
     basefriendship 35
@@ -5186,7 +5186,7 @@ mondata SPECIES_LARVITAR, "Larvitar"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_TYRANITARITE
     genderratio 127
     eggcycles 40
     basefriendship 35
@@ -5312,7 +5312,7 @@ mondata SPECIES_TREECKO, "Treecko"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_SCEPTILITE
     genderratio 31
     eggcycles 20
     basefriendship 50
@@ -5375,7 +5375,7 @@ mondata SPECIES_TORCHIC, "Torchic"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_BLAZIKENITE
     genderratio 31
     eggcycles 20
     basefriendship 50
@@ -5438,7 +5438,7 @@ mondata SPECIES_MUDKIP, "Mudkip"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_SWAMPERTITE
     genderratio 31
     eggcycles 20
     basefriendship 50
@@ -5900,7 +5900,7 @@ mondata SPECIES_RALTS, "Ralts"
     catchrate 235
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_GALLADITE, ITEM_GARDEVOIRITE
     genderratio 127
     eggcycles 20
     basefriendship 35
@@ -6362,7 +6362,7 @@ mondata SPECIES_SABLEYE, "Sableye"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 1, 0, 0, 0
-    items ITEM_NONE, ITEM_WIDE_LENS
+    items ITEM_NONE, ITEM_SABLENITE
     genderratio 127
     eggcycles 25
     basefriendship 35
@@ -6383,7 +6383,7 @@ mondata SPECIES_MAWILE, "Mawile"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 1, 0, 0, 0
-    items ITEM_IRON_BALL, ITEM_OCCA_BERRY
+    items ITEM_IRON_BALL, ITEM_MAWILITE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -6404,7 +6404,7 @@ mondata SPECIES_ARON, "Aron"
     catchrate 180
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
-    items ITEM_NONE, ITEM_HARD_STONE
+    items ITEM_NONE, ITEM_AGGRONITE
     genderratio 127
     eggcycles 35
     basefriendship 35
@@ -6467,7 +6467,7 @@ mondata SPECIES_MEDITITE, "Meditite"
     catchrate 180
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_MEDICHAMITE
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -6509,7 +6509,7 @@ mondata SPECIES_ELECTRIKE, "Electrike"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_MANECTITE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -6698,7 +6698,7 @@ mondata SPECIES_CARVANHA, "Carvanha"
     catchrate 225
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_DEEP_SEA_TOOTH
+    items ITEM_NONE, ITEM_SHARPEDONITE
     genderratio 127
     eggcycles 20
     basefriendship 35
@@ -6782,7 +6782,7 @@ mondata SPECIES_NUMEL, "Numel"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_RAWST_BERRY, ITEM_NONE
+    items ITEM_RAWST_BERRY, ITEM_CAMERUPTITE
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -7013,7 +7013,7 @@ mondata SPECIES_SWABLU, "Swablu"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_ALTARIANITE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -7433,7 +7433,7 @@ mondata SPECIES_SHUPPET, "Shuppet"
     catchrate 225
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_SPELL_TAG
+    items ITEM_NONE, ITEM_BANETTITE
     genderratio 127
     eggcycles 25
     basefriendship 35
@@ -7559,7 +7559,7 @@ mondata SPECIES_ABSOL, "Absol"
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_LIFE_ORB
+    items ITEM_ABSOLITE, ITEM_LIFE_ORB
     genderratio 127
     eggcycles 25
     basefriendship 35
@@ -7622,7 +7622,7 @@ mondata SPECIES_GLALIE, "Glalie"
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_NEVER_MELT_ICE, ITEM_BABIRI_BERRY
+    items ITEM_NEVER_MELT_ICE, ITEM_GLALITITE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -7811,7 +7811,7 @@ mondata SPECIES_BAGON, "Bagon"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_DRAGON_FANG, ITEM_DRAGON_SCALE
+    items ITEM_DRAGON_FANG, ITEM_SALAMENCITE
     genderratio 127
     eggcycles 40
     basefriendship 35
@@ -7874,7 +7874,7 @@ mondata SPECIES_BELDUM, "Beldum"
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
-    items ITEM_NONE, ITEM_METAL_COAT
+    items ITEM_NONE, ITEM_METAGROSSITE
     genderratio 255
     eggcycles 40
     basefriendship 35
@@ -8987,7 +8987,7 @@ mondata SPECIES_BUNEARY, "Buneary"
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_PECHA_BERRY, ITEM_CHOPLE_BERRY
+    items ITEM_PECHA_BERRY, ITEM_LOPUNNITE
     genderratio 127
     eggcycles 20
     basefriendship 0
@@ -9323,7 +9323,7 @@ mondata SPECIES_GIBLE, "Gible"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_HABAN_BERRY
+    items ITEM_NONE, ITEM_GARCHOMPITE
     genderratio 127
     eggcycles 40
     basefriendship 50
@@ -9407,7 +9407,7 @@ mondata SPECIES_RIOLU, "Riolu"
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_NONE, ITEM_LUCARIONITE
     genderratio 31
     eggcycles 25
     basefriendship 50
@@ -9659,7 +9659,7 @@ mondata SPECIES_SNOVER, "Snover"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NEVER_MELT_ICE
+    items ITEM_NONE, ITEM_ABOMASITE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -12221,7 +12221,7 @@ mondata SPECIES_AUDINO, "Audino"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_ORAN_BERRY, ITEM_SITRUS_BERRY
+    items ITEM_ORAN_BERRY, ITEM_AUDINITE
     genderratio 127
     eggcycles 20
     basefriendship 50
