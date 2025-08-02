@@ -3678,7 +3678,7 @@ trainerdata 116, "Lois"
         ivs 50
         abilityslot 0
         level 32
-        pokemon SPECIES_AMPHAROSP
+        pokemon SPECIES_AMPHAROS
         move MOVE_THUNDER_SHOCK
         move MOVE_COTTON_SPORE
         move MOVE_THUNDER_WAVE
