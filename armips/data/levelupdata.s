@@ -5046,7 +5046,7 @@ levelup SPECIES_PILOSWINE
     learnset MOVE_ENDURE, 19
     learnset MOVE_ICE_FANG, 24
     learnset MOVE_ICY_WIND, 25
-    learnset MOVE_MIST, 27
+    learnset MOVE_ANCIENT_POWER, 27
     learnset MOVE_TAKE_DOWN, 36
     learnset MOVE_AMNESIA, 46
     learnset MOVE_EARTHQUAKE, 48
