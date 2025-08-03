@@ -4911,7 +4911,7 @@ levelup SPECIES_SNEASEL
     learnset MOVE_QUICK_ATTACK, 12
     learnset MOVE_METAL_CLAW, 18
     learnset MOVE_ICE_SHARD, 24
-    learnset MOVE_FURY_SWIPES, 30
+    learnset MOVE_FEINT_ATTACK, 30
     learnset MOVE_HONE_CLAWS, 36
     learnset MOVE_BEAT_UP, 42
     learnset MOVE_AGILITY, 48
