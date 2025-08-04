@@ -42,7 +42,7 @@ EIGHT_BADGES equ 6
 .halfword EIGHT_BADGES
 
 .halfword ITEM_RARE_CANDY
-.halfword ZERO_BADGES
+.halfword ONE_BADGE
 
 .halfword ITEM_MAX_ETHER
 .halfword THREE_BADGES

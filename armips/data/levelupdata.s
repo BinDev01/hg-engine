@@ -1251,7 +1251,7 @@ levelup SPECIES_PRIMEAPE
     learnset MOVE_CROSS_CHOP, 22
     learnset MOVE_ASSURANCE, 26
     learnset MOVE_PUNISHMENT, 30
-    learnset MOVE_THRASH, 35
+    learnset MOVE_RAGE_FIST, 35
     learnset MOVE_CLOSE_COMBAT, 39
     learnset MOVE_SCREECH, 44
     learnset MOVE_STOMPING_TANTRUM, 48
@@ -4619,7 +4619,7 @@ levelup SPECIES_GIRAFARIG
     learnset MOVE_STOMP, 14
     learnset MOVE_PSYBEAM, 19
     learnset MOVE_AGILITY, 23
-    learnset MOVE_DOUBLE_HIT, 28
+    learnset MOVE_TWIN_BEAM, 28
     learnset MOVE_ZEN_HEADBUTT, 32
     learnset MOVE_CRUNCH, 37
     learnset MOVE_BATON_PASS, 41
@@ -5328,7 +5328,7 @@ levelup SPECIES_STANTLER
     learnset MOVE_TAKE_DOWN, 21
     learnset MOVE_CONFUSE_RAY, 23
     learnset MOVE_CALM_MIND, 27
-    learnset MOVE_ROLE_PLAY, 32
+    learnset MOVE_PSYSHIELD_BASH, 32
     learnset MOVE_ZEN_HEADBUTT, 37
     learnset MOVE_IMPRISON, 49
     learnset MOVE_DOUBLE_EDGE, 55
@@ -22607,9 +22607,9 @@ levelup SPECIES_DIPPLIN
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SYRUP_BOMB, 28
     learnset MOVE_DRAGON_PULSE, 32
-    learnset MOVE_RECOVER, 36
+    learnset MOVE_DRAGON_CHEER, 36
     learnset MOVE_ENERGY_BALL, 40
-    learnset MOVE_SUBSTITUTE, 44
+    learnset MOVE_RECOVER, 44
     terminatelearnset
 
 levelup SPECIES_POLTCHAGEIST
