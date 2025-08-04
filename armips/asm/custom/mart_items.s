@@ -161,7 +161,7 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_MAX_POTION
 .halfword ITEM_REVIVE
 .halfword ITEM_FULL_HEAL
-.halfword 0xFFFF
+.halfword ITEM_EXP_SHARE
 
 /* const u16 _020FBB16[] = {ITEM_POKE_DOLL, ITEM_FRESH_WATER, ITEM_SODA_POP, ITEM_LEMONADE, ITEM_REPEL, ITEM_HEART_MAIL, 0xFFFF}; */
 /* const u16 _020FBB84[] = {ITEM_ULTRA_BALL, ITEM_MAX_REPEL, ITEM_HYPER_POTION, ITEM_MAX_POTION, ITEM_FULL_RESTORE, ITEM_REVIVE, ITEM_FULL_HEAL, 0xFFFF}; */
@@ -172,23 +172,23 @@ const u16 *_0210FA3C[] = {
 .org 0x020FBBB4
 /* This spills over into _020FBBC6 */
 /* Goldenrod Dept Store 3F & Celadon Dept Store 5F -> Chansey Supply 1 */ 
-.halfword ITEM_HP_UP
-.halfword ITEM_PROTEIN
-.halfword ITEM_IRON
-.halfword ITEM_CALCIUM
-.halfword ITEM_ZINC
-.halfword ITEM_CARBOS
-.halfword ITEM_POWER_WEIGHT
-.halfword ITEM_POWER_BRACER
-.halfword ITEM_POWER_BELT
+.halfword ITEM_SILK_SCARF
+.halfword ITEM_CHARCOAL
+.halfword ITEM_MYSTIC_WATER
+.halfword ITEM_MAGNET
+.halfword ITEM_MIRACLE_SEED
+.halfword ITEM_NEVER_MELT_ICE
+.halfword ITEM_BLACK_BELT
+.halfword ITEM_POISON_BARB
+.halfword ITEM_SOFT_SAND
 
-.halfword ITEM_POWER_LENS
-.halfword ITEM_POWER_BAND
-.halfword ITEM_POWER_ANKLET
-.halfword ITEM_EXP_SHARE
-.halfword ITEM_MACHO_BRACE
-.halfword 0xFFFF
-.halfword 0xFFFF
+.halfword ITEM_SHARP_BEAK
+.halfword ITEM_TWISTED_SPOON
+.halfword ITEM_SPELL_TAG
+.halfword ITEM_DRAGON_FANG
+.halfword ITEM_SILVER_POWDER
+.halfword ITEM_HARD_STONE
+.halfword ITEM_BLACK_GLASSES
 .halfword 0xFFFF
 .halfword 0xFFFF
 
@@ -251,7 +251,7 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_WATER_STONE
 .halfword ITEM_LEAF_STONE
 .halfword ITEM_ICE_STONE
-.halfword ITEM_SUN_STONE
+.halfword ITEM_LINKING_CORD
 .halfword ITEM_REAPER_CLOTH
 .halfword ITEM_PROTECTOR
 .halfword ITEM_UP_GRADE
