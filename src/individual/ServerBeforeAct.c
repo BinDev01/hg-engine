@@ -112,18 +112,12 @@ void __attribute__((section (".init"))) ServerBeforeActInternal(struct BattleSys
                             // player requests mega
                             if (!(client_no)) {
                                 if (CheckCanMega(sp, client_no) && (newBS.playerWantMega & No2Bit(client_no)) != 0) {
-                                    sp->battlemon[client_no].canMega = 1;
-                                    newBS.SideMega[0] = TRUE;
-                                    if (sp->battlemon[client_no].id_no == sp->battlemon[2].id_no)
-                                        newBS.SideMega[2] = TRUE;
                                     flag = TRUE;
                                 }
                             }
                             // ai requests mega
                             else {
                                 if (CheckCanMega(sp, client_no)) {
-                                    sp->battlemon[client_no].canMega = 1;
-                                    newBS.SideMega[client_no] = TRUE;
                                     flag = TRUE;
                                 }
                             }
@@ -131,18 +125,12 @@ void __attribute__((section (".init"))) ServerBeforeActInternal(struct BattleSys
                             // player requests mega
                             if (!(client_no & 1)) {
                                 if (CheckCanMega(sp, client_no) && (newBS.playerWantMega & No2Bit(client_no)) != 0) {
-                                    sp->battlemon[client_no].canMega = 1;
-                                    newBS.SideMega[0] = TRUE;
-                                    newBS.SideMega[2] = TRUE;
                                     flag = TRUE;
                                 }
                             }
                             // ai requests mega
                             else {
                                 if (CheckCanMega(sp, client_no)) {
-                                    sp->battlemon[client_no].canMega = 1;
-                                    newBS.SideMega[1] = TRUE;
-                                    newBS.SideMega[3] = TRUE;
                                     flag = TRUE;
                                 }
                             }
@@ -410,13 +398,6 @@ static BOOL MegaEvolutionOrUltraBurst(struct BattleSystem *bsys, struct BattleSt
     for (i = 0; i < client_set_max; i++) {
         client_no = ctx->turnOrder[i];
         if (newBS.needMega[client_no] == MEGA_NEED && ctx->battlemon[client_no].hp) {
-            if (BattleTypeGet(bsys) & BATTLE_TYPE_MULTI) {
-                if (client_no == 0 || (client_no == 2 && ctx->battlemon[client_no].id_no == ctx->battlemon[0].id_no))
-                    newBS.PlayerMegaed = TRUE;
-            } else if (client_no == 0 || client_no == 2) {
-                newBS.PlayerMegaed = TRUE;
-            }
-
             ctx->battlemon[client_no].form_no = GrabMegaTargetForm(ctx->battlemon[client_no].species, ctx->battlemon[client_no].item);
 
             // https://www.smogon.com/forums/threads/scarlet-violet-battle-mechanics-research.3709545/post-9458017

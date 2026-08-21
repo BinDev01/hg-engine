@@ -848,6 +848,8 @@
 // define your custom move effects below like this
 // .equ ITEM_CUSTOM_1, (MAX_BASE_ITEM_NUM + 1)
 
+.equ ITEM_ENCOUNTER_LURE, (MAX_BASE_ITEM_NUM + 1)
+
 
 
 

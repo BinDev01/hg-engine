@@ -9,6 +9,13 @@
 #define ITEM_DATA_ENTRIES (513)
 #define NEW_ITEM_GFX (807)
 
+// scr_seq_0003_073_encounter_lure in armips/scr_seq/scr_seq_00003_commonscript.s
+// (common script file 3, local script 73 -> global script id 2000 + 73)
+#define SCRIPT_ID_ENCOUNTER_LURE (2073)
+
+// scr_seq_0003_074_box_link in armips/scr_seq/scr_seq_00003_commonscript.s
+#define SCRIPT_ID_BOX_LINK (2074)
+
 u16 GetItemIndex(u16 item, u16 type);
 void *GetItemArcData(u16 item, u16 type, u32 heap_id);
 //void *LONG_CALL ItemDataTableLoad(int heapID);
@@ -21,6 +28,8 @@ void *_CreateDNASplicersWork(FieldSystem *fieldSystem);
 void ItemMenuUseFunc_AbilityCapsule(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2);
 void ItemMenuUseFunc_Mint(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2 UNUSED);
 void ItemMenuUseFunc_Nectar(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2 UNUSED);
+void ItemMenuUseFunc_EncounterLure(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2);
+void ItemMenuUseFunc_BoxLink(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2);
 
 const struct ItemUseFuncDat sItemFieldUseFuncs[] = {
     { NULL, ItemFieldUseFunc_Generic, NULL },
@@ -59,6 +68,8 @@ const struct ItemUseFuncDat sItemFieldUseFuncs[] = {
     { ItemMenuUseFunc_AbilityCapsule, NULL, NULL },
     { ItemMenuUseFunc_Mint, NULL, NULL },
     { ItemMenuUseFunc_Nectar, NULL, NULL },
+    { ItemMenuUseFunc_EncounterLure, NULL, NULL },
+    { ItemMenuUseFunc_BoxLink, NULL, NULL },
 };
 
 u16 GetItemIndex(u16 item, u16 type)
@@ -219,4 +230,29 @@ void ItemMenuUseFunc_Nectar(struct ItemMenuUseData *data, const struct ItemCheck
     struct BagViewAppWork *env = data->taskManager->env; //TaskManager_GetEnvironment(data->taskManager);
     env->atexit_TaskEnv = sub_0203FAE8(fieldSystem, HEAPID_WORLD, data->itemId);
     sub_0203C8F0(env, 0x0203CA9C | 1);
+}
+
+/**
+ *  @brief hand control over to the encounter lure script once the bag closes.
+ *         the script asks for a species and a level, shows both for confirmation
+ *         and then starts that wild battle.
+ *
+ *  @param data bag item use work
+ *  @param dat2 item use context (map, player state, ...)
+ */
+void ItemMenuUseFunc_EncounterLure(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2)
+{
+    SetUpItemScript(data, dat2, SCRIPT_ID_ENCOUNTER_LURE);
+}
+
+/**
+ *  @brief hand control over to the box link script once the bag closes.
+ *         it opens the pokémon storage system from wherever the player is standing
+ *
+ *  @param data bag item use work
+ *  @param dat2 item use context (map, player state, ...)
+ */
+void ItemMenuUseFunc_BoxLink(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2)
+{
+    SetUpItemScript(data, dat2, SCRIPT_ID_BOX_LINK);
 }

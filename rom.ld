@@ -83,6 +83,7 @@ SetMonPersonality = 0x0207235C | 1;
 GetNatureFromPersonality = 0x0206FE2C |1;
 PokeParaLevelExpGet = 0x0206FCDC | 1;
 PokeLevelUpCheck = 0x02070DB4 | 1;
+LevelUpMonAndLearnMoves = 0x0206BF60 | 1;
 MonHasMove = 0x02071754 | 1;
 PartyHasMon = 0x020748CC | 1;
 sub_020720FC = 0x020720FC | 1;

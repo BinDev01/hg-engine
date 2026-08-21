@@ -67,6 +67,7 @@ void SetPartyPokemonParamsForEvoCutscene(struct PartyPokemon *mon, u16 *targetSp
     SetMonData(mon, MON_DATA_SPECIES, targetSpecies);
     if (form)
         SetMonData(mon, MON_DATA_FORM, &form);
+
     if (clearEvoStructure)
         memset(gEvolutionSceneOverride, 0, sizeof(gEvolutionSceneOverride));
 }
@@ -762,6 +763,68 @@ u32 CanUseAbilityPatch(struct PartyPokemon *pp)
 }
 
 
+/**
+ *  @brief experience granted by each exp candy.  mirrors the sword/shield values
+ *
+ *  @param itemID exp candy item to look up
+ *  @return experience points the candy is worth, 0 if the item is not an exp candy
+ */
+u32 GetExpCandyExperience(u16 itemID)
+{
+    switch (itemID)
+    {
+    case ITEM_EXP_CANDY_XS: return 100;
+    case ITEM_EXP_CANDY_S:  return 800;
+    case ITEM_EXP_CANDY_M:  return 3000;
+    case ITEM_EXP_CANDY_L:  return 10000;
+    case ITEM_EXP_CANDY_XL: return 30000;
+    }
+    return 0;
+}
+
+
+/**
+ *  @brief highest level an exp candy is allowed to feed a pokémon towards.
+ *         respects the level cap so candies cannot push past it
+ *
+ *  @return level to clamp experience gains to
+ */
+u32 GetExpCandyMaxLevel(void)
+{
+#ifdef IMPLEMENT_LEVEL_CAP
+    return GetLevelCap();
+#else
+    return 100;
+#endif
+}
+
+
+/**
+ *  @brief check whether an exp candy would do anything for a PartyPokemon.
+ *         eggs and pokémon that already sit at the experience ceiling are rejected
+ *         so the candy is not consumed for nothing
+ *
+ *  @param pp PartyPokemon to check
+ *  @return TRUE if the pokémon can still gain experience, FALSE otherwise
+ */
+u32 CanUseExpCandy(struct PartyPokemon *pp)
+{
+    u32 species = GetMonData(pp, MON_DATA_SPECIES, NULL);
+    u32 maxLevel = GetExpCandyMaxLevel();
+    u32 growthrate;
+
+    if (species == SPECIES_NONE || GetMonData(pp, MON_DATA_IS_EGG, NULL))
+        return FALSE;
+
+    if (GetMonData(pp, MON_DATA_LEVEL, NULL) >= maxLevel)
+        return FALSE;
+
+    growthrate = PokePersonalParaGet(species, PERSONAL_EXP_GROUP);
+
+    return (GetMonData(pp, MON_DATA_EXPERIENCE, NULL) < (u32)GetExpByGrowthRateAndLevel((int)growthrate, maxLevel));
+}
+
+
 u32 ALIGN4 partyMenuSignal = 0;
 
 u16 NatureToMintItem[] =
@@ -788,6 +851,10 @@ u16 NatureToMintItem[] =
     [NATURE_NAIVE] = ITEM_NAIVE_MINT,
     [NATURE_SERIOUS] = ITEM_SERIOUS_MINT,
 };
+
+// line 221 of data/text/300.txt, read back by UseItemMonAttrLoadDiffMessage_hook in asm/other_hook.s
+// only shown when a candy is not worth a full level - otherwise the level up sequence talks
+#define PARTY_MENU_MSG_EXP_CANDY (220)
 
 /**
  *  @brief see if an item changes attributes of the pokémon or not
@@ -953,6 +1020,53 @@ u32 LONG_CALL UseItemMonAttrChangeCheck(struct PLIST_WORK *wk, void *dat)
         sys_FreeMemoryEz(dat);
         PokeList_FormDemoOverlayLoad(wk);
         return TRUE;
+    }
+
+    // handle exp candies
+    //
+    // the candy is worth a fixed amount of experience, which can be several levels.
+    // everything but the final level is done here through the day care routine so the
+    // level up moves are actually learned.  the final level is deliberately left to the
+    // vanilla level up item path (return FALSE) - that one owns the stat window, the
+    // "wants to learn a move" prompt and the evolution check, exactly like a rare candy.
+
+    if (IS_ITEM_EXP_CANDY(wk->dat->item) && CanUseExpCandy(pp) == TRUE)
+    {
+        u32 species = GetMonData(pp, MON_DATA_SPECIES, NULL);
+        u32 growthrate = PokePersonalParaGet(species, PERSONAL_EXP_GROUP);
+        u32 maxLevel = GetExpCandyMaxLevel();
+        u32 curLevel = GetMonData(pp, MON_DATA_LEVEL, NULL);
+        u32 maxExp = (u32)GetExpByGrowthRateAndLevel((int)growthrate, maxLevel);
+        u32 exp = GetMonData(pp, MON_DATA_EXPERIENCE, NULL) + GetExpCandyExperience(wk->dat->item);
+        u32 newLevel = curLevel;
+
+        if (exp > maxExp)
+            exp = maxExp;
+
+        while (newLevel < maxLevel && exp >= (u32)GetExpByGrowthRateAndLevel((int)growthrate, newLevel + 1))
+            newLevel++;
+
+        if (newLevel == curLevel) // not enough for a level, no vanilla sequence to hand over to
+        {
+            void *bag = Sav2_Bag_get(SaveBlock2_get());
+            SetMonData(pp, MON_DATA_EXPERIENCE, &exp);
+            partyMenuSignal = PARTY_MENU_MSG_EXP_CANDY; // signal to change the message to this index
+            wk->dat->after_mons = GetMonData(pp, MON_DATA_FORM, NULL); // no form change
+            RecalcPartyPokemonStats(pp);
+            Bag_TakeItem(bag, wk->dat->item, 1, 11);
+            sys_FreeMemoryEz(dat);
+            PokeList_FormDemoOverlayLoad(wk);
+            return TRUE;
+        }
+
+        if (newLevel - 1 > curLevel) // pull the pokémon up to one level below the target
+        {
+            u32 stopExp = (u32)GetExpByGrowthRateAndLevel((int)growthrate, newLevel - 1);
+            SetMonData(pp, MON_DATA_EXPERIENCE, &stopExp);
+            LevelUpMonAndLearnMoves(pp);
+        }
+
+        return FALSE; // let the vanilla level up path take it the last step
     }
 
     return FALSE;
@@ -1321,6 +1435,12 @@ u32 LONG_CALL CheckIfMonsAreEqual(struct PartyPokemon *pokemon1, struct PartyPok
  */
 BOOL CanUseItemOnMonInParty(struct Party *party, u16 itemID, s32 partyIdx, s32 moveIdx, u32 heapID) {
     struct PartyPokemon *mon = Party_GetMonByIndex(party, partyIdx);
+
+    // exp candies carry no partyUseParam flags, so vanilla would always grey them out
+    if (IS_ITEM_EXP_CANDY(itemID))
+    {
+        return CanUseExpCandy(mon);
+    }
 
     if (GetItemData(itemID, ITEM_PARAM_LEVEL_UP, heapID) && GetMonData(mon, MON_DATA_LEVEL, NULL) == 100 && GetMonEvolution(party, mon, EVOCTX_LEVELUP, itemID, NULL))
     {

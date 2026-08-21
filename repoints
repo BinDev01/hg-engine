@@ -77,3 +77,7 @@ arm9 PokemonBattleMusic 080518D4
 
 # camouflage type table
 0012 sCamouflageTypeTable 0800CB60
+
+# poke mart stock table, expanded by one entry in src/mart.c
+# (the entry count of the loop that reads it is patched in bytereplacement)
+arm9 sPokeMartItems 02048124

@@ -281,12 +281,6 @@ BOOL CheckCanMega(struct BattleStruct *battle, int client)
     u16 item = battle->battlemon[client].item;
     u32 form = battle->battlemon[client].form_no;
 
-    if (battle->battlemon[client].canMega)
-        return FALSE;
-
-    if (newBS.SideMega[client])
-        return FALSE;
-
     if (form)
         return FALSE;
 

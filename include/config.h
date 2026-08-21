@@ -55,6 +55,11 @@
 // commenting this line out disables wild double battles entirely
 //#define IMPLEMENT_WILD_DOUBLE_BATTLES
 
+// IMPLEMENT_EXP_SHARE_ALL_PARTY gives every alive party member the full experience from a fainted enemy,
+// like the Gen 6+ team-wide Exp. Share key item. Comment this line out to revert to the default behavior
+// (only participants and holders of the Exp. Share held item receive experience).
+#define IMPLEMENT_EXP_SHARE_ALL_PARTY
+
 // IMPLEMENT_CAPTURE_EXPERIENCE defines whether or not capturing wild pokemon will net experience
 // commenting this line out disables capture experience
 #define IMPLEMENT_CAPTURE_EXPERIENCE
@@ -160,5 +165,12 @@
 
 // STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
 #define STATIC_HP_BAR
+
+// HMS_USABLE_FROM_BAG makes the HM field moves work as long as the matching HM sits in
+// the bag, so no party Pokémon has to learn them.  Badge requirements are unaffected.
+// Covers Cut, Surf, Strength, Whirlpool, Rock Smash, Waterfall and Rock Climb; Fly is
+// not included because it is only ever used from the party menu.  See src/hm_field_use.c
+// and the two matching entries in the hooks file.
+#define HMS_USABLE_FROM_BAG
 
 #endif

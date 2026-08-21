@@ -71,6 +71,8 @@
 
  ``STATIC_HP_BAR`` (``include/config.h`` only) updates the HP bar to increase/decrease at a fixed rate like later generations.
 
+ ``HMS_USABLE_FROM_BAG`` (``include/config.h`` only) makes the HM field moves work as long as the matching HM is in the bag, so no party Pokémon has to learn them.  Badge requirements are unaffected.  Covers Cut, Surf, Strength, Whirlpool, Rock Smash, Waterfall and Rock Climb.  Fly is not included, it is only ever used from the party menu.  Implemented in ``src/hm_field_use.c`` as full replacements of the two vanilla routines that scan the party for a field move.
+
 ### ``scripts\make.py`` and ``linker.ld``
  On line 13 of ``scripts/make.py``, change ``OFFSET_TO_START`` to be your location in overlay 129 with enough free space.  This is separate from the above one.  MAKE SURE THE OFFSETS DON'T OVERLAP.
 

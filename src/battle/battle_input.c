@@ -394,8 +394,6 @@ void LoadMegaButton(struct BI_PARAM *bip)
     int iconindex = MEGA_ICON_BLANK_GFX; // indices of new sprites added to item narc
     int palindex = MEGA_ICON_BLANK_GFX+1;
 
-    if (newBS.PlayerMegaed)
-        return;
     if (!newBS.MegaButton && newBS.CanMega)
     {
         csp = BattleWorkCATS_SYS_PTRGet(bip->bw);
@@ -457,8 +455,6 @@ BOOL CheckMegaButton(struct BI_PARAM *bip, int tp_ret)
     if (newBS.ChangeBgFlag)
         return 0;
     if (!newBS.CanMega)
-        return 0;
-    if (newBS.PlayerMegaed)
         return 0;
     csp = BattleWorkCATS_SYS_PTRGet(bip->bw);
     crp = BattleWorkCATS_RES_PTRGet(bip->bw);
@@ -561,7 +557,7 @@ void BGCallback_Waza_Extend(struct BI_PARAM *bip, int select_bg, int force_put)
     bip->scrn_buf[3] = sys_AllocMemory(5, 0x800);
 
     // me when i commit crimes that transfer to low-level really nicely
-    if (newBS.CanMega && !newBS.PlayerMegaed)
+    if (newBS.CanMega)
     {
         scrn_data_id = 353; // new button layout nscr in a007
         *(u16 *)(0x0226E29E) = 353;
@@ -604,7 +600,7 @@ void BGCallback_Waza_Extend(struct BI_PARAM *bip, int select_bg, int force_put)
  */
 u32 GrabCancelXValue(void)
 {
-    if (newBS.CanMega && !newBS.PlayerMegaed)
+    if (newBS.CanMega)
     {
         return 92;
     }
@@ -621,7 +617,7 @@ u32 GrabCancelXValue(void)
  */
 void SwapOutBottomScreen(struct BI_PARAM *bip)
 {
-    if (CheckCanDrawMegaButton(bip) && !newBS.PlayerMegaed)
+    if (CheckCanDrawMegaButton(bip))
     {
         *(u16 *)(0x0226E29E) = 353; // new button layout nscr
         // swap out touch data ptr

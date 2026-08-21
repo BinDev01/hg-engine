@@ -959,6 +959,14 @@ void  LONG_CALL SetBoxMonData(struct BoxPokemon *boxmon, int id, const void *buf
 struct PartyPokemon * LONG_CALL Party_GetMonByIndex(struct Party *party, int pos);
 
 /**
+ *  @brief grab how many Pokémon are currently in a Party
+ *
+ *  @param party Party to count
+ *  @return number of occupied slots
+ */
+int LONG_CALL PokeParty_GetPokeCount(struct Party *party);
+
+/**
  *  @brief grab personal field accounting for form (for vanilla forms)
  *
  *  @param mons_no base species index
@@ -1124,6 +1132,16 @@ u32 LONG_CALL PokeParaLevelExpGet(struct PartyPokemon *pp);
  *  @return TRUE if the PartyPokemon should level up; FALSE otherwise
  */
 u32 LONG_CALL PokeLevelUpCheck(struct PartyPokemon *pp);
+
+/**
+ *  @brief level a PartyPokemon up as often as its current experience allows,
+ *         teaching every level up move along the way and recalculating its stats
+ *         afterwards.  this is the routine the day care uses, so a move is added
+ *         silently and overwrites the oldest one once all four slots are taken
+ *
+ *  @param pp PartyPokemon to level up
+ */
+void LONG_CALL LevelUpMonAndLearnMoves(struct PartyPokemon *pp);
 
 /**
  *  @brief check if a Party has a specific species

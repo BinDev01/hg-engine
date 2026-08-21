@@ -745,7 +745,7 @@ An oval charm said to increase the\nchance of Pokémon Eggs being found at\nthe 
 Having one of these mysterious shining\ncharms makes it more likely you’ll\nencounter Shiny Pokémon in the wild.
 A machine to fuse Necrozma, which needs\nlight, and Solgaleo.
 A machine to fuse Necrozma, which needs\nlight, and Lunala.
-A device that allows you to press “R”\nto access the Pokémon storage system.\nIt won’t work in certain places, though.
+A device that lets you access the\nPokémon storage system from your Bag,\nno matter where you are.
 An item to store Zygarde Cores and\nCells. You can also use it to teach\nZygarde moves.
 Sun Flute Description
 Moon Flute Description
@@ -798,3 +798,4 @@ An item to be held by Ogerpon.\nThis carved wooden mask allows Ogerpon\nto wield
 An item to be held by Ogerpon.\nThis carved wooden mask allows Ogerpon\nto wield the Water type during battle.
 An item to be held by Ogerpon.\nThis carved wooden mask allows Ogerpon\nto wield the Fire type during battle.
 A peculiar metal that can make certain\nspecies of Pokémon evolve.\nIt is composed of many layers.
+A curious device that calls a\nchosen Pokémon out of hiding.\nIt can be used over and over.

@@ -7,6 +7,22 @@
 .include "armips/include/vars.s"
 
 .include "asm/include/items.inc"
+.include "asm/include/species.inc"
+
+// message ids in 040.txt used by scr_seq_0003_073_encounter_lure
+MSG_ENCL_DIGIT_BASE        equ 120   // "0" .. "9" occupy 120-129
+MSG_ENCL_ACCEPT            equ 130
+MSG_ENCL_CLEAR             equ 131
+MSG_ENCL_CANCEL            equ 132
+MSG_ENCL_ASK_SPECIES       equ 133
+MSG_ENCL_ASK_SPECIES_NAMED equ 134
+MSG_ENCL_ASK_LEVEL         equ 135
+MSG_ENCL_BAD_SPECIES       equ 136
+MSG_ENCL_BAD_LEVEL         equ 137
+MSG_ENCL_CONFIRM           equ 138
+MSG_ENCL_GROUP_LO          equ 139   // "0 - 4"
+MSG_ENCL_GROUP_HI          equ 140   // "5 - 9"
+MSG_ENCL_BACK              equ 141
 
 
 // text archive to grab from: 040.txt
@@ -87,6 +103,8 @@ scrdef scr_seq_0003_069
 scrdef scr_seq_0003_070
 scrdef scr_seq_0003_071
 scrdef scr_seq_0003_072_repels
+scrdef scr_seq_0003_073_encounter_lure
+scrdef scr_seq_0003_074_box_link
 scrdef_end
 
 scr_seq_0003_002:
@@ -1733,6 +1751,236 @@ scr_seq_0003_064:
 
 
 
+
+
+// Encounter Lure (ITEM_ENCOUNTER_LURE).  Entered from ItemMenuUseFunc_EncounterLure
+// in src/item.c once the bag has closed.  Asks for a species number and a level one
+// digit at a time, shows both for confirmation and then starts that wild battle.
+//   VAR_SPECIAL_x8004 - species number being entered
+//   VAR_SPECIAL_x8005 - level being entered
+//   VAR_SPECIAL_x8006 - scratch for the x10 multiplication
+//
+// A digit is picked in two steps (0-4 / 5-9) on purpose: the menu window code at
+// 0x021EE01C only sizes the window from the entry count while there are 8 entries
+// or fewer, and switches to a different scrolling layout beyond that.  Every menu
+// here therefore stays at 6 entries or fewer, and menu_init uses the same argument
+// list as the vanilla menus in scr_seq_0003_023.
+scr_seq_0003_073_encounter_lure:
+    lockall
+    setvar VAR_SPECIAL_x8004, 0
+    setvar VAR_SPECIAL_x8005, 0
+
+// ---- species ----------------------------------------------------------
+_encl_species:
+    buffer_int 0, VAR_SPECIAL_x8004
+    compare VAR_SPECIAL_x8004, 1
+    goto_if_lt _encl_species_ask_plain
+    compare VAR_SPECIAL_x8004, NUM_OF_MONS
+    goto_if_gt _encl_species_ask_plain
+    buffer_species_name 1, VAR_SPECIAL_x8004, 0, 0
+    npc_msg MSG_ENCL_ASK_SPECIES_NAMED
+    goto _encl_species_menu
+
+_encl_species_ask_plain:
+    npc_msg MSG_ENCL_ASK_SPECIES
+
+_encl_species_menu:
+    touchscreen_menu_hide
+    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    menu_item_add MSG_ENCL_GROUP_LO, 255, 0
+    menu_item_add MSG_ENCL_GROUP_HI, 255, 1
+    menu_item_add MSG_ENCL_ACCEPT, 255, 2
+    menu_item_add MSG_ENCL_CLEAR, 255, 3
+    menu_item_add MSG_ENCL_CANCEL, 255, 4
+    menu_exec
+
+    compare VAR_SPECIAL_RESULT, 4
+    goto_if_ge _encl_quit               // CANCEL, and any out of range B-button result
+    compare VAR_SPECIAL_RESULT, 0
+    goto_if_lt _encl_quit               // signed B-button result
+    compare VAR_SPECIAL_RESULT, 3
+    goto_if_eq _encl_species_clear
+    compare VAR_SPECIAL_RESULT, 2
+    goto_if_eq _encl_species_accept
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq _encl_species_hi
+
+_encl_species_lo:
+    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    menu_item_add MSG_ENCL_DIGIT_BASE+0, 255, 0
+    menu_item_add MSG_ENCL_DIGIT_BASE+1, 255, 1
+    menu_item_add MSG_ENCL_DIGIT_BASE+2, 255, 2
+    menu_item_add MSG_ENCL_DIGIT_BASE+3, 255, 3
+    menu_item_add MSG_ENCL_DIGIT_BASE+4, 255, 4
+    menu_item_add MSG_ENCL_BACK, 255, 10
+    menu_exec
+    goto _encl_species_apply
+
+_encl_species_hi:
+    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    menu_item_add MSG_ENCL_DIGIT_BASE+5, 255, 5
+    menu_item_add MSG_ENCL_DIGIT_BASE+6, 255, 6
+    menu_item_add MSG_ENCL_DIGIT_BASE+7, 255, 7
+    menu_item_add MSG_ENCL_DIGIT_BASE+8, 255, 8
+    menu_item_add MSG_ENCL_DIGIT_BASE+9, 255, 9
+    menu_item_add MSG_ENCL_BACK, 255, 10
+    menu_exec
+
+_encl_species_apply:
+    compare VAR_SPECIAL_RESULT, 10
+    goto_if_ge _encl_species                // BACK, and any out of range result
+    compare VAR_SPECIAL_RESULT, 0
+    goto_if_lt _encl_species
+    copyvar VAR_SPECIAL_x8006, VAR_SPECIAL_x8004
+    addvar VAR_SPECIAL_x8004, VAR_SPECIAL_x8004   // x2
+    addvar VAR_SPECIAL_x8004, VAR_SPECIAL_x8004   // x4
+    addvar VAR_SPECIAL_x8004, VAR_SPECIAL_x8006   // x5
+    addvar VAR_SPECIAL_x8004, VAR_SPECIAL_x8004   // x10
+    addvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT   // + new digit
+    compare VAR_SPECIAL_x8004, NUM_OF_MONS
+    goto_if_gt _encl_species_bad
+    goto _encl_species
+
+_encl_species_clear:
+    setvar VAR_SPECIAL_x8004, 0
+    goto _encl_species
+
+_encl_species_bad:
+    npc_msg MSG_ENCL_BAD_SPECIES
+    wait_button
+    goto _encl_species_clear
+
+_encl_species_accept:
+    compare VAR_SPECIAL_x8004, 1
+    goto_if_lt _encl_species_bad
+
+// ---- level ------------------------------------------------------------
+_encl_level:
+    buffer_int 0, VAR_SPECIAL_x8005
+    npc_msg MSG_ENCL_ASK_LEVEL
+    touchscreen_menu_hide
+    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    menu_item_add MSG_ENCL_GROUP_LO, 255, 0
+    menu_item_add MSG_ENCL_GROUP_HI, 255, 1
+    menu_item_add MSG_ENCL_ACCEPT, 255, 2
+    menu_item_add MSG_ENCL_CLEAR, 255, 3
+    menu_item_add MSG_ENCL_CANCEL, 255, 4
+    menu_exec
+
+    compare VAR_SPECIAL_RESULT, 4
+    goto_if_ge _encl_quit               // CANCEL, and any out of range B-button result
+    compare VAR_SPECIAL_RESULT, 0
+    goto_if_lt _encl_quit               // signed B-button result
+    compare VAR_SPECIAL_RESULT, 3
+    goto_if_eq _encl_level_clear
+    compare VAR_SPECIAL_RESULT, 2
+    goto_if_eq _encl_level_accept
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq _encl_level_hi
+
+_encl_level_lo:
+    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    menu_item_add MSG_ENCL_DIGIT_BASE+0, 255, 0
+    menu_item_add MSG_ENCL_DIGIT_BASE+1, 255, 1
+    menu_item_add MSG_ENCL_DIGIT_BASE+2, 255, 2
+    menu_item_add MSG_ENCL_DIGIT_BASE+3, 255, 3
+    menu_item_add MSG_ENCL_DIGIT_BASE+4, 255, 4
+    menu_item_add MSG_ENCL_BACK, 255, 10
+    menu_exec
+    goto _encl_level_apply
+
+_encl_level_hi:
+    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    menu_item_add MSG_ENCL_DIGIT_BASE+5, 255, 5
+    menu_item_add MSG_ENCL_DIGIT_BASE+6, 255, 6
+    menu_item_add MSG_ENCL_DIGIT_BASE+7, 255, 7
+    menu_item_add MSG_ENCL_DIGIT_BASE+8, 255, 8
+    menu_item_add MSG_ENCL_DIGIT_BASE+9, 255, 9
+    menu_item_add MSG_ENCL_BACK, 255, 10
+    menu_exec
+
+_encl_level_apply:
+    compare VAR_SPECIAL_RESULT, 10
+    goto_if_ge _encl_level
+    compare VAR_SPECIAL_RESULT, 0
+    goto_if_lt _encl_level
+    copyvar VAR_SPECIAL_x8006, VAR_SPECIAL_x8005
+    addvar VAR_SPECIAL_x8005, VAR_SPECIAL_x8005   // x2
+    addvar VAR_SPECIAL_x8005, VAR_SPECIAL_x8005   // x4
+    addvar VAR_SPECIAL_x8005, VAR_SPECIAL_x8006   // x5
+    addvar VAR_SPECIAL_x8005, VAR_SPECIAL_x8005   // x10
+    addvar VAR_SPECIAL_x8005, VAR_SPECIAL_RESULT   // + new digit
+    compare VAR_SPECIAL_x8005, 100
+    goto_if_gt _encl_level_bad
+    goto _encl_level
+
+_encl_level_clear:
+    setvar VAR_SPECIAL_x8005, 0
+    goto _encl_level
+
+_encl_level_bad:
+    npc_msg MSG_ENCL_BAD_LEVEL
+    wait_button
+    goto _encl_level_clear
+
+_encl_level_accept:
+    compare VAR_SPECIAL_x8005, 1
+    goto_if_lt _encl_level_bad
+
+// ---- confirm (shows the species name and the level) -------------------
+    buffer_species_name 0, VAR_SPECIAL_x8004, 0, 0
+    buffer_int 1, VAR_SPECIAL_x8005
+    npc_msg MSG_ENCL_CONFIRM
+    yesno VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq _encl_restart
+    closemsg
+    // FLAG_ENGAGING_STATIC_POKEMON tells the engine this is a script driven
+    // battle, so it returns here instead of taking the overworld encounter
+    // path afterwards.  Every vanilla wild_battle is wrapped like this.
+    setflag FLAG_ENGAGING_STATIC_POKEMON
+    wild_battle VAR_SPECIAL_x8004, VAR_SPECIAL_x8005, 0
+    clearflag FLAG_ENGAGING_STATIC_POKEMON
+    touchscreen_menu_show
+    releaseall
+    end
+
+_encl_restart:
+    setvar VAR_SPECIAL_x8004, 0
+    setvar VAR_SPECIAL_x8005, 0
+    goto _encl_species
+
+_encl_quit:
+    closemsg
+    touchscreen_menu_show
+    releaseall
+    end
+
+
+// Pokémon Box Link.  opens the storage system straight from the bag, anywhere.
+//
+// scr_seq_0003_010 (std_pokecenter_pc) is deliberately not reused: it drives the PC
+// tile animation through scrcmd_500/501 and then waits on it with wait_door_animation.
+// Off a pokémon center there is no such tile, so that wait would never finish.  The
+// steps below are the same ones the "MOVE POKéMON" branch of that script runs, minus
+// the tile animation.
+//
+//   scrcmd_158 - pick the box system mode, 2 = move pokémon (party next to the boxes)
+//   scrcmd_150 - hand over to the box system and come back once the player closes it
+scr_seq_0003_074_box_link:
+    lockall
+    touchscreen_menu_hide
+    play_se SEQ_SE_DP_PC_LOGIN
+    fade_screen 6, 1, 0, RGB_BLACK
+    wait_fade
+    scrcmd_158 2
+    scrcmd_150
+    fade_screen 6, 1, 1, RGB_BLACK
+    wait_fade
+    play_se SEQ_SE_DP_PC_LOGOFF
+    touchscreen_menu_show
+    releaseall
+    end
 
 
 .close

@@ -676,6 +676,9 @@
 #define ITEM_EXP_CANDY_L        (ITEM_PIXIE_PLATE + 56)
 #define ITEM_EXP_CANDY_XS       (ITEM_PIXIE_PLATE + 57)
 #define ITEM_EXP_CANDY_XL       (ITEM_PIXIE_PLATE + 58)
+
+// the five exp candies are consecutive, S/M/L come before XS/XL
+#define IS_ITEM_EXP_CANDY(item) (item >= ITEM_EXP_CANDY_S && item <= ITEM_EXP_CANDY_XL)
 #define ITEM_GALARICA_CUFF      (ITEM_PIXIE_PLATE + 59)
 #define ITEM_GALARICA_TWIG      (ITEM_PIXIE_PLATE + 60)
 #define ITEM_GALARICA_WREATH    (ITEM_PIXIE_PLATE + 61)
@@ -873,6 +876,9 @@
 // define your custom move effects below like this
 // #define ITEM_CUSTOM_1 (MAX_BASE_ITEM_NUM + 1)
 
+// Encounter Lure - key item that lets you pick a species + level and starts that wild battle
+#define ITEM_ENCOUNTER_LURE (MAX_BASE_ITEM_NUM + 1)
+
 
 
 #define NUM_MEGA_STONES 48 // includes the pixie plate
@@ -884,7 +890,7 @@
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
-#define NEW_ITEM_MAX ITEM_METAL_ALLOY
+#define NEW_ITEM_MAX ITEM_ENCOUNTER_LURE
 
 #define BAG_SLOT_QUANTITY_MAX                    999
 

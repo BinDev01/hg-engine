@@ -33,7 +33,7 @@
 //#define DEBUG_SOUND_SBNK_LOADS
 
 // GUARANTEE_CAPTURES guarantees captures
-//#define GUARANTEE_CAPTURES
+#define GUARANTEE_CAPTURES
 
 // Uncomment this when you want to enable all gimmicks while testing
 #define DEBUG_ENABLE_ALL_GIMMICKS
