@@ -123,45 +123,45 @@ superrodrate 0
 walklevels 2, 3, 2, 3, 3, 3, 2, 2, 4, 4, 4, 4
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
+pokemon SPECIES_STARLY
+pokemon SPECIES_BUNNELBY
+pokemon SPECIES_BIDOOF
 pokemon SPECIES_RATTATA
+pokemon SPECIES_SENTRET
+pokemon SPECIES_SENTRET
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_WOOLOO
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_GLAMEOW
+pokemon SPECIES_PAWMI
+pokemon SPECIES_PAWMI
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
+pokemon SPECIES_STARLY
+pokemon SPECIES_BUNNELBY
+pokemon SPECIES_BIDOOF
 pokemon SPECIES_RATTATA
+pokemon SPECIES_SENTRET
+pokemon SPECIES_SENTRET
+pokemon SPECIES_SQUIRTLE
+pokemon SPECIES_WOOLOO
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_GLAMEOW
+pokemon SPECIES_PAWMI
+pokemon SPECIES_PAWMI
 
 // night encounter slots
+pokemon SPECIES_ZIGZAGOON
+monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_LILLIPUP
+monwithform SPECIES_RATTATA, 1
+pokemon SPECIES_PANCHAM
+pokemon SPECIES_PURRLOIN
+pokemon SPECIES_CHARMANDER
+pokemon SPECIES_POOCHYENA
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
 pokemon SPECIES_HOOTHOOT
 
 // hoenn encounter slots
@@ -331,46 +331,46 @@ superrodrate 75
 walklevels 2, 3, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_WURMPLE
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_LEDYBA
+pokemon SPECIES_CHIKORITA
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_WURMPLE
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_LEDYBA
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_SCATTERBUG
 
 // night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_VENIPEDE
+pokemon SPECIES_VENONAT
+pokemon SPECIES_SIZZLIPEDE
+pokemon SPECIES_MORELULL
+pokemon SPECIES_BLIPBUG
+pokemon SPECIES_NYMBLE
+pokemon SPECIES_CYNDAQUIL
+pokemon SPECIES_NINCADA
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_NINCADA
+pokemon SPECIES_BLIPBUG
+pokemon SPECIES_NYMBLE
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -435,46 +435,46 @@ superrodrate 75
 walklevels 3, 4, 3, 4, 3, 3, 5, 5, 5, 5, 5, 5
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+pokemon SPECIES_PIDOVE
+pokemon SPECIES_BUIZEL
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_DEWPIDER
+pokemon SPECIES_FIDOUGH
+pokemon SPECIES_DEWPIDER
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_TREECKO
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+pokemon SPECIES_PIDOVE
+pokemon SPECIES_BUIZEL
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_DEWPIDER
+pokemon SPECIES_FIDOUGH
+pokemon SPECIES_DEWPIDER
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_MUDKIP
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
 
 // night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_PATRAT
+pokemon SPECIES_APPLIN
+pokemon SPECIES_TANDEMAUS
+pokemon SPECIES_SANDILE
+pokemon SPECIES_WIMPOD
+pokemon SPECIES_TANDEMAUS
+pokemon SPECIES_WIMPOD
+pokemon SPECIES_SANDILE
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_PATRAT
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_KRICKETOT
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -527,6974 +527,1077 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
-encounterdata   5   // Violet City
-
-walkrate 0
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_POLIWAG
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_WHISCASH
-
-.close
-
-
-encounterdata   6   // Sprout Tower 2F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata   7   // Sprout Tower 3F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata   8   // Route 32
-
-walkrate 25
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 4
-
-// morning encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-
-// day encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_WOOPER
-pokemon SPECIES_RATTATA
-pokemon SPECIES_WOOPER
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_WOOPER
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_WOOPER
-pokemon SPECIES_ZUBAT
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 36, 36
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_QWILFISH, 20, 20
-
-// super rod encounters
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_QWILFISH, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_BELLSPROUT
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_TENTACOOL
-// swarm super rod
-pokemon SPECIES_QWILFISH
-
-.close
-
-
-encounterdata   9   // Ruins of Alph (Outside)
-
-walkrate 10
-surfrate 10
-rocksmashrate 20
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 20, 22, 20, 22, 18, 18, 24, 24, 20, 22, 20, 22
-
-// morning encounter slots
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-
-// day encounter slots
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-
-// night encounter slots
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_WOOPER, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-
-// rock smash encounters
-encounter SPECIES_GEODUDE, 8, 14
-encounter SPECIES_GEODUDE, 3, 6
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_NATU
-// swarm surf
-pokemon SPECIES_WOOPER
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  10   // Ruins of Alph (Inside, Main Room)
-
-walkrate 15
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
-
-// morning encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// day encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// night encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// hoenn encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// sinnoh encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_UNOWN
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  11   // Ruins of Alph (Inside, Main Room - Not sure when used?)
-
-walkrate 15
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
-
-// morning encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// day encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// night encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// hoenn encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// sinnoh encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_UNOWN
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  12   // Ruins of Alph (Inside, Main Room - Not sure when used?)
-
-walkrate 15
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
-
-// morning encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// day encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// night encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// hoenn encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// sinnoh encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_UNOWN
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  13   // Ruins of Alph (Inside, Ladder Room - This has no encounter tile permissions though)
-
-walkrate 15
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
-
-// morning encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// day encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// night encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// hoenn encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// sinnoh encounter slots
-pokemon SPECIES_UNOWN
-pokemon SPECIES_UNOWN
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_UNOWN
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  14   // Union Cave 1F
-
-walkrate 10
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 6, 6, 6, 6, 5, 5, 4, 4, 7, 6, 7, 6
-
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_WOOPER, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_GEODUDE
-// swarm surf
-pokemon SPECIES_WOOPER
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  15   // Union Cave B1F
-
-walkrate 15
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 8, 8, 8, 8, 7, 7, 8, 8, 9, 6, 9, 6
-
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_WOOPER, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_GEODUDE
-// swarm surf
-pokemon SPECIES_WOOPER
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  16   // Union Cave B2F
-
-walkrate 15
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
-
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-
-// swarm grass
-pokemon SPECIES_ZUBAT
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_STARYU
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  17   // Route 33
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 6, 7, 6, 7, 6, 6, 6, 6, 8, 4, 8, 4
-
-// morning encounter slots
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_ZUBAT
-
-// day encounter slots
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_HOPPIP
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  18   // Slowpoke Well 1F
-
-walkrate 5
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 5, 6, 5, 6, 7, 7, 6, 6, 8, 8, 8, 8
-
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_SLOWPOKE, 10, 20
-encounter SPECIES_SLOWPOKE, 15, 25
-encounter SPECIES_SLOWPOKE, 5, 15
-encounter SPECIES_SLOWPOKE, 5, 15
-encounter SPECIES_SLOWPOKE, 5, 15
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_ZUBAT
-// swarm surf
-pokemon SPECIES_SLOWPOKE
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  19   // Slowpoke Well B2F
-
-walkrate 15
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 21, 23, 21, 23, 19, 19, 21, 21, 23, 23, 23, 23
-
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_SLOWPOKE, 10, 20
-encounter SPECIES_SLOWPOKE, 15, 25
-encounter SPECIES_SLOWBRO, 15, 25
-encounter SPECIES_SLOWBRO, 15, 25
-encounter SPECIES_SLOWBRO, 30, 30
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_ZUBAT
-// swarm surf
-pokemon SPECIES_SLOWPOKE
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  20   // Ilex Forest
-
-walkrate 5
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 5, 6, 5, 6, 6, 6, 5, 5, 5, 6, 5, 6
-
-// morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-
-// day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-
-// night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-
-// hoenn encounter slots
-pokemon SPECIES_SPOINK
-pokemon SPECIES_NUMEL
-
-// sinnoh encounter slots
-pokemon SPECIES_BUDEW
-pokemon SPECIES_CARNIVINE
-
-// surf encounters
-encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_PSYDUCK, 5, 15
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_CATERPIE
-// swarm surf
-pokemon SPECIES_PSYDUCK
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  21   // Route 34
-
-walkrate 25
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
-
-// morning encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-
-// day encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-
-// night encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 29, 29
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-
-// swarm grass
-pokemon SPECIES_RALTS
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_STARYU
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  22   // Route 35
-
-walkrate 25
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 12, 12, 12, 12, 14, 14, 10, 10, 14, 10, 14, 12
-
-// morning encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_DITTO
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_YANMA
-
-// day encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_DITTO
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_YANMA
-
-// night encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_DITTO
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_YANMA
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_PSYDUCK, 15, 25
-encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 15, 25
-encounter SPECIES_GOLDUCK, 15, 25
-encounter SPECIES_GOLDUCK, 31, 31
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_YANMA
-// swarm surf
-pokemon SPECIES_PSYDUCK
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  23   // National Park
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 10, 10, 10, 10, 12, 12, 12, 12, 10, 14, 10, 14
-
-// morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-
-// day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
-
-// night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_CATERPIE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  24   // National Park (Bug Catching Contest - Not Normally Used)
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 10, 10, 10, 10, 12, 12, 12, 12, 10, 14, 10, 14
-
-// morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-
-// day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-
-// night encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-
-// hoenn encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-
-// sinnoh encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_CATERPIE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  25   // Route 36
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 12, 12, 12, 12, 13, 13, 13, 13, 13, 15, 13, 15
-
-// morning encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-
-// day encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_GROWLITHE
-
-// night encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NIDORAN_M
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  26   // Route 37
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 13, 15, 13, 15, 15, 15, 14, 14, 15, 15, 15, 15
-
-// morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-
-// day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_GROWLITHE
-
-// night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_STANTLER
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_PIDGEY
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  27   // Ecruteak City
-
-walkrate 0
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_POLIWAG
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  28   // Burned Tower 1F
-
-walkrate 10
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 13, 14, 13, 14, 15, 15, 14, 14, 16, 15, 16, 15
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  29   // Burned Tower B1F
-
-walkrate 10
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 14, 14, 14, 14, 16, 16, 16, 16, 15, 14, 15, 14
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  30   // Bell Tower 2F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  31   // Bell Tower 3F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  32   // Bell Tower 4F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  33   // Bell Tower 5F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  34   // Bell Tower 6F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  35   // Bell Tower 7F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  36   // Bell Tower 8F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  37   // Bell Tower 9F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  38   // Route 38
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 16, 16, 16, 16, 16, 16, 16, 16, 13, 13, 13, 13
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
-
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_SNUBBULL
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  39   // Route 39
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 16, 17, 16, 17, 16, 16, 16, 16, 15, 15, 15, 15
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  40   // Olivine City
-
-walkrate 0
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_STARYU
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  41   // Route 40
-
-walkrate 0
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_STARYU
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  42   // Route 41
-
-walkrate 0
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_SHELLDER
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  43   // Whirl Islands 1F
-
-walkrate 5
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_HORSEA, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_HORSEA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_HORSEA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_SEADRA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-
-// swarm grass
-pokemon SPECIES_KRABBY
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_HORSEA
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  44   // Whirl Islands B1F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_KRABBY
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  45   // ???
-
-walkrate 0
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  46   // Whirl Islands B2F
-
-walkrate 5
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_HORSEA, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_SEADRA, 15, 25
-encounter SPECIES_SEADRA, 15, 25
-encounter SPECIES_SEADRA, 30, 30
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_HORSEA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_HORSEA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_SEADRA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-
-// swarm grass
-pokemon SPECIES_KRABBY
-// swarm surf
-pokemon SPECIES_HORSEA
-// swarm good rod
-pokemon SPECIES_HORSEA
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  47   // ???
-
-walkrate 0
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  48   // Whirl Islands B3F (Ledge overlooking Lugia room)
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 23, 24, 23, 24, 25, 25, 23, 23, 24, 25, 24, 25
-
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_KRABBY
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  49   // ???
-
-walkrate 0
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  50   // ???
-
-walkrate 0
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  51   // Cianwood City
-
-walkrate 0
-surfrate 15
-rocksmashrate 30
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-
-// rock smash encounters
-encounter SPECIES_KRABBY, 15, 24
-encounter SPECIES_SHUCKLE, 23, 28
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_STARYU
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  52   // Route 42
-
-walkrate 25
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 15, 13, 15, 13, 14, 14, 16, 16, 15, 17, 15, 17
-
-// morning encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-
-// day encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-
-// night encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_MANKEY
-// swarm surf
-pokemon SPECIES_GOLDEEN
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  53   // Mt. Mortar (Waterfall room)
-
-walkrate 10
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 13, 15, 13, 15, 14, 14, 14, 14, 14, 16, 14, 15
-
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MARILL
-
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MARILL
-
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MARILL
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_MARILL
-// swarm surf
-pokemon SPECIES_GOLDEEN
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  54   // Mt. Mortar (Central room)
-
-walkrate 10
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 13, 13, 13, 13, 15, 15, 14, 14, 15, 14, 15, 14
-
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_GEODUDE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  55   // Mt. Mortar (Room above waterfall)
-
-walkrate 10
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 31, 32, 31, 32, 31, 31, 30, 30, 28, 30, 28, 30
-
-// morning encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-
-// day encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-
-// night encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 20, 30
-encounter SPECIES_SEAKING, 20, 30
-encounter SPECIES_SEAKING, 20, 30
-encounter SPECIES_SEAKING, 20, 30
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_GRAVELER
-// swarm surf
-pokemon SPECIES_GOLDEEN
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  56   // Mt. Mortar B1F
-
-walkrate 10
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 15, 17, 15, 17, 16, 16, 16, 16, 16, 16, 16, 16
-
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_ZUBAT
-// swarm surf
-pokemon SPECIES_GOLDEEN
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  57   // Route 43
-
-walkrate 20
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 15, 15, 15, 15, 17, 17, 15, 15, 16, 17, 16, 17
-
-// morning encounter slots
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_VENONAT
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_VENONAT
-pokemon SPECIES_PIDGEOTTO
-
-// day encounter slots
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-
-// night encounter slots
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_VENONAT
-pokemon SPECIES_VENONAT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_VENONAT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_VENONAT
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 15, 25
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 50, 50
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_FLAAFFY
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  58   // Lake of Rage
-
-walkrate 0
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_GYARADOS, 10, 20
-encounter SPECIES_GYARADOS, 10, 20
-encounter SPECIES_GYARADOS, 10, 20
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GYARADOS, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-
-// super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_GYARADOS
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  59   // Route 44
-
-walkrate 25
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 23, 22, 23, 22, 22, 22, 24, 24, 24, 26, 24, 26
-
-// morning encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-
-// day encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-
-// night encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_POLIWAG, 20, 30
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWHIRL, 20, 30
-encounter SPECIES_POLIWHIRL, 20, 30
-encounter SPECIES_POLIWHIRL, 20, 30
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_REMORAID, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_REMORAID, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_TANGELA
-// swarm surf
-pokemon SPECIES_POLIWAG
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_REMORAID
-
-.close
-
-
-encounterdata  60   // Ice Path 1F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
-
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_SWINUB
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  61   // Ice Path B1F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
-
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_SWINUB
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  62   // Ice Path B2F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
-
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_SWINUB
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  63   // Ice Path B3F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
-
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_SWINUB
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  64   // ???
-
-walkrate 0
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  65   // Blackthorn City
-
-walkrate 0
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  66   // Dragons Den
-
-walkrate 0
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_DRATINI, 5, 15
-encounter SPECIES_DRATINI, 5, 15
-encounter SPECIES_DRATINI, 5, 15
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_DRATINI, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-
-// super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_DRATINI, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_DRAGONAIR, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_DRATINI
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  67   // Route 45
-
-walkrate 25
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 23, 23, 23, 23, 24, 24, 20, 20, 25, 27, 25, 27
-
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_PHANPY
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_PHANPY
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_PHANPY
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 15, 25
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_SWABLU
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  68   // Route 46
-
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 3, 2, 3, 2, 2, 2, 2, 2, 3, 4, 3, 4
-
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_GEODUDE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  69   // Dark Cave (Route 31 entrance)
-
-walkrate 10
-surfrate 10
-rocksmashrate 50
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 3, 2, 3, 2, 2, 2, 4, 4, 3, 4, 3, 4
-
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
-
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
-
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-
-// rock smash encounters
-encounter SPECIES_DUNSPARCE, 4, 8
-encounter SPECIES_GEODUDE, 8, 14
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_DUNSPARCE
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  70   // Dark Cave (Route 45 entrance)
-
-walkrate 10
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 23, 23, 23, 23, 25, 25, 20, 20, 25, 23, 25, 23
-
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_GEODUDE
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  71   // Route 47
-
-walkrate 25
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 35, 35, 34, 33, 32, 31, 32, 31, 34, 31, 33, 40
-
-// morning encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_GLOOM
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DITTO
-
-// day encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_GLOOM
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DITTO
-
-// night encounter slots
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_MILTANK
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_GLOOM
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DITTO
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_SEEL, 10, 20
-encounter SPECIES_STARYU, 15, 25
-encounter SPECIES_STARYU, 15, 25
-encounter SPECIES_STARYU, 15, 25
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-
-// swarm grass
-pokemon SPECIES_DITTO
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_SHELLDER
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
+encounterdata 5
+    .byte 0x00, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0F, 0x19, 0x3C, 0x00, 0x0A, 0x14, 0x3C, 0x00, 0x0F, 0x19, 0x3D, 0x00
+    .byte 0x0F, 0x19, 0x3D, 0x00, 0x0F, 0x19, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x5D, 0x01
+    .byte 0x0A, 0x0A, 0x5D, 0x01, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x00, 0x00, 0x3C, 0x00
+    .byte 0x3C, 0x00, 0x54, 0x01
+    .close
+
+encounterdata 6
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x04, 0x03, 0x04, 0x05, 0x05, 0x03, 0x03
+    .byte 0x06, 0x05, 0x06, 0x05, 0x2B, 0x00, 0x45, 0x00, 0x25, 0x00, 0xEB, 0x03, 0x3F, 0x00, 0x46, 0x02
+    .byte 0xB6, 0x01, 0x28, 0x01, 0x28, 0x01, 0x5C, 0x02, 0x5C, 0x02, 0x5C, 0x02, 0x2B, 0x00, 0x45, 0x00
+    .byte 0x25, 0x00, 0xEB, 0x03, 0x3F, 0x00, 0x46, 0x02, 0xB6, 0x01, 0x28, 0x01, 0x28, 0x01, 0x5C, 0x02
+    .byte 0x5C, 0x02, 0x5C, 0x02, 0x91, 0x02, 0x45, 0x01, 0x5C, 0x00, 0xBE, 0x01, 0x3F, 0x00, 0x5C, 0x00
+    .byte 0x91, 0x02, 0x33, 0x01, 0x33, 0x01, 0x3C, 0x03, 0x3C, 0x03, 0x3C, 0x03, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 7
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x04, 0x03, 0x04, 0x05, 0x05, 0x03, 0x03
+    .byte 0x06, 0x05, 0x06, 0x05, 0x2B, 0x00, 0x45, 0x00, 0x25, 0x00, 0xEB, 0x03, 0x3F, 0x00, 0x46, 0x02
+    .byte 0xB6, 0x01, 0x28, 0x01, 0x28, 0x01, 0x5C, 0x02, 0x5C, 0x02, 0x5C, 0x02, 0x2B, 0x00, 0x45, 0x00
+    .byte 0x25, 0x00, 0xEB, 0x03, 0x3F, 0x00, 0x46, 0x02, 0xB6, 0x01, 0x28, 0x01, 0x28, 0x01, 0x5C, 0x02
+    .byte 0x5C, 0x02, 0x5C, 0x02, 0x91, 0x02, 0x45, 0x01, 0x5C, 0x00, 0xBE, 0x01, 0x3F, 0x00, 0x5C, 0x00
+    .byte 0x91, 0x02, 0x33, 0x01, 0x33, 0x01, 0x3C, 0x03, 0x3C, 0x03, 0x3C, 0x03, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 8
+    .byte 0x19, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x06, 0x04, 0x06, 0x04, 0x06, 0x06, 0x06, 0x06
+    .byte 0x06, 0x04, 0x06, 0x04, 0x0E, 0x01, 0xBB, 0x00, 0x96, 0x01, 0xB3, 0x00, 0xC7, 0x02, 0xC7, 0x02
+    .byte 0x83, 0x01, 0xB3, 0x00, 0x96, 0x01, 0x96, 0x01, 0x2E, 0x03, 0x2E, 0x03, 0x0E, 0x01, 0xBB, 0x00
+    .byte 0x96, 0x01, 0xB3, 0x00, 0xC7, 0x02, 0xC7, 0x02, 0x86, 0x01, 0xB3, 0x00, 0x96, 0x01, 0x96, 0x01
+    .byte 0x2E, 0x03, 0x2E, 0x03, 0x11, 0x01, 0xE6, 0x03, 0x1D, 0x01, 0xD2, 0x02, 0x67, 0x03, 0x67, 0x03
+    .byte 0x89, 0x01, 0xD2, 0x02, 0x1D, 0x01, 0x1D, 0x01, 0xDE, 0x00, 0xDE, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0A, 0x14, 0x48, 0x00, 0x0F, 0x19, 0xC3, 0x00, 0x0F, 0x19, 0x49, 0x00
+    .byte 0x0F, 0x19, 0x49, 0x00, 0x24, 0x24, 0x49, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0xE4, 0x02, 0x0A, 0x0A, 0xE4, 0x02, 0x0A, 0x0A, 0xE4, 0x02, 0x0A, 0x0A, 0xE6, 0x02
+    .byte 0x0A, 0x0A, 0xE6, 0x02, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x48, 0x00, 0x14, 0x14, 0x48, 0x00
+    .byte 0x14, 0x14, 0x48, 0x00, 0x14, 0x14, 0xD3, 0x00, 0x28, 0x28, 0x48, 0x00, 0x28, 0x28, 0x48, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0xD3, 0x00, 0x28, 0x28, 0x81, 0x00, 0x45, 0x00, 0x48, 0x00
+    .byte 0x48, 0x00, 0xD3, 0x00
+    .close
+
+encounterdata 9
+    .byte 0x0A, 0x0A, 0x14, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x14, 0x16, 0x14, 0x16, 0x12, 0x12, 0x18, 0x18
+    .byte 0x14, 0x16, 0x14, 0x16, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00
+    .byte 0xB1, 0x00, 0xB1, 0x00, 0xEB, 0x00, 0xEB, 0x00, 0xEB, 0x00, 0xEB, 0x00, 0xB1, 0x00, 0xB1, 0x00
+    .byte 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xEB, 0x00, 0xEB, 0x00
+    .byte 0xEB, 0x00, 0xEB, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00, 0xB1, 0x00
+    .byte 0xB1, 0x00, 0xB1, 0x00, 0xEB, 0x00, 0xEB, 0x00, 0xEB, 0x00, 0xEB, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0A, 0x14, 0xC2, 0x00, 0x0F, 0x19, 0xC3, 0x00, 0x0A, 0x14, 0xC3, 0x00
+    .byte 0x0A, 0x14, 0xC3, 0x00, 0x0A, 0x14, 0xC3, 0x00, 0x08, 0x0E, 0x4A, 0x00, 0x03, 0x06, 0x4A, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0xB1, 0x00, 0xC2, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 10
+    .byte 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05
+    .byte 0x05, 0x05, 0x05, 0x05, 0xB1, 0x00, 0xB4, 0x01, 0x73, 0x02, 0x8F, 0x02, 0xD7, 0x02, 0x89, 0x00
+    .byte 0xC9, 0x00, 0x57, 0x01, 0xC9, 0x00, 0xC9, 0x00, 0x68, 0x01, 0x63, 0x02, 0xB1, 0x00, 0xB4, 0x01
+    .byte 0x73, 0x02, 0x8F, 0x02, 0xD7, 0x02, 0x89, 0x00, 0xC9, 0x00, 0x57, 0x01, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0x68, 0x01, 0x63, 0x02, 0xC8, 0x00, 0xC8, 0x00, 0x70, 0x02, 0x37, 0x02, 0x61, 0x01, 0x63, 0x01
+    .byte 0xB1, 0x01, 0x60, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC9, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 11
+    .byte 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05
+    .byte 0x05, 0x05, 0x05, 0x05, 0xB1, 0x00, 0xB4, 0x01, 0x73, 0x02, 0x8F, 0x02, 0xD7, 0x02, 0x89, 0x00
+    .byte 0xC9, 0x00, 0x57, 0x01, 0xC9, 0x00, 0xC9, 0x00, 0x68, 0x01, 0x63, 0x02, 0xB1, 0x00, 0xB4, 0x01
+    .byte 0x73, 0x02, 0x8F, 0x02, 0xD7, 0x02, 0x89, 0x00, 0xC9, 0x00, 0x57, 0x01, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0x68, 0x01, 0x63, 0x02, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC9, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 12
+    .byte 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05
+    .byte 0x05, 0x05, 0x05, 0x05, 0xB1, 0x00, 0xB4, 0x01, 0x73, 0x02, 0x8F, 0x02, 0xD7, 0x02, 0x89, 0x00
+    .byte 0xC9, 0x00, 0x57, 0x01, 0xC9, 0x00, 0xC9, 0x00, 0x68, 0x01, 0x63, 0x02, 0xB1, 0x00, 0xB4, 0x01
+    .byte 0x73, 0x02, 0x8F, 0x02, 0xD7, 0x02, 0x89, 0x00, 0xC9, 0x00, 0x57, 0x01, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0x68, 0x01, 0x63, 0x02, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC9, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 13
+    .byte 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05
+    .byte 0x05, 0x05, 0x05, 0x05, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00, 0xC9, 0x00
+    .byte 0xC9, 0x00, 0xC9, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC9, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 14
+    .byte 0x0A, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x06, 0x06, 0x06, 0x06, 0x05, 0x05, 0x04, 0x04
+    .byte 0x07, 0x06, 0x07, 0x06, 0x6F, 0x00, 0xA6, 0x01, 0xBF, 0x01, 0x42, 0x01, 0x5F, 0x02, 0x5F, 0x02
+    .byte 0x9D, 0x02, 0x87, 0x02, 0x4D, 0x02, 0x5F, 0x00, 0x5F, 0x00, 0x4D, 0x02, 0x6F, 0x00, 0xA6, 0x01
+    .byte 0xBF, 0x01, 0x42, 0x01, 0x5F, 0x02, 0x5F, 0x02, 0x9D, 0x02, 0x87, 0x02, 0x4D, 0x02, 0x5F, 0x00
+    .byte 0x5F, 0x00, 0x4D, 0x02, 0x8D, 0x03, 0xF1, 0x02, 0xE0, 0x02, 0xA9, 0x01, 0x25, 0x01, 0x2E, 0x00
+    .byte 0x68, 0x00, 0x68, 0x00, 0x4C, 0x02, 0x7B, 0x00, 0x7B, 0x00, 0x4C, 0x02, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0A, 0x14, 0xC2, 0x00, 0x0F, 0x19, 0xC3, 0x00, 0x0A, 0x14, 0xC3, 0x00
+    .byte 0x0A, 0x14, 0xC3, 0x00, 0x0A, 0x14, 0xC3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x82, 0x02
+    .byte 0x0A, 0x0A, 0x82, 0x02, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x4A, 0x00, 0xC2, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 15
+    .byte 0x0F, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x08, 0x08, 0x08, 0x08, 0x07, 0x07, 0x08, 0x08
+    .byte 0x09, 0x06, 0x09, 0x06, 0x6F, 0x00, 0xA6, 0x01, 0xBF, 0x01, 0x42, 0x01, 0x5F, 0x02, 0x5F, 0x02
+    .byte 0x9D, 0x02, 0x87, 0x02, 0x4D, 0x02, 0x5F, 0x00, 0x5F, 0x00, 0x4D, 0x02, 0x6F, 0x00, 0xA6, 0x01
+    .byte 0xBF, 0x01, 0x42, 0x01, 0x5F, 0x02, 0x5F, 0x02, 0x9D, 0x02, 0x87, 0x02, 0x4D, 0x02, 0x5F, 0x00
+    .byte 0x5F, 0x00, 0x4D, 0x02, 0x8D, 0x03, 0xF1, 0x02, 0xE0, 0x02, 0xA9, 0x01, 0x25, 0x01, 0x2E, 0x00
+    .byte 0x68, 0x00, 0x68, 0x00, 0x4C, 0x02, 0x7B, 0x00, 0x7B, 0x00, 0x4C, 0x02, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0A, 0x14, 0xC2, 0x00, 0x0F, 0x19, 0xC3, 0x00, 0x0A, 0x14, 0xC3, 0x00
+    .byte 0x0A, 0x14, 0xC3, 0x00, 0x0A, 0x14, 0xC3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x4A, 0x00, 0xC2, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 16
+    .byte 0x0F, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x16, 0x16, 0x16, 0x16, 0x16, 0x16, 0x15, 0x15
+    .byte 0x14, 0x17, 0x14, 0x17, 0x29, 0x00, 0x14, 0x00, 0x29, 0x00, 0x14, 0x00, 0x2A, 0x00, 0x2A, 0x00
+    .byte 0x4A, 0x00, 0x4A, 0x00, 0x13, 0x00, 0x5F, 0x00, 0x13, 0x00, 0x5F, 0x00, 0x29, 0x00, 0x14, 0x00
+    .byte 0x29, 0x00, 0x14, 0x00, 0x2A, 0x00, 0x2A, 0x00, 0x4A, 0x00, 0x4A, 0x00, 0x13, 0x00, 0x5F, 0x00
+    .byte 0x13, 0x00, 0x5F, 0x00, 0x29, 0x00, 0x14, 0x00, 0x29, 0x00, 0x14, 0x00, 0x2A, 0x00, 0x2A, 0x00
+    .byte 0x4A, 0x00, 0x4A, 0x00, 0x13, 0x00, 0x5F, 0x00, 0x13, 0x00, 0x5F, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0A, 0x14, 0x48, 0x00, 0x0F, 0x19, 0xC3, 0x00, 0x0F, 0x19, 0x49, 0x00
+    .byte 0x0F, 0x19, 0x49, 0x00, 0x0F, 0x19, 0x49, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x62, 0x00
+    .byte 0x0A, 0x0A, 0x62, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x62, 0x00, 0x14, 0x14, 0x62, 0x00
+    .byte 0x14, 0x14, 0xDE, 0x00, 0x14, 0x14, 0x62, 0x00, 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0xDE, 0x00
+    .byte 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0x63, 0x00, 0x28, 0x28, 0xA5, 0x03, 0x29, 0x00, 0x48, 0x00
+    .byte 0x78, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 17
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x06, 0x07, 0x06, 0x07, 0x06, 0x06, 0x06, 0x06
+    .byte 0x08, 0x04, 0x08, 0x04, 0xD8, 0x00, 0x1A, 0x03, 0xAC, 0x00, 0x31, 0x02, 0x33, 0x02, 0x35, 0x02
+    .byte 0x21, 0x02, 0xEF, 0x00, 0xAE, 0x00, 0xAC, 0x00, 0xAC, 0x00, 0xAE, 0x00, 0xD8, 0x00, 0x1A, 0x03
+    .byte 0xAC, 0x00, 0x31, 0x02, 0x33, 0x02, 0x35, 0x02, 0x24, 0x02, 0xEF, 0x00, 0xAE, 0x00, 0xAC, 0x00
+    .byte 0xAC, 0x00, 0xAE, 0x00, 0xD8, 0x00, 0x1F, 0x01, 0xE2, 0x03, 0xEF, 0x03, 0xE2, 0x03, 0xEF, 0x03
+    .byte 0x27, 0x02, 0xF0, 0x00, 0xAD, 0x00, 0x2A, 0x01, 0x2A, 0x01, 0xAD, 0x00, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xBB, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 18
+    .byte 0x05, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x05, 0x06, 0x05, 0x06, 0x07, 0x07, 0x06, 0x06
+    .byte 0x08, 0x08, 0x08, 0x08, 0x4F, 0x00, 0x4F, 0x08, 0xF2, 0x03, 0x73, 0x03, 0xF2, 0x03, 0x36, 0x00
+    .byte 0x73, 0x03, 0xE2, 0x02, 0x4F, 0x00, 0x4F, 0x08, 0x4F, 0x00, 0x4F, 0x08, 0x4F, 0x00, 0x4F, 0x08
+    .byte 0xF2, 0x03, 0x73, 0x03, 0xF2, 0x03, 0x36, 0x00, 0x73, 0x03, 0xE2, 0x02, 0x4F, 0x00, 0x4F, 0x08
+    .byte 0x4F, 0x00, 0x4F, 0x08, 0x4F, 0x00, 0x4F, 0x08, 0x49, 0x02, 0x6A, 0x02, 0xA0, 0x02, 0x49, 0x02
+    .byte 0x6A, 0x02, 0xFA, 0x02, 0x4F, 0x00, 0x4F, 0x08, 0x4F, 0x00, 0x4F, 0x08, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0A, 0x14, 0x4F, 0x00, 0x0F, 0x19, 0x4F, 0x00, 0x05, 0x0F, 0x4F, 0x00
+    .byte 0x05, 0x0F, 0x4F, 0x00, 0x05, 0x0F, 0x4F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x29, 0x00, 0x4F, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 19
+    .byte 0x0F, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x15, 0x17, 0x15, 0x17, 0x13, 0x13, 0x15, 0x15
+    .byte 0x17, 0x17, 0x17, 0x17, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0x4F, 0x00, 0x4F, 0x00, 0x2A, 0x00, 0x4F, 0x00, 0x2A, 0x00, 0x4F, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x4F, 0x00, 0x4F, 0x00, 0x2A, 0x00, 0x4F, 0x00
+    .byte 0x2A, 0x00, 0x4F, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0x4F, 0x00, 0x4F, 0x00, 0x2A, 0x00, 0x4F, 0x00, 0x2A, 0x00, 0x4F, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0A, 0x14, 0x4F, 0x00, 0x0F, 0x19, 0x4F, 0x00, 0x0F, 0x19, 0x50, 0x00
+    .byte 0x0F, 0x19, 0x50, 0x00, 0x1E, 0x1E, 0x50, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x29, 0x00, 0x4F, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 20
+    .byte 0x05, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x05, 0x06, 0x05, 0x06, 0x06, 0x06, 0x05, 0x05
+    .byte 0x05, 0x06, 0x05, 0x06, 0x9F, 0x01, 0x53, 0x00, 0x4D, 0x08, 0x8A, 0x03, 0xCC, 0x00, 0x66, 0x00
+    .byte 0x39, 0x01, 0x66, 0x00, 0xD5, 0x00, 0xD5, 0x00, 0xD5, 0x00, 0xD6, 0x00, 0x9F, 0x01, 0x53, 0x00
+    .byte 0x4D, 0x08, 0x8A, 0x03, 0xCC, 0x00, 0x66, 0x00, 0x39, 0x01, 0x66, 0x00, 0xD5, 0x00, 0xD5, 0x00
+    .byte 0xD5, 0x00, 0xD6, 0x00, 0x4E, 0x02, 0x53, 0x08, 0xF6, 0x02, 0xF8, 0x02, 0xCC, 0x00, 0x72, 0x00
+    .byte 0x3A, 0x01, 0x72, 0x00, 0xC6, 0x00, 0xC6, 0x00, 0xC6, 0x00, 0x7F, 0x00, 0x45, 0x01, 0x42, 0x01
+    .byte 0x96, 0x01, 0xC7, 0x01, 0x0A, 0x14, 0x36, 0x00, 0x05, 0x0F, 0x36, 0x00, 0x0A, 0x14, 0x37, 0x00
+    .byte 0x0A, 0x14, 0x37, 0x00, 0x0A, 0x14, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x0A, 0x00, 0x36, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 21
+    .byte 0x19, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x0A, 0x0B, 0x0A, 0x0B, 0x0C, 0x0C, 0x0A, 0x0A
+    .byte 0x0D, 0x0A, 0x0D, 0x0A, 0x01, 0x00, 0x04, 0x03, 0xFC, 0x00, 0x83, 0x01, 0x21, 0x02, 0xBC, 0x02
+    .byte 0xBC, 0x03, 0x5C, 0x03, 0x98, 0x00, 0xBC, 0x03, 0x98, 0x00, 0x5C, 0x03, 0x07, 0x00, 0x0A, 0x03
+    .byte 0x02, 0x01, 0x89, 0x01, 0x27, 0x02, 0xC2, 0x02, 0xC2, 0x03, 0x62, 0x03, 0x9E, 0x00, 0xC2, 0x03
+    .byte 0x9E, 0x00, 0x62, 0x03, 0x04, 0x00, 0x07, 0x03, 0xFF, 0x00, 0x86, 0x01, 0x24, 0x02, 0xBF, 0x02
+    .byte 0xBF, 0x03, 0x5F, 0x03, 0x9B, 0x00, 0xBF, 0x03, 0x9B, 0x00, 0x5F, 0x03, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0F, 0x19, 0x48, 0x00, 0x0A, 0x14, 0x48, 0x00, 0x0F, 0x19, 0x49, 0x00
+    .byte 0x0F, 0x19, 0x49, 0x00, 0x1D, 0x1D, 0x49, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x80, 0x03
+    .byte 0x0A, 0x0A, 0x80, 0x03, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x62, 0x00, 0x14, 0x14, 0x62, 0x00
+    .byte 0x14, 0x14, 0xDE, 0x00, 0x14, 0x14, 0x62, 0x00, 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0xDE, 0x00
+    .byte 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0x63, 0x00, 0x28, 0x28, 0x62, 0x00, 0x18, 0x01, 0x48, 0x00
+    .byte 0x78, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 22
+    .byte 0x19, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x0C, 0x0C, 0x0C, 0x0C, 0x0E, 0x0E, 0x0A, 0x0A
+    .byte 0x0E, 0x0A, 0x0E, 0x0C, 0xCF, 0x02, 0x2C, 0x01, 0xAB, 0x01, 0x7B, 0x02, 0x76, 0x02, 0x7B, 0x02
+    .byte 0x45, 0x02, 0x45, 0x02, 0xDE, 0x02, 0xDE, 0x02, 0xDE, 0x02, 0xDE, 0x02, 0xCF, 0x02, 0x2C, 0x01
+    .byte 0xAB, 0x01, 0x7B, 0x02, 0x76, 0x02, 0x7B, 0x02, 0x45, 0x02, 0x45, 0x02, 0xDE, 0x02, 0xDE, 0x02
+    .byte 0xDE, 0x02, 0xDE, 0x02, 0x1B, 0x00, 0x38, 0x00, 0xEC, 0x00, 0xA0, 0x03, 0xEC, 0x00, 0xA0, 0x03
+    .byte 0xFF, 0x03, 0xFF, 0x03, 0xDC, 0x02, 0xDC, 0x02, 0xDC, 0x02, 0xDC, 0x02, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0F, 0x19, 0x36, 0x00, 0x0A, 0x14, 0x36, 0x00, 0x0F, 0x19, 0x37, 0x00
+    .byte 0x0F, 0x19, 0x37, 0x00, 0x1F, 0x1F, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x5D, 0x01, 0x0A, 0x0A, 0x5D, 0x01, 0x0A, 0x0A, 0x5D, 0x01, 0x0A, 0x0A, 0x81, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0xC1, 0x00, 0x36, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 23
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x0A, 0x0A, 0x0A, 0x0C, 0x0C, 0x0C, 0x0C
+    .byte 0x0A, 0x0E, 0x0A, 0x0E, 0x8A, 0x00, 0x8C, 0x00, 0x59, 0x01, 0x5B, 0x01, 0x98, 0x01, 0x9A, 0x01
+    .byte 0x66, 0x02, 0x68, 0x02, 0xEA, 0x02, 0xEC, 0x02, 0x8E, 0x00, 0x8E, 0x00, 0x8A, 0x00, 0x8C, 0x00
+    .byte 0x59, 0x01, 0x5B, 0x01, 0x98, 0x01, 0x9A, 0x01, 0x66, 0x02, 0x68, 0x02, 0xEA, 0x02, 0xEC, 0x02
+    .byte 0x8E, 0x00, 0x8E, 0x00, 0xBB, 0x01, 0xAB, 0x02, 0x73, 0x01, 0x76, 0x01, 0xF6, 0x00, 0x93, 0x00
+    .byte 0xF2, 0x02, 0x40, 0x03, 0xA7, 0x03, 0x16, 0x04, 0xA7, 0x03, 0x16, 0x04, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 24
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x0A, 0x0A, 0x0A, 0x0C, 0x0C, 0x0C, 0x0C
+    .byte 0x0A, 0x0E, 0x0A, 0x0E, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00
+    .byte 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00
+    .byte 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00
+    .byte 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00
+    .byte 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00, 0x0A, 0x00
+    .byte 0x0A, 0x00, 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 25
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0C, 0x0C, 0x0C, 0x0C, 0x0D, 0x0D, 0x0D, 0x0D
+    .byte 0x0D, 0x0F, 0x0D, 0x0F, 0x42, 0x00, 0x85, 0x00, 0xE4, 0x00, 0xD1, 0x00, 0x3C, 0x01, 0x27, 0x03
+    .byte 0x27, 0x03, 0x27, 0x03, 0x96, 0x03, 0xDE, 0x03, 0x37, 0x01, 0x38, 0x01, 0x42, 0x00, 0x85, 0x00
+    .byte 0xE4, 0x00, 0xD1, 0x00, 0x3C, 0x01, 0x27, 0x03, 0x27, 0x03, 0x27, 0x03, 0x96, 0x03, 0xDE, 0x03
+    .byte 0x37, 0x01, 0x38, 0x01, 0x42, 0x00, 0x85, 0x00, 0xE4, 0x00, 0xD1, 0x00, 0x3C, 0x01, 0x27, 0x03
+    .byte 0x27, 0x03, 0x27, 0x03, 0x96, 0x03, 0xDE, 0x03, 0x37, 0x01, 0x38, 0x01, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 26
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0D, 0x0F, 0x0D, 0x0F, 0x0F, 0x0F, 0x0E, 0x0E
+    .byte 0x0F, 0x0F, 0x0F, 0x0F, 0x85, 0x02, 0x8C, 0x02, 0x80, 0x02, 0xE9, 0x03, 0xC5, 0x01, 0xB2, 0x01
+    .byte 0x4D, 0x01, 0x7D, 0x02, 0x4D, 0x01, 0xE9, 0x03, 0x7D, 0x02, 0x7D, 0x02, 0x85, 0x02, 0x8C, 0x02
+    .byte 0x80, 0x02, 0xE9, 0x03, 0xC5, 0x01, 0xB2, 0x01, 0x4D, 0x01, 0x7D, 0x02, 0x4D, 0x01, 0xE9, 0x03
+    .byte 0x7D, 0x02, 0x7D, 0x02, 0x85, 0x02, 0x8C, 0x02, 0x80, 0x02, 0xE9, 0x03, 0xC5, 0x01, 0xB2, 0x01
+    .byte 0x4D, 0x01, 0x7D, 0x02, 0x4D, 0x01, 0xE9, 0x03, 0x7D, 0x02, 0x7D, 0x02, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 27
+    .byte 0x00, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0F, 0x19, 0x3C, 0x00, 0x0A, 0x14, 0x3C, 0x00, 0x0F, 0x19, 0x3D, 0x00
+    .byte 0x0F, 0x19, 0x3D, 0x00, 0x0F, 0x19, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0x82, 0x02, 0x0A, 0x0A, 0xE4, 0x02
+    .byte 0x0A, 0x0A, 0xE4, 0x02, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x00, 0x00, 0x3C, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 28
+    .byte 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0D, 0x0E, 0x0D, 0x0E, 0x0F, 0x0F, 0x0E, 0x0E
+    .byte 0x10, 0x0F, 0x10, 0x0F, 0x3A, 0x00, 0xDA, 0x00, 0x6C, 0x02, 0xCD, 0x02, 0x4D, 0x00, 0x64, 0x02
+    .byte 0x3A, 0x00, 0x64, 0x02, 0x52, 0x01, 0x44, 0x01, 0x52, 0x01, 0x44, 0x01, 0x3A, 0x00, 0xDA, 0x00
+    .byte 0x6C, 0x02, 0xCD, 0x02, 0x4D, 0x00, 0x64, 0x02, 0x3A, 0x00, 0x64, 0x02, 0x52, 0x01, 0x44, 0x01
+    .byte 0x52, 0x01, 0x44, 0x01, 0x3A, 0x08, 0xFD, 0x03, 0x6C, 0x0A, 0x64, 0x0A, 0x82, 0x03, 0xD9, 0x03
+    .byte 0xFD, 0x03, 0x64, 0x0A, 0x51, 0x01, 0xA9, 0x02, 0x51, 0x01, 0xA9, 0x02, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 29
+    .byte 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0E, 0x0E, 0x0E, 0x0E, 0x10, 0x10, 0x10, 0x10
+    .byte 0x0F, 0x0E, 0x0F, 0x0E, 0x3A, 0x00, 0xDA, 0x00, 0x6C, 0x02, 0xCD, 0x02, 0x4D, 0x00, 0x64, 0x02
+    .byte 0x3A, 0x00, 0x64, 0x02, 0x52, 0x01, 0x44, 0x01, 0x52, 0x01, 0x44, 0x01, 0x3A, 0x00, 0xDA, 0x00
+    .byte 0x6C, 0x02, 0xCD, 0x02, 0x4D, 0x00, 0x64, 0x02, 0x3A, 0x00, 0x64, 0x02, 0x52, 0x01, 0x44, 0x01
+    .byte 0x52, 0x01, 0x44, 0x01, 0x3A, 0x08, 0xFD, 0x03, 0x6C, 0x0A, 0x64, 0x0A, 0x82, 0x03, 0xD9, 0x03
+    .byte 0xFD, 0x03, 0x64, 0x0A, 0x51, 0x01, 0xA9, 0x02, 0x51, 0x01, 0xA9, 0x02, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 30
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 31
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 32
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 33
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0xDD, 0x03, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0xDD, 0x03, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0xDD, 0x03, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 34
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 35
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 36
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0xD3, 0x03, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0xD3, 0x03, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0xD3, 0x03, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 37
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0xFA, 0x03, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0xFA, 0x03, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0xFA, 0x03, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 38
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x10, 0x10, 0x10, 0x10, 0x10, 0x10, 0x10
+    .byte 0x0D, 0x0D, 0x0D, 0x0D, 0x16, 0x01, 0xC2, 0x00, 0x3C, 0x00, 0x51, 0x00, 0x64, 0x00, 0x76, 0x00
+    .byte 0xE3, 0x00, 0xE3, 0x00, 0xD3, 0x00, 0xCE, 0x00, 0xD3, 0x00, 0xCE, 0x00, 0x16, 0x01, 0xC2, 0x00
+    .byte 0x3C, 0x00, 0x51, 0x00, 0x64, 0x00, 0x76, 0x00, 0xE3, 0x00, 0xE3, 0x00, 0xD3, 0x00, 0xCE, 0x00
+    .byte 0xD3, 0x00, 0xCE, 0x00, 0x41, 0x02, 0xC2, 0x08, 0x3C, 0x00, 0x51, 0x00, 0x64, 0x08, 0x76, 0x00
+    .byte 0xCF, 0x00, 0xCF, 0x00, 0xD3, 0x08, 0xCE, 0x00, 0xD3, 0x08, 0xCE, 0x00, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xD1, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 39
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x11, 0x10, 0x11, 0x10, 0x10, 0x10, 0x10
+    .byte 0x0F, 0x0F, 0x0F, 0x0F, 0x29, 0x03, 0x61, 0x02, 0x89, 0x02, 0xC1, 0x01, 0x1F, 0x03, 0xD6, 0x02
+    .byte 0xB8, 0x01, 0xF1, 0x00, 0xEA, 0x00, 0xB8, 0x01, 0xF1, 0x00, 0xEA, 0x00, 0x29, 0x03, 0x61, 0x02
+    .byte 0x89, 0x02, 0xC1, 0x01, 0x1F, 0x03, 0xD6, 0x02, 0xB8, 0x01, 0xF1, 0x00, 0xEA, 0x00, 0xB8, 0x01
+    .byte 0xF1, 0x00, 0xEA, 0x00, 0xA2, 0x02, 0x61, 0x02, 0x89, 0x02, 0xC1, 0x01, 0x1F, 0x03, 0xD6, 0x02
+    .byte 0xB8, 0x01, 0x80, 0x00, 0xA4, 0x02, 0xB8, 0x01, 0x80, 0x00, 0xA4, 0x02, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 40
+    .byte 0x00, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0F, 0x19, 0x15, 0x03, 0x0A, 0x14, 0x5A, 0x00, 0x0F, 0x19, 0x55, 0x01
+    .byte 0x0F, 0x19, 0x53, 0x01, 0x0F, 0x19, 0xC8, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0xCA, 0x01, 0x0A, 0x0A, 0xCA, 0x01, 0x0A, 0x0A, 0xCA, 0x01, 0x0A, 0x0A, 0x74, 0x00
+    .byte 0x0A, 0x0A, 0x74, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x62, 0x00, 0x14, 0x14, 0x62, 0x00
+    .byte 0x14, 0x14, 0xDE, 0x00, 0x14, 0x14, 0x62, 0x00, 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0xDE, 0x00
+    .byte 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0x63, 0x00, 0x28, 0x28, 0x62, 0x00, 0x00, 0x00, 0x48, 0x00
+    .byte 0x78, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 41
+    .byte 0x00, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0F, 0x19, 0xAA, 0x00, 0x0A, 0x14, 0x3E, 0x01, 0x0F, 0x19, 0x3E, 0x01
+    .byte 0x0F, 0x19, 0xAA, 0x00, 0x0F, 0x19, 0x71, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x62, 0x00
+    .byte 0x0A, 0x0A, 0x62, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x62, 0x00, 0x14, 0x14, 0x62, 0x00
+    .byte 0x14, 0x14, 0xDE, 0x00, 0x14, 0x14, 0x62, 0x00, 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0xDE, 0x00
+    .byte 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0x63, 0x00, 0x28, 0x28, 0x62, 0x00, 0x00, 0x00, 0x48, 0x00
+    .byte 0x78, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 42
+    .byte 0x00, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0F, 0x19, 0xDF, 0x00, 0x0F, 0x19, 0x40, 0x01, 0x0F, 0x19, 0x48, 0x00
+    .byte 0x0F, 0x19, 0x56, 0x00, 0x0F, 0x19, 0x58, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x48, 0x00
+    .byte 0x0A, 0x0A, 0x48, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x48, 0x00, 0x14, 0x14, 0xAA, 0x00
+    .byte 0x14, 0x14, 0x5A, 0x00, 0x14, 0x14, 0xAA, 0x00, 0x28, 0x28, 0xAA, 0x00, 0x28, 0x28, 0x5A, 0x00
+    .byte 0x28, 0x28, 0x49, 0x00, 0x28, 0x28, 0xAB, 0x00, 0x28, 0x28, 0x49, 0x00, 0x00, 0x00, 0x48, 0x00
+    .byte 0x5A, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 43
+    .byte 0x05, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x16, 0x17, 0x16, 0x17, 0x18, 0x18, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x47, 0x03
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00
+    .byte 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x47, 0x03, 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00
+    .byte 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x47, 0x03
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0F, 0x19, 0x48, 0x00, 0x0A, 0x14, 0x74, 0x00, 0x0F, 0x19, 0x49, 0x00
+    .byte 0x0F, 0x19, 0x49, 0x00, 0x0F, 0x19, 0x49, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x62, 0x00
+    .byte 0x0A, 0x0A, 0x62, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x62, 0x00, 0x14, 0x14, 0x62, 0x00
+    .byte 0x14, 0x14, 0x74, 0x00, 0x14, 0x14, 0x62, 0x00, 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0x74, 0x00
+    .byte 0x28, 0x28, 0x63, 0x00, 0x28, 0x28, 0x75, 0x00, 0x28, 0x28, 0x63, 0x00, 0x62, 0x00, 0x48, 0x00
+    .byte 0x74, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 44
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x17, 0x16, 0x17, 0x18, 0x18, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00
+    .byte 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00, 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00
+    .byte 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x62, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 45
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 46
+    .byte 0x05, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x16, 0x17, 0x16, 0x17, 0x18, 0x18, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00
+    .byte 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00, 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00
+    .byte 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0F, 0x19, 0x74, 0x00, 0x0F, 0x19, 0x49, 0x00, 0x0F, 0x19, 0x75, 0x00
+    .byte 0x0F, 0x19, 0x75, 0x00, 0x1E, 0x1E, 0x75, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x62, 0x00
+    .byte 0x0A, 0x0A, 0x62, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x62, 0x00, 0x14, 0x14, 0x62, 0x00
+    .byte 0x14, 0x14, 0x74, 0x00, 0x14, 0x14, 0x62, 0x00, 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0x74, 0x00
+    .byte 0x28, 0x28, 0x63, 0x00, 0x28, 0x28, 0x75, 0x00, 0x28, 0x28, 0x63, 0x00, 0x62, 0x00, 0x74, 0x00
+    .byte 0x74, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 47
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 48
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x17, 0x18, 0x17, 0x18, 0x19, 0x19, 0x17, 0x17
+    .byte 0x18, 0x19, 0x18, 0x19, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00
+    .byte 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00, 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00
+    .byte 0x2A, 0x00, 0x56, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x29, 0x00, 0x62, 0x00, 0x62, 0x00
+    .byte 0x56, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x2A, 0x00, 0x56, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x62, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 49
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 50
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 51
+    .byte 0x00, 0x0F, 0x1E, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0F, 0x19, 0x1D, 0x03, 0x0A, 0x14, 0x02, 0x04, 0x0F, 0x19, 0x72, 0x01
+    .byte 0x0F, 0x19, 0x84, 0x02, 0x0F, 0x19, 0xB8, 0x03, 0x0F, 0x18, 0x62, 0x00, 0x17, 0x1C, 0xD5, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x62, 0x00
+    .byte 0x0A, 0x0A, 0x62, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x62, 0x00, 0x14, 0x14, 0x62, 0x00
+    .byte 0x14, 0x14, 0xDE, 0x00, 0x14, 0x14, 0x62, 0x00, 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0xDE, 0x00
+    .byte 0x28, 0x28, 0x62, 0x00, 0x28, 0x28, 0x63, 0x00, 0x28, 0x28, 0x62, 0x00, 0x00, 0x00, 0x48, 0x00
+    .byte 0x78, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 52
+    .byte 0x19, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x0F, 0x0D, 0x0F, 0x0D, 0x0E, 0x0E, 0x10, 0x10
+    .byte 0x0F, 0x11, 0x0F, 0x11, 0xB9, 0x01, 0xC7, 0x01, 0x35, 0x01, 0x7D, 0x03, 0xF7, 0x03, 0xE1, 0x00
+    .byte 0x54, 0x00, 0xEB, 0x00, 0x84, 0x00, 0x84, 0x00, 0x84, 0x00, 0x84, 0x00, 0xB9, 0x01, 0xC7, 0x01
+    .byte 0x35, 0x01, 0x7D, 0x03, 0xF7, 0x03, 0xE1, 0x00, 0x54, 0x00, 0xEB, 0x00, 0x84, 0x00, 0x84, 0x00
+    .byte 0x84, 0x00, 0x84, 0x00, 0xEF, 0x02, 0x3B, 0x03, 0x3F, 0x03, 0x6C, 0x00, 0xF7, 0x03, 0xE1, 0x00
+    .byte 0x54, 0x00, 0xEB, 0x00, 0x84, 0x00, 0x84, 0x00, 0x84, 0x00, 0x84, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0F, 0x19, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0F, 0x19, 0x77, 0x00
+    .byte 0x0F, 0x19, 0x77, 0x00, 0x0F, 0x19, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x38, 0x00, 0x76, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 53
+    .byte 0x0A, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x0D, 0x0F, 0x0D, 0x0F, 0x0E, 0x0E, 0x0E, 0x0E
+    .byte 0x0E, 0x10, 0x0E, 0x0F, 0x2B, 0x01, 0x2E, 0x01, 0x2F, 0x01, 0x30, 0x01, 0x5E, 0x02, 0xD7, 0x00
+    .byte 0x6D, 0x00, 0x58, 0x00, 0x58, 0x00, 0x47, 0x01, 0x6D, 0x00, 0x6D, 0x00, 0x2B, 0x01, 0x2E, 0x01
+    .byte 0x2F, 0x01, 0x30, 0x01, 0x5E, 0x02, 0xD7, 0x00, 0x6D, 0x00, 0x58, 0x00, 0x58, 0x00, 0x47, 0x01
+    .byte 0x6D, 0x00, 0x6D, 0x00, 0x88, 0x03, 0x9E, 0x03, 0xA6, 0x03, 0xBA, 0x01, 0xDF, 0x01, 0xD7, 0x08
+    .byte 0x6D, 0x00, 0x58, 0x08, 0x58, 0x08, 0x47, 0x01, 0x6D, 0x00, 0x6D, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0F, 0x19, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0F, 0x19, 0x77, 0x00
+    .byte 0x0F, 0x19, 0x77, 0x00, 0x0F, 0x19, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0xB7, 0x00, 0x76, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 54
+    .byte 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0D, 0x0D, 0x0D, 0x0D, 0x0F, 0x0F, 0x0E, 0x0E
+    .byte 0x0F, 0x0E, 0x0F, 0x0E, 0xD5, 0x03, 0x42, 0x00, 0x4A, 0x00, 0x42, 0x00, 0x4A, 0x00, 0x4A, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x42, 0x00, 0x29, 0x00, 0x42, 0x00, 0x29, 0x00, 0xD5, 0x03, 0x42, 0x00
+    .byte 0x4A, 0x00, 0x42, 0x00, 0x4A, 0x00, 0x4A, 0x00, 0x13, 0x00, 0x13, 0x00, 0x42, 0x00, 0x29, 0x00
+    .byte 0x42, 0x00, 0x29, 0x00, 0xD5, 0x03, 0x42, 0x00, 0x4A, 0x00, 0x42, 0x00, 0x4A, 0x00, 0x4A, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x42, 0x00, 0x29, 0x00, 0x42, 0x00, 0x29, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x4A, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 55
+    .byte 0x0A, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x1F, 0x20, 0x1F, 0x20, 0x1F, 0x1F, 0x1E, 0x1E
+    .byte 0x1C, 0x1E, 0x1C, 0x1E, 0x4B, 0x00, 0x43, 0x00, 0x4B, 0x00, 0x43, 0x00, 0x9D, 0x03, 0x1B, 0x04
+    .byte 0x14, 0x00, 0x14, 0x00, 0x42, 0x00, 0xA2, 0x03, 0x42, 0x00, 0x48, 0x03, 0x4B, 0x00, 0x43, 0x00
+    .byte 0x4B, 0x00, 0x43, 0x00, 0x9D, 0x03, 0x1B, 0x04, 0x14, 0x00, 0x14, 0x00, 0x42, 0x00, 0xA2, 0x03
+    .byte 0x42, 0x00, 0x48, 0x03, 0x4B, 0x00, 0x43, 0x00, 0x4B, 0x00, 0x43, 0x00, 0x9D, 0x03, 0x1B, 0x04
+    .byte 0x14, 0x00, 0x14, 0x00, 0x42, 0x00, 0xA2, 0x03, 0x42, 0x00, 0x48, 0x03, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0F, 0x19, 0x76, 0x00, 0x14, 0x1E, 0x76, 0x00, 0x14, 0x1E, 0x77, 0x00
+    .byte 0x14, 0x1E, 0x77, 0x00, 0x14, 0x1E, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x4B, 0x00, 0x76, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 56
+    .byte 0x0A, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x0F, 0x11, 0x0F, 0x11, 0x10, 0x10, 0x10, 0x10
+    .byte 0x10, 0x10, 0x10, 0x10, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x42, 0x00, 0x42, 0x00, 0x4A, 0x00, 0x14, 0x00, 0x4A, 0x00, 0x14, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0x29, 0x00, 0x29, 0x00, 0x13, 0x00, 0x13, 0x00, 0x42, 0x00, 0x42, 0x00, 0x4A, 0x00, 0x14, 0x00
+    .byte 0x4A, 0x00, 0x14, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x29, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x42, 0x00, 0x42, 0x00, 0x4A, 0x00, 0x14, 0x00, 0x4A, 0x00, 0x14, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0F, 0x19, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0F, 0x19, 0x77, 0x00
+    .byte 0x0F, 0x19, 0x77, 0x00, 0x0F, 0x19, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x29, 0x00, 0x76, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 57
+    .byte 0x14, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x0F, 0x0F, 0x0F, 0x0F, 0x11, 0x11, 0x0F, 0x0F
+    .byte 0x10, 0x11, 0x10, 0x11, 0xC1, 0x00, 0xCB, 0x00, 0xF5, 0x02, 0x5F, 0x01, 0xC1, 0x00, 0xCB, 0x00
+    .byte 0xC1, 0x00, 0xCB, 0x00, 0xC1, 0x00, 0xCB, 0x00, 0xC1, 0x00, 0xF5, 0x02, 0xC1, 0x00, 0xCB, 0x00
+    .byte 0xF5, 0x02, 0x5F, 0x01, 0xC1, 0x00, 0xCB, 0x00, 0xC1, 0x00, 0xCB, 0x00, 0xC1, 0x00, 0xCB, 0x00
+    .byte 0xC1, 0x00, 0xF5, 0x02, 0xC1, 0x00, 0xCB, 0x00, 0xF5, 0x02, 0x5F, 0x01, 0xC1, 0x00, 0xCB, 0x00
+    .byte 0xC1, 0x00, 0xCB, 0x00, 0xC1, 0x00, 0xCB, 0x00, 0xC1, 0x00, 0xF5, 0x02, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0F, 0x19, 0x81, 0x00, 0x0A, 0x14, 0x81, 0x00, 0x05, 0x0F, 0x81, 0x00
+    .byte 0x05, 0x0F, 0x81, 0x00, 0x32, 0x32, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0xB4, 0x00, 0x81, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 58
+    .byte 0x00, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0A, 0x14, 0x81, 0x00, 0x05, 0x0F, 0x81, 0x00, 0x0A, 0x14, 0x82, 0x00
+    .byte 0x0A, 0x14, 0x82, 0x00, 0x0A, 0x14, 0x82, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00
+    .byte 0x14, 0x14, 0x82, 0x00, 0x14, 0x14, 0x81, 0x00, 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x82, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x81, 0x00, 0x00, 0x00, 0x81, 0x00
+    .byte 0x82, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 59
+    .byte 0x19, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x17, 0x16, 0x17, 0x16, 0x16, 0x16, 0x18, 0x18
+    .byte 0x18, 0x1A, 0x18, 0x1A, 0x72, 0x00, 0x46, 0x00, 0x72, 0x00, 0x46, 0x00, 0x45, 0x00, 0x45, 0x00
+    .byte 0x6C, 0x00, 0x6C, 0x00, 0x46, 0x00, 0x6C, 0x00, 0x46, 0x00, 0x6C, 0x00, 0x72, 0x00, 0x46, 0x00
+    .byte 0x72, 0x00, 0x46, 0x00, 0x45, 0x00, 0x45, 0x00, 0x6C, 0x00, 0x6C, 0x00, 0x46, 0x00, 0x6C, 0x00
+    .byte 0x46, 0x00, 0x6C, 0x00, 0x72, 0x00, 0x46, 0x00, 0x72, 0x00, 0x46, 0x00, 0x45, 0x00, 0x45, 0x00
+    .byte 0x6C, 0x00, 0x6C, 0x00, 0x46, 0x00, 0x6C, 0x00, 0x46, 0x00, 0x6C, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x14, 0x1E, 0x3C, 0x00, 0x0F, 0x19, 0x3C, 0x00, 0x14, 0x1E, 0x3D, 0x00
+    .byte 0x14, 0x1E, 0x3D, 0x00, 0x14, 0x1E, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0xDF, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0xDF, 0x00, 0x28, 0x28, 0x81, 0x00, 0x72, 0x00, 0x3C, 0x00
+    .byte 0x3C, 0x00, 0xDF, 0x00
+    .close
+
+encounterdata 60
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x15, 0x16, 0x15, 0x16, 0x16, 0x16, 0x17, 0x17
+    .byte 0x16, 0x16, 0x16, 0x16, 0x69, 0x01, 0x6B, 0x01, 0x97, 0x02, 0xDC, 0x00, 0xCB, 0x01, 0x9A, 0x03
+    .byte 0x5C, 0x0A, 0xEE, 0x00, 0xEE, 0x00, 0x7C, 0x00, 0x99, 0x02, 0x99, 0x02, 0x69, 0x01, 0x6B, 0x01
+    .byte 0x97, 0x02, 0xDC, 0x00, 0xCB, 0x01, 0x9A, 0x03, 0x5C, 0x0A, 0xEE, 0x00, 0xEE, 0x00, 0x7C, 0x00
+    .byte 0x99, 0x02, 0x99, 0x02, 0x69, 0x01, 0x6B, 0x01, 0x97, 0x02, 0xDC, 0x00, 0xCB, 0x01, 0x9A, 0x03
+    .byte 0x5C, 0x0A, 0xEE, 0x00, 0xEE, 0x00, 0x7C, 0x00, 0x99, 0x02, 0x99, 0x02, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xDC, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 61
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x15, 0x16, 0x15, 0x16, 0x16, 0x16, 0x17, 0x17
+    .byte 0x16, 0x16, 0x16, 0x16, 0xDC, 0x00, 0x2A, 0x00, 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0xDC, 0x00, 0xDC, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x29, 0x00, 0x7C, 0x00, 0xDC, 0x00, 0x2A, 0x00
+    .byte 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00, 0xDC, 0x00, 0xDC, 0x00, 0x7C, 0x00, 0x7C, 0x00
+    .byte 0x7C, 0x00, 0x7C, 0x00, 0xDC, 0x00, 0x2A, 0x00, 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0xDC, 0x00, 0xDC, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xDC, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 62
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x17, 0x16, 0x17, 0x17, 0x17, 0x18, 0x18
+    .byte 0x17, 0x17, 0x17, 0x17, 0xDC, 0x00, 0x2A, 0x00, 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0xDC, 0x00, 0xDC, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x29, 0x00, 0x7C, 0x00, 0xDC, 0x00, 0x2A, 0x00
+    .byte 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00, 0xDC, 0x00, 0xDC, 0x00, 0x7C, 0x00, 0x7C, 0x00
+    .byte 0x7C, 0x00, 0x7C, 0x00, 0xDC, 0x00, 0x2A, 0x00, 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0xDC, 0x00, 0xDC, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xDC, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 63
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x17, 0x16, 0x17, 0x17, 0x17, 0x18, 0x18
+    .byte 0x17, 0x17, 0x17, 0x17, 0xDC, 0x00, 0xC6, 0x03, 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0xDC, 0x00, 0xDC, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x29, 0x00, 0x7C, 0x00, 0xDC, 0x00, 0xC6, 0x03
+    .byte 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00, 0xDC, 0x00, 0xDC, 0x00, 0x7C, 0x00, 0x7C, 0x00
+    .byte 0x7C, 0x00, 0x7C, 0x00, 0xDC, 0x00, 0xC6, 0x03, 0xDC, 0x00, 0x2A, 0x00, 0x29, 0x00, 0x29, 0x00
+    .byte 0xDC, 0x00, 0xDC, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x29, 0x00, 0x7C, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xDC, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 64
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 65
+    .byte 0x00, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0A, 0x14, 0x81, 0x00, 0x05, 0x0F, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00
+    .byte 0x02, 0x0A, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x00, 0x00, 0x81, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 66
+    .byte 0x00, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x0A, 0x14, 0x81, 0x00, 0x05, 0x0F, 0x81, 0x00, 0x05, 0x0F, 0x93, 0x00
+    .byte 0x05, 0x0F, 0x93, 0x00, 0x05, 0x0F, 0x93, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00
+    .byte 0x14, 0x14, 0x93, 0x00, 0x14, 0x14, 0x81, 0x00, 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x93, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x94, 0x00, 0x28, 0x28, 0x81, 0x00, 0x00, 0x00, 0x81, 0x00
+    .byte 0x93, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 67
+    .byte 0x19, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x17, 0x17, 0x17, 0x17, 0x18, 0x18, 0x14, 0x14
+    .byte 0x19, 0x1B, 0x19, 0x1B, 0x4A, 0x00, 0x4B, 0x00, 0x4A, 0x00, 0x4B, 0x00, 0xCF, 0x00, 0xCF, 0x00
+    .byte 0xE7, 0x00, 0xE7, 0x00, 0x4B, 0x00, 0x4B, 0x00, 0x4B, 0x00, 0x4B, 0x00, 0x4A, 0x00, 0x4B, 0x00
+    .byte 0x4A, 0x00, 0x4B, 0x00, 0xCF, 0x00, 0xCF, 0x00, 0xE7, 0x00, 0xE7, 0x00, 0x4B, 0x00, 0x4B, 0x00
+    .byte 0x4B, 0x00, 0x4B, 0x00, 0x4A, 0x00, 0x4B, 0x00, 0x4A, 0x00, 0x4B, 0x00, 0xCF, 0x00, 0xCF, 0x00
+    .byte 0xE7, 0x00, 0xE7, 0x00, 0x4B, 0x00, 0x4B, 0x00, 0x4B, 0x00, 0x4B, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0F, 0x19, 0x81, 0x00, 0x0A, 0x14, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00
+    .byte 0x02, 0x0A, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x4D, 0x01, 0x81, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 68
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x02, 0x03, 0x02, 0x02, 0x02, 0x02, 0x02
+    .byte 0x03, 0x04, 0x03, 0x04, 0xE8, 0x02, 0x14, 0x01, 0xBE, 0x00, 0x54, 0x02, 0x56, 0x02, 0x6E, 0x02
+    .byte 0xA4, 0x01, 0x3C, 0x02, 0x1D, 0x00, 0x1D, 0x00, 0xA1, 0x01, 0xA1, 0x01, 0xE8, 0x02, 0x14, 0x01
+    .byte 0xBE, 0x00, 0x54, 0x02, 0x56, 0x02, 0x6E, 0x02, 0xA4, 0x01, 0x3C, 0x02, 0x1D, 0x00, 0x1D, 0x00
+    .byte 0xA1, 0x01, 0xA1, 0x01, 0x93, 0x01, 0xD9, 0x02, 0xE0, 0x03, 0x17, 0x00, 0x23, 0x03, 0x93, 0x01
+    .byte 0xD9, 0x02, 0x17, 0x00, 0x20, 0x00, 0x20, 0x00, 0xE0, 0x03, 0xE0, 0x03, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x4A, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 69
+    .byte 0x0A, 0x0A, 0x32, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x03, 0x02, 0x03, 0x02, 0x02, 0x02, 0x04, 0x04
+    .byte 0x03, 0x04, 0x03, 0x04, 0xE7, 0x00, 0x32, 0x00, 0x4A, 0x00, 0x3E, 0x02, 0x3E, 0x02, 0x4B, 0x01
+    .byte 0x43, 0x02, 0x43, 0x02, 0x1B, 0x08, 0x1B, 0x08, 0xFC, 0x02, 0x34, 0x00, 0xE7, 0x00, 0x32, 0x00
+    .byte 0x4A, 0x00, 0x3E, 0x02, 0x3E, 0x02, 0x4B, 0x01, 0x43, 0x02, 0x43, 0x02, 0x1B, 0x08, 0x1B, 0x08
+    .byte 0xFC, 0x02, 0x34, 0x00, 0x77, 0x03, 0x32, 0x08, 0x4A, 0x08, 0xFB, 0x03, 0x48, 0x01, 0x48, 0x01
+    .byte 0x29, 0x00, 0x25, 0x08, 0x25, 0x08, 0x29, 0x00, 0x34, 0x08, 0x34, 0x10, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0A, 0x14, 0x81, 0x00, 0x05, 0x0F, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00
+    .byte 0x02, 0x0A, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00, 0x04, 0x08, 0xCE, 0x00, 0x08, 0x0E, 0x4A, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0xCE, 0x00, 0x81, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 70
+    .byte 0x0A, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x17, 0x17, 0x17, 0x17, 0x19, 0x19, 0x14, 0x14
+    .byte 0x19, 0x17, 0x19, 0x17, 0x4A, 0x00, 0x29, 0x00, 0x4A, 0x00, 0x29, 0x00, 0x4B, 0x00, 0x4B, 0x00
+    .byte 0xCA, 0x00, 0xCA, 0x00, 0xCA, 0x00, 0x2A, 0x00, 0xCA, 0x00, 0x2A, 0x00, 0x4A, 0x00, 0x29, 0x00
+    .byte 0x4A, 0x00, 0x29, 0x00, 0x4B, 0x00, 0x4B, 0x00, 0xCA, 0x00, 0xCA, 0x00, 0xCA, 0x00, 0x2A, 0x00
+    .byte 0xCA, 0x00, 0x2A, 0x00, 0x4A, 0x00, 0x29, 0x00, 0x4A, 0x00, 0x29, 0x00, 0x4B, 0x00, 0x4B, 0x00
+    .byte 0xCA, 0x00, 0xCA, 0x00, 0xCA, 0x00, 0x2A, 0x00, 0xCA, 0x00, 0x2A, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x0A, 0x14, 0x81, 0x00, 0x05, 0x0F, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00
+    .byte 0x02, 0x0A, 0x81, 0x00, 0x02, 0x0A, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x4A, 0x00, 0x81, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 71
+    .byte 0x19, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x23, 0x23, 0x22, 0x21, 0x20, 0x1F, 0x20, 0x1F
+    .byte 0x22, 0x1F, 0x21, 0x28, 0x94, 0x02, 0x00, 0x04, 0xF4, 0x03, 0x98, 0x03, 0x78, 0x02, 0xAA, 0x02
+    .byte 0xAE, 0x02, 0x4F, 0x01, 0xA5, 0x02, 0x9F, 0x02, 0xAE, 0x02, 0xAE, 0x02, 0x94, 0x02, 0x00, 0x04
+    .byte 0xF4, 0x03, 0x98, 0x03, 0x78, 0x02, 0xAA, 0x02, 0xAE, 0x02, 0x4F, 0x01, 0xA5, 0x02, 0x9F, 0x02
+    .byte 0xAE, 0x02, 0xAE, 0x02, 0x94, 0x02, 0x00, 0x04, 0xF4, 0x03, 0x98, 0x03, 0x78, 0x02, 0xDE, 0x08
+    .byte 0xAE, 0x02, 0x50, 0x01, 0xA7, 0x02, 0x3A, 0x03, 0xAE, 0x02, 0xAE, 0x02, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x0F, 0x19, 0x48, 0x00, 0x0A, 0x14, 0x56, 0x00, 0x0F, 0x19, 0x78, 0x00
+    .byte 0x0F, 0x19, 0x78, 0x00, 0x0F, 0x19, 0x78, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x48, 0x00
+    .byte 0x0A, 0x0A, 0x48, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x48, 0x00, 0x14, 0x14, 0xAA, 0x00
+    .byte 0x14, 0x14, 0x5A, 0x00, 0x14, 0x14, 0xAA, 0x00, 0x28, 0x28, 0xAA, 0x00, 0x28, 0x28, 0x5A, 0x00
+    .byte 0x28, 0x28, 0x49, 0x00, 0x28, 0x28, 0xAB, 0x00, 0x28, 0x28, 0x49, 0x00, 0x84, 0x00, 0x48, 0x00
+    .byte 0x5A, 0x00, 0x81, 0x00
+    .close
 
 encounterdata  72   // Mt. Moon (Outside area)
 
@@ -7557,36 +1660,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_MAGIKARP, 30, 30
-encounter SPECIES_MAGIKARP, 35, 35
-encounter SPECIES_MAGIKARP, 35, 35
-encounter SPECIES_MAGIKARP, 35, 35
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7598,7 +1701,6 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata  73   // Mt. Moon (Outside area when Clefairy are active)
 
@@ -7661,36 +1763,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWAG, 30, 30
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWAG, 35, 35
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7703,7 +1805,6 @@ pokemon SPECIES_POLIWAG
 
 .close
 
-
 encounterdata  74   // Seafoam Islands 1F
 
 walkrate 5
@@ -7712,49 +1813,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 28, 32, 28, 29, 30, 32, 27, 26, 27, 26, 27, 26
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -7806,7 +1907,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata  75   // Seafoam Islands B1F
 
@@ -7816,49 +1916,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 34, 28, 34, 32, 34, 29, 28, 32, 28, 27, 26
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // day encounter slots
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // night encounter slots
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -7910,7 +2010,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata  76   // Seafoam Islands B2F
 
@@ -7920,49 +2019,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 33, 35, 30, 35, 33, 35, 30, 29, 33, 29, 28, 27
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // day encounter slots
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // night encounter slots
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -8014,7 +2113,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata  77   // Seafoam Islands B3F
 
@@ -8024,49 +2122,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 35, 36, 32, 34, 34, 36, 32, 31, 34, 36, 32, 31
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // day encounter slots
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // night encounter slots
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -8119,7 +2217,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata  78   // Seafoam Islands B4F
 
 walkrate 10
@@ -8128,49 +2225,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 37, 40, 34, 34, 38, 38, 39, 38, 37, 38, 40, 40
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_JYNX
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // day encounter slots
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_JYNX
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // night encounter slots
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_PSYDUCK
-pokemon SPECIES_SEEL
-pokemon SPECIES_JYNX
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DEWGONG
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_REGICE
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_KYUREM
+pokemon SPECIES_KYUREM
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGICE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -8181,36 +2278,36 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_SEEL, 30, 40
-encounter SPECIES_HORSEA, 30, 40
-encounter SPECIES_SLOWBRO, 35, 45
+encounter SPECIES_SEEL, 50, 50
+encounter SPECIES_HORSEA, 50, 50
 encounter SPECIES_SLOWBRO, 50, 50
-encounter SPECIES_SLOWBRO, 35, 45
+encounter SPECIES_SLOWBRO, 50, 50
+encounter SPECIES_SLOWBRO, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_KRABBY, 50, 50
+encounter SPECIES_KRABBY, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_PSYDUCK, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_HORSEA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_KRABBY, 50, 50
+encounter SPECIES_HORSEA, 50, 50
+encounter SPECIES_KRABBY, 50, 50
 
 // super rod encounters
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_HORSEA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_SEADRA, 40, 40
-encounter SPECIES_SEADRA, 40, 40
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_HORSEA, 50, 50
+encounter SPECIES_KINGLER, 50, 50
+encounter SPECIES_SEADRA, 50, 50
+encounter SPECIES_SEADRA, 50, 50
 
 // swarm grass
 pokemon SPECIES_SEEL
@@ -8223,1358 +2320,213 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
-encounterdata  79   // Mt. Silver (Moltres room)
-
-walkrate 5
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 45, 48, 45, 48, 48, 47, 45, 45, 48, 20, 48, 15
-
-// morning encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// day encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// night encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_QUAGSIRE
-// swarm surf
-pokemon SPECIES_SEAKING
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  80   // Mt. Silver 3F
-
-walkrate 10
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 45, 48, 46, 48, 48, 50, 45, 45, 48, 20, 48, 15
-
-// morning encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// day encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// night encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_QUAGSIRE
-// swarm surf
-pokemon SPECIES_SEAKING
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  81   // Mt. Silver 4F
-
-walkrate 10
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 50, 48, 45, 48, 47, 47, 45, 45, 48, 20, 48, 15
-
-// morning encounter slots
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// day encounter slots
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// night encounter slots
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_SNEASEL
-// swarm surf
-pokemon SPECIES_SEAKING
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  82   // Cliff Edge Gate
-
-walkrate 0
-surfrate 15
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_WOOPER, 20, 30
-encounter SPECIES_WOOPER, 20, 30
-encounter SPECIES_QUAGSIRE, 30, 40
-encounter SPECIES_QUAGSIRE, 30, 40
-encounter SPECIES_QUAGSIRE, 30, 40
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_WOOPER
-// swarm good rod
-pokemon SPECIES_MAGIKARP
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  83   // Cliff Cave
-
-walkrate 10
-surfrate 0
-rocksmashrate 30
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 22, 19, 20, 22, 19, 20, 18, 20, 20, 22, 23, 23
-
-// morning encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KINGLER
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ONIX
-pokemon SPECIES_WOOPER
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_STEELIX
-
-// day encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KINGLER
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ONIX
-pokemon SPECIES_WOOPER
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_STEELIX
-
-// night encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KINGLER
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_STEELIX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_KRABBY, 20, 26
-encounter SPECIES_KINGLER, 28, 31
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_GOLBAT
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  84   // Bell Tower 10F
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_SPINDA
-
-// sinnoh encounter slots
-pokemon SPECIES_CHATOT
-pokemon SPECIES_MEDITITE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  85   // Mt. Silver (Outside area with Pokemon Center)
-
-walkrate 25
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 41, 42, 41, 42, 42, 42, 44, 44, 41, 43, 41, 43
-
-// morning encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-
-// day encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-
-// night encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_POLIWHIRL, 30, 40
-encounter SPECIES_POLIWHIRL, 35, 45
-encounter SPECIES_POLIWAG, 30, 40
-encounter SPECIES_POLIWAG, 30, 40
-encounter SPECIES_POLIWHIRL, 48, 48
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_TANGELA
-// swarm surf
-pokemon SPECIES_POLIWHIRL
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  86   // Mt. Silver 1F
-
-walkrate 10
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 42, 44, 42, 44, 43, 43, 42, 41, 45, 20, 45, 15
-
-// morning encounter slots
-pokemon SPECIES_ONIX
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// day encounter slots
-pokemon SPECIES_ONIX
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// night encounter slots
-pokemon SPECIES_ONIX
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_SEAKING, 50, 50
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-
-// super rod encounters
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-
-// swarm grass
-pokemon SPECIES_ONIX
-// swarm surf
-pokemon SPECIES_SEAKING
-// swarm good rod
-pokemon SPECIES_GYARADOS
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  87   // Mt. Silver (Mountainside)
-
-walkrate 20
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 51, 48, 51, 48, 48, 48, 50, 50, 51, 20, 51, 15
-
-// morning encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_LARVITAR
-
-// day encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_LARVITAR
-
-// night encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_LARVITAR
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_GOLBAT
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  88   // Mt. Silver (Expert Belt room)
-
-walkrate 10
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 45, 48, 45, 46, 48, 47, 45, 45, 48, 20, 48, 15
-
-// morning encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_PHANPY
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_PUPITAR
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// day encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_PHANPY
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_PUPITAR
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// night encounter slots
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_PHANPY
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_PUPITAR
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_QUAGSIRE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  89   // Mt. Silver (Top, snowy area)
-
-walkrate 20
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 45, 48, 45, 48, 47, 47, 30, 45, 48, 20, 48, 15
-
-// morning encounter slots
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// day encounter slots
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// night encounter slots
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_LARVITAR
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_SNEASEL
-// swarm surf
-pokemon SPECIES_SEAKING
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata  90   // ???
-
-walkrate 0
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata  91   // Safari Zone (Placeholder, not used)
-
-walkrate 20
-surfrate 15
-rocksmashrate 0
-oldrodrate 100
-goodrodrate 100
-superrodrate 100
-walklevels 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
-
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-
-// hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_ZIGZAGOON
-
-// sinnoh encounter slots
-pokemon SPECIES_BIDOOF
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-
-// good rod encounters
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-
-// swarm grass
-pokemon SPECIES_RATTATA
-// swarm surf
-pokemon SPECIES_MAGIKARP
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_GOLDEEN
-
-.close
-
+encounterdata 79
+    .byte 0x05, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x2D, 0x30, 0x2D, 0x30, 0x30, 0x2F, 0x2D, 0x2D
+    .byte 0x30, 0x14, 0x30, 0x0F, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x1E, 0x28, 0x77, 0x00, 0x23, 0x2D, 0x77, 0x00, 0x1E, 0x28, 0x76, 0x00
+    .byte 0x1E, 0x28, 0x76, 0x00, 0x1E, 0x28, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0xC3, 0x00, 0x77, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 80
+    .byte 0x0A, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x2D, 0x30, 0x2E, 0x30, 0x30, 0x32, 0x2D, 0x2D
+    .byte 0x30, 0x14, 0x30, 0x0F, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x1E, 0x28, 0x77, 0x00, 0x23, 0x2D, 0x77, 0x00, 0x1E, 0x28, 0x76, 0x00
+    .byte 0x1E, 0x28, 0x76, 0x00, 0x1E, 0x28, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0xC3, 0x00, 0x77, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 81
+    .byte 0x0A, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x32, 0x30, 0x2D, 0x30, 0x2F, 0x2F, 0x2D, 0x2D
+    .byte 0x30, 0x14, 0x30, 0x0F, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x1E, 0x28, 0x77, 0x00, 0x23, 0x2D, 0x77, 0x00, 0x1E, 0x28, 0x76, 0x00
+    .byte 0x1E, 0x28, 0x76, 0x00, 0x1E, 0x28, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0xD7, 0x00, 0x77, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 82
+    .byte 0x00, 0x0F, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x14, 0x1E, 0xC2, 0x00, 0x14, 0x1E, 0xC2, 0x00, 0x1E, 0x28, 0xC3, 0x00
+    .byte 0x1E, 0x28, 0xC3, 0x00, 0x1E, 0x28, 0xC3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x81, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x81, 0x00
+    .byte 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x00, 0x00, 0xC2, 0x00
+    .byte 0x81, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 83
+    .byte 0x0A, 0x00, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x13, 0x14, 0x16, 0x13, 0x14, 0x12, 0x14
+    .byte 0x14, 0x16, 0x17, 0x17, 0x2A, 0x00, 0x4A, 0x00, 0x62, 0x00, 0x63, 0x00, 0x42, 0x00, 0x5F, 0x00
+    .byte 0xC2, 0x00, 0xC3, 0x00, 0x4B, 0x00, 0x43, 0x00, 0xD0, 0x00, 0xD0, 0x00, 0x2A, 0x00, 0x4A, 0x00
+    .byte 0x62, 0x00, 0x63, 0x00, 0x42, 0x00, 0x5F, 0x00, 0xC2, 0x00, 0xC3, 0x00, 0x4B, 0x00, 0x43, 0x00
+    .byte 0xD0, 0x00, 0xD0, 0x00, 0x2A, 0x00, 0x4A, 0x00, 0x62, 0x00, 0x63, 0x00, 0x42, 0x00, 0x5F, 0x00
+    .byte 0x29, 0x00, 0xC8, 0x00, 0x2A, 0x00, 0x43, 0x00, 0xD0, 0x00, 0xD0, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x1A, 0x62, 0x00, 0x1C, 0x1F, 0x63, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 84
+    .byte 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x15, 0x14, 0x15, 0x16, 0x16, 0x16, 0x16
+    .byte 0x17, 0x18, 0x17, 0x18, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00, 0x5C, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x47, 0x01
+    .byte 0xB9, 0x01, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 85
+    .byte 0x19, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x29, 0x2A, 0x29, 0x2A, 0x2A, 0x2A, 0x2C, 0x2C
+    .byte 0x29, 0x2B, 0x29, 0x2B, 0x96, 0x00, 0x82, 0x01, 0x81, 0x01, 0x7F, 0x01, 0x7F, 0x01, 0x81, 0x01
+    .byte 0x82, 0x01, 0x82, 0x01, 0x96, 0x00, 0x96, 0x00, 0x96, 0x00, 0x96, 0x00, 0x96, 0x00, 0x82, 0x01
+    .byte 0x81, 0x01, 0x7F, 0x01, 0x7F, 0x01, 0x81, 0x01, 0x82, 0x01, 0x82, 0x01, 0x96, 0x00, 0x96, 0x00
+    .byte 0x96, 0x00, 0x96, 0x00, 0x96, 0x00, 0x82, 0x01, 0x81, 0x01, 0x7F, 0x01, 0x7F, 0x01, 0x81, 0x01
+    .byte 0x82, 0x01, 0x82, 0x01, 0x96, 0x00, 0x96, 0x00, 0x96, 0x00, 0x96, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x1E, 0x28, 0x3D, 0x00, 0x23, 0x2D, 0x3D, 0x00, 0x1E, 0x28, 0x3C, 0x00
+    .byte 0x1E, 0x28, 0x3C, 0x00, 0x30, 0x30, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x72, 0x00, 0x3D, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 86
+    .byte 0x0A, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x2A, 0x2C, 0x2A, 0x2C, 0x2B, 0x2B, 0x2A, 0x29
+    .byte 0x2D, 0x14, 0x2D, 0x0F, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x1E, 0x28, 0x77, 0x00, 0x23, 0x2D, 0x77, 0x00, 0x1E, 0x28, 0x76, 0x00
+    .byte 0x1E, 0x28, 0x76, 0x00, 0x32, 0x32, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x77, 0x00
+    .byte 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x77, 0x00, 0x28, 0x28, 0x82, 0x00, 0x28, 0x28, 0x77, 0x00
+    .byte 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x82, 0x00, 0x28, 0x28, 0x77, 0x00, 0x5F, 0x00, 0x77, 0x00
+    .byte 0x82, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 87
+    .byte 0x14, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x33, 0x30, 0x33, 0x30, 0x30, 0x30, 0x32, 0x32
+    .byte 0x33, 0x14, 0x33, 0x0F, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02
+    .byte 0xE6, 0x01, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03
+    .byte 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xE6, 0x01, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03
+    .byte 0xFF, 0x02, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02
+    .byte 0xE6, 0x01, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xFF, 0x02, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 88
+    .byte 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2D, 0x30, 0x2D, 0x2E, 0x30, 0x2F, 0x2D, 0x2D
+    .byte 0x30, 0x14, 0x30, 0x0F, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03
+    .byte 0xB3, 0x03, 0xE7, 0x01, 0xEB, 0x01, 0xB3, 0x03, 0xB3, 0x03, 0xB3, 0x03, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xC3, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 89
+    .byte 0x14, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x2D, 0x30, 0x2D, 0x30, 0x2F, 0x2F, 0x1E, 0x2D
+    .byte 0x30, 0x14, 0x30, 0x0F, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02
+    .byte 0xE6, 0x01, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03
+    .byte 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xE6, 0x01, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03
+    .byte 0xFF, 0x02, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02
+    .byte 0xE6, 0x01, 0xFF, 0x02, 0xE6, 0x01, 0x00, 0x03, 0xFF, 0x02, 0xFF, 0x02, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x1E, 0x28, 0x77, 0x00, 0x23, 0x2D, 0x77, 0x00, 0x1E, 0x28, 0x76, 0x00
+    .byte 0x1E, 0x28, 0x76, 0x00, 0x1E, 0x28, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0xD7, 0x00, 0x77, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
+
+encounterdata 90
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
+
+encounterdata 91
+    .byte 0x14, 0x0F, 0x00, 0x64, 0x64, 0x64, 0x00, 0x00, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14
+    .byte 0x14, 0x14, 0x14, 0x14, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00
+    .byte 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x13, 0x00, 0x07, 0x01, 0x07, 0x01
+    .byte 0x8F, 0x01, 0x8F, 0x01, 0x0A, 0x14, 0x81, 0x00, 0x0A, 0x14, 0x81, 0x00, 0x0A, 0x14, 0x81, 0x00
+    .byte 0x0A, 0x14, 0x81, 0x00, 0x0A, 0x14, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00
+    .byte 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00
+    .byte 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00
+    .byte 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x0A, 0x14, 0x76, 0x00, 0x13, 0x00, 0x81, 0x00
+    .byte 0x76, 0x00, 0x76, 0x00
+    .close
 
 encounterdata  92   // Route 12
 
@@ -9637,36 +2589,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_QUAGSIRE, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
+encounter SPECIES_KYOGRE, 50, 50
+encounter SPECIES_KYOGRE, 50, 50
+encounter SPECIES_KYOGRE, 50, 50
+encounter SPECIES_KYOGRE, 50, 50
+encounter SPECIES_KYOGRE, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // super rod encounters
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_QWILFISH, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_QWILFISH, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9678,7 +2630,6 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_RELICANTH
 
 .close
-
 
 encounterdata  93   // Route 19
 
@@ -9741,36 +2692,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_LUGIA, 50, 50
+encounter SPECIES_LUGIA, 50, 50
+encounter SPECIES_SUICUNE, 50, 50
+encounter SPECIES_SUICUNE, 50, 50
+encounter SPECIES_SUICUNE, 50, 50
 
 // rock smash encounters
-encounter SPECIES_KINGLER, 28, 31
-encounter SPECIES_KRABBY, 24, 27
+encounter SPECIES_KINGLER, 50, 50
+encounter SPECIES_KRABBY, 50, 50
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_KRABBY, 50, 50
+encounter SPECIES_KRABBY, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_KRABBY, 50, 50
+encounter SPECIES_KRABBY, 50, 50
+encounter SPECIES_CORSOLA, 50, 50
+encounter SPECIES_KRABBY, 50, 50
 
 // super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_KRABBY, 50, 50
+encounter SPECIES_CORSOLA, 50, 50
+encounter SPECIES_KRABBY, 50, 50
+encounter SPECIES_KINGLER, 50, 50
+encounter SPECIES_KRABBY, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9782,7 +2733,6 @@ pokemon SPECIES_STARYU
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata  94   // Route 20
 
@@ -9845,36 +2795,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_PHIONE, 50, 50
+encounter SPECIES_PHIONE, 50, 50
+encounter SPECIES_MANAPHY, 50, 50
+encounter SPECIES_MANAPHY, 50, 50
+encounter SPECIES_MANAPHY, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_LANTURN, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9886,7 +2836,6 @@ pokemon SPECIES_SHELLDER
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata  95   // Pallet Town
 
@@ -9949,36 +2898,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_LANTURN, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9990,7 +2939,6 @@ pokemon SPECIES_SHELLDER
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata  96   // Viridian City
 
@@ -10053,36 +3001,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 5, 5
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_BARRASKEWDA, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10094,7 +3042,6 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata  97   // Cerulean City
 
@@ -10157,36 +3104,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10198,7 +3145,6 @@ pokemon SPECIES_GOLDEEN
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata  98   // Vermilion City
 
@@ -10261,36 +3207,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // rock smash encounters
-encounter SPECIES_DIGLETT, 24, 37
-encounter SPECIES_SHUCKLE, 32, 35
+encounter SPECIES_DIGLETT, 50, 50
+encounter SPECIES_SHUCKLE, 50, 50
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_LANTURN, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10302,7 +3248,6 @@ pokemon SPECIES_SHELLDER
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata  99   // Celadon City
 
@@ -10365,11 +3310,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_GRIMER, 20, 20
-encounter SPECIES_GRIMER, 15, 15
-encounter SPECIES_MUK, 15, 15
-encounter SPECIES_MUK, 15, 15
-encounter SPECIES_MUK, 15, 15
+encounter SPECIES_GRIMER, 50, 50
+encounter SPECIES_GRIMER, 50, 50
+encounter SPECIES_MUK, 50, 50
+encounter SPECIES_MUK, 50, 50
+encounter SPECIES_MUK, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -10406,7 +3351,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 100   // Fuchsia City
 
@@ -10469,36 +3413,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 15, 15
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GYARADOS, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10510,7 +3454,6 @@ pokemon SPECIES_GYARADOS
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata 101   // Cinnabar Island
 
@@ -10573,36 +3516,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_VOLCANION, 50, 50
+encounter SPECIES_VOLCANION, 50, 50
+encounter SPECIES_PALKIA, 50, 50
+encounter SPECIES_PALKIA, 50, 50
+encounter SPECIES_PALKIA, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_LANTURN, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10615,422 +3558,69 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
+encounterdata 102
+    .byte 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x19, 0x14, 0x14, 0x15, 0x16, 0x18, 0x15, 0x14
+    .byte 0x14, 0x16, 0x16, 0x18, 0xF9, 0x03, 0x65, 0x01, 0x73, 0x00, 0x9C, 0x02, 0x60, 0x01, 0x2F, 0x03
+    .byte 0x9A, 0x02, 0x9A, 0x02, 0x9A, 0x02, 0x2F, 0x03, 0x73, 0x00, 0x73, 0x00, 0xF9, 0x03, 0x65, 0x01
+    .byte 0x73, 0x00, 0x9C, 0x02, 0x60, 0x01, 0x2F, 0x03, 0x9A, 0x02, 0x9A, 0x02, 0x9A, 0x02, 0x2F, 0x03
+    .byte 0x73, 0x00, 0x73, 0x00, 0x86, 0x03, 0x9C, 0x03, 0x67, 0x01, 0x3D, 0x03, 0x60, 0x01, 0x3E, 0x03
+    .byte 0x7E, 0x02, 0x7E, 0x02, 0x7E, 0x02, 0x3E, 0x03, 0x73, 0x00, 0x73, 0x00, 0x37, 0x01, 0x38, 0x01
+    .byte 0x93, 0x01, 0x93, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
 
-encounterdata 102   // Route 48
+encounterdata 103
+    .byte 0x19, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x1C, 0x1C, 0x1C, 0x1C, 0x20, 0x20, 0x1E, 0x1E
+    .byte 0x1E, 0x1E, 0x1E, 0x1E, 0x54, 0x00, 0x1C, 0x00, 0x54, 0x00, 0x1C, 0x00, 0x4D, 0x00, 0x4D, 0x00
+    .byte 0x54, 0x00, 0x54, 0x00, 0x14, 0x00, 0x55, 0x00, 0x14, 0x00, 0x55, 0x00, 0x54, 0x00, 0x1C, 0x00
+    .byte 0x54, 0x00, 0x1C, 0x00, 0x4D, 0x00, 0x4D, 0x00, 0x54, 0x00, 0x54, 0x00, 0x14, 0x00, 0x55, 0x00
+    .byte 0x14, 0x00, 0x55, 0x00, 0x14, 0x00, 0x1C, 0x00, 0x14, 0x00, 0x1C, 0x00, 0x4D, 0x00, 0x4D, 0x00
+    .byte 0x14, 0x00, 0x14, 0x00, 0xC3, 0x00, 0xC3, 0x00, 0xC3, 0x00, 0xC3, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x1E, 0x1E, 0x48, 0x00, 0x19, 0x19, 0x48, 0x00, 0x1E, 0x1E, 0x49, 0x00
+    .byte 0x1E, 0x1E, 0x49, 0x00, 0x1E, 0x1E, 0x99, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x48, 0x00
+    .byte 0x0A, 0x0A, 0x48, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x48, 0x00, 0x14, 0x14, 0xAA, 0x00
+    .byte 0x14, 0x14, 0x5A, 0x00, 0x14, 0x14, 0xAA, 0x00, 0x28, 0x28, 0xAA, 0x00, 0x28, 0x28, 0x5A, 0x00
+    .byte 0x28, 0x28, 0x49, 0x00, 0x28, 0x28, 0xAB, 0x00, 0x28, 0x28, 0x49, 0x00, 0x54, 0x00, 0x48, 0x00
+    .byte 0x5A, 0x00, 0x81, 0x00
+    .close
 
-walkrate 25
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 25, 20, 20, 21, 22, 24, 21, 20, 20, 22, 22, 24
+encounterdata 104
+    .byte 0x19, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x1C, 0x1C, 0x1C, 0x1C, 0x1E, 0x1E, 0x1E, 0x1E
+    .byte 0x20, 0x1E, 0x20, 0x1E, 0x54, 0x00, 0x14, 0x00, 0x54, 0x00, 0x14, 0x00, 0x54, 0x00, 0x54, 0x00
+    .byte 0x14, 0x00, 0x14, 0x00, 0x4D, 0x00, 0x1C, 0x00, 0x4D, 0x00, 0x1C, 0x00, 0x54, 0x00, 0x14, 0x00
+    .byte 0x54, 0x00, 0x14, 0x00, 0x54, 0x00, 0x54, 0x00, 0x14, 0x00, 0x14, 0x00, 0x4D, 0x00, 0x1C, 0x00
+    .byte 0x4D, 0x00, 0x1C, 0x00, 0xC3, 0x00, 0x14, 0x00, 0xC3, 0x00, 0x14, 0x00, 0xC3, 0x00, 0xC3, 0x00
+    .byte 0x14, 0x00, 0x14, 0x00, 0x4D, 0x00, 0x1C, 0x00, 0x4D, 0x00, 0x1C, 0x00, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x14, 0x14, 0x48, 0x00, 0x0F, 0x0F, 0x48, 0x00, 0x14, 0x14, 0x49, 0x00
+    .byte 0x14, 0x14, 0x49, 0x00, 0x14, 0x14, 0x49, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x48, 0x00
+    .byte 0x0A, 0x0A, 0x48, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x48, 0x00, 0x14, 0x14, 0xAA, 0x00
+    .byte 0x14, 0x14, 0x5A, 0x00, 0x14, 0x14, 0xAA, 0x00, 0x28, 0x28, 0xAA, 0x00, 0x28, 0x28, 0x5A, 0x00
+    .byte 0x28, 0x28, 0x49, 0x00, 0x28, 0x28, 0xAB, 0x00, 0x28, 0x28, 0x49, 0x00, 0x54, 0x00, 0x72, 0x01
+    .byte 0x5A, 0x00, 0x81, 0x00
+    .close
 
-// morning encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_TAUROS
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_TAUROS
-
-// day encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_TAUROS
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_TAUROS
-
-// night encounter slots
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_TAUROS
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_TAUROS
-
-// hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
-
-// sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_TAUROS
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-
-encounterdata 103   // Route 26
-
-walkrate 25
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 28, 28, 28, 28, 32, 32, 30, 30, 30, 30, 30, 30
-
-// morning encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
-
-// day encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
-
-// night encounter slots
-pokemon SPECIES_RATICATE
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_RATICATE
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACRUEL, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-
-// swarm grass
-pokemon SPECIES_DODUO
-// swarm surf
-pokemon SPECIES_TENTACOOL
-// swarm good rod
-pokemon SPECIES_SHELLDER
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata 104   // Route 27
-
-walkrate 25
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 28, 28, 28, 28, 30, 30, 30, 30, 32, 30, 32, 30
-
-// morning encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-
-// day encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-
-// night encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 15, 15
-encounter SPECIES_TENTACRUEL, 20, 20
-encounter SPECIES_TENTACRUEL, 20, 20
-encounter SPECIES_TENTACRUEL, 20, 20
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-
-// swarm grass
-pokemon SPECIES_DODUO
-// swarm surf
-pokemon SPECIES_LUVDISC
-// swarm good rod
-pokemon SPECIES_SHELLDER
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
-
-encounterdata 105   // Route 28
-
-walkrate 25
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 39, 40, 39, 40, 40, 40, 42, 42, 41, 43, 41, 43
-
-// morning encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-
-// day encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODRIO
-
-// night encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_SNEASEL
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-
-// hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
-
-// sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
-
-// surf encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWHIRL, 40, 40
-encounter SPECIES_POLIWHIRL, 40, 40
-encounter SPECIES_POLIWHIRL, 40, 40
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_TANGELA
-// swarm surf
-pokemon SPECIES_POLIWAG
-// swarm good rod
-pokemon SPECIES_POLIWAG
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
+encounterdata 105
+    .byte 0x19, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x27, 0x28, 0x27, 0x28, 0x28, 0x28, 0x2A, 0x2A
+    .byte 0x29, 0x2B, 0x29, 0x2B, 0xED, 0x01, 0xAC, 0x03, 0xB1, 0x03, 0x57, 0x03, 0x57, 0x03, 0xB1, 0x03
+    .byte 0xAC, 0x03, 0xAC, 0x03, 0xED, 0x01, 0xED, 0x01, 0xED, 0x01, 0xED, 0x01, 0xED, 0x01, 0xAC, 0x03
+    .byte 0xB1, 0x03, 0x57, 0x03, 0x57, 0x03, 0xB1, 0x03, 0xAC, 0x03, 0xAC, 0x03, 0xED, 0x01, 0xED, 0x01
+    .byte 0xED, 0x01, 0xED, 0x01, 0xED, 0x01, 0xAC, 0x03, 0xB1, 0x03, 0x57, 0x03, 0x57, 0x03, 0xB1, 0x03
+    .byte 0xAC, 0x03, 0xAC, 0x03, 0xED, 0x01, 0xED, 0x01, 0xED, 0x01, 0xED, 0x01, 0x25, 0x01, 0x08, 0x01
+    .byte 0xA2, 0x01, 0x8F, 0x01, 0x28, 0x28, 0x3C, 0x00, 0x23, 0x23, 0x3C, 0x00, 0x28, 0x28, 0x3D, 0x00
+    .byte 0x28, 0x28, 0x3D, 0x00, 0x28, 0x28, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x3C, 0x00
+    .byte 0x0A, 0x0A, 0x3C, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00
+    .byte 0x14, 0x14, 0x3C, 0x00, 0x14, 0x14, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x3C, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x3C, 0x00, 0x28, 0x28, 0x81, 0x00, 0x72, 0x00, 0x3C, 0x00
+    .byte 0x3C, 0x00, 0x81, 0x00
+    .close
 
 encounterdata 106   // Mt. Moon 1F
 
@@ -11040,49 +3630,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 6, 8, 6, 8, 8, 8, 12, 12, 10, 8, 10, 8
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
 
 // day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
 
 // night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -11134,7 +3724,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 107   // Mt. Moon 2F
 
@@ -11144,49 +3733,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 6, 8, 6, 8, 8, 8, 12, 12, 10, 8, 10, 8
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
 
 // day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
 
 // night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_CLEFAIRY
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_RESHIRAM
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_MOTH
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
+pokemon SPECIES_IRON_JUGULIS
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -11238,7 +3827,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 108   // Rock Tunnel 1F
 
@@ -11248,49 +3836,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 10, 10, 10, 12, 12, 8, 8, 14, 13, 14, 13
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_CUBONE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIALGA
 
 // day encounter slots
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_CUBONE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIALGA
 
 // night encounter slots
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_CUBONE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIALGA
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -11342,7 +3930,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 109   // Rock Tunnel B1F
 
@@ -11352,49 +3939,49 @@ rocksmashrate 20
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 12, 12, 12, 12, 16, 16, 10, 10, 14, 14, 14, 14
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAROWAK
-pokemon SPECIES_KANGASKHAN
-pokemon SPECIES_MAROWAK
-pokemon SPECIES_KANGASKHAN
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIALGA
 
 // day encounter slots
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAROWAK
-pokemon SPECIES_KANGASKHAN
-pokemon SPECIES_MAROWAK
-pokemon SPECIES_KANGASKHAN
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIALGA
 
 // night encounter slots
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_CUBONE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAROWAK
-pokemon SPECIES_KANGASKHAN
-pokemon SPECIES_MAROWAK
-pokemon SPECIES_KANGASKHAN
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_DIALGA
+pokemon SPECIES_DIALGA
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -11412,8 +3999,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 12, 16
-encounter SPECIES_GEODUDE, 17, 21
+encounter SPECIES_GEODUDE, 50, 50
+encounter SPECIES_GEODUDE, 50, 50
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -11446,7 +4033,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 110   // Victory Road 1F
 
@@ -11456,7 +4042,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
 pokemon SPECIES_GRAVELER
@@ -11551,7 +4137,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 111   // Route 1
 
 walkrate 20
@@ -11560,49 +4145,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 2, 2, 2, 2, 3, 3, 3, 3, 6, 4, 6, 4
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_FURRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_FURRET
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_ZAMAZENTA
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_FURRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_FURRET
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_ZAMAZENTA
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_BLACEPHALON
+pokemon SPECIES_ZACIAN
+pokemon SPECIES_ZAMAZENTA
+pokemon SPECIES_ZAMAZENTA
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -11655,7 +4240,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 112   // Route 2 (South, below Viridian Forest)
 
 walkrate 20
@@ -11664,49 +4248,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 3, 3, 3, 5, 5, 7, 8, 7, 10, 7, 4
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
 
 // day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_SPINARAK
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -11759,7 +4343,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 113   // Route 3
 
 walkrate 20
@@ -11768,21 +4351,21 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 5, 5, 5, 5, 8, 8, 6, 6, 10, 8, 10, 8
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_MARSHADOW
+pokemon SPECIES_TING_LU
+pokemon SPECIES_ARTICUNO
+monwithform SPECIES_ARTICUNO, 1
+monwithform SPECIES_ARTICUNO, 1
+pokemon SPECIES_ARTICUNO
+pokemon SPECIES_TING_LU
+pokemon SPECIES_MARSHADOW
+pokemon SPECIES_TING_LU
+pokemon SPECIES_MARSHADOW
+pokemon SPECIES_MARSHADOW
+pokemon SPECIES_MARSHADOW
 
 // day encounter slots
 pokemon SPECIES_SPEAROW
@@ -11863,7 +4446,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 114   // Route 4
 
 walkrate 20
@@ -11872,49 +4454,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 5, 5, 5, 5, 8, 8, 6, 6, 10, 8, 10, 8
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_CALYREX
+pokemon SPECIES_MAGEARNA
+pokemon SPECIES_MAGEARNA
+pokemon SPECIES_CALYREX
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
 
 // day encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_CALYREX
+pokemon SPECIES_MAGEARNA
+pokemon SPECIES_MAGEARNA
+pokemon SPECIES_CALYREX
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
 
 // night encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_CALYREX
+pokemon SPECIES_MAGEARNA
+pokemon SPECIES_MAGEARNA
+pokemon SPECIES_CALYREX
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_LANDORUS
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
+pokemon SPECIES_RAYQUAZA
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -11925,36 +4507,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_SPEAROW
@@ -11967,7 +4549,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
 encounterdata 115   // Route 5
 
 walkrate 20
@@ -11976,49 +4557,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 13, 13, 13, 14, 14, 15, 15, 12, 14, 12, 14
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ZAPDOS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ZAPDOS
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ZAPDOS
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ZAPDOS
+pokemon SPECIES_ENAMORUS
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ZAPDOS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ZAPDOS
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ZAPDOS
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ZAPDOS
+pokemon SPECIES_ENAMORUS
 
 // night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ZAPDOS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ZAPDOS
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ENAMORUS
+pokemon SPECIES_ZAPDOS
+monwithform SPECIES_ZAPDOS, 1
+pokemon SPECIES_ZAPDOS
+pokemon SPECIES_ENAMORUS
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -12071,7 +4652,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 116   // Route 6
 
 walkrate 20
@@ -12080,49 +4660,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 13, 13, 13, 13, 14, 14, 15, 15, 12, 14, 12, 14
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+monwithform SPECIES_MOLTRES, 1
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
+monwithform SPECIES_MOLTRES, 1
+monwithform SPECIES_VICTINI, 1
+monwithform SPECIES_VICTINI, 1
+pokemon SPECIES_VICTINI
+pokemon SPECIES_VICTINI
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+monwithform SPECIES_MOLTRES, 1
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
+monwithform SPECIES_MOLTRES, 1
+monwithform SPECIES_VICTINI, 1
+monwithform SPECIES_VICTINI, 1
+pokemon SPECIES_VICTINI
+pokemon SPECIES_VICTINI
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
 
 // night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+monwithform SPECIES_MOLTRES, 1
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
+monwithform SPECIES_MOLTRES, 1
+monwithform SPECIES_VICTINI, 1
+monwithform SPECIES_VICTINI, 1
+pokemon SPECIES_VICTINI
+pokemon SPECIES_VICTINI
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
+pokemon SPECIES_MOLTRES
+monwithform SPECIES_MOLTRES, 1
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -12133,36 +4713,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 10, 10
-encounter SPECIES_PSYDUCK, 5, 5
-encounter SPECIES_GOLDUCK, 10, 10
-encounter SPECIES_GOLDUCK, 10, 10
-encounter SPECIES_GOLDUCK, 10, 10
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_PIDGEY
@@ -12175,7 +4755,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
 encounterdata 117   // Route 7
 
 walkrate 20
@@ -12184,49 +4763,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 17, 17, 17, 17, 18, 18, 19, 19, 19, 15, 19, 15
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_RAGING_BOLT
 
 // day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GROWLITHE
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_RAGING_BOLT
 
 // night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MURKROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MURKROW
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MURKROW
-pokemon SPECIES_HOUNDOUR
-pokemon SPECIES_MURKROW
-pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_WALKING_WAKE
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_RAGING_BOLT
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -12278,7 +4857,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 118   // Route 8
 
@@ -12288,49 +4866,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 17, 19, 17, 19, 15, 15, 18, 18, 17, 15, 17, 15
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
+pokemon SPECIES_COBALION
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_KARTANA
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_KARTANA
 
 // day encounter slots
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_KADABRA
+pokemon SPECIES_COBALION
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_KARTANA
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_KARTANA
 
 // night encounter slots
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_KADABRA
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_KADABRA
+pokemon SPECIES_COBALION
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_KARTANA
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_COBALION
+pokemon SPECIES_KARTANA
+pokemon SPECIES_KARTANA
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -12383,7 +4961,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 119   // Route 9
 
 walkrate 20
@@ -12392,49 +4969,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 13, 15, 13, 15, 13, 13, 15, 15, 15, 15, 15, 15
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MANKEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_FEAROW
-pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_FEAROW
-pokemon SPECIES_PRIMEAPE
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_ROARING_MOON
 
 // day encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MANKEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_FEAROW
-pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_FEAROW
-pokemon SPECIES_PRIMEAPE
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_ROARING_MOON
 
 // night encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MANKEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PRIMEAPE
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_CELESTEELA
+pokemon SPECIES_ROARING_MOON
+pokemon SPECIES_ROARING_MOON
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -12445,36 +5022,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 15, 15
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_SABLEYE
@@ -12487,7 +5064,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
 encounterdata 120   // Route 10
 
 walkrate 20
@@ -12496,49 +5072,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 16, 17, 16, 17, 16, 16, 18, 18, 18, 15, 18, 15
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ELECTABUZZ
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_XURKITREE
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_XURKITREE
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_XURKITREE
 
 // day encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_XURKITREE
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_XURKITREE
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_XURKITREE
 
 // night encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ELECTABUZZ
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_XURKITREE
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_ZEKROM
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_XURKITREE
+pokemon SPECIES_REGIELEKI
+pokemon SPECIES_XURKITREE
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -12549,36 +5125,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 15, 15
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_SPEAROW
@@ -12590,7 +5166,6 @@ pokemon SPECIES_GOLDEEN
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata 121   // Route 11
 
@@ -12600,49 +5175,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 15, 14, 15, 15, 15, 16, 16, 16, 16, 16, 16
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_CHIEN_PAO
 
 // day encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_CHIEN_PAO
 
 // night encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
-pokemon SPECIES_HYPNO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_SCREAM_TAIL
+pokemon SPECIES_GREAT_TUSK
+pokemon SPECIES_CHIEN_PAO
+pokemon SPECIES_CHIEN_PAO
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -12695,7 +5270,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 122   // Route 13
 
 walkrate 20
@@ -12704,49 +5278,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 23, 23, 23, 23, 25, 25, 22, 22, 24, 24, 24, 25
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KORAIDON
 
 // day encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KORAIDON
 
 // night encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KUBFU
+pokemon SPECIES_ZARUDE
+pokemon SPECIES_KORAIDON
+pokemon SPECIES_KORAIDON
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -12757,36 +5331,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_QUAGSIRE, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_QUAGSIRE, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // super rod encounters
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_QWILFISH, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_QWILFISH, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_CHANSEY
@@ -12799,7 +5373,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
 encounterdata 123   // Route 14
 
 walkrate 20
@@ -12808,49 +5381,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 23, 23, 23, 23, 25, 25, 24, 24, 26, 26, 26, 25
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_SKIPLOOM
-pokemon SPECIES_SKIPLOOM
-pokemon SPECIES_SKIPLOOM
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_KELDEO
 
 // day encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_SKIPLOOM
-pokemon SPECIES_SKIPLOOM
-pokemon SPECIES_SKIPLOOM
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_KELDEO
 
 // night encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_TYPE_NULL
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_KELDEO
+pokemon SPECIES_KELDEO
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -12902,7 +5475,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 124   // Route 15
 
@@ -12912,49 +5484,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 23, 23, 23, 23, 25, 25, 22, 22, 24, 24, 24, 25
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_BUZZWOLE
 
 // day encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_BUZZWOLE
 
 // night encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_BUZZWOLE
+pokemon SPECIES_BUZZWOLE
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -13006,7 +5578,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 125   // Route 16
 
@@ -13016,49 +5587,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 26, 27, 26, 27, 28, 28, 29, 29, 27, 30, 27, 30
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
 
 // day encounter slots
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
 
 // night encounter slots
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_MURKROW
-pokemon SPECIES_MURKROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_OKIDOGI
+pokemon SPECIES_FLUTTER_MANE
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
+pokemon SPECIES_SLITHER_WING
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -13110,7 +5681,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 126   // Route 17
 
@@ -13120,49 +5690,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 28, 27, 28, 27, 29, 29, 30, 30, 29, 32, 29, 32
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_GENESECT
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_MIRAIDON
 
 // day encounter slots
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_GENESECT
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_MIRAIDON
 
 // night encounter slots
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_MUK
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_GENESECT
+pokemon SPECIES_GENESECT
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_MIRAIDON
+pokemon SPECIES_MIRAIDON
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -13214,7 +5784,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 127   // Route 18
 
@@ -13224,49 +5793,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 26, 27, 26, 27, 28, 28, 29, 29, 27, 30, 27, 30
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_PECHARUNT
 
 // day encounter slots
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_FEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_PECHARUNT
 
 // night encounter slots
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_MUK
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
-pokemon SPECIES_SLUGMA
-pokemon SPECIES_MUK
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_HOOPA
+pokemon SPECIES_POIPOLE
+pokemon SPECIES_PECHARUNT
+pokemon SPECIES_PECHARUNT
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -13319,7 +5888,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 128   // Route 21
 
 walkrate 20
@@ -13328,49 +5896,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 30, 25, 30, 25, 35, 35, 20, 20, 30, 28, 30, 28
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIAS
 
 // day encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIAS
 
 // night encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIAS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIAS
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -13381,36 +5949,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TAPU_FINI, 50, 50
+encounter SPECIES_TAPU_FINI, 50, 50
+encounter SPECIES_CHI_YU, 50, 50
+encounter SPECIES_CHI_YU, 50, 50
+encounter SPECIES_CHI_YU, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_TENTACOOL, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_CHINCHOU, 50, 50
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_CHINCHOU, 50, 50
+encounter SPECIES_SHELLDER, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_LANTURN, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 50
 
 // swarm grass
 pokemon SPECIES_TANGELA
@@ -13423,7 +5991,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
 encounterdata 129   // Route 22
 
 walkrate 20
@@ -13432,49 +5999,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 3, 3, 3, 3, 5, 5, 4, 4, 6, 7, 6, 7
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_PONYTA
-pokemon SPECIES_FEAROW
-pokemon SPECIES_PONYTA
-pokemon SPECIES_FEAROW
+pokemon SPECIES_HO_OH
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_ENTEI
+pokemon SPECIES_HEATRAN
+pokemon SPECIES_HEATRAN
+pokemon SPECIES_ENTEI
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
 
 // day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_PONYTA
-pokemon SPECIES_FEAROW
-pokemon SPECIES_PONYTA
-pokemon SPECIES_FEAROW
+pokemon SPECIES_HO_OH
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_ENTEI
+pokemon SPECIES_HEATRAN
+pokemon SPECIES_HEATRAN
+pokemon SPECIES_ENTEI
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
 
 // night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_HO_OH
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_ENTEI
+pokemon SPECIES_HEATRAN
+pokemon SPECIES_HEATRAN
+pokemon SPECIES_ENTEI
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_RAIKOU
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
+pokemon SPECIES_HO_OH
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -13485,36 +6052,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 5, 5
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -13526,7 +6093,6 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata 130   // Route 24
 
@@ -13536,49 +6102,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 8, 10, 8, 10, 9, 9, 12, 12, 8, 14, 8, 14
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_VENONAT
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_VENONAT
-pokemon SPECIES_WEEPINBELL
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_AZELF
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_AZELF
+pokemon SPECIES_AZELF
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_MESPRIT
 
 // day encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_WEEPINBELL
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_AZELF
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_AZELF
+pokemon SPECIES_AZELF
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_MESPRIT
 
 // night encounter slots
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_VENOMOTH
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_VENOMOTH
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_AZELF
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_AZELF
+pokemon SPECIES_AZELF
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_UXIE
+pokemon SPECIES_MESPRIT
+pokemon SPECIES_MESPRIT
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -13589,36 +6155,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_BELLSPROUT
@@ -13631,7 +6197,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
 encounterdata 131   // Route 25
 
 walkrate 20
@@ -13640,49 +6205,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 8, 10, 8, 10, 8, 8, 9, 9, 10, 14, 10, 14
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_VENONAT
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_WEEPINBELL
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_FEZANDIPITI
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_WEEPINBELL
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_FEZANDIPITI
 
 // night encounter slots
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
-pokemon SPECIES_VENONAT
-pokemon SPECIES_ODDISH
-pokemon SPECIES_VENOMOTH
-pokemon SPECIES_VENOMOTH
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_IRON_VALIANT
+pokemon SPECIES_XERNEAS
+pokemon SPECIES_FEZANDIPITI
+pokemon SPECIES_FEZANDIPITI
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -13693,36 +6258,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // swarm grass
 pokemon SPECIES_BUNEARY
@@ -13735,110 +6300,21 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
-encounterdata 132   // Tohjo Falls
-
-walkrate 15
-surfrate 10
-rocksmashrate 0
-oldrodrate 25
-goodrodrate 50
-superrodrate 75
-walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
-
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_SLOWPOKE, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-
-// swarm grass
-pokemon SPECIES_ZUBAT
-// swarm surf
-pokemon SPECIES_GOLDEEN
-// swarm good rod
-pokemon SPECIES_GOLDEEN
-// swarm super rod
-pokemon SPECIES_MAGIKARP
-
-.close
-
+encounterdata 132
+    .byte 0x0F, 0x0A, 0x00, 0x19, 0x32, 0x4B, 0x00, 0x00, 0x16, 0x16, 0x16, 0x16, 0x16, 0x16, 0x15, 0x15
+    .byte 0x14, 0x17, 0x14, 0x17, 0x29, 0x00, 0x14, 0x00, 0x6E, 0x03, 0x14, 0x00, 0x2A, 0x00, 0x2A, 0x00
+    .byte 0x4F, 0x00, 0x4F, 0x00, 0x13, 0x00, 0x4F, 0x00, 0x13, 0x00, 0x4F, 0x00, 0x29, 0x00, 0x14, 0x00
+    .byte 0x6E, 0x03, 0x14, 0x00, 0x2A, 0x00, 0x2A, 0x00, 0x4F, 0x00, 0x4F, 0x00, 0x13, 0x00, 0x4F, 0x00
+    .byte 0x13, 0x00, 0x4F, 0x00, 0x29, 0x00, 0x14, 0x00, 0x6E, 0x03, 0x14, 0x00, 0x2A, 0x00, 0x2A, 0x00
+    .byte 0x4F, 0x00, 0x4F, 0x00, 0x13, 0x00, 0x4F, 0x00, 0x13, 0x00, 0x4F, 0x00, 0x67, 0x01, 0x28, 0x01
+    .byte 0xB4, 0x01, 0xB1, 0x01, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x4F, 0x00, 0x14, 0x14, 0x77, 0x00
+    .byte 0x14, 0x14, 0x77, 0x00, 0x14, 0x14, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x81, 0x00, 0x0A, 0x0A, 0x76, 0x00
+    .byte 0x0A, 0x0A, 0x76, 0x00, 0x14, 0x14, 0x81, 0x00, 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00
+    .byte 0x14, 0x14, 0x76, 0x00, 0x14, 0x14, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00, 0x28, 0x28, 0x76, 0x00
+    .byte 0x28, 0x28, 0x81, 0x00, 0x28, 0x28, 0x77, 0x00, 0x28, 0x28, 0x81, 0x00, 0x29, 0x00, 0x76, 0x00
+    .byte 0x76, 0x00, 0x81, 0x00
+    .close
 
 encounterdata 133   // Digletts Cave
 
@@ -13848,49 +6324,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 15, 17, 15, 17, 19, 19, 13, 13, 19, 24, 19, 29
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_GUZZLORD
 
 // day encounter slots
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_GUZZLORD
 
 // night encounter slots
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_GUZZLORD
+pokemon SPECIES_GUZZLORD
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -13942,7 +6418,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 134   // Victory Road 2F
 
@@ -13952,7 +6427,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
 pokemon SPECIES_GRAVELER
@@ -14046,7 +6521,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
 
 encounterdata 135   // Victory Road 3F
 
@@ -14056,13 +6530,13 @@ rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_IRON_BOULDER
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_IRON_TREADS
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -14074,9 +6548,9 @@ pokemon SPECIES_RHYHORN
 
 // day encounter slots
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_IRON_BOULDER
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_IRON_TREADS
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -14088,9 +6562,9 @@ pokemon SPECIES_RHYHORN
 
 // night encounter slots
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_IRON_BOULDER
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_IRON_TREADS
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_DONPHAN
 pokemon SPECIES_ONIX
@@ -14116,8 +6590,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 24, 32
-encounter SPECIES_GRAVELER, 30, 33
+encounter SPECIES_GEODUDE, 50, 50
+encounter SPECIES_GRAVELER, 50, 50
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -14151,7 +6625,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 136   // Route 2 (North, above Viridian Forest)
 
 walkrate 20
@@ -14160,49 +6633,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 3, 3, 3, 5, 5, 7, 8, 7, 10, 7, 4
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
 
 // day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_ARIADOS
-pokemon SPECIES_SPINARAK
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_PHEROMOSA
+pokemon SPECIES_MELTAN
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -14255,7 +6728,6 @@ pokemon SPECIES_NONE
 
 .close
 
-
 encounterdata 137   // Viridian Forest
 
 walkrate 15
@@ -14264,49 +6736,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 3, 3, 3, 5, 5, 7, 7, 7, 4, 7, 4
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_BUTTERFREE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIKACHU
-pokemon SPECIES_PIKACHU
-pokemon SPECIES_PIKACHU
+pokemon SPECIES_MEW
+pokemon SPECIES_CELEBI
+pokemon SPECIES_SHAYMIN
+pokemon SPECIES_TAPU_BULU
+pokemon SPECIES_BRUTE_BONNET
+pokemon SPECIES_BRUTE_BONNET
+pokemon SPECIES_TAPU_BULU
+pokemon SPECIES_SHAYMIN
+pokemon SPECIES_CELEBI
+pokemon SPECIES_MEW
+pokemon SPECIES_MEW
+pokemon SPECIES_MEW
 
 // day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIKACHU
-pokemon SPECIES_PIKACHU
-pokemon SPECIES_PIKACHU
+pokemon SPECIES_MEW
+pokemon SPECIES_CELEBI
+pokemon SPECIES_SHAYMIN
+pokemon SPECIES_TAPU_BULU
+pokemon SPECIES_BRUTE_BONNET
+pokemon SPECIES_BRUTE_BONNET
+pokemon SPECIES_TAPU_BULU
+pokemon SPECIES_SHAYMIN
+pokemon SPECIES_CELEBI
+pokemon SPECIES_MEW
+pokemon SPECIES_MEW
+pokemon SPECIES_MEW
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_PIKACHU
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_PIKACHU
+pokemon SPECIES_MEW
+pokemon SPECIES_CELEBI
+pokemon SPECIES_SHAYMIN
+pokemon SPECIES_TAPU_BULU
+pokemon SPECIES_BRUTE_BONNET
+pokemon SPECIES_BRUTE_BONNET
+pokemon SPECIES_TAPU_BULU
+pokemon SPECIES_SHAYMIN
+pokemon SPECIES_CELEBI
+pokemon SPECIES_MEW
+pokemon SPECIES_MEW
+pokemon SPECIES_MEW
 
 // hoenn encounter slots
 pokemon SPECIES_SPOINK
@@ -14359,110 +6831,21 @@ pokemon SPECIES_NONE
 
 .close
 
-
-encounterdata 138   // ???
-
-walkrate 0
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
+encounterdata 138
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+    .byte 0x00, 0x00, 0x00, 0x00
+    .close
 
 encounterdata 139   // Cerulean Cave 1F
 
@@ -14472,7 +6855,7 @@ rocksmashrate 5
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 39, 38, 38, 38, 40, 39, 40, 37, 39, 40, 39, 40
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
 pokemon SPECIES_MACHOKE
@@ -14525,36 +6908,36 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 40, 40
-encounter SPECIES_PSYDUCK, 35, 35
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 22, 24
-encounter SPECIES_GRAVELER, 26, 30
+encounter SPECIES_GEODUDE, 50, 50
+encounter SPECIES_GRAVELER, 50, 50
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWHIRL, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
 
 // swarm grass
 pokemon SPECIES_GOLBAT
@@ -14566,7 +6949,6 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_MAGIKARP
 
 .close
-
 
 encounterdata 140   // Cerulean Cave B1F
 
@@ -14576,7 +6958,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 42, 40, 41, 39, 41, 42, 41, 42, 41, 42, 41, 42
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
 pokemon SPECIES_KADABRA
@@ -14629,36 +7011,36 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 40, 40
-encounter SPECIES_PSYDUCK, 35, 35
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWHIRL, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
 
 // swarm grass
 pokemon SPECIES_KADABRA
@@ -14671,7 +7053,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
 encounterdata 141   // Cerulean Cave B2F
 
 walkrate 10
@@ -14680,7 +7061,7 @@ rocksmashrate 5
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 46, 45, 47, 45, 45, 45, 46, 47, 47, 49, 47, 49
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
 pokemon SPECIES_KADABRA
@@ -14733,36 +7114,36 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 40, 40
-encounter SPECIES_PSYDUCK, 35, 35
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_PSYDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
+encounter SPECIES_GOLDUCK, 50, 50
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 22, 24
-encounter SPECIES_GRAVELER, 26, 30
+encounter SPECIES_GEODUDE, 50, 50
+encounter SPECIES_GRAVELER, 50, 50
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_MAGIKARP, 50, 50
+encounter SPECIES_GOLDEEN, 50, 50
+encounter SPECIES_POLIWAG, 50, 50
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWHIRL, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
+encounter SPECIES_POLIWAG, 50, 50
+encounter SPECIES_POLIWHIRL, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
+encounter SPECIES_GYARADOS, 50, 50
 
 // swarm grass
 pokemon SPECIES_KADABRA
