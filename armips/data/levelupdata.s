@@ -200,6 +200,7 @@ levelup SPECIES_BLASTOISE
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_WATER_GUN, 1
     learnset MOVE_WITHDRAW, 1
+    learnset MOVE_METAL_CLAW, 1
     learnset MOVE_TAIL_WHIP, 4
     learnset MOVE_WATER_GUN, 7
     learnset MOVE_WITHDRAW, 10
@@ -815,6 +816,8 @@ levelup SPECIES_NINETALES
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_DISABLE, 1
     learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_DISARMING_VOICE, 1
+    learnset MOVE_MOONBLAST, 1
     terminatelearnset
 
 
@@ -1010,12 +1013,14 @@ levelup SPECIES_PARASECT
     learnset MOVE_STUN_SPORE, 1
     learnset MOVE_POISON_POWDER, 1
     learnset MOVE_ABSORB, 1
+    learnset MOVE_ASTONISH, 1
     learnset MOVE_STUN_SPORE, 6
     learnset MOVE_POISON_POWDER, 6
     learnset MOVE_ABSORB, 11
     learnset MOVE_FURY_CUTTER, 17
     learnset MOVE_SPORE, 22
     learnset MOVE_SLASH, 29
+    learnset MOVE_SHADOW_SNEAK, 29
     learnset MOVE_GROWTH, 37
     learnset MOVE_GIGA_DRAIN, 44
     learnset MOVE_AROMATHERAPY, 51
@@ -1682,14 +1687,17 @@ levelup SPECIES_PONYTA
     learnset MOVE_TAIL_WHIP, 4
     learnset MOVE_EMBER, 9
     learnset MOVE_FLAME_CHARGE, 17
+    learnset MOVE_SPARK, 17
     learnset MOVE_FLAME_WHEEL, 19
     learnset MOVE_STOMP, 23
     learnset MOVE_AGILITY, 27
     learnset MOVE_FIRE_SPIN, 30
+    learnset MOVE_ZING_ZAP, 30
     learnset MOVE_TAKE_DOWN, 35
     learnset MOVE_INFERNO, 39
     learnset MOVE_FIRE_BLAST, 45
     learnset MOVE_BOUNCE, 45
+    learnset MOVE_WILD_CHARGE, 48
     learnset MOVE_FLARE_BLITZ, 52
     terminatelearnset
 
@@ -1709,14 +1717,17 @@ levelup SPECIES_RAPIDASH
     learnset MOVE_TAIL_WHIP, 4
     learnset MOVE_EMBER, 9
     learnset MOVE_FLAME_CHARGE, 17
+    learnset MOVE_SPARK, 17
     learnset MOVE_FLAME_WHEEL, 19
     learnset MOVE_STOMP, 23
     learnset MOVE_AGILITY, 27
     learnset MOVE_FIRE_SPIN, 30
+    learnset MOVE_ZING_ZAP, 30
     learnset MOVE_TAKE_DOWN, 36
     learnset MOVE_INFERNO, 41
     learnset MOVE_BOUNCE, 45
     learnset MOVE_FIRE_BLAST, 49
+    learnset MOVE_WILD_CHARGE, 52
     learnset MOVE_FLARE_BLITZ, 56
     terminatelearnset
 
@@ -1853,12 +1864,14 @@ levelup SPECIES_DODUO
     learnset MOVE_PURSUIT, 15
     learnset MOVE_PLUCK, 19
     learnset MOVE_DOUBLE_HIT, 22
+    learnset MOVE_BULLDOZE, 22
     learnset MOVE_AGILITY, 26
     learnset MOVE_UPROAR, 29
     learnset MOVE_ACUPRESSURE, 33
     learnset MOVE_SWORDS_DANCE, 36
     learnset MOVE_JUMP_KICK, 40
     learnset MOVE_DRILL_PECK, 43
+    learnset MOVE_DRILL_RUN, 43
     learnset MOVE_ENDEAVOR, 47
     learnset MOVE_THRASH, 50
     terminatelearnset
@@ -1877,12 +1890,14 @@ levelup SPECIES_DODRIO
     learnset MOVE_PURSUIT, 15
     learnset MOVE_PLUCK, 19
     learnset MOVE_DOUBLE_HIT, 22
+    learnset MOVE_BULLDOZE, 22
     learnset MOVE_AGILITY, 26
     learnset MOVE_UPROAR, 29
     learnset MOVE_ACUPRESSURE, 34
     learnset MOVE_SWORDS_DANCE, 38
     learnset MOVE_JUMP_KICK, 43
     learnset MOVE_DRILL_PECK, 47
+    learnset MOVE_DRILL_RUN, 47
     learnset MOVE_ENDEAVOR, 52
     learnset MOVE_THRASH, 56
     terminatelearnset
@@ -2888,6 +2903,7 @@ levelup SPECIES_MAGMAR
     learnset MOVE_LEER, 1
     learnset MOVE_EMBER, 1
     learnset MOVE_SMOKESCREEN, 1
+    learnset MOVE_BUBBLE, 1
     learnset MOVE_EMBER, 5
     learnset MOVE_SMOKESCREEN, 8
     learnset MOVE_FEINT_ATTACK, 12
@@ -2899,6 +2915,7 @@ levelup SPECIES_MAGMAR
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_FIRE_PUNCH, 28
     learnset MOVE_LAVA_PLUME, 34
+    learnset MOVE_SCALD, 34
     learnset MOVE_LOW_KICK, 40
     learnset MOVE_FLAMETHROWER, 47
     learnset MOVE_SUNNY_DAY, 47
@@ -3536,10 +3553,12 @@ levelup SPECIES_MEGANIUM
     learnset MOVE_REFLECT, 18
     learnset MOVE_MAGICAL_LEAF, 22
     learnset MOVE_LEECH_SEED, 26
+    learnset MOVE_DRAINING_KISS, 26
     learnset MOVE_SWEET_SCENT, 34
     learnset MOVE_LIGHT_SCREEN, 40
     learnset MOVE_BODY_SLAM, 46
     learnset MOVE_SAFEGUARD, 54
+    learnset MOVE_MOONBLAST, 54
     learnset MOVE_GIGA_DRAIN, 60
     learnset MOVE_AROMATHERAPY, 60
     learnset MOVE_SOLAR_BEAM, 65
@@ -3598,9 +3617,11 @@ levelup SPECIES_TYPHLOSION
     learnset MOVE_FLAME_WHEEL, 20
     learnset MOVE_DEFENSE_CURL, 24
     learnset MOVE_SWIFT, 31
+    learnset MOVE_MUD_BOMB, 31
     learnset MOVE_FLAME_CHARGE, 35
     learnset MOVE_LAVA_PLUME, 43
     learnset MOVE_FLAMETHROWER, 48
+    learnset MOVE_EARTH_POWER, 52
     learnset MOVE_INFERNO, 56
     learnset MOVE_ROLLOUT, 61
     learnset MOVE_OVERHEAT, 74
@@ -3824,12 +3845,14 @@ levelup SPECIES_ARIADOS
     learnset MOVE_ABSORB, 5
     learnset MOVE_INFESTATION, 8
     learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_BITE, 12
     learnset MOVE_NIGHT_SHADE, 15
     learnset MOVE_SHADOW_SNEAK, 19
     learnset MOVE_FURY_SWIPES, 23
     learnset MOVE_SUCKER_PUNCH, 28
     learnset MOVE_SPIDER_WEB, 32
     learnset MOVE_AGILITY, 37
+    learnset MOVE_NIGHT_SLASH, 37
     learnset MOVE_PIN_MISSILE, 41
     learnset MOVE_PSYCHIC, 46
     learnset MOVE_POISON_JAB, 50
@@ -4385,6 +4408,7 @@ levelup SPECIES_SUNFLORA
     learnset MOVE_ABSORB, 1
     learnset MOVE_POUND, 1
     learnset MOVE_GROWTH, 1
+    learnset MOVE_EMBER, 1
     learnset MOVE_INGRAIN, 4
     learnset MOVE_GRASS_WHISTLE, 7
     learnset MOVE_MEGA_DRAIN, 10
@@ -4398,6 +4422,7 @@ levelup SPECIES_SUNFLORA
     learnset MOVE_SOLAR_BEAM, 34
     learnset MOVE_DOUBLE_EDGE, 37
     learnset MOVE_SUNNY_DAY, 40
+    learnset MOVE_FLAMETHROWER, 40
     learnset MOVE_LEAF_STORM, 43
     learnset MOVE_PETAL_BLIZZARD, 50
     terminatelearnset
@@ -4782,6 +4807,7 @@ levelup SPECIES_GRANBULL
     learnset MOVE_HEADBUTT, 19
     learnset MOVE_ROAR, 27
     learnset MOVE_RAGE, 35
+    learnset MOVE_BULLDOZE, 35
     learnset MOVE_PLAY_ROUGH, 43
     learnset MOVE_PAYBACK, 51
     learnset MOVE_CRUNCH, 59
@@ -6877,6 +6903,7 @@ levelup SPECIES_DELCATTY
     learnset MOVE_SING, 1
     learnset MOVE_ATTRACT, 1
     learnset MOVE_DOUBLE_SLAP, 1
+    learnset MOVE_PLAY_ROUGH, 1
     terminatelearnset
 
 
@@ -8045,12 +8072,14 @@ levelup SPECIES_MILOTIC
     learnset MOVE_TWISTER, 10
     learnset MOVE_AQUA_RING, 14
     learnset MOVE_LIFE_DEW, 20
+    learnset MOVE_DRAINING_KISS, 20
     learnset MOVE_CAPTIVATE, 21
     learnset MOVE_ATTRACT, 24
     learnset MOVE_DRAGON_TAIL, 24
     learnset MOVE_RECOVER, 27
     learnset MOVE_AQUA_TAIL, 31
     learnset MOVE_SAFEGUARD, 36
+    learnset MOVE_DAZZLING_GLEAM, 36
     learnset MOVE_SURF, 40
     learnset MOVE_COIL, 44
     learnset MOVE_RAIN_DANCE, 45
@@ -8124,6 +8153,7 @@ levelup SPECIES_BANETTE
     learnset MOVE_SCREECH, 1
     learnset MOVE_NIGHT_SHADE, 1
     learnset MOVE_SPITE, 1
+    learnset MOVE_SCRATCH, 1
     learnset MOVE_SCREECH, 4
     learnset MOVE_NIGHT_SHADE, 7
     learnset MOVE_SPITE, 10
@@ -8132,6 +8162,7 @@ levelup SPECIES_BANETTE
     learnset MOVE_FEINT_ATTACK, 19
     learnset MOVE_HEX, 22
     learnset MOVE_CURSE, 26
+    learnset MOVE_CRUSH_CLAW, 26
     learnset MOVE_SHADOW_BALL, 30
     learnset MOVE_EMBARGO, 34
     learnset MOVE_SUCKER_PUNCH, 40
@@ -8313,6 +8344,7 @@ levelup SPECIES_GLALIE
     learnset MOVE_ICE_SHARD, 1
     learnset MOVE_DOUBLE_TEAM, 5
     learnset MOVE_ICE_SHARD, 12
+    learnset MOVE_ACCELEROCK, 12
     learnset MOVE_ICY_WIND, 19
     learnset MOVE_PROTECT, 25
     learnset MOVE_BITE, 27
@@ -9287,6 +9319,7 @@ levelup SPECIES_RAMPARDOS
     learnset MOVE_ZEN_HEADBUTT, 43
     learnset MOVE_SCREECH, 51
     learnset MOVE_HEAD_SMASH, 58
+    learnset MOVE_COLLISION_COURSE, 58
     terminatelearnset
 
 
@@ -9700,6 +9733,8 @@ levelup SPECIES_MISMAGIUS
     learnset MOVE_PSYWAVE, 1
     learnset MOVE_SPITE, 1
     learnset MOVE_ASTONISH, 1
+    learnset MOVE_FAIRY_WIND, 1
+    learnset MOVE_MOONBLAST, 1
     terminatelearnset
 
 
@@ -10551,18 +10586,21 @@ levelup SPECIES_ELECTIVIRE
     learnset MOVE_ION_DELUGE, 1
     learnset MOVE_FIRE_PUNCH, 1
     learnset MOVE_LOW_KICK, 1
+    learnset MOVE_MACH_PUNCH, 1
     learnset MOVE_THUNDER_SHOCK, 5
     learnset MOVE_SWIFT, 12
     learnset MOVE_SHOCK_WAVE, 15
     learnset MOVE_THUNDER_WAVE, 19
     learnset MOVE_ELECTRO_BALL, 22
     learnset MOVE_LOW_KICK, 25
+    learnset MOVE_POWER_UP_PUNCH, 25
     learnset MOVE_THUNDER_PUNCH, 28
     learnset MOVE_SCREECH, 32
     learnset MOVE_DISCHARGE, 34
     learnset MOVE_LIGHT_SCREEN, 39
     learnset MOVE_THUNDERBOLT, 47
     learnset MOVE_THUNDER, 56
+    learnset MOVE_CLOSE_COMBAT, 56
     learnset MOVE_GIGA_IMPACT, 63
     learnset MOVE_ELECTRIC_TERRAIN, 65
     terminatelearnset
@@ -10574,6 +10612,7 @@ levelup SPECIES_MAGMORTAR
     learnset MOVE_EMBER, 1
     learnset MOVE_SMOKESCREEN, 1
     learnset MOVE_THUNDER_PUNCH, 1
+    learnset MOVE_BUBBLE, 1
     learnset MOVE_EMBER, 5
     learnset MOVE_SMOKESCREEN, 8
     learnset MOVE_FEINT_ATTACK, 12
@@ -10585,6 +10624,7 @@ levelup SPECIES_MAGMORTAR
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_FIRE_PUNCH, 28
     learnset MOVE_LAVA_PLUME, 34
+    learnset MOVE_SCALD, 34
     learnset MOVE_LOW_KICK, 40
     learnset MOVE_FLAMETHROWER, 47
     learnset MOVE_SUNNY_DAY, 47
@@ -10633,6 +10673,7 @@ levelup SPECIES_YANMEGA
     learnset MOVE_SONIC_BOOM, 14
     learnset MOVE_DETECT, 17
     learnset MOVE_SUPERSONIC, 22
+    learnset MOVE_DRAGON_BREATH, 22
     learnset MOVE_UPROAR, 27
     learnset MOVE_PURSUIT, 30
     learnset MOVE_ANCIENT_POWER, 33
@@ -10640,6 +10681,7 @@ levelup SPECIES_YANMEGA
     learnset MOVE_SLASH, 43
     learnset MOVE_SCREECH, 46
     learnset MOVE_U_TURN, 49
+    learnset MOVE_DRAGON_PULSE, 49
     learnset MOVE_AIR_SLASH, 54
     learnset MOVE_BUG_BUZZ, 57
     terminatelearnset
@@ -14410,6 +14452,7 @@ levelup SPECIES_BEARTIC
     learnset MOVE_ENDURE, 25
     learnset MOVE_SLASH, 26
     learnset MOVE_SWAGGER, 27
+    learnset MOVE_POWER_UP_PUNCH, 27
     learnset MOVE_FLAIL, 29
     learnset MOVE_REST, 38
     learnset MOVE_HAIL, 40
@@ -21899,6 +21942,7 @@ levelup SPECIES_CETODDLE
 levelup SPECIES_CETITAN
     learnset MOVE_POWDER_SNOW, 1
     learnset MOVE_TACKLE, 1
+    learnset MOVE_POISON_STING, 1
     learnset MOVE_GROWL, 6
     learnset MOVE_ECHOED_VOICE, 9
     learnset MOVE_ICE_SHARD, 12
@@ -21909,6 +21953,7 @@ levelup SPECIES_CETITAN
     learnset MOVE_BOUNCE, 31
     learnset MOVE_BODY_SLAM, 36
     learnset MOVE_AMNESIA, 40
+    learnset MOVE_POISON_JAB, 40
     learnset MOVE_ICE_SPINNER, 44
     learnset MOVE_DOUBLE_EDGE, 49
     learnset MOVE_BLIZZARD, 53
@@ -25368,11 +25413,13 @@ levelup SPECIES_YAMASK_GALARIAN
     learnset MOVE_NIGHT_SHADE, 8
     learnset MOVE_DISABLE, 12
     learnset MOVE_BRUTAL_SWING, 16
+    learnset MOVE_ANCIENT_POWER, 16
     learnset MOVE_CRAFTY_SHIELD, 20
     learnset MOVE_HEX, 24
     learnset MOVE_MEAN_LOOK, 28
     learnset MOVE_SLAM, 32
     learnset MOVE_CURSE, 36
+    learnset MOVE_POWER_GEM, 36
     learnset MOVE_SHADOW_BALL, 40
     learnset MOVE_EARTHQUAKE, 44
     learnset MOVE_POWER_SPLIT, 48
