@@ -798,4 +798,7 @@ Cornerstone Mask
 Wellspring Mask
 Hearthflame Mask
 Metal Alloy
+Infinite Candy
+Infinite Rejuv
+Infinite Ashes
 Encounter Lure

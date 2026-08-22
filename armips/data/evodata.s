@@ -1886,7 +1886,7 @@ evodata SPECIES_CYNDAQUIL
 evodata SPECIES_QUILAVA
     evolutionwithform EVO_HAS_MOVE, MOVE_INFERNAL_PARADE, SPECIES_TYPHLOSION, 1
     evolution EVO_LEVEL, 36, SPECIES_TYPHLOSION
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_HAS_MOVE, MOVE_INFERNAL_PARADE, SPECIES_TYPHLOSION, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5281,7 +5281,7 @@ evodata SPECIES_BONSLY
 
 evodata SPECIES_MIMEJR
     evolution EVO_HAS_MOVE, MOVE_MIMIC, SPECIES_MR_MIME
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_ICE_STONE, SPECIES_MR_MIME, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -6642,7 +6642,7 @@ evodata SPECIES_OSHAWOTT
 evodata SPECIES_DEWOTT
     evolutionwithform EVO_HAS_MOVE, MOVE_CEASELESS_EDGE, SPECIES_SAMUROTT, 1
     evolution EVO_LEVEL, 36, SPECIES_SAMUROTT
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_HAS_MOVE, MOVE_CEASELESS_EDGE, SPECIES_SAMUROTT, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9161,7 +9161,7 @@ terminateevodata
 
 evodata SPECIES_BERGMITE
     evolution EVO_LEVEL, 37, SPECIES_AVALUGG
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PROTECTOR, SPECIES_AVALUGG, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9294,7 +9294,7 @@ terminateevodata
 evodata SPECIES_DARTRIX
     evolutionwithform EVO_HAS_MOVE, MOVE_TRIPLE_ARROWS, SPECIES_DECIDUEYE, 1
     evolution EVO_LEVEL, 34, SPECIES_DECIDUEYE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_HAS_MOVE, MOVE_TRIPLE_ARROWS, SPECIES_DECIDUEYE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

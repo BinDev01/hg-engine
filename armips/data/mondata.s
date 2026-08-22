@@ -845,7 +845,7 @@ mondata SPECIES_JIGGLYPUFF, "Jigglypuff"
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_CUTE_CHARM, ABILITY_COMPETITIVE
+    abilities ABILITY_CUTE_CHARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_JIGGLYPUFF, "If it inflates to sing a lullaby,\nit can perform longer and cause\nsure drowsiness in its audience."
@@ -866,7 +866,7 @@ mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_CUTE_CHARM, ABILITY_COMPETITIVE
+    abilities ABILITY_CUTE_CHARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_WIGGLYTUFF, "Their fur feels so good that if two\nof them snuggle together,\nthey won’t want to be separated."
@@ -2315,7 +2315,7 @@ mondata SPECIES_KOFFING, "Koffing"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_KOFFING, "Its thin, filmy body is filled\nwith gases that cause constant\nsniffles, coughs and teary eyes."
@@ -2336,7 +2336,7 @@ mondata SPECIES_WEEZING, "Weezing"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_WEEZING, "If one of the twin KOFFING inflates,\nthe other one deflates. It constantly\nmixes its poisonous gases."
@@ -7376,7 +7376,7 @@ mondata SPECIES_MILOTIC, "Milotic"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
-    abilities ABILITY_MARVEL_SCALE, ABILITY_COMPETITIVE
+    abilities ABILITY_MARVEL_SCALE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_MILOTIC, "It’s said that a glimpse of a\nMILOTIC and its beauty will calm any\nhostile emotions you’re feeling."
@@ -13130,7 +13130,7 @@ mondata SPECIES_GOTHITA, "Gothita"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_FRISK, ABILITY_COMPETITIVE
+    abilities ABILITY_FRISK, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GOTHITA, "It stares intently at everything.\nIt can become so obsessed with watching\nthat it doesn't notice attacks."
@@ -13151,7 +13151,7 @@ mondata SPECIES_GOTHORITA, "Gothorita"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_FRISK, ABILITY_COMPETITIVE
+    abilities ABILITY_FRISK, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GOTHORITA, "According to many old tales, it creates\nfriends for itself by controlling sleeping\nchildren on starry nights."
@@ -13172,7 +13172,7 @@ mondata SPECIES_GOTHITELLE, "Gothitelle"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_FRISK, ABILITY_COMPETITIVE
+    abilities ABILITY_FRISK, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GOTHITELLE, "It can see the future from the movement\nof the stars. When it learns its Trainer's\nlife span, it cries in sadness."
@@ -19262,7 +19262,7 @@ mondata SPECIES_MR_RIME, "Mr. Rime"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_TANGLED_FEET, ABILITY_SCREEN_CLEANER
+    abilities ABILITY_TANGLED_FEET, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_MR_RIME, "Its amusing movements make it very\npopular. It releases its psychic power\nfrom the pattern on its belly."
@@ -20501,7 +20501,7 @@ mondata SPECIES_MAUSHOLD, "Maushold"
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    abilities ABILITY_FRIEND_GUARD, ABILITY_CHEEK_POUCH
+    abilities ABILITY_FRIEND_GUARD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_MAUSHOLD, "The two little ones just appeared one day.\nThe group might be a family of related\nPokémon, but nobody knows for sure."
@@ -21677,7 +21677,7 @@ mondata SPECIES_FARIGIRAF, "Farigiraf"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CUD_CHEW, ABILITY_ARMOR_TAIL
+    abilities ABILITY_ARMOR_TAIL, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_FARIGIRAF, "The hardened head from the tail protects\nthe head of the main body as Farigiraf whips\nits long neck around to headbutt enemies."
@@ -22307,7 +22307,7 @@ mondata SPECIES_DIPPLIN, "Dipplin"
     basefriendship 0
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_SUPERSWEET_SYRUP, ABILITY_GLUTTONY
+    abilities ABILITY_SAP_SIPPER, ABILITY_GLUTTONY
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_DIPPLIN, "Dipplin is two creatures in one Pokémon.\nIts evolution was triggered by a special\napple grown only in one place."
@@ -22475,7 +22475,7 @@ mondata SPECIES_HYDRAPPLE, "Hydrapple"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_SUPERSWEET_SYRUP, ABILITY_REGENERATOR
+    abilities ABILITY_SAP_SIPPER, ABILITY_REGENERATOR
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_HYDRAPPLE, "These capricious syrpents have banded\ntogether. On the rare occasion that their\nmoods align, their true power is unleashed."
@@ -23966,7 +23966,7 @@ mondata SPECIES_SLOWBRO_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_QUICK_DRAW,  ABILITY_OWN_TEMPO
+    abilities ABILITY_REGENERATOR,  ABILITY_OWN_TEMPO
     runchance 0
     colorflip BODY_COLOR_PINK, 0
 
@@ -23998,7 +23998,7 @@ mondata SPECIES_WEEZING_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE,  ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
 
@@ -24014,7 +24014,7 @@ mondata SPECIES_MR_MIME_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_VITAL_SPIRIT,  ABILITY_SCREEN_CLEANER
+    abilities ABILITY_VITAL_SPIRIT,  ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
 
@@ -24078,7 +24078,7 @@ mondata SPECIES_SLOWKING_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_CURIOUS_MEDICINE,  ABILITY_OWN_TEMPO
+    abilities ABILITY_REGENERATOR,  ABILITY_OWN_TEMPO
     runchance 0
     colorflip BODY_COLOR_PINK, 0
 
@@ -24174,7 +24174,7 @@ mondata SPECIES_YAMASK_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_WANDERING_SPIRIT, ABILITY_NONE
+    abilities ABILITY_CURSED_BODY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
 
@@ -24190,7 +24190,7 @@ mondata SPECIES_STUNFISK_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_MIMICRY, ABILITY_NONE
+    abilities ABILITY_CURSED_BODY, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
 

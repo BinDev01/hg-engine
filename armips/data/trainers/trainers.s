@@ -10,7379 +10,26070 @@
 .include "asm/include/species.inc"
 
 trainerdata 0, "-"
-    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
+    nummons 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 0
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 0
+        pokemon SPECIES_NONE
+        ballseal 0
+    endparty
 
 trainerdata 1, "Silver"
-    .byte 0x00, 0x17, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 1
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 14
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 16
+        pokemon SPECIES_ZUBAT
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 18
+        pokemon SPECIES_BAYLEEF
+        ballseal 0
+    endparty
 
 trainerdata 2, "Silver"
-    .byte 0x00, 0x17, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 2
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_CYNDAQUIL
+        ballseal 0
+    endparty
 
 trainerdata 3, "Silver"
-    .byte 0x00, 0x17, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 3
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_TOTODILE
+        ballseal 0
+    endparty
 
 trainerdata 4, "Wade"
-    .byte 0x00, 0x06, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 4
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 2
+        pokemon SPECIES_SCATTERBUG
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 2
+        pokemon SPECIES_GRUBBIN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 3
+        pokemon SPECIES_WEEDLE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 2
+        pokemon SPECIES_WURMPLE
+        ballseal 0
+    endparty
 
 trainerdata 5, "Victoria"
-    .byte 0x00, 0x24, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 5
+        // mon 0
+        ivs 10
+        abilityslot 32
+        level 19
+        pokemon SPECIES_LINOONE
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 32
+        level 18
+        pokemon SPECIES_BIBAREL
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 32
+        level 18
+        pokemon SPECIES_DIGGERSBY
+        ballseal 0
+    endparty
 
 trainerdata 6, "Keith"
-    .byte 0x00, 0x26, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POLICEMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 6
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
+    endparty
 
 trainerdata 7, "Irwin"
-    .byte 0x00, 0x1F, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_JUGGLER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 7
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 20
+        pokemon SPECIES_EELEKTRIK
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_PAWMO
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 22
+        pokemon SPECIES_BLITZLE
+        ballseal 0
+    endparty
 
 trainerdata 8, "Joey"
-    .byte 0x00, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 8
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 4
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 9, "Elaine"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 9
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 32
+        pokemon SPECIES_STARMIE
+        ballseal 0
+    endparty
 
 trainerdata 10, "Amy & Mimi"
-    .byte 0x00, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 10
+        // mon 0
+        ivs 10
+        abilityslot 32
+        level 10
+        pokemon SPECIES_SPINARAK
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 32
+        level 10
+        pokemon SPECIES_LEDYBA
+        ballseal 0
+    endparty
 
 trainerdata 11, "Mickey"
-    .byte 0x00, 0x2F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 11
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_VULPIX
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+    endparty
 
 trainerdata 12, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 12
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 12
+        pokemon SPECIES_STUNKY
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 13
+        pokemon SPECIES_PARAS
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 13
+        pokemon SPECIES_SALANDIT
+        ballseal 0
+    endparty
 
 trainerdata 13, "Grunt"
-    .byte 0x00, 0x3E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 13
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 13
+        pokemon SPECIES_ZUBAT
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 14
+        pokemon SPECIES_EKANS
+        ballseal 0
+    endparty
 
 trainerdata 14, "Duncan"
-    .byte 0x00, 0x3F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BURGLAR
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 14
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEVIPER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MAGMORTAR
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_DUSKNOIR
+        ballseal 0
+    endparty
 
 trainerdata 15, "Otis"
-    .byte 0x00, 0x40, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 15
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_WEEZING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_CAMERUPT
+        ballseal 0
+    endparty
 
 trainerdata 16, "Simon"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 16
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_TENTACOOL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 17, "Kenji"
-    .byte 0x00, 0x0E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 17
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 41
+        pokemon SPECIES_CONKELDURR
+        ballseal 0
+    endparty
 
 trainerdata 18, "Justin"
-    .byte 0x00, 0x0B, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 18
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_FEEBAS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_FINNEON
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+    endparty
 
 trainerdata 19, "Mickey"
-    .byte 0x00, 0x41, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 19
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 20, "Falkner"
-    .byte 0x03, 0x42, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_FALKNER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 20
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 12
+        pokemon SPECIES_HOOTHOOT
+        item ITEM_NONE
+        move MOVE_TACKLE
+        move MOVE_PECK
+        move MOVE_HYPNOSIS
+        move MOVE_ECHOED_VOICE
+        ballseal 0
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 12
+        pokemon SPECIES_DODUO
+        item ITEM_NONE
+        move MOVE_QUICK_ATTACK
+        move MOVE_MUD_SLAP
+        move MOVE_PECK
+        move MOVE_GROWL
+        ballseal 0
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 13
+        pokemon SPECIES_NOCTOWL
+        item ITEM_NONE
+        move MOVE_TACKLE
+        move MOVE_ROOST
+        move MOVE_PECK
+        move MOVE_OMINOUS_WIND
+        ballseal 0
+    endparty
 
 trainerdata 21, "Bugsy"
-    .byte 0x03, 0x43, 0x00, 0x03, 0x1A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BUGSY
+    nummons 3
+    item ITEM_SUPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 21
+        // mon 0
+        ivs 80
+        abilityslot 32
+        level 17
+        pokemon SPECIES_SCYTHER
+        item ITEM_SITRUS_BERRY
+        move MOVE_QUICK_ATTACK
+        move MOVE_LEER
+        move MOVE_U_TURN
+        move MOVE_WING_ATTACK
+        ballseal 0
+
+        // mon 1
+        ivs 80
+        abilityslot 0
+        level 15
+        pokemon SPECIES_ARIADOS
+        item ITEM_NONE
+        move MOVE_FEINT_ATTACK
+        move MOVE_INFESTATION
+        move MOVE_SHADOW_SNEAK
+        move MOVE_SWORDS_DANCE
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 0
+        level 15
+        pokemon SPECIES_LEDIAN
+        item ITEM_NONE
+        move MOVE_TACKLE
+        move MOVE_SUPERSONIC
+        move MOVE_MACH_PUNCH
+        move MOVE_SILVER_WIND
+        ballseal 0
+    endparty
 
 trainerdata 22, "Carrie"
-    .byte 0x01, 0x03, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 22
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SNUBBULL
+        move MOVE_ICE_FANG
+        move MOVE_FIRE_FANG
+        move MOVE_THUNDER_FANG
+        move MOVE_BITE
+        ballseal 0
+    endparty
 
 trainerdata 23, "Larry"
-    .byte 0x00, 0x44, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 23
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 13
+        pokemon SPECIES_SLOWPOKE
+        ballseal 0
+    endparty
 
 trainerdata 24, "Alan"
-    .byte 0x00, 0x3C, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 24
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_TANGELA
+        ballseal 0
+    endparty
 
 trainerdata 25, "Russel"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 25
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_GEODUDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_ROGGENROLA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_DRILBUR
+        ballseal 0
+    endparty
 
 trainerdata 26, "Roland"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 26
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_NIDORAN_M
+        ballseal 0
+    endparty
 
 trainerdata 27, "Liz"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 27
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_NIDORAN_F
+        ballseal 0
+    endparty
 
 trainerdata 28, "Jake"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 28
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 45
+        pokemon SPECIES_PARASECT
+        move MOVE_LEECH_LIFE
+        move MOVE_SPORE
+        move MOVE_SHADOW_CLAW
+        move MOVE_SWORDS_DANCE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 45
+        pokemon SPECIES_MILOTIC
+        move MOVE_DISARMING_VOICE
+        move MOVE_AQUA_RING
+        move MOVE_WATER_PULSE
+        move MOVE_REFRESH
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_JELLICENT
+        move MOVE_NIGHT_SHADE
+        move MOVE_RECOVER
+        move MOVE_SHADOW_BALL
+        move MOVE_SURF
+        ballseal 0
+    endparty
 
 trainerdata 29, "Rod"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 29
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 10
+        pokemon SPECIES_PIDGEY
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 10
+        pokemon SPECIES_FLETCHLING
+        ballseal 0
+    endparty
 
 trainerdata 30, "Whitney"
-    .byte 0x03, 0x46, 0x00, 0x03, 0x1A, 0x00, 0x1A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_WHITNEY
+    nummons 3
+    item ITEM_SUPER_POTION
+    item ITEM_SUPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 30
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 19
+        pokemon SPECIES_FURRET
+        item ITEM_NONE
+        move MOVE_QUICK_ATTACK
+        move MOVE_COIL
+        move MOVE_AGILITY
+        move MOVE_FURY_SWIPES
+        ballseal 0
+        // mon 1
+        ivs 100
+        abilityslot 32
+        level 20
+        pokemon SPECIES_AMBIPOM
+        item ITEM_NONE
+        move MOVE_FURY_SWIPES
+        move MOVE_TICKLE
+        move MOVE_AGILITY
+        move MOVE_BATON_PASS
+        ballseal 0
+        // mon 2
+        ivs 100
+        abilityslot 32
+        level 21
+        pokemon SPECIES_MILTANK
+        item ITEM_LUM_BERRY
+        move MOVE_ROLLOUT
+        move MOVE_ATTRACT
+        move MOVE_STOMP
+        move MOVE_MILK_DRINK
+        ballseal 0
+    endparty
 
 trainerdata 31, "Morty"
-    .byte 0x03, 0x48, 0x00, 0x04, 0x19, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_MORTY
+    nummons 4
+    item ITEM_HYPER_POTION
+    item ITEM_HYPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 31
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 26
+        pokemon SPECIES_GASTLY
+        item ITEM_NONE
+        move MOVE_HYPNOSIS
+        move MOVE_SPITE
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 26
+        pokemon SPECIES_MISDREAVUS
+        item ITEM_NONE
+        move MOVE_HEX
+        move MOVE_CONFUSE_RAY
+        move MOVE_DISARMING_VOICE
+        move MOVE_PSYWAVE
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 26
+        pokemon SPECIES_GENGAR
+        item ITEM_SITRUS_BERRY
+        move MOVE_HYPNOSIS
+        move MOVE_SHADOW_BALL
+        move MOVE_MEAN_LOOK
+        move MOVE_SUCKER_PUNCH
+        ballseal 0
+
+        // mon 3
+        ivs 100
+        abilityslot 0
+        level 27
+        pokemon SPECIES_MISMAGIUS
+        item ITEM_NONE
+        move MOVE_POWER_GEM
+        move MOVE_MYSTICAL_FIRE
+        move MOVE_HEX
+        move MOVE_MAGICAL_LEAF
+        ballseal 0
+    endparty
 
 trainerdata 32, "Pryce"
-    .byte 0x03, 0x49, 0x00, 0x05, 0x19, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_PRYCE
+    nummons 5
+    item ITEM_HYPER_POTION
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 32
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 36
+        pokemon SPECIES_SNEASEL
+        item ITEM_NONE
+        move MOVE_HONE_CLAWS
+        move MOVE_METAL_CLAW
+        move MOVE_ICE_SHARD
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+        // mon 1
+        ivs 150
+        abilityslot 0
+        level 38
+        pokemon SPECIES_DEWGONG
+        item ITEM_NONE
+        move MOVE_SLEEP_TALK
+        move MOVE_ICE_SHARD
+        move MOVE_AURORA_BEAM
+        move MOVE_REST
+        ballseal 0
+        // mon 2
+        ivs 150
+        abilityslot 32
+        level 37
+        pokemon SPECIES_ABOMASNOW
+        item ITEM_ABOMASITE
+        move MOVE_ICE_SHARD
+        move MOVE_RAZOR_LEAF
+        move MOVE_WOOD_HAMMER
+        move MOVE_SWAGGER
+        ballseal 0
+        // mon 3
+        ivs 150
+        abilityslot 32
+        level 37
+        pokemon SPECIES_DELIBIRD
+        item ITEM_SITRUS_BERRY
+        move MOVE_PRESENT
+        move MOVE_DRILL_PECK
+        move MOVE_AVALANCHE
+        move MOVE_SUBSTITUTE
+        ballseal 0
+        // mon 4
+        ivs 150
+        abilityslot 32
+        level 40
+        pokemon SPECIES_MAMOSWINE
+        item ITEM_SITRUS_BERRY
+        move MOVE_HAIL
+        move MOVE_ICE_FANG
+        move MOVE_EARTHQUAKE
+        move MOVE_ICE_SHARD
+        ballseal 0
+    endparty
 
 trainerdata 33, "Jasmine"
-    .byte 0x03, 0x4A, 0x00, 0x05, 0x19, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_JASMINE
+    nummons 5
+    item ITEM_HYPER_POTION
+    item ITEM_HYPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 33
+        // mon 0
+        ivs 150
+        abilityslot 32
+        level 40
+        pokemon SPECIES_SKARMORY
+        item ITEM_NONE
+        move MOVE_ROAR
+        move MOVE_STEEL_WING
+        move MOVE_STEALTH_ROCK
+        move MOVE_SPIKES
+        ballseal 0
+        // mon 1
+        ivs 150
+        abilityslot 0
+        level 38
+        pokemon SPECIES_MAGNETON
+        item ITEM_NONE
+        move MOVE_THUNDERBOLT
+        move MOVE_SUPERSONIC
+        move MOVE_TRI_ATTACK
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+        // mon 2
+        ivs 150
+        abilityslot 32
+        level 37
+        pokemon SPECIES_SCIZOR
+        item ITEM_OCCA_BERRY
+        move MOVE_BULLET_PUNCH
+        move MOVE_WING_ATTACK
+        move MOVE_FURY_CUTTER
+        move MOVE_SWORDS_DANCE
+        ballseal 0
+        // mon 3
+        ivs 150
+        abilityslot 32
+        level 39
+        pokemon SPECIES_FORRETRESS
+        item ITEM_NONE
+        move MOVE_AUTOTOMIZE
+        move MOVE_HEAVY_SLAM
+        move MOVE_BUG_BITE
+        move MOVE_BIDE
+        ballseal 0
+        // mon 4
+        ivs 150
+        abilityslot 32
+        level 40
+        pokemon SPECIES_STEELIX
+        item ITEM_STEELIXITE
+        move MOVE_SCREECH
+        move MOVE_DIG
+        move MOVE_ROCK_THROW
+        move MOVE_GYRO_BALL
+        ballseal 0
+    endparty
 
 trainerdata 34, "Chuck"
-    .byte 0x03, 0x4B, 0x00, 0x04, 0x19, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_CHUCK
+    nummons 4
+    item ITEM_HYPER_POTION
+    item ITEM_HYPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 34
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 33
+        pokemon SPECIES_HITMONTOP
+        item ITEM_NONE
+        move MOVE_SUCKER_PUNCH
+        move MOVE_TRIPLE_KICK
+        move MOVE_DETECT
+        move MOVE_FAKE_OUT
+        ballseal 0
+        // mon 1
+        ivs 150
+        abilityslot 0
+        level 33
+        pokemon SPECIES_HERACROSS
+        item ITEM_SITRUS_BERRY
+        move MOVE_HORN_ATTACK
+        move MOVE_BRICK_BREAK
+        move MOVE_PIN_MISSILE
+        move MOVE_AERIAL_ACE
+        ballseal 0
+        // mon 2
+        ivs 150
+        abilityslot 0
+        level 34
+        pokemon SPECIES_PRIMEAPE
+        item ITEM_NONE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_CROSS_CHOP
+        move MOVE_RAGE_FIST
+        move MOVE_SWAGGER
+        ballseal 0
+        // mon 3
+        ivs 150
+        abilityslot 0
+        level 35
+        pokemon SPECIES_POLIWRATH
+        item ITEM_SITRUS_BERRY
+        move MOVE_HYPNOSIS
+        move MOVE_SURF
+        move MOVE_FOCUS_PUNCH
+        move MOVE_BODY_SLAM
+        ballseal 0
+    endparty
 
 trainerdata 35, "Clair"
-    .byte 0x03, 0x4C, 0x00, 0x05, 0x19, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_CLAIR
+    nummons 5
+    item ITEM_HYPER_POTION
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 35
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GYARADOS
+        item ITEM_GYARADOSITE
+        move MOVE_WATERFALL
+        move MOVE_DRAGON_RAGE
+        move MOVE_BITE
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 42
+        pokemon SPECIES_DRAGONAIR
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_FIRE_BLAST
+        move MOVE_SLAM
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 43
+        pokemon SPECIES_DRAMPA
+        item ITEM_NONE
+        move MOVE_DRAGON_PULSE
+        move MOVE_EXTRASENSORY
+        move MOVE_LIGHT_SCREEN
+        move MOVE_ECHOED_VOICE
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 44
+        pokemon SPECIES_AERODACTYL
+        item ITEM_SITRUS_BERRY
+        move MOVE_THUNDER_FANG
+        move MOVE_FIRE_FANG
+        move MOVE_ICE_FANG
+        move MOVE_WING_ATTACK
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 45
+        pokemon SPECIES_KINGDRA
+        item ITEM_SITRUS_BERRY
+        move MOVE_SMOKESCREEN
+        move MOVE_HYDRO_PUMP
+        move MOVE_HYPER_BEAM
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+    endparty
 
 trainerdata 36, "Joyce"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 36
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_ZEBSTRIKA
+        move MOVE_QUICK_ATTACK
+        move MOVE_FLAME_CHARGE
+        move MOVE_WILD_CHARGE
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SWAMPERT
+        move MOVE_EARTHQUAKE
+        move MOVE_ROCK_SLIDE
+        move MOVE_SURF
+        move MOVE_RAIN_DANCE
+        ballseal 0
+    endparty
 
 trainerdata 37, "Preston"
-    .byte 0x00, 0x22, 0x00, 0x02, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 2
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 37
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_EMBOAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_INFERNAPE
+        ballseal 0
+    endparty
 
 trainerdata 38, "Colette"
-    .byte 0x00, 0x4D, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEACHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 38
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_CLEFAIRY
+        ballseal 0
+    endparty
 
 trainerdata 39, "Eugene"
-    .byte 0x00, 0x2E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 39
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 30
+        pokemon SPECIES_BIBAREL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 30
+        pokemon SPECIES_KINGLER
+        ballseal 0
+    endparty
 
 trainerdata 40, "Mickey"
-    .byte 0x00, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 40
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_GRIMER
+        ballseal 0
+    endparty
 
 trainerdata 41, "Clyde"
-    .byte 0x00, 0x34, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GUITARIST
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 41
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_ELECTABUZZ
+        ballseal 0
+    endparty
 
 trainerdata 42, "Nathan"
-    .byte 0x00, 0x31, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 42
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_GIRAFARIG
+        ballseal 0
+    endparty
 
 trainerdata 43, "Chow"
-    .byte 0x00, 0x4F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 43
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_VULPIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_RELLOR
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_BONSLY
+        ballseal 0
+    endparty
 
 trainerdata 44, "Derek"
-    .byte 0x01, 0x14, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 44
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_RAICHU
+        move MOVE_DOUBLE_TEAM
+        move MOVE_QUICK_ATTACK
+        move MOVE_TAIL_WHIP
+        move MOVE_THUNDER_SHOCK
+        ballseal 0
+    endparty
 
 trainerdata 45, "Ruth"
-    .byte 0x01, 0x15, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 45
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_PACHIRISU
+        move MOVE_DOUBLE_TEAM
+        move MOVE_QUICK_ATTACK
+        move MOVE_TAIL_WHIP
+        move MOVE_THUNDER_SHOCK
+        ballseal 0
+    endparty
 
 trainerdata 46, "Martha"
-    .byte 0x00, 0x52, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 46
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 25
+        pokemon SPECIES_PHANTUMP
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 25
+        pokemon SPECIES_PUMPKABOO
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 23
+        pokemon SPECIES_DHELMISE
+        ballseal 0
+    endparty
 
 trainerdata 47, "Mikey"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 47
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 2
+        pokemon SPECIES_PIDGEY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 4
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 48, "Rob"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 48
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+    endparty
 
 trainerdata 49, "Albert"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 49
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_BUNNELBY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_ZUBAT
+        ballseal 0
+    endparty
 
 trainerdata 50, "Abe"
-    .byte 0x00, 0x45, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 50
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 11
+        pokemon SPECIES_SPEAROW
+        ballseal 0
+    endparty
 
 trainerdata 51, "Nico"
-    .byte 0x00, 0x4F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 51
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 4
+        pokemon SPECIES_ODDISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 4
+        pokemon SPECIES_PETILIL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 6
+        pokemon SPECIES_BELLSPROUT
+        ballseal 0
+    endparty
 
 trainerdata 52, "Edmond"
-    .byte 0x00, 0x4F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 52
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_MEDITITE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_MAKUHITA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 6
+        pokemon SPECIES_TIMBURR
+        ballseal 0
+    endparty
 
 trainerdata 53, "Jin"
-    .byte 0x00, 0x4F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 53
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 7
+        pokemon SPECIES_BELLSPROUT
+        ballseal 0
+    endparty
 
 trainerdata 54, "Troy"
-    .byte 0x00, 0x4F, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 54
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 7
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 7
+        pokemon SPECIES_HOOTHOOT
+        ballseal 0
+    endparty
 
 trainerdata 55, "Neal"
-    .byte 0x00, 0x4F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 55
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 7
+        pokemon SPECIES_DARUMAKA
+        ballseal 0
+    endparty
 
 trainerdata 56, "Gordon"
-    .byte 0x00, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 56
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 13
+        pokemon SPECIES_WOOPER
+        ballseal 0
+    endparty
 
 trainerdata 57, "Ralph"
-    .byte 0x00, 0x0B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 57
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+    endparty
 
 trainerdata 58, "Arnold"
-    .byte 0x00, 0x0B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 58
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_SHELLDER
+        ballseal 0
+    endparty
 
 trainerdata 59, "Kyle"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 59
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+    endparty
 
 trainerdata 60, "Henry"
-    .byte 0x00, 0x0B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 60
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_POLIWAG
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 13
+        pokemon SPECIES_SKRELP
+        ballseal 0
+    endparty
 
 trainerdata 61, "Anthony"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 61
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_CRANIDOS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 11
+        pokemon SPECIES_SHIELDON
+        ballseal 0
+    endparty
 
 trainerdata 62, "Samuel"
-    .byte 0x00, 0x02, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 62
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 17
+        pokemon SPECIES_BIDOOF
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_SANDSHREW
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_ROOKIDEE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_PIDOVE
+        ballseal 0
+    endparty
 
 trainerdata 63, "Mickey"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 63
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 14
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 64, "Ian"
-    .byte 0x01, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 64
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_MANKEY
+        move MOVE_FOCUS_ENERGY
+        move MOVE_SCRATCH
+        move MOVE_LOW_KICK
+        move MOVE_LEER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_DIGLETT
+        move MOVE_ASTONISH
+        move MOVE_GROWL
+        move MOVE_SCRATCH
+        move MOVE_SAND_ATTACK
+        ballseal 0
+    endparty
 
 trainerdata 65, "Gina"
-    .byte 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 65
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_TREECKO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_HOPPIP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_BULBASAUR
+        ballseal 0
+    endparty
 
 trainerdata 66, "Todd"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 66
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_PSYDUCK
+        ballseal 0
+    endparty
 
 trainerdata 67, "Benny"
-    .byte 0x00, 0x06, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 67
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 13
+        pokemon SPECIES_WEEDLE
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 14
+        pokemon SPECIES_KAKUNA
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 15
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+    endparty
 
 trainerdata 68, "Al"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 68
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 15
+        pokemon SPECIES_KRICKETOT
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 15
+        pokemon SPECIES_BURMY
+        ballseal 0
+    endparty
 
 trainerdata 69, "Josh"
-    .byte 0x00, 0x06, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 69
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 16
+        pokemon SPECIES_PARAS
+        ballseal 0
+    endparty
 
 trainerdata 70, "Samantha"
-    .byte 0x01, 0x24, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 70
+        // mon 0
+        ivs 10
+        abilityslot 32
+        level 19
+        pokemon SPECIES_LOUDRED
+        move MOVE_ECHOED_VOICE
+        move MOVE_HOWL
+        move MOVE_ASTONISH
+        move MOVE_BITE
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 32
+        level 16
+        pokemon SPECIES_CINCCINO
+        move MOVE_TAIL_SLAP
+        move MOVE_TICKLE
+        move MOVE_ROCK_BLAST
+        move MOVE_BULLET_SEED
+        ballseal 0
+    endparty
 
 trainerdata 71, "Cathy"
-    .byte 0x00, 0x03, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 71
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 19
+        pokemon SPECIES_JIGGLYPUFF
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 19
+        pokemon SPECIES_CLEFAIRY
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 20
+        pokemon SPECIES_STUFFUL
+        ballseal 0
+    endparty
 
 trainerdata 72, "Bryan"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 72
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 20
+        pokemon SPECIES_WATTREL
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 21
+        pokemon SPECIES_CORVISQUIRE
+        ballseal 0
+    endparty
 
 trainerdata 73, "Theo"
-    .byte 0x00, 0x45, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 73
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 31
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 31
+        pokemon SPECIES_SWELLOW
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 31
+        pokemon SPECIES_TALONFLAME
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 32
+        level 31
+        pokemon SPECIES_STARAPTOR
+        ballseal 0
+
+        // mon 4
+        ivs 50
+        abilityslot 0
+        level 31
+        pokemon SPECIES_CORVIKNIGHT
+        ballseal 0
+    endparty
 
 trainerdata 74, "Ivan"
-    .byte 0x00, 0x04, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 74
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_BUNEARY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SWIRLIX
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SPRITZEE
+        ballseal 0
+    endparty
 
 trainerdata 75, "Elliot"
-    .byte 0x00, 0x04, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 75
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+    endparty
 
 trainerdata 76, "Brooke"
-    .byte 0x01, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 76
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_PIKACHU
+        move MOVE_THUNDER_SHOCK
+        move MOVE_GROWL
+        move MOVE_QUICK_ATTACK
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+    endparty
 
 trainerdata 77, "Kim"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 77
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_NINETALES
+        ballseal 0
+    endparty
 
 trainerdata 78, "Arnie"
-    .byte 0x00, 0x06, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 78
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_VENOMOTH
+        ballseal 0
+    endparty
 
 trainerdata 79, "Ken"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 79
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_PINSIR
+        ballseal 0
+    endparty
 
 trainerdata 80, "Dirk"
-    .byte 0x00, 0x26, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POLICEMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 80
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_ARCANINE
+        ballseal 0
+    endparty
 
 trainerdata 81, "Tori & Til"
-    .byte 0x00, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 81
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 23
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 23
+        pokemon SPECIES_FLAAFFY
+        ballseal 0
+    endparty
 
 trainerdata 82, "Toby"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 82
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 27
+        pokemon SPECIES_DODRIO
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 27
+        pokemon SPECIES_PELIPPER
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 27
+        pokemon SPECIES_SKARMORY
+        ballseal 0
+    endparty
 
 trainerdata 83, "Cindy"
-    .byte 0x01, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 83
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 48
+        pokemon SPECIES_NIDOQUEEN
+        move MOVE_POISON_JAB
+        move MOVE_EARTH_POWER
+        move MOVE_BODY_SLAM
+        move MOVE_DOUBLE_KICK
+        ballseal 0
+    endparty
 
 trainerdata 84, "Barry"
-    .byte 0x01, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 84
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 48
+        pokemon SPECIES_NIDOKING
+        move MOVE_POISON_JAB
+        move MOVE_FOCUS_ENERGY
+        move MOVE_EARTH_POWER
+        move MOVE_FOCUS_BLAST
+        ballseal 0
+    endparty
 
 trainerdata 85, "Paula"
-    .byte 0x00, 0x2B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 85
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_CLAUNCHER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 32
+        pokemon SPECIES_JELLICENT
+        ballseal 0
+    endparty
 
 trainerdata 86, "Randall"
-    .byte 0x01, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 86
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_SHELLDER
+        move MOVE_SUPERSONIC
+        move MOVE_ICICLE_SPEAR
+        move MOVE_WITHDRAW
+        move MOVE_TACKLE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_WARTORTLE
+        move MOVE_RAPID_SPIN
+        move MOVE_BITE
+        move MOVE_WATER_GUN
+        move MOVE_TAIL_WHIP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_CLOYSTER
+        move MOVE_SUPERSONIC
+        move MOVE_ICICLE_SPEAR
+        move MOVE_WITHDRAW
+        move MOVE_RAZOR_SHELL
+        ballseal 0
+    endparty
 
 trainerdata 87, "Mickey"
-    .byte 0x00, 0x4F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 87
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_HAUNTER
+        ballseal 0
+    endparty
 
 trainerdata 88, "Mickey"
-    .byte 0x00, 0x4F, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAGE
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 88
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_GASTLY
+        ballseal 0
+    endparty
 
 trainerdata 89, "Grace"
-    .byte 0x00, 0x52, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 89
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 25
+        pokemon SPECIES_LAMPENT
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HAUNTER
+        ballseal 0
+    endparty
 
 trainerdata 90, "Kaylee"
-    .byte 0x01, 0x2B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 90
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 33
+        pokemon SPECIES_BRUXISH
+        move MOVE_WATER_PULSE
+        move MOVE_AQUA_JET
+        move MOVE_AQUA_TAIL
+        move MOVE_PSYWAVE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_SWANNA
+        move MOVE_WATER_PULSE
+        move MOVE_ROOST
+        move MOVE_DEFOG
+        move MOVE_AERIAL_ACE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 34
+        pokemon SPECIES_RELICANTH
+        move MOVE_AQUA_TAIL
+        move MOVE_YAWN
+        move MOVE_ROCK_TOMB
+        move MOVE_HARDEN
+        ballseal 0
+    endparty
 
 trainerdata 91, "Susie"
-    .byte 0x01, 0x2B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 91
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_LANTURN
+        move MOVE_SUPERSONIC
+        move MOVE_BUBBLE_BEAM
+        move MOVE_SIGNAL_BEAM
+        move MOVE_DISCHARGE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_LAPRAS
+        move MOVE_PERISH_SONG
+        move MOVE_BRINE
+        move MOVE_CONFUSE_RAY
+        move MOVE_ICE_SHARD
+        ballseal 0
+    endparty
 
 trainerdata 92, "Denise"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 92
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_SEEL
+        ballseal 0
+    endparty
 
 trainerdata 93, "Kara"
-    .byte 0x00, 0x2B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 93
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 20
+        pokemon SPECIES_STARYU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 20
+        pokemon SPECIES_STARMIE
+        ballseal 0
+    endparty
 
 trainerdata 94, "Wendy"
-    .byte 0x01, 0x2B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 94
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_HORSEA
+        move MOVE_BUBBLE
+        move MOVE_SMOKESCREEN
+        move MOVE_LEER
+        move MOVE_BUBBLE_BEAM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 21
+        pokemon SPECIES_HORSEA
+        move MOVE_FOCUS_ENERGY
+        move MOVE_SMOKESCREEN
+        move MOVE_LEER
+        move MOVE_BUBBLE_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 95, "Charlie"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 95
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_BARRASKEWDA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_SHARPEDO
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 33
+        pokemon SPECIES_BARBARACLE
+        ballseal 0
+    endparty
 
 trainerdata 96, "George"
-    .byte 0x00, 0x2A, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 96
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_VAPOREON
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_LUDICOLO
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_CORSOLA
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_MANTINE
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_OCTILLERY
+        ballseal 0
+    endparty
 
 trainerdata 97, "Berke"
-    .byte 0x00, 0x2A, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 97
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 23
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+    endparty
 
 trainerdata 98, "Ronald"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 98
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+    endparty
 
 trainerdata 99, "Matthew"
-    .byte 0x00, 0x2A, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 99
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_CRAWDAUNT
+        ballseal 0
+    endparty
 
 trainerdata 100, "Anthony"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 100
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 32
+        pokemon SPECIES_MACHOKE
+        ballseal 0
+    endparty
 
 trainerdata 101, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 101
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 13
+        pokemon SPECIES_RATTATA
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 32
+        level 11
+        pokemon SPECIES_GRIMER
+        ballseal 0
+    endparty
 
 trainerdata 102, "Gaven"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 102
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 32
+        pokemon SPECIES_VICTREEBEL
+        move MOVE_WRAP
+        move MOVE_TOXIC
+        move MOVE_ACID
+        move MOVE_RAZOR_LEAF
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 32
+        pokemon SPECIES_KINGLER
+        move MOVE_BUBBLE_BEAM
+        move MOVE_STOMP
+        move MOVE_GUILLOTINE
+        move MOVE_PROTECT
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 32
+        pokemon SPECIES_FLAREON
+        move MOVE_SAND_ATTACK
+        move MOVE_QUICK_ATTACK
+        move MOVE_BITE
+        move MOVE_EMBER
+        ballseal 0
+    endparty
 
 trainerdata 103, "Blake"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 103
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 44
+        pokemon SPECIES_MAGNEZONE
+        move MOVE_THUNDERBOLT
+        move MOVE_SUPERSONIC
+        move MOVE_MAGNET_BOMB
+        move MOVE_SCREECH
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 44
+        pokemon SPECIES_SEISMITOAD
+        move MOVE_BUBBLE_BEAM
+        move MOVE_DRAIN_PUNCH
+        move MOVE_RAIN_DANCE
+        move MOVE_MUD_SHOT
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_EXEGGCUTE
+        move MOVE_LEECH_SEED
+        move MOVE_EXTRASENSORY
+        move MOVE_SLEEP_POWDER
+        move MOVE_GIGA_DRAIN
+        ballseal 0
+    endparty
 
 trainerdata 104, "Brian"
-    .byte 0x01, 0x18, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 104
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_AMPHAROS
+        move MOVE_DISCHARGE
+        move MOVE_SIGNAL_BEAM
+        move MOVE_COTTON_SPORE
+        move MOVE_TACKLE
+        ballseal 0
+    endparty
 
 trainerdata 105, "Mickey"
-    .byte 0x00, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 105
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_BULBASAUR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_CHARMANDER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_SQUIRTLE
+        ballseal 0
+    endparty
 
 trainerdata 106, "Mickey"
-    .byte 0x00, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 106
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_BULBASAUR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_CHARMANDER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_SQUIRTLE
+        ballseal 0
+    endparty
 
 trainerdata 107, "Mickey"
-    .byte 0x00, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 107
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_BULBASAUR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_CHARMANDER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_SQUIRTLE
+        ballseal 0
+    endparty
 
 trainerdata 108, "Ryan"
-    .byte 0x01, 0x18, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 108
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GLISCOR
+        move MOVE_FURY_CUTTER
+        move MOVE_ACROBATICS
+        move MOVE_U_TURN
+        move MOVE_NIGHT_SLASH
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_ELECTIVIRE
+        move MOVE_THUNDER_PUNCH
+        move MOVE_LOW_KICK
+        move MOVE_SWIFT
+        move MOVE_SCREECH
+        ballseal 0
+    endparty
 
 trainerdata 109, "Alton"
-    .byte 0x00, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 109
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_VENUSAUR
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_CHARIZARD
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_BLASTOISE
+        ballseal 0
+    endparty
 
 trainerdata 110, "Paulo"
-    .byte 0x00, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 110
+        // mon 0
+        ivs 60
+        abilityslot 0
+        level 40
+        pokemon SPECIES_DRAGONAIR
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 32
+        level 40
+        pokemon SPECIES_SEADRA
+        ballseal 0
+
+        // mon 2
+        ivs 60
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GABITE
+        ballseal 0
+    endparty
 
 trainerdata 111, "Mike"
-    .byte 0x00, 0x18, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 111
+        // mon 0
+        ivs 60
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SHELGON
+        ballseal 0
+    endparty
 
 trainerdata 112, "Cody"
-    .byte 0x00, 0x18, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 112
+        // mon 0
+        ivs 60
+        abilityslot 0
+        level 40
+        pokemon SPECIES_DRUDDIGON
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 32
+        level 40
+        pokemon SPECIES_TURTONATOR
+        ballseal 0
+    endparty
 
 trainerdata 113, "Jamie"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 113
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 45
+        pokemon SPECIES_RAPIDASH
+        move MOVE_STOMP
+        move MOVE_FIRE_SPIN
+        move MOVE_WILL_O_WISP
+        move MOVE_AGILITY
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_AMPHAROS
+        move MOVE_DISCHARGE
+        move MOVE_COTTON_SPORE
+        move MOVE_THUNDER_WAVE
+        move MOVE_CHARGE
+        ballseal 0
+    endparty
 
 trainerdata 114, "Reena"
-    .byte 0x00, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 114
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 33
+        pokemon SPECIES_NIDORINA
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_STARYU
+        ballseal 0
+    endparty
 
 trainerdata 115, "Megan"
-    .byte 0x01, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 115
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_TORTERRA
+        move MOVE_EARTHQUAKE
+        move MOVE_WOOD_HAMMER
+        move MOVE_WITHDRAW
+        move MOVE_CRUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_DECIDUEYE
+        move MOVE_SHADOW_SNEAK
+        move MOVE_RAZOR_LEAF
+        move MOVE_SUCKER_PUNCH
+        move MOVE_LEAF_BLADE
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_SCEPTILE
+        move MOVE_X_SCISSOR
+        move MOVE_LEAF_BLADE
+        move MOVE_NIGHT_SLASH
+        move MOVE_DUAL_CHOP
+        ballseal 0
+    endparty
 
 trainerdata 116, "Lois"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 116
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 34
+        pokemon SPECIES_AMPHAROS
+        move MOVE_THUNDER_SHOCK
+        move MOVE_COTTON_SPORE
+        move MOVE_THUNDER_WAVE
+        move MOVE_CHARGE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 34
+        pokemon SPECIES_NINETALES
+        move MOVE_FLAMETHROWER
+        move MOVE_QUICK_ATTACK
+        move MOVE_CONFUSE_RAY
+        move MOVE_NASTY_PLOT
+        ballseal 0
+    endparty
 
 trainerdata 117, "Lola"
-    .byte 0x00, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 117
+        // mon 0
+        ivs 60
+        abilityslot 0
+        level 41
+        pokemon SPECIES_ZWEILOUS
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 0
+        level 41
+        pokemon SPECIES_SLIGGOO
+        ballseal 0
+    endparty
 
 trainerdata 118, "Kate"
-    .byte 0x00, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 118
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 26
+        pokemon SPECIES_SHELLDER
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 28
+        pokemon SPECIES_CLOYSTER
+        ballseal 0
+    endparty
 
 trainerdata 119, "Fran"
-    .byte 0x00, 0x19, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 119
+        // mon 0
+        ivs 60
+        abilityslot 32
+        level 44
+        pokemon SPECIES_HAKAMO_O
+        ballseal 0
+    endparty
 
 trainerdata 120, "Irene"
-    .byte 0x00, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 120
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 22
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 24
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 121, "Kelly"
-    .byte 0x00, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 121
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_BLASTOISE
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_EMPOLEON
+        ballseal 0
+    endparty
 
 trainerdata 122, "Marvin"
-    .byte 0x01, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 122
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_DREDNAW
+        move MOVE_LIQUIDATION
+        move MOVE_HEADBUTT
+        move MOVE_ROCK_POLISH
+        move MOVE_CRUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GYARADOS
+        move MOVE_THRASH
+        move MOVE_SURF
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_TOXAPEX
+        move MOVE_VENOSHOCK
+        move MOVE_RECOVER
+        move MOVE_BANEFUL_BUNKER
+        move MOVE_BITE
+        ballseal 0
+    endparty
 
 trainerdata 123, "Tully"
-    .byte 0x00, 0x0B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 123
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+    endparty
 
 trainerdata 124, "Wilton"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 124
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 125, "Edgar"
-    .byte 0x01, 0x0B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 125
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_OCTILLERY
+        move MOVE_LOCK_ON
+        move MOVE_PSYBEAM
+        move MOVE_AURORA_BEAM
+        move MOVE_BUBBLE_BEAM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_OCTILLERY
+        move MOVE_LOCK_ON
+        move MOVE_PSYBEAM
+        move MOVE_AURORA_BEAM
+        move MOVE_BUBBLE_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 126, "Andre"
-    .byte 0x00, 0x0B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 126
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+    endparty
 
 trainerdata 127, "Raymond"
-    .byte 0x00, 0x0B, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 127
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_LUDICOLO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_WHISCASH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_JELLICENT
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_VELUZA
+        ballseal 0
+    endparty
 
 trainerdata 128, "Jonah"
-    .byte 0x00, 0x0B, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 128
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_SHELLDER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 37
+        pokemon SPECIES_OCTILLERY
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 33
+        pokemon SPECIES_REMORAID
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_CLOYSTER
+        ballseal 0
+    endparty
 
 trainerdata 129, "Shane"
-    .byte 0x00, 0x44, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 129
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_NIDOKING
+        ballseal 0
+    endparty
 
 trainerdata 130, "Beckett"
-    .byte 0x00, 0x44, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 130
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_MALAMAR
+        ballseal 0
+    endparty
 
 trainerdata 131, "Brent"
-    .byte 0x00, 0x44, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 131
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_SAWK
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_THROH
+        ballseal 0
+    endparty
 
 trainerdata 132, "Ron"
-    .byte 0x00, 0x44, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 132
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 35
+        pokemon SPECIES_CLODSIRE
+        ballseal 0
+    endparty
 
 trainerdata 133, "Morgan"
-    .byte 0x00, 0x44, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 133
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_RHYHORN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_RHYDON
+        ballseal 0
+    endparty
 
 trainerdata 134, "Benjamin"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 134
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_DUGTRIO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 34
+        pokemon SPECIES_GOLEM
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_KROOKODILE
+        ballseal 0
+    endparty
 
 trainerdata 135, "Johnny"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 135
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_BELLSPROUT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_WEEPINBELL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_VICTREEBEL
+        ballseal 0
+    endparty
 
 trainerdata 136, "Linda"
-    .byte 0x01, 0x03, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 136
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_BULBASAUR
+        move MOVE_TOXIC
+        move MOVE_SLUDGE_BOMB
+        move MOVE_LEECH_SEED
+        move MOVE_DOUBLE_EDGE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_IVYSAUR
+        move MOVE_TOXIC
+        move MOVE_SLUDGE_BOMB
+        move MOVE_LEECH_SEED
+        move MOVE_DOUBLE_EDGE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_VENUSAUR
+        move MOVE_TOXIC
+        move MOVE_SLUDGE_BOMB
+        move MOVE_LEECH_SEED
+        move MOVE_DOUBLE_EDGE
+        ballseal 0
+    endparty
 
 trainerdata 137, "Vance"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 137
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+    endparty
 
 trainerdata 138, "Mickey"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 138
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_NIDORINO
+        ballseal 0
+    endparty
 
 trainerdata 139, "Debra"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 139
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 140, "Doug"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 140
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+    endparty
 
 trainerdata 141, "Mickey"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 141
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_NIDORINO
+        ballseal 0
+    endparty
 
 trainerdata 142, "Gina"
-    .byte 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 142
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 24
+        pokemon SPECIES_HOPPIP
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 24
+        pokemon SPECIES_HOPPIP
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 32
+        pokemon SPECIES_IVYSAUR
+        ballseal 0
+    endparty
 
 trainerdata 143, "Erik"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 143
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MACHAMP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_AGGRON
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GIGALITH
+        ballseal 0
+    endparty
 
 trainerdata 144, "Michael"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 144
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_CRUSTLE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_CARBINK
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_GOLEM
+        ballseal 0
+    endparty
 
 trainerdata 145, "Parry"
-    .byte 0x00, 0x09, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 145
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_STEELIX
+        ballseal 0
+    endparty
 
 trainerdata 146, "Timothy"
-    .byte 0x01, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 146
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_COALOSSAL
+        move MOVE_ROCK_POLISH
+        move MOVE_SMACK_DOWN
+        move MOVE_FLAME_CHARGE
+        move MOVE_STEALTH_ROCK
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_RHYPERIOR
+        move MOVE_EARTHQUAKE
+        move MOVE_ROCK_BLAST
+        move MOVE_STOMP
+        move MOVE_HORN_ATTACK
+        ballseal 0
+    endparty
 
 trainerdata 147, "Ted"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 147
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_ANNIHILAPE
+        ballseal 0
+    endparty
 
 trainerdata 148, "Lloyd"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 148
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_NIDOKING
+        ballseal 0
+    endparty
 
 trainerdata 149, "Dean"
-    .byte 0x00, 0x04, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 149
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 44
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+    endparty
 
 trainerdata 150, "Sid"
-    .byte 0x00, 0x04, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 150
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_DUGTRIO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_PRIMEAPE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_POLIWRATH
+        ballseal 0
+    endparty
 
 trainerdata 151, "Erin"
-    .byte 0x00, 0x05, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 151
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_RAPIDASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_BELLOSSOM
+        ballseal 0
+    endparty
 
 trainerdata 152, "Hope"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 152
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_FLAAFFY
+        ballseal 0
+    endparty
 
 trainerdata 153, "Sharon"
-    .byte 0x00, 0x05, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 153
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_FURRET
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_RAPIDASH
+        ballseal 0
+    endparty
 
 trainerdata 154, "Bailey"
-    .byte 0x00, 0x09, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 154
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_OMASTAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_PUPITAR
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_ARMALDO
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_CRADILY
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_KABUTOPS
+        ballseal 0
+    endparty
 
 trainerdata 155, "Anthony"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 155
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_MACHOKE
+        ballseal 0
+    endparty
 
 trainerdata 156, "Yoshi"
-    .byte 0x01, 0x0E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 156
+        // mon 0
+        ivs 40
+        abilityslot 32
+        level 33
+        pokemon SPECIES_HITMONLEE
+        move MOVE_DOUBLE_KICK
+        move MOVE_MEDITATE
+        move MOVE_JUMP_KICK
+        move MOVE_FOCUS_ENERGY
+        ballseal 0
+    endparty
 
 trainerdata 157, "Lao"
-    .byte 0x01, 0x0E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 157
+        // mon 0
+        ivs 40
+        abilityslot 32
+        level 33
+        pokemon SPECIES_HITMONCHAN
+        move MOVE_MACH_PUNCH
+        move MOVE_THUNDER_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_FIRE_PUNCH
+        ballseal 0
+    endparty
 
 trainerdata 158, "Kiyo"
-    .byte 0x00, 0x0E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 158
+        // mon 0
+        ivs 100
+        abilityslot 32
+        level 34
+        pokemon SPECIES_HITMONLEE
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 32
+        level 34
+        pokemon SPECIES_HITMONCHAN
+        ballseal 0
+    endparty
 
 trainerdata 159, "Lung"
-    .byte 0x00, 0x0E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 159
+        // mon 0
+        ivs 40
+        abilityslot 0
+        level 33
+        pokemon SPECIES_PIGNITE
+        ballseal 0
+
+        // mon 1
+        ivs 40
+        abilityslot 32
+        level 33
+        pokemon SPECIES_MONFERNO
+        ballseal 0
+
+        // mon 2
+        ivs 40
+        abilityslot 32
+        level 33
+        pokemon SPECIES_COMBUSKEN
+        ballseal 0
+    endparty
 
 trainerdata 160, "Naoko"
-    .byte 0x03, 0x2F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 160
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 38
+        pokemon SPECIES_ESPEON
+        item ITEM_NONE
+        move MOVE_LAST_RESORT
+        move MOVE_PSYCHIC
+        move MOVE_PSYCH_UP
+        move MOVE_SWIFT
+        ballseal 0
+    endparty
 
 trainerdata 161, "Sayo"
-    .byte 0x03, 0x2F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 161
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 38
+        pokemon SPECIES_JOLTEON
+        item ITEM_NONE
+        move MOVE_LAST_RESORT
+        move MOVE_THUNDERBOLT
+        move MOVE_DOUBLE_TEAM
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+    endparty
 
 trainerdata 162, "Zuki"
-    .byte 0x03, 0x2F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 162
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 38
+        pokemon SPECIES_UMBREON
+        item ITEM_NONE
+        move MOVE_LAST_RESORT
+        move MOVE_DARK_PULSE
+        move MOVE_CONFUSE_RAY
+        move MOVE_SHADOW_BALL
+        ballseal 0
+    endparty
 
 trainerdata 163, "Kuni"
-    .byte 0x03, 0x2F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 163
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 38
+        pokemon SPECIES_VAPOREON
+        item ITEM_NONE
+        move MOVE_LAST_RESORT
+        move MOVE_SURF
+        move MOVE_QUICK_ATTACK
+        move MOVE_AURORA_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 164, "Miki"
-    .byte 0x03, 0x2F, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 164
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 38
+        pokemon SPECIES_FLAREON
+        item ITEM_NONE
+        move MOVE_LAST_RESORT
+        move MOVE_FIRE_BLAST
+        move MOVE_QUICK_ATTACK
+        move MOVE_WILL_O_WISP
+        ballseal 0
+    endparty
 
 trainerdata 165, "Mickey"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 165
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_JYNX
+        ballseal 0
+    endparty
 
 trainerdata 166, "Mickey"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 166
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_DEWGONG
+        ballseal 0
+    endparty
 
 trainerdata 167, "Mickey"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 167
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 168, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 168
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_SEEL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_DEWGONG
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_SEEL
+        ballseal 0
+    endparty
 
 trainerdata 169, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 169
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_PILOSWINE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_PILOSWINE
+        ballseal 0
+    endparty
 
 trainerdata 170, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 170
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_SHELLDER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_CLOYSTER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_SHELLDER
+        ballseal 0
+    endparty
 
 trainerdata 171, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 171
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_HORSEA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_HORSEA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SEADRA
+        ballseal 0
+    endparty
 
 trainerdata 172, "Brent"
-    .byte 0x00, 0x44, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 172
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_NIDORINA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_NIDORINO
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+    endparty
 
 trainerdata 173, "Brent"
-    .byte 0x00, 0x44, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 173
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_LICKITUNG
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_NIDORINA
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_NIDORINO
+        ballseal 0
+    endparty
 
 trainerdata 174, "Mickey"
-    .byte 0x00, 0x41, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 174
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 175, "Bethany"
-    .byte 0x00, 0x52, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 175
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HAUNTER
+        ballseal 0
+    endparty
 
 trainerdata 176, "Margaret"
-    .byte 0x00, 0x52, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 176
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HAUNTER
+        ballseal 0
+    endparty
 
 trainerdata 177, "Ethel"
-    .byte 0x00, 0x52, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 177
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HAUNTER
+        ballseal 0
+    endparty
 
 trainerdata 178, "Jack"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 178
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 12
+        pokemon SPECIES_ODDISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+    endparty
 
 trainerdata 179, "Kipp"
-    .byte 0x00, 0x3C, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 179
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_MAGNETON
+        ballseal 0
+    endparty
 
 trainerdata 180, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 180
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 181, "William"
-    .byte 0x00, 0x14, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 181
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_RAICHU
+        ballseal 0
+    endparty
 
 trainerdata 182, "Beverly"
-    .byte 0x00, 0x15, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 182
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_SNUBBULL
+        ballseal 0
+    endparty
 
 trainerdata 183, "Alice"
-    .byte 0x01, 0x03, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 183
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_GLOOM
+        move MOVE_TOXIC
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SWEET_SCENT
+        move MOVE_DRAIN_PUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_ARBOK
+        move MOVE_POISON_JAB
+        move MOVE_SCREECH
+        move MOVE_CRUNCH
+        move MOVE_MUD_BOMB
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_VILEPLUME
+        move MOVE_TOXIC
+        move MOVE_SLUDGE_BOMB
+        move MOVE_ATTRACT
+        move MOVE_DRAIN_PUNCH
+        ballseal 0
+    endparty
 
 trainerdata 184, "Krise"
-    .byte 0x00, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 184
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 14
+        pokemon SPECIES_ODDISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_CUBONE
+        ballseal 0
+    endparty
 
 trainerdata 185, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 185
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 36
+        pokemon SPECIES_OBSTAGOON
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 32
+        level 36
+        pokemon SPECIES_URSARING
+        ballseal 0
+    endparty
 
 trainerdata 186, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 186
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_SKUNTANK
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_PURUGLY
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_MUK
+        ballseal 0
+    endparty
 
 trainerdata 187, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 187
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 33
+        pokemon SPECIES_PURUGLY
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 32
+        level 33
+        pokemon SPECIES_WATCHOG
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 32
+        level 36
+        pokemon SPECIES_FURFROU
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 32
+        level 36
+        pokemon SPECIES_TOXICROAK
+        ballseal 0
+
+        // mon 4
+        ivs 30
+        abilityslot 32
+        level 36
+        pokemon SPECIES_SWALOT
+        ballseal 0
+    endparty
 
 trainerdata 188, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 188
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_DUSTOX
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+    endparty
 
 trainerdata 189, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 189
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_WEEZING
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_MUK
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 32
+        level 35
+        pokemon SPECIES_RATICATE
+        ballseal 0
+    endparty
 
 trainerdata 190, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 190
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_WEEZING
+        ballseal 0
+    endparty
 
 trainerdata 191, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 191
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 35
+        pokemon SPECIES_OBSTAGOON
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_VENOMOTH
+        ballseal 0
+    endparty
 
 trainerdata 192, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 192
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_TOXICROAK
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+    endparty
 
 trainerdata 193, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 193
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MUK
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 40
+        pokemon SPECIES_WEEZING
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 32
+        level 40
+        pokemon SPECIES_RATICATE
+        ballseal 0
+    endparty
 
 trainerdata 194, "Mickey"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 194
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_HOUNDOUR
+        ballseal 0
+    endparty
 
 trainerdata 195, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 195
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 40
+        pokemon SPECIES_TOXICROAK
+        ballseal 0
+    endparty
 
 trainerdata 196, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 196
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 39
+        pokemon SPECIES_RATICATE
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+    endparty
 
 trainerdata 197, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 197
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 39
+        pokemon SPECIES_THIEVUL
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 39
+        pokemon SPECIES_CENTISKORCH
+        ballseal 0
+    endparty
 
 trainerdata 198, "Grunt"
-    .byte 0x00, 0x3E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 198
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 36
+        pokemon SPECIES_SEVIPER
+        ballseal 0
+    endparty
 
 trainerdata 199, "Grunt"
-    .byte 0x00, 0x3E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 199
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEISMITOAD
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 40
+        pokemon SPECIES_ORBEETLE
+        ballseal 0
+    endparty
 
 trainerdata 200, "Grunt"
-    .byte 0x00, 0x3E, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET_F
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 200
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 34
+        pokemon SPECIES_SEVIPER
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 34
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 32
+        level 34
+        pokemon SPECIES_ARBOK
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 34
+        pokemon SPECIES_VILEPLUME
+        ballseal 0
+    endparty
 
 trainerdata 201, "Andrew"
-    .byte 0x00, 0x44, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 201
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_MAROWAK
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_MAROWAK
+        ballseal 0
+    endparty
 
 trainerdata 202, "Calvin"
-    .byte 0x00, 0x44, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 202
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 26
+        pokemon SPECIES_KANGASKHAN
+        ballseal 0
+    endparty
 
 trainerdata 203, "Phillip"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 203
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 23
+        pokemon SPECIES_GEODUDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 25
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+    endparty
 
 trainerdata 204, "Leonard"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 204
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 23
+        pokemon SPECIES_GEODUDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 25
+        pokemon SPECIES_MACHOP
+        ballseal 0
+    endparty
 
 trainerdata 205, "Nick"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 205
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 26
+        pokemon SPECIES_CHARMANDER
+        move MOVE_FIRE_FANG
+        move MOVE_SMOKESCREEN
+        move MOVE_DRAGON_RAGE
+        move MOVE_SCARY_FACE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 26
+        pokemon SPECIES_SQUIRTLE
+        move MOVE_WITHDRAW
+        move MOVE_WATER_GUN
+        move MOVE_BITE
+        move MOVE_CURSE
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 26
+        pokemon SPECIES_BULBASAUR
+        move MOVE_LEECH_SEED
+        move MOVE_POISON_POWDER
+        move MOVE_SLEEP_POWDER
+        move MOVE_RAZOR_LEAF
+        ballseal 0
+    endparty
 
 trainerdata 206, "Gwen"
-    .byte 0x00, 0x19, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 206
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 26
+        pokemon SPECIES_EEVEE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 22
+        pokemon SPECIES_FLAREON
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 22
+        pokemon SPECIES_VAPOREON
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 0
+        level 22
+        pokemon SPECIES_JOLTEON
+        ballseal 0
+    endparty
 
 trainerdata 207, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 207
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 208, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 208
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_FURRET
+        ballseal 0
+    endparty
 
 trainerdata 209, "Cassie"
-    .byte 0x00, 0x24, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 209
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_VILEPLUME
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+    endparty
 
 trainerdata 210, "Caroline"
-    .byte 0x00, 0x24, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 210
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_MARILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEEL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 2
+        level 38
+        pokemon SPECIES_MARILL
+        ballseal 0
+    endparty
 
 trainerdata 211, "Huey"
-    .byte 0x00, 0x2E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 211
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_MASQUERAIN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GOLISOPOD
+        ballseal 0
+    endparty
 
 trainerdata 212, "Terrell"
-    .byte 0x00, 0x2E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 212
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_WAILORD
+        ballseal 0
+    endparty
 
 trainerdata 213, "Kent"
-    .byte 0x01, 0x2E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 213
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_DRAGALGE
+        move MOVE_WATER_PULSE
+        move MOVE_POISON_TAIL
+        move MOVE_TOXIC
+        move MOVE_TWISTER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_CLAWITZER
+        move MOVE_BUBBLE_BEAM
+        move MOVE_AURA_SPHERE
+        move MOVE_DRAGON_PULSE
+        move MOVE_AQUA_JET
+        ballseal 0
+    endparty
 
 trainerdata 214, "Roberto"
-    .byte 0x00, 0x2E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 214
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_GURDURR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_PAWMOT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_FLAMIGO
+        ballseal 0
+    endparty
 
 trainerdata 215, "Connie"
-    .byte 0x00, 0x03, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 215
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_POLITOED
+        ballseal 0
+    endparty
 
 trainerdata 216, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 216
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 30
+        pokemon SPECIES_RATICATE
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 32
+        level 30
+        pokemon SPECIES_BOUFFALANT
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 32
+        level 30
+        pokemon SPECIES_OBSTAGOON
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 32
+        level 30
+        pokemon SPECIES_GRAFAIAI
+        ballseal 0
+    endparty
 
 trainerdata 217, "Denis"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 217
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 31
+        pokemon SPECIES_TOGEKISS
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 31
+        pokemon SPECIES_HONCHKROW
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 31
+        pokemon SPECIES_UNFEZANT
+        ballseal 0
+    endparty
 
 trainerdata 218, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 218
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 33
+        pokemon SPECIES_CROBAT
+        ballseal 0
+    endparty
 
 trainerdata 219, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 219
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 31
+        pokemon SPECIES_ROSERADE
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 31
+        pokemon SPECIES_DUSTOX
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 32
+        level 31
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+    endparty
 
 trainerdata 220, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 220
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 18
+        pokemon SPECIES_VENONAT
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 32
+        level 18
+        pokemon SPECIES_VENONAT
+        ballseal 0
+    endparty
 
 trainerdata 221, "Mickey"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 221
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 22
+        pokemon SPECIES_ZUBAT
+        ballseal 0
+    endparty
 
 trainerdata 222, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 222
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 32
+        pokemon SPECIES_STOUTLAND
+        ballseal 0
+    endparty
 
 trainerdata 223, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 223
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 32
+        pokemon SPECIES_HYPNO
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+    endparty
 
 trainerdata 224, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 224
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 30
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 30
+        pokemon SPECIES_MUK
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 32
+        level 28
+        pokemon SPECIES_RATICATE
+        ballseal 0
+    endparty
 
 trainerdata 225, "Mickey"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 225
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+    endparty
 
 trainerdata 226, "Mickey"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 226
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 227, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 227
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 38
+        pokemon SPECIES_MABOSSTIFF
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GRAFAIAI
+        ballseal 0
+    endparty
 
 trainerdata 228, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 228
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SKUNTANK
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SPIRITOMB
+        ballseal 0
+    endparty
 
 trainerdata 229, "Mickey"
-    .byte 0x00, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 229
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_RATTATA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 230, "Franklin"
-    .byte 0x01, 0x31, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 230
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 44
+        pokemon SPECIES_KADABRA
+        move MOVE_HEADBUTT
+        move MOVE_SKILL_SWAP
+        move MOVE_PSYCHIC
+        move MOVE_DISABLE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 47
+        pokemon SPECIES_GIRAFARIG
+        move MOVE_CRUNCH
+        move MOVE_SKILL_SWAP
+        move MOVE_DOUBLE_HIT
+        move MOVE_PSYCHIC
+        ballseal 0
+    endparty
 
 trainerdata 231, "Edward"
-    .byte 0x00, 0x22, 0x00, 0x01, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 1
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 231
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_PERSIAN
+        ballseal 0
+    endparty
 
 trainerdata 232, "Vincent"
-    .byte 0x01, 0x34, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_GUITARIST
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 232
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_JOLTEON
+        move MOVE_SHOCK_WAVE
+        move MOVE_QUICK_ATTACK
+        move MOVE_PIN_MISSILE
+        move MOVE_HELPING_HAND
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_VOLTORB
+        move MOVE_SHOCK_WAVE
+        move MOVE_SWIFT
+        move MOVE_GYRO_BALL
+        move MOVE_SCREECH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_MAGNEMITE
+        move MOVE_SHOCK_WAVE
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+    endparty
 
 trainerdata 233, "Eric"
-    .byte 0x00, 0x4E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 233
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_KLINK
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_BRONZOR
+        ballseal 0
+    endparty
 
 trainerdata 234, "Eoin"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 234
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+    endparty
 
 trainerdata 235, "Noland"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 235
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_BRONZOR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_GOLEM
+        ballseal 0
+    endparty
 
 trainerdata 236, "Shaye"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 236
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 43
+        pokemon SPECIES_JOLTEON
+        move MOVE_DOUBLE_KICK
+        move MOVE_THUNDERBOLT
+        move MOVE_QUICK_ATTACK
+        move MOVE_SAND_ATTACK
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 43
+        pokemon SPECIES_TANGELA
+        move MOVE_ANCIENT_POWER
+        move MOVE_STUN_SPORE
+        move MOVE_GIGA_DRAIN
+        move MOVE_INGRAIN
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 43
+        pokemon SPECIES_TAUROS
+        move MOVE_TAKE_DOWN
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_PAYBACK
+        move MOVE_SCARY_FACE
+        ballseal 0
+    endparty
 
 trainerdata 237, "Carol"
-    .byte 0x01, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 237
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 43
+        pokemon SPECIES_ELECTRODE
+        move MOVE_THUNDER
+        move MOVE_SELF_DESTRUCT
+        move MOVE_SWIFT
+        move MOVE_RAIN_DANCE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 43
+        pokemon SPECIES_STARMIE
+        move MOVE_RECOVER
+        move MOVE_BRINE
+        move MOVE_THUNDER
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 43
+        pokemon SPECIES_NINETALES
+        move MOVE_NASTY_PLOT
+        move MOVE_FIRE_BLAST
+        move MOVE_CONFUSE_RAY
+        move MOVE_WILL_O_WISP
+        ballseal 0
+    endparty
 
 trainerdata 238, "Stanly"
-    .byte 0x00, 0x2E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 238
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_MACHOP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_MACHOKE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 34
+        pokemon SPECIES_PSYDUCK
+        ballseal 0
+    endparty
 
 trainerdata 239, "Jeff"
-    .byte 0x00, 0x2E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 239
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MAKUHITA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_RATICATE
+        ballseal 0
+    endparty
 
 trainerdata 240, "Garrett"
-    .byte 0x00, 0x2E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 240
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_KINGLER
+        ballseal 0
+    endparty
 
 trainerdata 241, "Kenneth"
-    .byte 0x00, 0x2E, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 241
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MACHOP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_MACHOP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_POLIWRATH
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_MACHOP
+        ballseal 0
+    endparty
 
 trainerdata 242, "Fritz"
-    .byte 0x01, 0x1F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_JUGGLER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 242
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 37
+        pokemon SPECIES_MR_MIME
+        move MOVE_SUBSTITUTE
+        move MOVE_PSYCHIC
+        move MOVE_ENCORE
+        move MOVE_DOUBLE_SLAP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_MAGMAR
+        move MOVE_LAVA_PLUME
+        move MOVE_FIRE_PUNCH
+        move MOVE_CONFUSE_RAY
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_MACHOKE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_KARATE_CHOP
+        move MOVE_SEISMIC_TOSS
+        move MOVE_REVENGE
+        ballseal 0
+    endparty
 
 trainerdata 243, "Katie"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 243
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_DEWGONG
+        ballseal 0
+    endparty
 
 trainerdata 244, "Lance"
-    .byte 0x03, 0x56, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_CHAMPION
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 244
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 51
+        pokemon SPECIES_GYARADOS
+        item ITEM_NONE
+        move MOVE_FLAIL
+        move MOVE_DRAGON_PULSE
+        move MOVE_WATERFALL
+        move MOVE_ICE_FANG
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 54
+        pokemon SPECIES_DRAGONITE
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_DRAGON_RUSH
+        move MOVE_FLY
+        move MOVE_HYPER_BEAM
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 54
+        pokemon SPECIES_DRAGONITE
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_DRAGON_RUSH
+        move MOVE_BLIZZARD
+        move MOVE_HYPER_BEAM
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 53
+        pokemon SPECIES_AERODACTYL
+        item ITEM_NONE
+        move MOVE_AERIAL_ACE
+        move MOVE_CRUNCH
+        move MOVE_ROCK_SLIDE
+        move MOVE_THUNDER_FANG
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 53
+        pokemon SPECIES_CHARIZARD
+        item ITEM_NONE
+        move MOVE_SHADOW_CLAW
+        move MOVE_AIR_SLASH
+        move MOVE_DRAGON_CLAW
+        move MOVE_FIRE_FANG
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 55
+        pokemon SPECIES_TYRANITAR
+        item ITEM_TYRANITARITE
+        move MOVE_EARTHQUAKE
+        move MOVE_STONE_EDGE
+        move MOVE_THRASH
+        move MOVE_CRUNCH
+        ballseal 0
+    endparty
 
 trainerdata 245, "Will"
-    .byte 0x03, 0x57, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_WILL
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 245
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 41
+        pokemon SPECIES_XATU
+        item ITEM_NONE
+        move MOVE_U_TURN
+        move MOVE_ME_FIRST
+        move MOVE_CONFUSE_RAY
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 42
+        pokemon SPECIES_JYNX
+        item ITEM_NONE
+        move MOVE_DOUBLE_SLAP
+        move MOVE_LOVELY_KISS
+        move MOVE_ICE_PUNCH
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 43
+        pokemon SPECIES_EXEGGUTOR
+        item ITEM_NONE
+        move MOVE_REFLECT
+        move MOVE_HYPNOSIS
+        move MOVE_EGG_BOMB
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 43
+        pokemon SPECIES_SLOWKING
+        item ITEM_NONE
+        move MOVE_CURSE
+        move MOVE_AMNESIA
+        move MOVE_WATER_PULSE
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 32
+        level 44
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_ALAKAZITE
+        move MOVE_DISABLE
+        move MOVE_REFLECT
+        move MOVE_CALM_MIND
+        move MOVE_PSYCHIC
+        ballseal 0
+    endparty
 
 trainerdata 246, "Karen"
-    .byte 0x03, 0x58, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_KAREN
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 246
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 45
+        pokemon SPECIES_UMBREON
+        item ITEM_NONE
+        move MOVE_DOUBLE_TEAM
+        move MOVE_CONFUSE_RAY
+        move MOVE_TOXIC
+        move MOVE_PAYBACK
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 45
+        pokemon SPECIES_VILEPLUME
+        item ITEM_NONE
+        move MOVE_STUN_SPORE
+        move MOVE_ACID
+        move MOVE_MOONLIGHT
+        move MOVE_PETAL_DANCE
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 48
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_SHADOW_BALL
+        move MOVE_SPITE
+        move MOVE_FOCUS_BLAST
+        move MOVE_DESTINY_BOND
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 46
+        pokemon SPECIES_HONCHKROW
+        item ITEM_NONE
+        move MOVE_PLUCK
+        move MOVE_WHIRLWIND
+        move MOVE_SUCKER_PUNCH
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 49
+        pokemon SPECIES_HOUNDOOM
+        item ITEM_HOUNDOOMINITE
+        move MOVE_NASTY_PLOT
+        move MOVE_DARK_PULSE
+        move MOVE_FLAMETHROWER
+        move MOVE_CRUNCH
+        ballseal 0
+    endparty
 
 trainerdata 247, "Koga"
-    .byte 0x03, 0x59, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_KOGA
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 247
+        // mon 0
+        ivs 250
+        abilityslot 32
+        level 42
+        pokemon SPECIES_ARIADOS
+        item ITEM_NONE
+        move MOVE_POISON_JAB
+        move MOVE_SWORDS_DANCE
+        move MOVE_BATON_PASS
+        move MOVE_NIGHT_SLASH
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 42
+        pokemon SPECIES_VENOMOTH
+        item ITEM_NONE
+        move MOVE_SUPERSONIC
+        move MOVE_GUST
+        move MOVE_PSYCHIC
+        move MOVE_TOXIC
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 45
+        pokemon SPECIES_FORRETRESS
+        item ITEM_NONE
+        move MOVE_PROTECT
+        move MOVE_SWIFT
+        move MOVE_EXPLOSION
+        move MOVE_TOXIC_SPIKES
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 44
+        pokemon SPECIES_BEEDRILL
+        item ITEM_BEEDRILLITE
+        move MOVE_FELL_STINGER
+        move MOVE_TWINEEDLE
+        move MOVE_POISON_JAB
+        move MOVE_AGILITY
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 46
+        pokemon SPECIES_CROBAT
+        item ITEM_SITRUS_BERRY
+        move MOVE_DOUBLE_TEAM
+        move MOVE_QUICK_ATTACK
+        move MOVE_WING_ATTACK
+        move MOVE_POISON_FANG
+        ballseal 0
+    endparty
 
 trainerdata 248, "Ed"
-    .byte 0x00, 0x06, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 248
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_BURMY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+    endparty
 
 trainerdata 249, "Don"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 249
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 4
+        pokemon SPECIES_BLIPBUG
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 4
+        pokemon SPECIES_CATERPIE
+        ballseal 0
+    endparty
 
 trainerdata 250, "Kenji"
-    .byte 0x00, 0x0E, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 250
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 27
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 32
+        pokemon SPECIES_HITMONLEE
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 27
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 32
+        pokemon SPECIES_MACHOKE
+        ballseal 0
+    endparty
 
 trainerdata 251, "Nob"
-    .byte 0x01, 0x0E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 251
+        // mon 0
+        ivs 40
+        abilityslot 32
+        level 32
+        pokemon SPECIES_SCRAFTY
+        move MOVE_SWAGGER
+        move MOVE_BRICK_BREAK
+        move MOVE_PAYBACK
+        move MOVE_LEER
+        ballseal 0
+
+        // mon 1
+        ivs 40
+        abilityslot 32
+        level 32
+        pokemon SPECIES_BRELOOM
+        move MOVE_MACH_PUNCH
+        move MOVE_BULLET_SEED
+        move MOVE_STUN_SPORE
+        move MOVE_FORCE_PALM
+        ballseal 0
+    endparty
 
 trainerdata 252, "Harold"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 252
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_REMORAID
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEADRA
+        ballseal 0
+    endparty
 
 trainerdata 253, "Brock"
-    .byte 0x03, 0x62, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BROCK
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 253
+        // mon 0
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_GOLEM
+        item ITEM_FOCUS_SASH
+        move MOVE_STEALTH_ROCK
+        move MOVE_ROCK_SLIDE
+        move MOVE_HEAVY_SLAM
+        move MOVE_SANDSTORM
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_TYRANTRUM
+        item ITEM_CHOICE_SCARF
+        move MOVE_DRAGON_CLAW
+        move MOVE_HEAD_SMASH
+        move MOVE_EARTHQUAKE
+        move MOVE_CRUNCH
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_CARRACOSTA
+        item ITEM_LIFE_ORB
+        move MOVE_AQUA_JET
+        move MOVE_SHELL_SMASH
+        move MOVE_CRUNCH
+        move MOVE_SUPERPOWER
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_ARMALDO
+        item ITEM_SITRUS_BERRY
+        move MOVE_X_SCISSOR
+        move MOVE_ROCK_BLAST
+        move MOVE_BRICK_BREAK
+        move MOVE_LIQUIDATION
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_AERODACTYL
+        item ITEM_AERODACTYLITE
+        move MOVE_WING_ATTACK
+        move MOVE_FIRE_FANG
+        move MOVE_CRUNCH
+        move MOVE_THUNDER_FANG
+        ballseal 0
+        // mon 5
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_IRON_THORNS
+        item ITEM_CHOICE_BAND
+        move MOVE_THUNDER_FANG
+        move MOVE_ROCK_SLIDE
+        move MOVE_EARTHQUAKE
+        move MOVE_FIRE_FANG
+        ballseal 0
+    endparty
 
 trainerdata 254, "Misty"
-    .byte 0x03, 0x67, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_MISTY
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 254
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_KYOGRE
+        item ITEM_CHOICE_SCARF
+        move MOVE_WATER_SPOUT
+        move MOVE_ICE_BEAM
+        move MOVE_THUNDER
+        move MOVE_ORIGIN_PULSE
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_SEISMITOAD
+        item ITEM_RINDO_BERRY
+        move MOVE_DRAIN_PUNCH
+        move MOVE_LIQUIDATION
+        move MOVE_EARTHQUAKE
+        move MOVE_ICE_PUNCH
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_LAPRAS
+        item ITEM_LEFTOVERS
+        move MOVE_SCALD
+        move MOVE_SING
+        move MOVE_ICE_BEAM
+        move MOVE_PERISH_SONG
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_STARMIE
+        item ITEM_LIFE_ORB
+        move MOVE_SCALD
+        move MOVE_PSYCHIC
+        move MOVE_RECOVER
+        move MOVE_ICE_BEAM
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_BLASTOISE
+        item ITEM_BLASTOISINITE
+        move MOVE_WATER_PULSE
+        move MOVE_FLASH_CANNON
+        move MOVE_SHELL_SMASH
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_PRIMARINA
+        item ITEM_SITRUS_BERRY
+        move MOVE_SPARKLING_ARIA
+        move MOVE_MOONBLAST
+        move MOVE_ICE_BEAM
+        move MOVE_CALM_MIND
+        ballseal 0
+    endparty
 
 trainerdata 255, "Lt. Surge"
-    .byte 0x03, 0x68, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_LT_SURGE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 255
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_GALVANTULA
+        item ITEM_FOCUS_SASH
+        move MOVE_STICKY_WEB
+        move MOVE_THUNDER_WAVE
+        move MOVE_ELECTROWEB
+        move MOVE_BUG_BUZZ
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_AMPHAROS
+        item ITEM_AMPHAROSITE
+        move MOVE_DISCHARGE
+        move MOVE_DRAGON_PULSE
+        move MOVE_VOLT_SWITCH
+        move MOVE_ICE_PUNCH
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_LEFTOVERS
+        move MOVE_SUPERSONIC
+        move MOVE_DOUBLE_TEAM
+        move MOVE_DISCHARGE
+        move MOVE_FLASH_CANNON
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_RAIKOU
+        item ITEM_CHOICE_SPECS
+        move MOVE_THUNDERBOLT
+        move MOVE_EXTREME_SPEED
+        move MOVE_VOLT_SWITCH
+        move MOVE_EXTRASENSORY
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_ELECTIVIRE
+        item ITEM_ASSAULT_VEST
+        move MOVE_ICE_PUNCH
+        move MOVE_POWER_UP_PUNCH
+        move MOVE_THUNDER_PUNCH
+        move MOVE_CLOSE_COMBAT
+        ballseal 0
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_RAICHU
+        item ITEM_LIFE_ORB
+        move MOVE_NUZZLE
+        move MOVE_SURF
+        move MOVE_THUNDERBOLT
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+    endparty
 
 trainerdata 256, "Erika"
-    .byte 0x03, 0x69, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_ERIKA
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 256
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_JUMPLUFF
+        item ITEM_NONE
+        move MOVE_U_TURN
+        move MOVE_LEECH_SEED
+        move MOVE_ACROBATICS
+        move MOVE_BULLET_SEED
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_TANGROWTH
+        item ITEM_ROCKY_HELMET
+        move MOVE_ANCIENT_POWER
+        move MOVE_STUN_SPORE
+        move MOVE_GIGA_DRAIN
+        move MOVE_SLEEP_POWDER
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_RILLABOOM
+        item ITEM_ASSAULT_VEST
+        move MOVE_WOOD_HAMMER
+        move MOVE_KNOCK_OFF
+        move MOVE_SLAM
+        move MOVE_STOMPING_TANTRUM
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_LUDICOLO
+        item ITEM_LEFTOVERS
+        move MOVE_FAKE_OUT
+        move MOVE_SURF
+        move MOVE_GIGA_DRAIN
+        move MOVE_ICE_BEAM
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_SCEPTILE
+        item ITEM_SCEPTILITE
+        move MOVE_DRAGON_PULSE
+        move MOVE_ENERGY_BALL
+        move MOVE_VACUUM_WAVE
+        move MOVE_AGILITY
+        ballseal 0
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_BRUTE_BONNET
+        item ITEM_CHOICE_BAND
+        move MOVE_SUCKER_PUNCH
+        move MOVE_SEED_BOMB
+        move MOVE_CLOSE_COMBAT
+        move MOVE_CRUNCH
+        ballseal 0
+    endparty
 
 trainerdata 257, "Janine"
-    .byte 0x03, 0x6A, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_JANINE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 257
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_CROBAT
+        item ITEM_CHOICE_BAND
+        move MOVE_CROSS_POISON
+        move MOVE_LEECH_LIFE
+        move MOVE_U_TURN
+        move MOVE_BRAVE_BIRD
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_AMOONGUSS
+        item ITEM_BLACK_SLUDGE
+        move MOVE_GIGA_DRAIN
+        move MOVE_SLUDGE_BOMB
+        move MOVE_TOXIC
+        move MOVE_SPORE
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_VENUSAUR
+        item ITEM_MEGA_STONES_START
+        move MOVE_SLUDGE_BOMB
+        move MOVE_PETAL_BLIZZARD
+        move MOVE_EARTH_POWER
+        move MOVE_GIGA_DRAIN
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_SCOLIPEDE
+        item ITEM_FOCUS_SASH
+        move MOVE_TOXIC_SPIKES
+        move MOVE_BATON_PASS
+        move MOVE_AGILITY
+        move MOVE_PROTECT
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_CLODSIRE
+        item ITEM_SITRUS_BERRY
+        move MOVE_EARTHQUAKE
+        move MOVE_POISON_JAB
+        move MOVE_TOXIC_SPIKES
+        move MOVE_AMNESIA
+        ballseal 0
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_NAGANADEL
+        item ITEM_LIFE_ORB
+        move MOVE_VENOSHOCK
+        move MOVE_DRAGON_PULSE
+        move MOVE_NASTY_PLOT
+        move MOVE_AIR_SLASH
+        ballseal 0
+    endparty
 
 trainerdata 258, "Sabrina"
-    .byte 0x03, 0x6B, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_SABRINA
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 258
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_REUNICLUS
+        item ITEM_LEFTOVERS
+        move MOVE_LIGHT_SCREEN
+        move MOVE_REFLECT
+        move MOVE_RECOVER
+        move MOVE_PSYSHOCK
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_ESPEON
+        item ITEM_WISE_GLASSES
+        move MOVE_SHADOW_BALL
+        move MOVE_SKILL_SWAP
+        move MOVE_CALM_MIND
+        move MOVE_PSYCHIC
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_GARDEVOIR
+        item ITEM_LIFE_ORB
+        move MOVE_MOONBLAST
+        move MOVE_PSYCHIC
+        move MOVE_WISH
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_CHOICE_SPECS
+        move MOVE_FOCUS_BLAST
+        move MOVE_PSYCHIC
+        move MOVE_ENERGY_BALL
+        move MOVE_DAZZLING_GLEAM
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_METAGROSS
+        item ITEM_METAGROSSITE
+        move MOVE_BULLET_PUNCH
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_METEOR_MASH
+        move MOVE_HAMMER_ARM
+        ballseal 0
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_CRESSELIA
+        item ITEM_SITRUS_BERRY
+        move MOVE_MOONLIGHT
+        move MOVE_SAFEGUARD
+        move MOVE_TOXIC
+        move MOVE_PSYCHIC
+        ballseal 0
+    endparty
 
 trainerdata 259, "Blaine"
-    .byte 0x03, 0x6C, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BLAINE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 259
+        // mon 0
+        ivs 200
+        abilityslot 32
+        level 80
+        pokemon SPECIES_CHARIZARD
+        item ITEM_CHARIZARDITE_Y
+        move MOVE_AIR_SLASH
+        move MOVE_HEAT_WAVE
+        move MOVE_FLAMETHROWER
+        move MOVE_DRAGON_BREATH
+        ballseal 0
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 80
+        pokemon SPECIES_MAGMORTAR
+        item ITEM_CHOICE_SPECS
+        move MOVE_SCALD
+        move MOVE_FLAMETHROWER
+        move MOVE_FIRE_BLAST
+        move MOVE_SOLAR_BEAM
+        ballseal 0
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 80
+        pokemon SPECIES_INFERNAPE
+        item ITEM_LIFE_ORB
+        move MOVE_CLOSE_COMBAT
+        move MOVE_MACH_PUNCH
+        move MOVE_BULLET_PUNCH
+        move MOVE_FLARE_BLITZ
+        ballseal 0
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 80
+        pokemon SPECIES_NINETALES
+        item ITEM_WHITE_HERB
+        move MOVE_MOONBLAST
+        move MOVE_SOLAR_BEAM
+        move MOVE_FLAMETHROWER
+        move MOVE_NASTY_PLOT
+        ballseal 0
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 80
+        pokemon SPECIES_RAPIDASH
+        item ITEM_CHOICE_SCARF
+        move MOVE_WILD_CHARGE
+        move MOVE_FLARE_BLITZ
+        move MOVE_ZING_ZAP
+        move MOVE_POISON_JAB
+        ballseal 0
+        // mon 5
+        ivs 200
+        abilityslot 32
+        level 80
+        pokemon SPECIES_RESHIRAM
+        item ITEM_ASSAULT_VEST
+        move MOVE_FUSION_FLARE
+        move MOVE_DRAGON_PULSE
+        move MOVE_EXTRASENSORY
+        move MOVE_HYPER_VOICE
+        ballseal 0
+    endparty
 
 trainerdata 260, "Red"
-    .byte 0x03, 0x6D, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PKMN_TRAINER_RED
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 260
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_PIKACHU
+        item ITEM_LIGHT_BALL
+        move MOVE_VOLT_SWITCH
+        move MOVE_CHARGE_BEAM
+        move MOVE_SURF
+        move MOVE_THUNDERBOLT
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 32
+        level 100
+        pokemon SPECIES_MEWTWO
+        item ITEM_MEWTWONITE_Y
+        move MOVE_PSYSTRIKE
+        move MOVE_ICE_BEAM
+        move MOVE_FIRE_BLAST
+        move MOVE_CALM_MIND
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 32
+        level 100
+        pokemon SPECIES_SNORLAX
+        item ITEM_LEFTOVERS
+        move MOVE_HIGH_HORSEPOWER
+        move MOVE_CRUNCH
+        move MOVE_HEAVY_SLAM
+        move MOVE_GIGA_IMPACT
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_VENUSAUR
+        item ITEM_BLACK_SLUDGE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_GIGA_DRAIN
+        move MOVE_SLEEP_POWDER
+        move MOVE_EARTH_POWER
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_CHARIZARD
+        item ITEM_CHOICE_SCARF
+        move MOVE_FLARE_BLITZ
+        move MOVE_AIR_SLASH
+        move MOVE_FLAMETHROWER
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 100
+        pokemon SPECIES_BLASTOISE
+        item ITEM_ASSAULT_VEST
+        move MOVE_FOCUS_BLAST
+        move MOVE_HYDRO_CANNON
+        move MOVE_BLIZZARD
+        move MOVE_FLASH_CANNON
+        ballseal 0
+    endparty
 
 trainerdata 261, "Blue"
-    .byte 0x03, 0x6E, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BLUE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 261
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 90
+        pokemon SPECIES_MEW
+        item ITEM_LEFTOVERS
+        move MOVE_DRAGON_DANCE
+        move MOVE_BATON_PASS
+        move MOVE_PSYCHIC
+        move MOVE_ANCIENT_POWER
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 90
+        pokemon SPECIES_ARCANINE
+        item ITEM_CHOICE_BAND
+        move MOVE_IRON_HEAD
+        move MOVE_PLAY_ROUGH
+        move MOVE_FLARE_BLITZ
+        move MOVE_EXTREME_SPEED
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 32
+        level 90
+        pokemon SPECIES_RHYPERIOR
+        item ITEM_ROCKY_HELMET
+        move MOVE_MEGAHORN
+        move MOVE_STONE_EDGE
+        move MOVE_THUNDER_FANG
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 90
+        pokemon SPECIES_GYARADOS
+        item ITEM_WACAN_BERRY
+        move MOVE_ICE_FANG
+        move MOVE_WATERFALL
+        move MOVE_DRAGON_DANCE
+        move MOVE_RETURN
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 32
+        level 90
+        pokemon SPECIES_MACHAMP
+        item ITEM_ASSAULT_VEST
+        move MOVE_DYNAMIC_PUNCH
+        move MOVE_EARTHQUAKE
+        move MOVE_STONE_EDGE
+        move MOVE_THUNDER_PUNCH
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 90
+        pokemon SPECIES_PIDGEOT
+        item ITEM_PIDGEOTITE
+        move MOVE_HURRICANE
+        move MOVE_WHIRLWIND
+        move MOVE_ROOST
+        move MOVE_HYPER_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 262, "Mickey"
-    .byte 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 262
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 25
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 25
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 30
+        pokemon SPECIES_ARBOK
+        ballseal 0
+    endparty
 
 trainerdata 263, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 263
+        // mon 0
+        ivs 80
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HAUNTER
+        move MOVE_LICK
+        move MOVE_CONFUSE_RAY
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        ballseal 0
+
+        // mon 1
+        ivs 80
+        abilityslot 0
+        level 22
+        pokemon SPECIES_MAGNEMITE
+        move MOVE_THUNDER_WAVE
+        move MOVE_THUNDER_SHOCK
+        move MOVE_SUPERSONIC
+        move MOVE_SONIC_BOOM
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 0
+        level 25
+        pokemon SPECIES_GOLBAT
+        move MOVE_POISON_FANG
+        move MOVE_SUPERSONIC
+        move MOVE_BITE
+        move MOVE_WING_ATTACK
+        ballseal 0
+
+        // mon 3
+        ivs 80
+        abilityslot 0
+        level 25
+        pokemon SPECIES_BAYLEEF
+        move MOVE_SYNTHESIS
+        move MOVE_REFLECT
+        move MOVE_MAGICAL_LEAF
+        move MOVE_POISON_POWDER
+        ballseal 0
+    endparty
 
 trainerdata 264, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 264
+        // mon 0
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_WEAVILE
+        move MOVE_ICE_SHARD
+        move MOVE_HONE_CLAWS
+        move MOVE_FEINT_ATTACK
+        move MOVE_FURY_SWIPES
+        ballseal 0
+
+        // mon 1
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_CROBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_MAGNEZONE
+        move MOVE_DISCHARGE
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_FLASH_CANNON
+        ballseal 0
+
+        // mon 3
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_GENGAR
+        move MOVE_MEAN_LOOK
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_KADABRA
+        move MOVE_DISABLE
+        move MOVE_PSYBEAM
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_MEGANIUM
+        move MOVE_DAZZLING_GLEAM
+        move MOVE_GIGA_DRAIN
+        move MOVE_POISON_POWDER
+        move MOVE_SYNTHESIS
+        ballseal 0
+    endparty
 
 trainerdata 265, "Silver"
-    .byte 0x00, 0x17, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 265
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_CHIKORITA
+        ballseal 0
+    endparty
 
 trainerdata 266, "Silver"
-    .byte 0x00, 0x17, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 266
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 14
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 16
+        pokemon SPECIES_ZUBAT
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 18
+        pokemon SPECIES_QUILAVA
+        ballseal 0
+    endparty
 
 trainerdata 267, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 267
+        // mon 0
+        ivs 80
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HAUNTER
+        move MOVE_LICK
+        move MOVE_CONFUSE_RAY
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        ballseal 0
+
+        // mon 1
+        ivs 80
+        abilityslot 0
+        level 22
+        pokemon SPECIES_MAGNEMITE
+        move MOVE_THUNDER_WAVE
+        move MOVE_THUNDER_SHOCK
+        move MOVE_SUPERSONIC
+        move MOVE_SONIC_BOOM
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 0
+        level 25
+        pokemon SPECIES_GOLBAT
+        move MOVE_POISON_FANG
+        move MOVE_SUPERSONIC
+        move MOVE_BITE
+        move MOVE_WING_ATTACK
+        ballseal 0
+
+        // mon 3
+        ivs 80
+        abilityslot 0
+        level 22
+        pokemon SPECIES_QUILAVA
+        move MOVE_FLAME_WHEEL
+        move MOVE_SMOKESCREEN
+        move MOVE_EMBER
+        move MOVE_QUICK_ATTACK
+        ballseal 0
+    endparty
 
 trainerdata 268, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 268
+        // mon 0
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_WEAVILE
+        move MOVE_ICE_SHARD
+        move MOVE_HONE_CLAWS
+        move MOVE_FEINT_ATTACK
+        move MOVE_FURY_SWIPES
+        ballseal 0
+
+        // mon 1
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_CROBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_MAGNEZONE
+        move MOVE_DISCHARGE
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_FLASH_CANNON
+        ballseal 0
+
+        // mon 3
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_GENGAR
+        move MOVE_MEAN_LOOK
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_KADABRA
+        move MOVE_DISABLE
+        move MOVE_PSYBEAM
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_TYPHLOSION
+        move MOVE_LAVA_PLUME
+        move MOVE_SWIFT
+        move MOVE_QUICK_ATTACK
+        move MOVE_EARTH_POWER
+        ballseal 0
+    endparty
 
 trainerdata 269, "Silver"
-    .byte 0x00, 0x17, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 269
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 14
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 16
+        pokemon SPECIES_ZUBAT
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 18
+        pokemon SPECIES_CROCONAW
+        ballseal 0
+    endparty
 
 trainerdata 270, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 270
+        // mon 0
+        ivs 80
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HAUNTER
+        move MOVE_LICK
+        move MOVE_CONFUSE_RAY
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        ballseal 0
+
+        // mon 1
+        ivs 80
+        abilityslot 0
+        level 22
+        pokemon SPECIES_MAGNEMITE
+        move MOVE_THUNDER_WAVE
+        move MOVE_THUNDER_SHOCK
+        move MOVE_SUPERSONIC
+        move MOVE_SONIC_BOOM
+        ballseal 0
+
+        // mon 2
+        ivs 80
+        abilityslot 0
+        level 25
+        pokemon SPECIES_GOLBAT
+        move MOVE_POISON_FANG
+        move MOVE_SUPERSONIC
+        move MOVE_BITE
+        move MOVE_WING_ATTACK
+        ballseal 0
+
+        // mon 3
+        ivs 80
+        abilityslot 0
+        level 22
+        pokemon SPECIES_CROCONAW
+        move MOVE_SCARY_FACE
+        move MOVE_ICE_FANG
+        move MOVE_WATER_GUN
+        move MOVE_BITE
+        ballseal 0
+    endparty
 
 trainerdata 271, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 271
+        // mon 0
+        ivs 120
+        abilityslot 0
+        level 36
+        pokemon SPECIES_CROBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 1
+        ivs 120
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MAGNETON
+        move MOVE_SUPERSONIC
+        move MOVE_DISCHARGE
+        move MOVE_FLASH_CANNON
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 2
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_HAUNTER
+        move MOVE_CONFUSE_RAY
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        ballseal 0
+
+        // mon 3
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_SNEASEL
+        move MOVE_ICE_SHARD
+        move MOVE_METAL_CLAW
+        move MOVE_FURY_SWIPES
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 4
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_FERALIGATR
+        move MOVE_ICE_FANG
+        move MOVE_WATER_GUN
+        move MOVE_CRUNCH
+        move MOVE_THRASH
+        ballseal 0
+    endparty
 
 trainerdata 272, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 272
+        // mon 0
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_WEAVILE
+        move MOVE_ICE_SHARD
+        move MOVE_HONE_CLAWS
+        move MOVE_FEINT_ATTACK
+        move MOVE_FURY_SWIPES
+        ballseal 0
+
+        // mon 1
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_CROBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_MAGNEZONE
+        move MOVE_DISCHARGE
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_FLASH_CANNON
+        ballseal 0
+
+        // mon 3
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_GENGAR
+        move MOVE_MEAN_LOOK
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_KADABRA
+        move MOVE_DISABLE
+        move MOVE_PSYBEAM
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 160
+        abilityslot 0
+        level 45
+        pokemon SPECIES_FERALIGATR
+        move MOVE_WATERFALL
+        move MOVE_ICE_FANG
+        move MOVE_CRUNCH
+        move MOVE_SLASH
+        ballseal 0
+    endparty
 
 trainerdata 273, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 273
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_STARYU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_STARMIE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_HORSEA
+        ballseal 0
+    endparty
 
 trainerdata 274, "Todd"
-    .byte 0x00, 0x04, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 274
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_GEODUDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_GEODUDE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_PSYDUCK
+        ballseal 0
+    endparty
 
 trainerdata 275, "Todd"
-    .byte 0x00, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 275
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 23
+        pokemon SPECIES_GEODUDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_SLUGMA
+        ballseal 0
+    endparty
 
 trainerdata 276, "Liz"
-    .byte 0x00, 0x05, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 276
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_WEEPINBELL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 38
+        pokemon SPECIES_NIDORINA
+        ballseal 0
+    endparty
 
 trainerdata 277, "Liz"
-    .byte 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 277
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_WEEPINBELL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_NIDORINO
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+    endparty
 
 trainerdata 278, "Kenji"
-    .byte 0x00, 0x0E, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 278
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 30
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 37
+        pokemon SPECIES_MACHAMP
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 33
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 41
+        pokemon SPECIES_HITMONLEE
+        ballseal 0
+    endparty
 
 trainerdata 279, "Joey"
-    .byte 0x00, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 279
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_RATICATE
+        ballseal 0
+    endparty
 
 trainerdata 280, "Joey"
-    .byte 0x01, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 280
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_RATICATE
+        move MOVE_SUPER_FANG
+        move MOVE_QUICK_ATTACK
+        move MOVE_HYPER_FANG
+        move MOVE_SCARY_FACE
+        ballseal 0
+    endparty
 
 trainerdata 281, "Richard"
-    .byte 0x00, 0x40, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 281
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_CHARMELEON
+        ballseal 0
+    endparty
 
 trainerdata 282, "Ned"
-    .byte 0x00, 0x40, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 282
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 283, "Orson"
-    .byte 0x01, 0x3F, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BURGLAR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 283
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_ARCANINE
+        move MOVE_ROAR
+        move MOVE_FLAME_WHEEL
+        move MOVE_LEER
+        move MOVE_BITE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_TENTACRUEL
+        move MOVE_SURF
+        move MOVE_SUPERSONIC
+        move MOVE_ACID_SPRAY
+        move MOVE_ACID_ARMOR
+        ballseal 0
+    endparty
 
 trainerdata 284, "Corey"
-    .byte 0x00, 0x3F, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BURGLAR
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 284
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 285, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 285
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 46
+        pokemon SPECIES_SNEASEL
+        move MOVE_QUICK_ATTACK
+        move MOVE_ICY_WIND
+        move MOVE_FEINT_ATTACK
+        move MOVE_SHADOW_CLAW
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 47
+        pokemon SPECIES_GOLBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 46
+        pokemon SPECIES_MAGNETON
+        move MOVE_DISCHARGE
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_GENGAR
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_DISABLE
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 50
+        pokemon SPECIES_MEGANIUM
+        move MOVE_PETAL_DANCE
+        move MOVE_POISON_POWDER
+        move MOVE_SYNTHESIS
+        move MOVE_LIGHT_SCREEN
+        ballseal 0
+    endparty
 
 trainerdata 286, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 286
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 46
+        pokemon SPECIES_SNEASEL
+        move MOVE_QUICK_ATTACK
+        move MOVE_ICY_WIND
+        move MOVE_FEINT_ATTACK
+        move MOVE_SHADOW_CLAW
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 47
+        pokemon SPECIES_GOLBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 46
+        pokemon SPECIES_MAGNETON
+        move MOVE_DISCHARGE
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_GENGAR
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_DISABLE
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 50
+        pokemon SPECIES_TYPHLOSION
+        move MOVE_FLAMETHROWER
+        move MOVE_QUICK_ATTACK
+        move MOVE_FLAME_WHEEL
+        move MOVE_SWIFT
+        ballseal 0
+    endparty
 
 trainerdata 287, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 287
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 46
+        pokemon SPECIES_SNEASEL
+        move MOVE_QUICK_ATTACK
+        move MOVE_ICY_WIND
+        move MOVE_FEINT_ATTACK
+        move MOVE_SHADOW_CLAW
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 47
+        pokemon SPECIES_GOLBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 46
+        pokemon SPECIES_MAGNETON
+        move MOVE_DISCHARGE
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_GENGAR
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_DISABLE
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 50
+        pokemon SPECIES_FERALIGATR
+        move MOVE_WATERFALL
+        move MOVE_ICE_FANG
+        move MOVE_CRUNCH
+        move MOVE_SLASH
+        ballseal 0
+    endparty
 
 trainerdata 288, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 288
+        // mon 0
+        ivs 120
+        abilityslot 0
+        level 36
+        pokemon SPECIES_CROBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 1
+        ivs 120
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MAGNETON
+        move MOVE_SUPERSONIC
+        move MOVE_DISCHARGE
+        move MOVE_FLASH_CANNON
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 2
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_HAUNTER
+        move MOVE_CONFUSE_RAY
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        ballseal 0
+
+        // mon 3
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_SNEASEL
+        move MOVE_ICE_SHARD
+        move MOVE_METAL_CLAW
+        move MOVE_FURY_SWIPES
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 4
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_MEGANIUM
+        move MOVE_REFLECT
+        move MOVE_GIGA_DRAIN
+        move MOVE_POISON_POWDER
+        move MOVE_DAZZLING_GLEAM
+        ballseal 0
+    endparty
 
 trainerdata 289, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 289
+        // mon 0
+        ivs 120
+        abilityslot 0
+        level 36
+        pokemon SPECIES_CROBAT
+        move MOVE_POISON_FANG
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 1
+        ivs 120
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MAGNETON
+        move MOVE_SUPERSONIC
+        move MOVE_DISCHARGE
+        move MOVE_FLASH_CANNON
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 2
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_HAUNTER
+        move MOVE_CONFUSE_RAY
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        ballseal 0
+
+        // mon 3
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_SNEASEL
+        move MOVE_ICE_SHARD
+        move MOVE_METAL_CLAW
+        move MOVE_FURY_SWIPES
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+
+        // mon 4
+        ivs 120
+        abilityslot 0
+        level 35
+        pokemon SPECIES_TYPHLOSION
+        move MOVE_EARTH_POWER
+        move MOVE_SWIFT
+        move MOVE_QUICK_ATTACK
+        move MOVE_FLAME_WHEEL
+        ballseal 0
+    endparty
 
 trainerdata 290, "Li"
-    .byte 0x00, 0x6F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ELDER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 290
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_BELLSPROUT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_HOOTHOOT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 11
+        pokemon SPECIES_WEEPINBELL
+        ballseal 0
+    endparty
 
 trainerdata 291, "Debbie"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 291
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_CLAMPERL
+        ballseal 0
+    endparty
 
 trainerdata 292, "Mickey"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 292
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 293, "Nicole"
-    .byte 0x00, 0x2B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 293
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_MARILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_MARILL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_LAPRAS
+        ballseal 0
+    endparty
 
 trainerdata 294, "Lori"
-    .byte 0x01, 0x2B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 294
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_STARMIE
+        move MOVE_THUNDERBOLT
+        move MOVE_SURF
+        move MOVE_ICE_BEAM
+        move MOVE_RECOVER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_STARMIE
+        move MOVE_THUNDERBOLT
+        move MOVE_SURF
+        move MOVE_ICE_BEAM
+        move MOVE_RECOVER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_STARMIE
+        move MOVE_RECOVER
+        move MOVE_WATER_PULSE
+        move MOVE_THUNDER
+        move MOVE_BLIZZARD
+        ballseal 0
+    endparty
 
 trainerdata 295, "Mickey"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 295
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 296, "Nikki"
-    .byte 0x00, 0x2B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 296
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_SEEL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_DEWGONG
+        ballseal 0
+    endparty
 
 trainerdata 297, "Diana"
-    .byte 0x01, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 297
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 48
+        pokemon SPECIES_GOLDUCK
+        move MOVE_WATER_PULSE
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_PSYCH_UP
+        move MOVE_DISABLE
+        ballseal 0
+    endparty
 
 trainerdata 298, "Briana"
-    .byte 0x01, 0x2B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 298
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 46
+        pokemon SPECIES_SEAKING
+        move MOVE_WATER_PULSE
+        move MOVE_AQUA_RING
+        move MOVE_SUPERSONIC
+        move MOVE_POISON_JAB
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 46
+        pokemon SPECIES_SEAKING
+        move MOVE_WATER_PULSE
+        move MOVE_AQUA_RING
+        move MOVE_SUPERSONIC
+        move MOVE_POISON_JAB
+        ballseal 0
+    endparty
 
 trainerdata 299, "Hank"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 299
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 13
+        pokemon SPECIES_PIDGEY
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 44
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+    endparty
 
 trainerdata 300, "Roy"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 300
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 38
+        pokemon SPECIES_FEAROW
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_FEAROW
+        ballseal 0
+    endparty
 
 trainerdata 301, "Boris"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 301
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 39
+        pokemon SPECIES_DODUO
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 37
+        pokemon SPECIES_DODUO
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 41
+        pokemon SPECIES_DODRIO
+        ballseal 0
+    endparty
 
 trainerdata 302, "Bob"
-    .byte 0x00, 0x45, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 302
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 48
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+    endparty
 
 trainerdata 303, "Jose"
-    .byte 0x00, 0x45, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 303
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+    endparty
 
 trainerdata 304, "Mickey"
-    .byte 0x00, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 304
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+    endparty
 
 trainerdata 305, "Mickey"
-    .byte 0x00, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 305
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+    endparty
 
 trainerdata 306, "Mickey"
-    .byte 0x00, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 306
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+    endparty
 
 trainerdata 307, "Mickey"
-    .byte 0x00, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 307
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+    endparty
 
 trainerdata 308, "Jerry"
-    .byte 0x01, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 308
+        // mon 0
+        ivs 80
+        abilityslot 32
+        level 50
+        pokemon SPECIES_RHYDON
+        move MOVE_ROCK_SLIDE
+        move MOVE_AVALANCHE
+        move MOVE_HAMMER_ARM
+        move MOVE_TAKE_DOWN
+        ballseal 0
+    endparty
 
 trainerdata 309, "Dwayne"
-    .byte 0x00, 0x41, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 309
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 310, "Harris"
-    .byte 0x00, 0x41, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 310
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_FLAREON
+        ballseal 0
+    endparty
 
 trainerdata 311, "Zeke"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 311
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 312, "Charles"
-    .byte 0x00, 0x41, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 312
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_CHARMELEON
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_WEEZING
+        ballseal 0
+    endparty
 
 trainerdata 313, "Reese"
-    .byte 0x00, 0x41, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 313
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_WEEZING
+        ballseal 0
+    endparty
 
 trainerdata 314, "Joel"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 314
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+    endparty
 
 trainerdata 315, "Glenn"
-    .byte 0x00, 0x41, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 315
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_WEEZING
+        ballseal 0
+    endparty
 
 trainerdata 316, "Herman"
-    .byte 0x01, 0x31, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 316
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_EXEGGCUTE
+        move MOVE_PSYCHIC
+        move MOVE_HYPNOSIS
+        move MOVE_BARRAGE
+        move MOVE_DREAM_EATER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_EXEGGCUTE
+        move MOVE_PSYCHIC
+        move MOVE_HYPNOSIS
+        move MOVE_BARRAGE
+        move MOVE_DREAM_EATER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_EXEGGUTOR
+        move MOVE_PSYCHIC
+        move MOVE_HYPNOSIS
+        move MOVE_WOOD_HAMMER
+        move MOVE_DREAM_EATER
+        ballseal 0
+    endparty
 
 trainerdata 317, "Fidel"
-    .byte 0x01, 0x31, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 317
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_XATU
+        move MOVE_FUTURE_SIGHT
+        move MOVE_PSYCHO_SHIFT
+        move MOVE_CONFUSE_RAY
+        move MOVE_ME_FIRST
+        ballseal 0
+    endparty
 
 trainerdata 318, "Burt"
-    .byte 0x01, 0x40, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 318
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_WEEZING
+        move MOVE_FLAMETHROWER
+        move MOVE_EXPLOSION
+        move MOVE_DOUBLE_HIT
+        move MOVE_SLUDGE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_MAGCARGO
+        move MOVE_LAVA_PLUME
+        move MOVE_AMNESIA
+        move MOVE_ANCIENT_POWER
+        move MOVE_RECOVER
+        ballseal 0
+    endparty
 
 trainerdata 319, "Bill"
-    .byte 0x00, 0x40, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 319
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 12
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 12
+        pokemon SPECIES_NUMEL
+        ballseal 0
+    endparty
 
 trainerdata 320, "Martin"
-    .byte 0x00, 0x0B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 320
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_REMORAID
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_OCTILLERY
+        ballseal 0
+    endparty
 
 trainerdata 321, "Stephen"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 321
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_QUAGSIRE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 322, "Barney"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 322
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+    endparty
 
 trainerdata 323, "Tully"
-    .byte 0x00, 0x0B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 323
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+    endparty
 
 trainerdata 324, "Tully"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 324
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+    endparty
 
 trainerdata 325, "Wilton"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 325
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 326, "Jo & Zoe"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 326
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_VICTREEBEL
+        move MOVE_GIGA_DRAIN
+        move MOVE_SLEEP_POWDER
+        move MOVE_SLUDGE_BOMB
+        move MOVE_PROTECT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_VILEPLUME
+        move MOVE_GIGA_DRAIN
+        move MOVE_STUN_SPORE
+        move MOVE_DRAIN_PUNCH
+        move MOVE_ATTRACT
+        ballseal 0
+    endparty
 
 trainerdata 327, "Danny"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 327
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_JYNX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_ELECTABUZZ
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+    endparty
 
 trainerdata 328, "Tommy"
-    .byte 0x01, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 328
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_XATU
+        move MOVE_CONFUSE_RAY
+        move MOVE_NIGHT_SHADE
+        move MOVE_FLY
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        move MOVE_REFLECT
+        move MOVE_FOCUS_BLAST
+        ballseal 0
+    endparty
 
 trainerdata 329, "Dudley"
-    .byte 0x02, 0x3C, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 329
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_ODDISH
+        item ITEM_SITRUS_BERRY
+        ballseal 0
+    endparty
 
 trainerdata 330, "Joe"
-    .byte 0x02, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 330
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_TANGELA
+        item ITEM_SITRUS_BERRY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_VAPOREON
+        item ITEM_NONE
+        ballseal 0
+    endparty
 
 trainerdata 331, "Billy"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 331
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_PARASECT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_DITTO
+        ballseal 0
+    endparty
 
 trainerdata 332, "Heidi"
-    .byte 0x00, 0x05, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 332
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+    endparty
 
 trainerdata 333, "Edna"
-    .byte 0x00, 0x05, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 333
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_NIDORINA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_RAICHU
+        ballseal 0
+    endparty
 
 trainerdata 334, "Gina"
-    .byte 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 334
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_IVYSAUR
+        ballseal 0
+    endparty
 
 trainerdata 335, "Erin"
-    .byte 0x00, 0x05, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 335
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_RAPIDASH
+        ballseal 0
+    endparty
 
 trainerdata 336, "Tanya"
-    .byte 0x01, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 336
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_EXEGGUTOR
+        move MOVE_GIGA_DRAIN
+        move MOVE_LIGHT_SCREEN
+        move MOVE_EGG_BOMB
+        move MOVE_HYPNOSIS
+        ballseal 0
+    endparty
 
 trainerdata 337, "Gregory"
-    .byte 0x01, 0x22, 0x00, 0x03, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 3
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 337
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_PIKACHU
+        move MOVE_DISCHARGE
+        move MOVE_LIGHT_SCREEN
+        move MOVE_THUNDER_WAVE
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_FLAAFFY
+        move MOVE_SHOCK_WAVE
+        move MOVE_SIGNAL_BEAM
+        move MOVE_CHARGE_BEAM
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_ELECTRIKE
+        move MOVE_SHOCK_WAVE
+        move MOVE_ROAR
+        move MOVE_THUNDER_WAVE
+        move MOVE_THUNDER_FANG
+        ballseal 0
+    endparty
 
 trainerdata 338, "Mickey"
-    .byte 0x00, 0x22, 0x00, 0x01, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 1
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 338
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_PONYTA
+        ballseal 0
+    endparty
 
 trainerdata 339, "Wai"
-    .byte 0x00, 0x0E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 339
+        // mon 0
+        ivs 30
+        abilityslot 32
+        level 38
+        pokemon SPECIES_MACHOKE
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 32
+        level 40
+        pokemon SPECIES_MACHOKE
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 42
+        pokemon SPECIES_MEDITITE
+        ballseal 0
+    endparty
 
 trainerdata 340, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 340
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 341, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 341
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 342, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 342
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 343, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 343
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 344, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 344
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 345, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 345
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 346, "Julia"
-    .byte 0x01, 0x24, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 346
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_PARAS
+        move MOVE_GIGA_DRAIN
+        move MOVE_SPORE
+        move MOVE_SLASH
+        move MOVE_ATTRACT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_CARNIVINE
+        move MOVE_GIGA_DRAIN
+        move MOVE_WRING_OUT
+        move MOVE_INGRAIN
+        move MOVE_ATTRACT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_PARASECT
+        move MOVE_GIGA_DRAIN
+        move MOVE_SPORE
+        move MOVE_ATTRACT
+        move MOVE_X_SCISSOR
+        ballseal 0
+    endparty
 
 trainerdata 347, "Mickey"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 347
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 348, "Robert"
-    .byte 0x00, 0x14, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 348
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_QUAGSIRE
+        ballseal 0
+    endparty
 
 trainerdata 349, "Joshua"
-    .byte 0x00, 0x14, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 349
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+    endparty
 
 trainerdata 350, "Carter"
-    .byte 0x00, 0x14, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 350
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_BULBASAUR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_CHARMANDER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_SQUIRTLE
+        ballseal 0
+    endparty
 
 trainerdata 351, "Trevor"
-    .byte 0x00, 0x14, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 351
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_PSYDUCK
+        ballseal 0
+    endparty
 
 trainerdata 352, "Georgia"
-    .byte 0x00, 0x15, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 352
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_SENTRET
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_SENTRET
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_SENTRET
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_FURRET
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 32
+        level 31
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    endparty
 
 trainerdata 353, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 353
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+    endparty
 
 trainerdata 354, "Laura"
-    .byte 0x02, 0x03, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS
+    trainerclass TRAINERCLASS_LASS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 354
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GLOOM
+        item ITEM_SITRUS_BERRY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_PIDGEOTTO
+        item ITEM_NONE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_BELLOSSOM
+        item ITEM_NONE
+        ballseal 0
+    endparty
 
 trainerdata 355, "Shannon"
-    .byte 0x00, 0x03, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 355
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_PARAS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 38
+        pokemon SPECIES_PARAS
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_PARASECT
+        ballseal 0
+    endparty
 
 trainerdata 356, "Michelle"
-    .byte 0x01, 0x03, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 356
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_SKIPLOOM
+        move MOVE_GIGA_DRAIN
+        move MOVE_U_TURN
+        move MOVE_LEECH_SEED
+        move MOVE_SUNNY_DAY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_HOPPIP
+        move MOVE_GIGA_DRAIN
+        move MOVE_U_TURN
+        move MOVE_STUN_SPORE
+        move MOVE_BOUNCE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_JUMPLUFF
+        move MOVE_GIGA_DRAIN
+        move MOVE_U_TURN
+        move MOVE_SLEEP_POWDER
+        move MOVE_SUNNY_DAY
+        ballseal 0
+    endparty
 
 trainerdata 357, "Clarke"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 357
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_DUGTRIO
+        ballseal 0
+    endparty
 
 trainerdata 358, "Kenny"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 358
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GOLEM
+        ballseal 0
+    endparty
 
 trainerdata 359, "Jim"
-    .byte 0x00, 0x09, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 359
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_MACHAMP
+        ballseal 0
+    endparty
 
 trainerdata 360, "Arnie"
-    .byte 0x00, 0x06, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 360
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_VENONAT
+        ballseal 0
+    endparty
 
 trainerdata 361, "Kevin"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 361
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 48
+        pokemon SPECIES_RHYHORN
+        move MOVE_TAKE_DOWN
+        move MOVE_STONE_EDGE
+        move MOVE_HORN_DRILL
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 46
+        pokemon SPECIES_CHARMELEON
+        move MOVE_FLAMETHROWER
+        move MOVE_SLASH
+        move MOVE_SCARY_FACE
+        move MOVE_AERIAL_ACE
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 46
+        pokemon SPECIES_WARTORTLE
+        move MOVE_HYDRO_PUMP
+        move MOVE_ICE_BEAM
+        move MOVE_BITE
+        move MOVE_SWAGGER
+        ballseal 0
+    endparty
 
 trainerdata 362, "Quinn"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 362
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 47
+        pokemon SPECIES_IVYSAUR
+        move MOVE_SOLAR_BEAM
+        move MOVE_DOUBLE_EDGE
+        move MOVE_SYNTHESIS
+        move MOVE_SLUDGE_BOMB
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 47
+        pokemon SPECIES_STARMIE
+        move MOVE_BLIZZARD
+        move MOVE_CONFUSE_RAY
+        move MOVE_THUNDERBOLT
+        move MOVE_WATER_PULSE
+        ballseal 0
+    endparty
 
 trainerdata 363, "Emma"
-    .byte 0x00, 0x19, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 363
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 28
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+    endparty
 
 trainerdata 364, "Sam"
-    .byte 0x02, 0x4E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 364
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GRIMER
+        item ITEM_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_MUK
+        item ITEM_TOXIC_ORB
+        ballseal 0
+    endparty
 
 trainerdata 365, "Tyrone"
-    .byte 0x00, 0x4E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 365
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+    endparty
 
 trainerdata 366, "Pat"
-    .byte 0x03, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 366
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 47
+        pokemon SPECIES_PORYGON
+        item ITEM_NONE
+        move MOVE_CHARGE_BEAM
+        move MOVE_SIGNAL_BEAM
+        move MOVE_ICE_BEAM
+        move MOVE_SOLAR_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 367, "Shawn"
-    .byte 0x02, 0x4E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 367
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_MAGNEMITE
+        item ITEM_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_MUK
+        item ITEM_NUGGET
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_MAGNEMITE
+        item ITEM_NONE
+        ballseal 0
+    endparty
 
 trainerdata 368, "Rebecca"
-    .byte 0x01, 0x52, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 368
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_BRONZOR
+        move MOVE_FEINT_ATTACK
+        move MOVE_SKILL_SWAP
+        move MOVE_SAFEGUARD
+        move MOVE_GYRO_BALL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_HYPNO
+        move MOVE_SWAGGER
+        move MOVE_SKILL_SWAP
+        move MOVE_PSYBEAM
+        move MOVE_HYPNOSIS
+        ballseal 0
+    endparty
 
 trainerdata 369, "Darcy"
-    .byte 0x01, 0x52, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 369
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 44
+        pokemon SPECIES_SLOWPOKE
+        move MOVE_SKILL_SWAP
+        move MOVE_AMNESIA
+        move MOVE_DISABLE
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 46
+        pokemon SPECIES_SLOWBRO
+        move MOVE_SKILL_SWAP
+        move MOVE_SLACK_OFF
+        move MOVE_PSYCHIC
+        move MOVE_YAWN
+        ballseal 0
+    endparty
 
 trainerdata 370, "Jerome"
-    .byte 0x00, 0x2A, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 370
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_SEADRA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_TENTACOOL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 38
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+    endparty
 
 trainerdata 371, "Tucker"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 371
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SHELLDER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 44
+        pokemon SPECIES_CLOYSTER
+        ballseal 0
+    endparty
 
 trainerdata 372, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 372
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_STARYU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_STARMIE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_HORSEA
+        ballseal 0
+    endparty
 
 trainerdata 373, "Frankie"
-    .byte 0x00, 0x2A, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 373
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 44
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+    endparty
 
 trainerdata 374, "Tyson"
-    .byte 0x01, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 374
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_EARTHQUAKE
+        move MOVE_YAWN
+        move MOVE_SURF
+        move MOVE_AMNESIA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_OCTILLERY
+        move MOVE_SIGNAL_BEAM
+        move MOVE_WRING_OUT
+        move MOVE_OCTAZOOKA
+        move MOVE_AURORA_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 375, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 375
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_STARYU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_STARMIE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_HORSEA
+        ballseal 0
+    endparty
 
 trainerdata 376, "Mickey"
-    .byte 0x00, 0x2A, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 376
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_STARYU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_STARMIE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_HORSEA
+        ballseal 0
+    endparty
 
 trainerdata 377, "Parker"
-    .byte 0x01, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 377
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_HORSEA
+        move MOVE_WATER_PULSE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_TWISTER
+        move MOVE_AGILITY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_SEADRA
+        move MOVE_WATER_PULSE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_TWISTER
+        move MOVE_AGILITY
+        ballseal 0
+    endparty
 
 trainerdata 378, "Warren"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 378
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_FEAROW
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_RATICATE
+        ballseal 0
+    endparty
 
 trainerdata 379, "Jimmy"
-    .byte 0x00, 0x02, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 379
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_RATICATE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_ARBOK
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_PARASECT
+        ballseal 0
+    endparty
 
 trainerdata 380, "Owen"
-    .byte 0x00, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 380
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
+    endparty
 
 trainerdata 381, "Jason"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 381
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_CROBAT
+        ballseal 0
+    endparty
 
 trainerdata 382, "Hillary"
-    .byte 0x00, 0x4D, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEACHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 382
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_SUNKERN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_AIPOM
+        ballseal 0
+    endparty
 
 trainerdata 383, "Peter"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 383
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 12
+        pokemon SPECIES_FLETCHLING
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 12
+        pokemon SPECIES_STARLY
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 12
+        pokemon SPECIES_SPEAROW
+        ballseal 0
+    endparty
 
 trainerdata 384, "Daniel"
-    .byte 0x00, 0x09, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 384
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_ONIX
+        ballseal 0
+    endparty
 
 trainerdata 385, "Dara & Dia"
-    .byte 0x00, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 385
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_MAREEP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_MARILL
+        ballseal 0
+    endparty
 
 trainerdata 386, "Greg"
-    .byte 0x01, 0x31, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 386
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_DROWZEE
+        move MOVE_HYPNOSIS
+        move MOVE_DISABLE
+        move MOVE_DREAM_EATER
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 387, "Amy & Mimi"
-    .byte 0x00, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 387
+        // mon 0
+        ivs 10
+        abilityslot 32
+        level 14
+        pokemon SPECIES_CHARJABUG
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 32
+        level 10
+        pokemon SPECIES_SWADLOON
+        ballseal 0
+    endparty
 
 trainerdata 388, "Walt"
-    .byte 0x00, 0x40, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 388
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_FLETCHINDER
+        ballseal 0
+    endparty
 
 trainerdata 389, "Nelson"
-    .byte 0x01, 0x31, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 389
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_SLOWKING
+        move MOVE_TACKLE
+        move MOVE_GROWL
+        move MOVE_WATER_PULSE
+        move MOVE_CONFUSION
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 29
+        pokemon SPECIES_SLOWBRO
+        move MOVE_CURSE
+        move MOVE_HEADBUTT
+        move MOVE_WATER_PULSE
+        move MOVE_CONFUSION
+        ballseal 0
+    endparty
 
 trainerdata 390, "Ray"
-    .byte 0x00, 0x40, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 390
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_VULPIX
+        ballseal 0
+    endparty
 
 trainerdata 391, "Issac"
-    .byte 0x01, 0x44, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 391
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_LICKITUNG
+        move MOVE_LICK
+        move MOVE_SUPERSONIC
+        move MOVE_CUT
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 392, "Donald"
-    .byte 0x00, 0x44, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 392
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 18
+        pokemon SPECIES_CACNEA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 18
+        pokemon SPECIES_NUZLEAF
+        ballseal 0
+    endparty
 
 trainerdata 393, "Teru"
-    .byte 0x00, 0x4E, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 393
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_ELECTRIKE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_LUXIO
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 16
+        pokemon SPECIES_HELIOPTILE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+    endparty
 
 trainerdata 394, "Mickey"
-    .byte 0x00, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 394
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 14
+        pokemon SPECIES_BULBASAUR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 14
+        pokemon SPECIES_CHARMANDER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 14
+        pokemon SPECIES_SQUIRTLE
+        ballseal 0
+    endparty
 
 trainerdata 395, "Mark"
-    .byte 0x01, 0x31, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 395
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_DUOSION
+        move MOVE_PSYBEAM
+        move MOVE_FLASH
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_GOTHORITA
+        move MOVE_PSYBEAM
+        move MOVE_FLASH
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_KADABRA
+        move MOVE_TELEPORT
+        move MOVE_KINESIS
+        move MOVE_CONFUSION
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 396, "Horton"
-    .byte 0x01, 0x1F, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_JUGGLER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 396
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_ELECTRODE
+        move MOVE_SWIFT
+        move MOVE_SHOCK_WAVE
+        move MOVE_SCREECH
+        move MOVE_EXPLOSION
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_ELECTRODE
+        move MOVE_SWIFT
+        move MOVE_SHOCK_WAVE
+        move MOVE_DOUBLE_TEAM
+        move MOVE_LIGHT_SCREEN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_ELECTRODE
+        move MOVE_SWIFT
+        move MOVE_SHOCK_WAVE
+        move MOVE_SCREECH
+        move MOVE_ROLLOUT
+        ballseal 0
+    endparty
 
 trainerdata 397, "Chad"
-    .byte 0x00, 0x3C, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 397
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_ESPEON
+        ballseal 0
+    endparty
 
 trainerdata 398, "Valerie"
-    .byte 0x01, 0x24, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 398
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_JUMPLUFF
+        move MOVE_MEGA_DRAIN
+        move MOVE_TAIL_WHIP
+        move MOVE_TACKLE
+        move MOVE_POISON_POWDER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 28
+        pokemon SPECIES_WHIMSICOTT
+        move MOVE_ENERGY_BALL
+        move MOVE_FAIRY_WIND
+        move MOVE_LEECH_SEED
+        move MOVE_GROWTH
+        ballseal 0
+    endparty
 
 trainerdata 399, "Lyle"
-    .byte 0x00, 0x40, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 399
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_FLAREON
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 400, "Dana"
-    .byte 0x01, 0x03, 0x00, 0x02, 0x21, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_MOOMOO_MILK
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 400
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_FLAAFFY
+        move MOVE_TACKLE
+        move MOVE_GROWL
+        move MOVE_THUNDER_SHOCK
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_GOLDUCK
+        move MOVE_WATER_GUN
+        move MOVE_TAIL_WHIP
+        move MOVE_DISABLE
+        move MOVE_CONFUSION
+        ballseal 0
+    endparty
 
 trainerdata 401, "Alfred"
-    .byte 0x00, 0x22, 0x00, 0x01, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 1
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 401
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+    endparty
 
 trainerdata 402, "Tiffany"
-    .byte 0x01, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 402
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_FLORGES
+        move MOVE_WISH
+        move MOVE_GRASSY_TERRAIN
+        move MOVE_PETAL_BLIZZARD
+        move MOVE_MOONBLAST
+        ballseal 0
+    endparty
 
 trainerdata 403, "Spencer"
-    .byte 0x00, 0x04, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 403
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_SEISMITOAD
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_CROBAT
+        ballseal 0
+    endparty
 
 trainerdata 404, "Grunt"
-    .byte 0x01, 0x3E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TEAM_ROCKET_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 404
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 31
+        pokemon SPECIES_ARBOK
+        move MOVE_WRAP
+        move MOVE_ICE_FANG
+        move MOVE_ACID_SPRAY
+        move MOVE_CRUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 33
+        pokemon SPECIES_VILEPLUME
+        move MOVE_PETAL_BLIZZARD
+        move MOVE_MOONLIGHT
+        move MOVE_STUN_SPORE
+        move MOVE_SLEEP_POWDER
+        ballseal 0
+    endparty
 
 trainerdata 405, "Phil"
-    .byte 0x01, 0x31, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 405
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_XATU
+        move MOVE_LEER
+        move MOVE_NIGHT_SHADE
+        move MOVE_ME_FIRST
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_DISABLE
+        move MOVE_PSYBEAM
+        move MOVE_REFLECT
+        move MOVE_CHARGE_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 406, "Zach"
-    .byte 0x00, 0x44, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 406
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_RHYPERIOR
+        ballseal 0
+    endparty
 
 trainerdata 407, "Allen"
-    .byte 0x01, 0x18, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 407
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 38
+        pokemon SPECIES_CHARIZARD
+        move MOVE_EMBER
+        move MOVE_SMOKESCREEN
+        move MOVE_FIRE_FANG
+        move MOVE_SCARY_FACE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MAGNETON
+        move MOVE_SPARK
+        move MOVE_THUNDER_WAVE
+        move MOVE_SUPERSONIC
+        move MOVE_METAL_SOUND
+        ballseal 0
+    endparty
 
 trainerdata 408, "Cybil"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 408
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 42
+        pokemon SPECIES_AMPHAROS
+        move MOVE_DISCHARGE
+        move MOVE_COTTON_SPORE
+        move MOVE_CHARGE
+        move MOVE_TACKLE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 42
+        pokemon SPECIES_BELLOSSOM
+        move MOVE_MEGA_DRAIN
+        move MOVE_STUN_SPORE
+        move MOVE_ACID
+        move MOVE_MAGICAL_LEAF
+        ballseal 0
+    endparty
 
 trainerdata 409, "Brandon"
-    .byte 0x00, 0x14, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 409
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_SNUBBULL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_MAREEP
+        ballseal 0
+    endparty
 
 trainerdata 410, "Harry"
-    .byte 0x01, 0x2E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 410
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 20
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_WATER_GUN
+        move MOVE_MUD_BOMB
+        move MOVE_SLAM
+        move MOVE_MUD_SHOT
+        ballseal 0
+    endparty
 
 trainerdata 411, "Vernon"
-    .byte 0x00, 0x31, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 411
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_ESPEON
+        ballseal 0
+    endparty
 
 trainerdata 412, "Eli"
-    .byte 0x00, 0x31, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 412
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_STARMIE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_FARIGIRAF
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_DUDUNSPARCE
+        ballseal 0
+    endparty
 
 trainerdata 413, "Scott"
-    .byte 0x01, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 413
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_OVERQWIL
+        move MOVE_FELL_STINGER
+        move MOVE_BRINE
+        move MOVE_CRUNCH
+        move MOVE_POISON_STING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_WYRDEER
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_CONFUSE_RAY
+        move MOVE_STOMP
+        move MOVE_HYPNOSIS
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SEAKING
+        move MOVE_FURY_ATTACK
+        move MOVE_AQUA_RING
+        move MOVE_FLAIL
+        move MOVE_WATER_PULSE
+        ballseal 0
+    endparty
 
 trainerdata 414, "Jose"
-    .byte 0x00, 0x45, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 414
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+    endparty
 
 trainerdata 415, "Jared"
-    .byte 0x01, 0x31, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 415
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_MR_MIME
+        move MOVE_SKILL_SWAP
+        move MOVE_PSYCHIC
+        move MOVE_REFLECT
+        move MOVE_LIGHT_SCREEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_EXEGGCUTE
+        move MOVE_SKILL_SWAP
+        move MOVE_PSYCHIC
+        move MOVE_SLEEP_POWDER
+        move MOVE_LEECH_SEED
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_EXEGGCUTE
+        move MOVE_SKILL_SWAP
+        move MOVE_PSYCHIC
+        move MOVE_HYPNOSIS
+        move MOVE_GRASS_KNOT
+        ballseal 0
+    endparty
 
 trainerdata 416, "Jo & Zoe"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 416
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_VILEPLUME
+        move MOVE_GIGA_DRAIN
+        move MOVE_STUN_SPORE
+        move MOVE_DRAIN_PUNCH
+        move MOVE_ATTRACT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_VICTREEBEL
+        move MOVE_GIGA_DRAIN
+        move MOVE_SLEEP_POWDER
+        move MOVE_SLUDGE_BOMB
+        move MOVE_PROTECT
+        ballseal 0
+    endparty
 
 trainerdata 417, "Jenn"
-    .byte 0x00, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 417
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 24
+        pokemon SPECIES_STARYU
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 26
+        pokemon SPECIES_STARMIE
+        ballseal 0
+    endparty
 
 trainerdata 418, "Bruno"
-    .byte 0x03, 0x70, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 418
+        // mon 0
+        ivs 250
+        abilityslot 32
+        level 43
+        pokemon SPECIES_HITMONTOP
+        item ITEM_NONE
+        move MOVE_COUNTER
+        move MOVE_FAKE_OUT
+        move MOVE_DIG
+        move MOVE_TRIPLE_KICK
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 32
+        level 43
+        pokemon SPECIES_HITMONLEE
+        item ITEM_NONE
+        move MOVE_SWAGGER
+        move MOVE_FOCUS_ENERGY
+        move MOVE_HIGH_JUMP_KICK
+        move MOVE_BLAZE_KICK
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 32
+        level 43
+        pokemon SPECIES_HITMONCHAN
+        item ITEM_NONE
+        move MOVE_THUNDER_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_FIRE_PUNCH
+        move MOVE_BULLET_PUNCH
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 44
+        pokemon SPECIES_STEELIX
+        item ITEM_NONE
+        move MOVE_DRAGON_BREATH
+        move MOVE_EARTHQUAKE
+        move MOVE_SANDSTORM
+        move MOVE_ROCK_SLIDE
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 32
+        level 47
+        pokemon SPECIES_HERACROSS
+        item ITEM_HERACRONITE
+        move MOVE_PIN_MISSILE
+        move MOVE_FURY_ATTACK
+        move MOVE_ARM_THRUST
+        move MOVE_BULLET_SEED
+        ballseal 0
+    endparty
 
 trainerdata 419, "Ellen"
-    .byte 0x00, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 419
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_WIGGLYTUFF
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GRANBULL
+        ballseal 0
+    endparty
 
 trainerdata 420, "Perry"
-    .byte 0x00, 0x45, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 420
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 42
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+    endparty
 
 trainerdata 421, "Bret"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 421
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 41
+        pokemon SPECIES_TAILLOW
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 41
+        pokemon SPECIES_FEAROW
+        ballseal 0
+    endparty
 
 trainerdata 422, "Rodney"
-    .byte 0x00, 0x31, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 422
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_CHINGLING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_HYPNO
+        ballseal 0
+    endparty
 
 trainerdata 423, "Jeremy"
-    .byte 0x00, 0x14, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 423
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_MEOWTH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_MEOWTH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_MEOWTH
+        ballseal 0
+    endparty
 
 trainerdata 424, "Colin"
-    .byte 0x01, 0x14, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 424
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_DELIBIRD
+        move MOVE_PRESENT
+        move MOVE_AERIAL_ACE
+        move MOVE_AVALANCHE
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 425, "Meg & Peg"
-    .byte 0x00, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 425
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_PHANPY
+        ballseal 0
+    endparty
 
 trainerdata 426, "Meg & Peg"
-    .byte 0x00, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 426
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_PHANPY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+    endparty
 
 trainerdata 427, "Shirley"
-    .byte 0x00, 0x4D, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEACHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 427
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_CHATOT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_JIGGLYPUFF
+        ballseal 0
+    endparty
 
 trainerdata 428, "Nate"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x45, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_MULTI_BATTLE_PARTNER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 428
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_LEDIAN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_EXEGGUTOR
+        ballseal 0
+    endparty
 
 trainerdata 429, "Ricky"
-    .byte 0x02, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 429
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_AIPOM
+        item ITEM_HARD_STONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_DITTO
+        item ITEM_NONE
+        ballseal 0
+    endparty
 
 trainerdata 430, "Jack"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 430
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_GLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 17
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+    endparty
 
 trainerdata 431, "Jack"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 431
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_VILEPLUME
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_ELECTRODE
+        ballseal 0
+    endparty
 
 trainerdata 432, "Alan"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 432
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_TANGELA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_YANMA
+        ballseal 0
+    endparty
 
 trainerdata 433, "Alan"
-    .byte 0x00, 0x3C, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 433
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_XATU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_TANGROWTH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_QUAGSIRE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_YANMEGA
+        ballseal 0
+    endparty
 
 trainerdata 434, "Chad"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 434
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_MR_MIME
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+    endparty
 
 trainerdata 435, "Chad"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 435
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_MR_MIME
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_MAGNETON
+        ballseal 0
+    endparty
 
 trainerdata 436, "Beverly"
-    .byte 0x00, 0x15, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 436
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_SNUBBULL
+        ballseal 0
+    endparty
 
 trainerdata 437, "Beverly"
-    .byte 0x00, 0x15, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 437
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_GRANBULL
+        ballseal 0
+    endparty
 
 trainerdata 438, "Derek"
-    .byte 0x00, 0x14, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 438
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+    endparty
 
 trainerdata 439, "Derek"
-    .byte 0x00, 0x14, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 439
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 13
+        pokemon SPECIES_PICHU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+    endparty
 
 trainerdata 440, "Huey"
-    .byte 0x00, 0x2E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 440
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+    endparty
 
 trainerdata 441, "Huey"
-    .byte 0x00, 0x2E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 441
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_POLIWRATH
+        ballseal 0
+    endparty
 
 trainerdata 442, "Mickey"
-    .byte 0x00, 0x03, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 442
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_MARILL
+        ballseal 0
+    endparty
 
 trainerdata 443, "Mickey"
-    .byte 0x00, 0x03, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 443
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_MARILL
+        ballseal 0
+    endparty
 
 trainerdata 444, "Reena"
-    .byte 0x00, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 444
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_MAGMORTAR
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_ALTARIA
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 45
+        pokemon SPECIES_PRIMARINA
+        ballseal 0
+    endparty
 
 trainerdata 445, "Reena"
-    .byte 0x00, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 445
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 47
+        pokemon SPECIES_ARCANINE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 43
+        pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 47
+        pokemon SPECIES_STARMIE
+        ballseal 0
+    endparty
 
 trainerdata 446, "Jose"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 446
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 38
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+    endparty
 
 trainerdata 447, "Vance"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 447
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 33
+        pokemon SPECIES_HOOTHOOT
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 32
+        pokemon SPECIES_PIDGEOTTO
+        ballseal 0
+    endparty
 
 trainerdata 448, "Vance"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 448
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 37
+        pokemon SPECIES_PIDGEOTTO
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 38
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 42
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+    endparty
 
 trainerdata 449, "Arnie"
-    .byte 0x01, 0x06, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 449
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_VENOMOTH
+        move MOVE_DISABLE
+        move MOVE_SUPERSONIC
+        move MOVE_CONFUSION
+        move MOVE_LEECH_LIFE
+        ballseal 0
+    endparty
 
 trainerdata 450, "Wilton"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 450
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 451, "Parry"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 451
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+    endparty
 
 trainerdata 452, "Parry"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 452
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_STEELIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+    endparty
 
 trainerdata 453, "Erin"
-    .byte 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 453
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_BELLOSSOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_SUNFLORA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 48
+        pokemon SPECIES_RAPIDASH
+        ballseal 0
+    endparty
 
 trainerdata 454, "Irwin"
-    .byte 0x00, 0x1F, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_JUGGLER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 454
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 26
+        pokemon SPECIES_EELEKTRIK
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_PAWMO
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 34
+        pokemon SPECIES_ZEBSTRIKA
+        ballseal 0
+    endparty
 
 trainerdata 455, "Irwin"
-    .byte 0x00, 0x1F, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_JUGGLER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 455
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_VOLTORB
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_ELECTRODE
+        ballseal 0
+    endparty
 
 trainerdata 456, "Gaven"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 456
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SIMISAGE
+        move MOVE_SEED_BOMB
+        move MOVE_ACROBATICS
+        move MOVE_TORMENT
+        move MOVE_PLAY_NICE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SIMIPOUR
+        move MOVE_SCALD
+        move MOVE_ACROBATICS
+        move MOVE_TAUNT
+        move MOVE_PLAY_NICE
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SIMISEAR
+        move MOVE_FLAME_BURST
+        move MOVE_ACROBATICS
+        move MOVE_LEER
+        move MOVE_PLAY_NICE
+        ballseal 0
+    endparty
 
 trainerdata 457, "Gaven"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 457
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 38
+        pokemon SPECIES_VICTREEBEL
+        move MOVE_WRAP
+        move MOVE_TOXIC
+        move MOVE_ACID
+        move MOVE_RAZOR_LEAF
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 39
+        pokemon SPECIES_KINGLER
+        move MOVE_BRINE
+        move MOVE_STOMP
+        move MOVE_X_SCISSOR
+        move MOVE_PROTECT
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 38
+        pokemon SPECIES_FLAREON
+        move MOVE_FIRE_BLAST
+        move MOVE_QUICK_ATTACK
+        move MOVE_SAND_ATTACK
+        move MOVE_FIRE_SPIN
+        ballseal 0
+    endparty
 
 trainerdata 458, "Jamie"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 458
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 38
+        pokemon SPECIES_RAPIDASH
+        move MOVE_STOMP
+        move MOVE_FIRE_SPIN
+        move MOVE_FLAME_WHEEL
+        move MOVE_EMBER
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 37
+        pokemon SPECIES_AMPHAROS
+        move MOVE_DISCHARGE
+        move MOVE_SIGNAL_BEAM
+        move MOVE_CHARGE
+        move MOVE_THUNDER_PUNCH
+        ballseal 0
+    endparty
 
 trainerdata 459, "Jamie"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 459
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 42
+        pokemon SPECIES_RAPIDASH
+        move MOVE_STOMP
+        move MOVE_FIRE_SPIN
+        move MOVE_FIRE_BLAST
+        move MOVE_EMBER
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 40
+        pokemon SPECIES_AMPHAROS
+        move MOVE_DISCHARGE
+        move MOVE_SIGNAL_BEAM
+        move MOVE_CHARGE
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+    endparty
 
 trainerdata 460, "Wade"
-    .byte 0x01, 0x06, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 460
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_BUG_BITE
+        move MOVE_SILVER_WIND
+        move MOVE_CONFUSION
+        move MOVE_GUST
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_BUG_BUZZ
+        move MOVE_TAILWIND
+        move MOVE_CAPTIVATE
+        move MOVE_SAFEGUARD
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_BEEDRILL
+        move MOVE_BUG_BITE
+        move MOVE_TWINEEDLE
+        move MOVE_POISON_JAB
+        move MOVE_FOCUS_ENERGY
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_BUG_BITE
+        move MOVE_GUST
+        move MOVE_SLEEP_POWDER
+        move MOVE_STUN_SPORE
+        ballseal 0
+    endparty
 
 trainerdata 461, "Wade"
-    .byte 0x01, 0x06, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 461
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_METAPOD
+        move MOVE_BUG_BITE
+        move MOVE_STRING_SHOT
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_PSYBEAM
+        move MOVE_SILVER_WIND
+        move MOVE_SUPERSONIC
+        move MOVE_WHIRLWIND
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_KAKUNA
+        move MOVE_BUG_BITE
+        move MOVE_POISON_STING
+        move MOVE_STRING_SHOT
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_METAPOD
+        move MOVE_BUG_BITE
+        move MOVE_STRING_SHOT
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 462, "Ralph"
-    .byte 0x00, 0x0B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 462
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 463, "Ralph"
-    .byte 0x00, 0x0B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 463
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 464, "Dana"
-    .byte 0x01, 0x03, 0x00, 0x02, 0x21, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_MOOMOO_MILK
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 464
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_FLAAFFY
+        move MOVE_COTTON_SPORE
+        move MOVE_CHARGE
+        move MOVE_DISCHARGE
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_PSYDUCK
+        move MOVE_WATER_PULSE
+        move MOVE_SCREECH
+        move MOVE_DISABLE
+        move MOVE_CONFUSION
+        ballseal 0
+    endparty
 
 trainerdata 465, "Dana"
-    .byte 0x01, 0x03, 0x00, 0x02, 0x21, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_MOOMOO_MILK
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 465
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GOLDUCK
+        move MOVE_WATER_PULSE
+        move MOVE_DISABLE
+        move MOVE_CONFUSION
+        move MOVE_SCREECH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_AMPHAROS
+        move MOVE_SIGNAL_BEAM
+        move MOVE_DISCHARGE
+        move MOVE_THUNDER_WAVE
+        move MOVE_COTTON_SPORE
+        ballseal 0
+    endparty
 
 trainerdata 466, "Tiffany"
-    .byte 0x01, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 466
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_CLEFAIRY
+        move MOVE_GRAVITY
+        move MOVE_SING
+        move MOVE_WAKE_UP_SLAP
+        move MOVE_METRONOME
+        ballseal 0
+    endparty
 
 trainerdata 467, "Tiffany"
-    .byte 0x01, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 467
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_CLEFABLE
+        move MOVE_GRAVITY
+        move MOVE_SING
+        move MOVE_WAKE_UP_SLAP
+        move MOVE_MOONLIGHT
+        ballseal 0
+    endparty
 
 trainerdata 468, "Ross"
-    .byte 0x00, 0x71, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 468
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_WEEZING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_SALAZZLE
+        ballseal 0
+    endparty
 
 trainerdata 469, "Mitch"
-    .byte 0x00, 0x71, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 469
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_DITTO
+        ballseal 0
+    endparty
 
 trainerdata 470, "Gregg"
-    .byte 0x00, 0x71, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 470
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_FORRETRESS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 34
+        pokemon SPECIES_REVAVROOM
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_MAGNETON
+        ballseal 0
+    endparty
 
 trainerdata 471, "Garett"
-    .byte 0x00, 0x71, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 471
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_PROBOPASS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_KLINKLANG
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MAGNEZONE
+        ballseal 0
+    endparty
 
 trainerdata 472, "Trenton"
-    .byte 0x01, 0x71, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 472
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 30
+        pokemon SPECIES_PORYGON_Z
+        move MOVE_TRI_ATTACK
+        move MOVE_CONVERSION_2
+        move MOVE_RECOVER
+        move MOVE_CHARGE_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 473, "Mickey"
-    .byte 0x00, 0x4E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 473
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 474, "Mickey"
-    .byte 0x00, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 474
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_DITTO
+        ballseal 0
+    endparty
 
 trainerdata 475, "Mickey"
-    .byte 0x00, 0x4E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 475
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 20
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+    endparty
 
 trainerdata 476, "Mickey"
-    .byte 0x00, 0x4E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 476
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 27
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_MAGNEMITE
+        ballseal 0
+    endparty
 
 trainerdata 477, "Mickey"
-    .byte 0x01, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 477
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 30
+        pokemon SPECIES_PORYGON
+        move MOVE_CONVERSION
+        move MOVE_CONVERSION_2
+        move MOVE_RECOVER
+        move MOVE_TRI_ATTACK
+        ballseal 0
+    endparty
 
 trainerdata 478, "Ariana"
-    .byte 0x01, 0x72, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 478
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 40
+        pokemon SPECIES_AMOONGUSS
+        move MOVE_TOXIC
+        move MOVE_GIGA_DRAIN
+        move MOVE_INGRAIN
+        move MOVE_CLEAR_SMOG
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 40
+        pokemon SPECIES_KROOKODILE
+        move MOVE_CRUNCH
+        move MOVE_SWAGGER
+        move MOVE_EARTHQUAKE
+        move MOVE_HONE_CLAWS
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 32
+        level 40
+        pokemon SPECIES_HONCHKROW
+        move MOVE_WING_ATTACK
+        move MOVE_PURSUIT
+        move MOVE_ASTONISH
+        move MOVE_NIGHT_SLASH
+        ballseal 0
+    endparty
 
 trainerdata 479, "Ariana"
-    .byte 0x01, 0x72, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 479
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 35
+        pokemon SPECIES_AMOONGUSS
+        move MOVE_SYNTHESIS
+        move MOVE_GIGA_DRAIN
+        move MOVE_INGRAIN
+        move MOVE_SPORE
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 35
+        pokemon SPECIES_KROKOROK
+        move MOVE_CRUNCH
+        move MOVE_BULLDOZE
+        move MOVE_SWAGGER
+        move MOVE_HONE_CLAWS
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 32
+        level 35
+        pokemon SPECIES_MURKROW
+        move MOVE_WING_ATTACK
+        move MOVE_FOUL_PLAY
+        move MOVE_SWAGGER
+        move MOVE_SUCKER_PUNCH
+        ballseal 0
+    endparty
 
 trainerdata 480, "Diana"
-    .byte 0x00, 0x38, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SKIER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 480
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 37
+        pokemon SPECIES_JYNX
+        ballseal 0
+    endparty
 
 trainerdata 481, "Jill"
-    .byte 0x00, 0x38, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SKIER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 481
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 37
+        pokemon SPECIES_WALREIN
+        ballseal 0
+    endparty
 
 trainerdata 482, "Deandre"
-    .byte 0x00, 0x73, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BOARDER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 482
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 34
+        pokemon SPECIES_VANILLISH
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 34
+        pokemon SPECIES_GLALIE
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 35
+        pokemon SPECIES_VANILLUXE
+        ballseal 0
+    endparty
 
 trainerdata 483, "Patton"
-    .byte 0x00, 0x73, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BOARDER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 483
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GLACEON
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 35
+        pokemon SPECIES_FROSMOTH
+        ballseal 0
+    endparty
 
 trainerdata 484, "Gerardo"
-    .byte 0x01, 0x73, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BOARDER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 484
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 35
+        pokemon SPECIES_AVALUGG
+        move MOVE_ICE_FANG
+        move MOVE_AVALANCHE
+        move MOVE_CURSE
+        move MOVE_CRUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 36
+        pokemon SPECIES_AURORUS
+        move MOVE_FREEZE_DRY
+        move MOVE_ANCIENT_POWER
+        move MOVE_THUNDER_WAVE
+        move MOVE_ENCORE
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 36
+        pokemon SPECIES_BEARTIC
+        move MOVE_ICICLE_CRASH
+        move MOVE_AQUA_JET
+        move MOVE_POWER_UP_PUNCH
+        move MOVE_ENDURE
+        ballseal 0
+    endparty
 
 trainerdata 485, "Archer"
-    .byte 0x01, 0x74, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_EXECUTIVE_ARCHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 485
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GRIMMSNARL
+        move MOVE_PLAY_ROUGH
+        move MOVE_SUCKER_PUNCH
+        move MOVE_FAKE_OUT
+        move MOVE_POWER_UP_PUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 42
+        pokemon SPECIES_SCRAFTY
+        move MOVE_BRICK_BREAK
+        move MOVE_CRUNCH
+        move MOVE_PROTECT
+        move MOVE_LEER
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 42
+        pokemon SPECIES_HOUNDOOM
+        move MOVE_FLAMETHROWER
+        move MOVE_THUNDER_FANG
+        move MOVE_FOUL_PLAY
+        move MOVE_NASTY_PLOT
+        ballseal 0
+    endparty
 
 trainerdata 486, "Proton"
-    .byte 0x00, 0x75, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_EXECUTIVE_PROTON
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 486
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 13
+        pokemon SPECIES_VENIPEDE
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 15
+        pokemon SPECIES_TRUBBISH
+        ballseal 0
+    endparty
 
 trainerdata 487, "Petrel"
-    .byte 0x01, 0x76, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_EXECUTIVE_PETREL
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 487
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 39
+        pokemon SPECIES_CROBAT
+        move MOVE_POISON_FANG
+        move MOVE_WING_ATTACK
+        move MOVE_BITE
+        move MOVE_TOXIC
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 39
+        pokemon SPECIES_TOXTRICITY
+        move MOVE_DISCHARGE
+        move MOVE_TOXIC
+        move MOVE_VENOSHOCK
+        move MOVE_ACID_SPRAY
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 40
+        pokemon SPECIES_VICTREEBEL
+        move MOVE_SLEEP_POWDER
+        move MOVE_LEAF_STORM
+        move MOVE_SWEET_SCENT
+        move MOVE_TOXIC
+        ballseal 0
+
+        // mon 3
+        ivs 100
+        abilityslot 0
+        level 40
+        pokemon SPECIES_WEEZING
+        move MOVE_TACKLE
+        move MOVE_EXPLOSION
+        move MOVE_SLUDGE
+        move MOVE_SMOKESCREEN
+        ballseal 0
+
+        // mon 4
+        ivs 100
+        abilityslot 0
+        level 41
+        pokemon SPECIES_SNEASLER
+        move MOVE_POISON_JAB
+        move MOVE_BRICK_BREAK
+        move MOVE_TAUNT
+        move MOVE_DIRE_CLAW
+        ballseal 0
+
+        // mon 5
+        ivs 100
+        abilityslot 0
+        level 41
+        pokemon SPECIES_OVERQWIL
+        move MOVE_BARB_BARRAGE
+        move MOVE_BRINE
+        move MOVE_MINIMIZE
+        move MOVE_HARDEN
+        ballseal 0
+    endparty
 
 trainerdata 488, "Petrel"
-    .byte 0x00, 0x76, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_EXECUTIVE_PETREL
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 488
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 32
+        level 35
+        pokemon SPECIES_TOXEL
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 35
+        pokemon SPECIES_WEEPINBELL
+        ballseal 0
+    endparty
 
 trainerdata 489, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 489
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 55
+        pokemon SPECIES_SNEASEL
+        move MOVE_ICY_WIND
+        move MOVE_SHADOW_CLAW
+        move MOVE_FEINT_ATTACK
+        move MOVE_METAL_CLAW
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 58
+        pokemon SPECIES_CROBAT
+        move MOVE_TOXIC
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 55
+        pokemon SPECIES_MAGNETON
+        move MOVE_DISCHARGE
+        move MOVE_MIRROR_SHOT
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GENGAR
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_RECOVER
+        move MOVE_FOCUS_BLAST
+        move MOVE_PSYCHIC
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 60
+        pokemon SPECIES_MEGANIUM
+        move MOVE_PETAL_DANCE
+        move MOVE_BODY_SLAM
+        move MOVE_LIGHT_SCREEN
+        move MOVE_SYNTHESIS
+        ballseal 0
+    endparty
 
 trainerdata 490, "Silver"
-    .byte 0x01, 0x17, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 490
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 55
+        pokemon SPECIES_SNEASEL
+        move MOVE_ICY_WIND
+        move MOVE_SHADOW_CLAW
+        move MOVE_FEINT_ATTACK
+        move MOVE_METAL_CLAW
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 58
+        pokemon SPECIES_CROBAT
+        move MOVE_TOXIC
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 55
+        pokemon SPECIES_MAGNETON
+        move MOVE_DISCHARGE
+        move MOVE_MIRROR_SHOT
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GENGAR
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_RECOVER
+        move MOVE_FOCUS_BLAST
+        move MOVE_PSYCHIC
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 60
+        pokemon SPECIES_TYPHLOSION
+        move MOVE_ROLLOUT
+        move MOVE_FLAMETHROWER
+        move MOVE_WILL_O_WISP
+        move MOVE_SWIFT
+        ballseal 0
+    endparty
 
 trainerdata 491, "Silver"
-    .byte 0x03, 0x17, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 491
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 55
+        pokemon SPECIES_SNEASEL
+        item ITEM_NONE
+        move MOVE_ICY_WIND
+        move MOVE_SHADOW_CLAW
+        move MOVE_FEINT_ATTACK
+        move MOVE_METAL_CLAW
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 58
+        pokemon SPECIES_CROBAT
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 55
+        pokemon SPECIES_MAGNETON
+        item ITEM_NONE
+        move MOVE_DISCHARGE
+        move MOVE_MIRROR_SHOT
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_NONE
+        move MOVE_RECOVER
+        move MOVE_FOCUS_BLAST
+        move MOVE_PSYCHIC
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 60
+        pokemon SPECIES_FERALIGATR
+        item ITEM_NONE
+        move MOVE_CRUNCH
+        move MOVE_AQUA_TAIL
+        move MOVE_SLASH
+        move MOVE_ICE_FANG
+        ballseal 0
+    endparty
 
 trainerdata 492, "Alex"
-    .byte 0x00, 0x14, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 492
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 29
+        pokemon SPECIES_NIDOKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 29
+        pokemon SPECIES_SLOWKING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 65
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+    endparty
 
 trainerdata 493, "Edith"
-    .byte 0x00, 0x52, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 493
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 26
+        pokemon SPECIES_BANETTE
+        ballseal 0
+    endparty
 
 trainerdata 494, "Georgina"
-    .byte 0x00, 0x52, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_MEDIUM
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 494
+        // mon 0
+        ivs 10
+        abilityslot 0
+        level 23
+        pokemon SPECIES_DUSKULL
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 24
+        pokemon SPECIES_DRIFLOON
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 23
+        pokemon SPECIES_GASTLY
+        ballseal 0
+
+        // mon 3
+        ivs 10
+        abilityslot 0
+        level 24
+        pokemon SPECIES_SANDYGAST
+        ballseal 0
+
+        // mon 4
+        ivs 10
+        abilityslot 0
+        level 23
+        pokemon SPECIES_HONEDGE
+        ballseal 0
+    endparty
 
 trainerdata 495, "Boy"
-    .byte 0x00, 0x77, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PASSERBY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 495
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_CHIKORITA
+        ballseal 0
+    endparty
 
 trainerdata 496, "Boy"
-    .byte 0x00, 0x77, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PASSERBY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 496
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_CYNDAQUIL
+        ballseal 0
+    endparty
 
 trainerdata 497, "Boy"
-    .byte 0x00, 0x77, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PASSERBY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 497
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_TOTODILE
+        ballseal 0
+    endparty
 
 trainerdata 498, "Eusine"
-    .byte 0x01, 0x78, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_MYSTERY_MAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 498
+        // mon 0
+        ivs 150
+        abilityslot 0
+        level 33
+        pokemon SPECIES_HYPNO
+        move MOVE_DREAM_EATER
+        move MOVE_HYPNOSIS
+        move MOVE_DISABLE
+        move MOVE_CONFUSION
+        ballseal 0
+
+        // mon 1
+        ivs 150
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GENGAR
+        move MOVE_LICK
+        move MOVE_HYPNOSIS
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        ballseal 0
+
+        // mon 2
+        ivs 150
+        abilityslot 32
+        level 34
+        pokemon SPECIES_ELECTRODE
+        move MOVE_SCREECH
+        move MOVE_SONIC_BOOM
+        move MOVE_THUNDER
+        move MOVE_ROLLOUT
+        ballseal 0
+    endparty
 
 trainerdata 499, "Grunt"
-    .byte 0x01, 0x37, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 499
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 32
+        pokemon SPECIES_SIGILYPH
+        move MOVE_LIGHT_SCREEN
+        move MOVE_AIR_SLASH
+        move MOVE_PSYBEAM
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 31
+        pokemon SPECIES_SKUNTANK
+        move MOVE_SUCKER_PUNCH
+        move MOVE_VENOSHOCK
+        move MOVE_FLAMETHROWER
+        move MOVE_SLASH
+        ballseal 0
+    endparty
 
 trainerdata 500, "Kobe"
-    .byte 0x01, 0x18, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 500
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 37
+        pokemon SPECIES_DRAGONAIR
+        move MOVE_THUNDER
+        move MOVE_SURF
+        move MOVE_DRAGON_RAGE
+        move MOVE_IRON_TAIL
+        ballseal 0
+    endparty
 
 trainerdata 501, "Piper"
-    .byte 0x01, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 501
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 33
+        pokemon SPECIES_HORSEA
+        move MOVE_SMOKESCREEN
+        move MOVE_LEER
+        move MOVE_BRINE
+        move MOVE_TWISTER
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 33
+        pokemon SPECIES_HORSEA
+        move MOVE_SMOKESCREEN
+        move MOVE_LEER
+        move MOVE_BRINE
+        move MOVE_TWISTER
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 35
+        pokemon SPECIES_SEADRA
+        move MOVE_AGILITY
+        move MOVE_LEER
+        move MOVE_WATERFALL
+        move MOVE_TWISTER
+        ballseal 0
+    endparty
 
 trainerdata 502, "Clea & Gil"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 502
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_DRATINI
+        move MOVE_THUNDER_WAVE
+        move MOVE_TWISTER
+        move MOVE_THUNDERBOLT
+        move MOVE_HEADBUTT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_DRATINI
+        move MOVE_THUNDER_WAVE
+        move MOVE_TWISTER
+        move MOVE_SURF
+        move MOVE_HEADBUTT
+        ballseal 0
+    endparty
 
 trainerdata 503, "Jack"
-    .byte 0x01, 0x3C, 0x00, 0x03, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_HYPER_POTION
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 503
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_ELECTRODE
+        move MOVE_CHARGE
+        move MOVE_CHARGE_BEAM
+        move MOVE_SWIFT
+        move MOVE_ROLLOUT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_VILEPLUME
+        move MOVE_SOLAR_BEAM
+        move MOVE_GIGA_DRAIN
+        move MOVE_MOONLIGHT
+        move MOVE_SUNNY_DAY
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_ARCANINE
+        move MOVE_EXTREME_SPEED
+        move MOVE_FLAMETHROWER
+        move MOVE_CRUNCH
+        move MOVE_REVERSAL
+        ballseal 0
+    endparty
 
 trainerdata 504, "Mickey"
-    .byte 0x01, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 504
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_ELECTRODE
+        move MOVE_SCREECH
+        move MOVE_SONIC_BOOM
+        move MOVE_ROLLOUT
+        move MOVE_LIGHT_SCREEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_GROWLITHE
+        move MOVE_SUNNY_DAY
+        move MOVE_LEER
+        move MOVE_TAKE_DOWN
+        move MOVE_FLAME_WHEEL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_VILEPLUME
+        move MOVE_SOLAR_BEAM
+        move MOVE_SLEEP_POWDER
+        move MOVE_ACID
+        move MOVE_MOONLIGHT
+        ballseal 0
+    endparty
 
 trainerdata 505, "Alan"
-    .byte 0x00, 0x3C, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 505
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_XATU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_TANGROWTH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_QUAGSIRE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_YANMEGA
+        ballseal 0
+    endparty
 
 trainerdata 506, "Mickey"
-    .byte 0x01, 0x3C, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 506
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_XATU
+        move MOVE_PECK
+        move MOVE_NIGHT_SHADE
+        move MOVE_SWIFT
+        move MOVE_FUTURE_SIGHT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_TANGELA
+        move MOVE_POISON_POWDER
+        move MOVE_VINE_WHIP
+        move MOVE_BIND
+        move MOVE_MEGA_DRAIN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_YANMA
+        move MOVE_QUICK_ATTACK
+        move MOVE_DOUBLE_TEAM
+        move MOVE_SONIC_BOOM
+        move MOVE_SUPERSONIC
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_TAIL_WHIP
+        move MOVE_SLAM
+        move MOVE_AMNESIA
+        move MOVE_EARTHQUAKE
+        ballseal 0
+    endparty
 
 trainerdata 507, "Chad"
-    .byte 0x01, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_STATUS_MOVES | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 507
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_MR_MIME
+        move MOVE_BATON_PASS
+        move MOVE_DOUBLE_TEAM
+        move MOVE_LIGHT_SCREEN
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_MAGNETON
+        move MOVE_GYRO_BALL
+        move MOVE_MIRROR_SHOT
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+    endparty
 
 trainerdata 508, "Mickey"
-    .byte 0x01, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 508
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_MR_MIME
+        move MOVE_PSYCHIC
+        move MOVE_LIGHT_SCREEN
+        move MOVE_REFLECT
+        move MOVE_ENCORE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_MAGNETON
+        move MOVE_ZAP_CANNON
+        move MOVE_THUNDER_WAVE
+        move MOVE_LOCK_ON
+        move MOVE_SWIFT
+        ballseal 0
+    endparty
 
 trainerdata 509, "Huey"
-    .byte 0x01, 0x2E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 509
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_POLITOED
+        move MOVE_WHIRLPOOL
+        move MOVE_RAIN_DANCE
+        move MOVE_BODY_SLAM
+        move MOVE_PERISH_SONG
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_POLIWRATH
+        move MOVE_SURF
+        move MOVE_STRENGTH
+        move MOVE_ICE_PUNCH
+        move MOVE_SUBMISSION
+        ballseal 0
+    endparty
 
 trainerdata 510, "Joey"
-    .byte 0x01, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 510
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_RATICATE
+        move MOVE_HYPER_FANG
+        move MOVE_QUICK_ATTACK
+        move MOVE_SUBSTITUTE
+        move MOVE_ENDEAVOR
+        ballseal 0
+    endparty
 
 trainerdata 511, "Mickey"
-    .byte 0x01, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 511
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_RATICATE
+        move MOVE_HYPER_BEAM
+        move MOVE_QUICK_ATTACK
+        move MOVE_HYPER_FANG
+        move MOVE_PURSUIT
+        ballseal 0
+    endparty
 
 trainerdata 512, "Wade"
-    .byte 0x01, 0x06, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 512
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_BUG_BITE
+        move MOVE_GUST
+        move MOVE_SUPERSONIC
+        move MOVE_WHIRLWIND
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_BUG_BUZZ
+        move MOVE_STUN_SPORE
+        move MOVE_CAPTIVATE
+        move MOVE_TAILWIND
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_BEEDRILL
+        move MOVE_ENDEAVOR
+        move MOVE_FOCUS_ENERGY
+        move MOVE_PIN_MISSILE
+        move MOVE_BUG_BITE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_STUN_SPORE
+        move MOVE_SLEEP_POWDER
+        move MOVE_CAPTIVATE
+        move MOVE_TAILWIND
+        ballseal 0
+    endparty
 
 trainerdata 513, "Arnie"
-    .byte 0x01, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 513
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_NINCADA
+        move MOVE_DIG
+        move MOVE_METAL_CLAW
+        move MOVE_MUD_SLAP
+        move MOVE_LEECH_LIFE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_VENOMOTH
+        move MOVE_GUST
+        move MOVE_PSYCHIC
+        move MOVE_POISON_FANG
+        move MOVE_SIGNAL_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 514, "Mickey"
-    .byte 0x01, 0x06, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 514
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_VENOMOTH
+        move MOVE_GUST
+        move MOVE_SUPERSONIC
+        move MOVE_PSYCHIC
+        move MOVE_TOXIC
+        ballseal 0
+    endparty
 
 trainerdata 515, "Ralph"
-    .byte 0x00, 0x0B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 515
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 516, "Mickey"
-    .byte 0x01, 0x0B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 516
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 35
+        pokemon SPECIES_QWILFISH
+        move MOVE_TOXIC
+        move MOVE_MINIMIZE
+        move MOVE_SURF
+        move MOVE_PIN_MISSILE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_SEAKING
+        move MOVE_ENDURE
+        move MOVE_FLAIL
+        move MOVE_FURY_ATTACK
+        move MOVE_WATERFALL
+        ballseal 0
+    endparty
 
 trainerdata 517, "Tully"
-    .byte 0x01, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 517
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_SEAKING
+        move MOVE_WATER_PULSE
+        move MOVE_RAIN_DANCE
+        move MOVE_WATERFALL
+        move MOVE_AQUA_RING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_SEAKING
+        move MOVE_WATER_PULSE
+        move MOVE_RAIN_DANCE
+        move MOVE_WATERFALL
+        move MOVE_MEGAHORN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_QWILFISH
+        move MOVE_ROLLOUT
+        move MOVE_SURF
+        move MOVE_AQUA_TAIL
+        move MOVE_MINIMIZE
+        ballseal 0
+    endparty
 
 trainerdata 518, "Liz"
-    .byte 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 518
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_VICTREEBEL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_NIDOKING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 60
+        pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+    endparty
 
 trainerdata 519, "Mickey"
-    .byte 0x01, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 519
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_WEEPINBELL
+        move MOVE_SLEEP_POWDER
+        move MOVE_POISON_POWDER
+        move MOVE_STUN_SPORE
+        move MOVE_SLUDGE_BOMB
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_NIDOKING
+        move MOVE_EARTHQUAKE
+        move MOVE_DOUBLE_KICK
+        move MOVE_POISON_STING
+        move MOVE_IRON_TAIL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_NIDOQUEEN
+        move MOVE_EARTHQUAKE
+        move MOVE_DOUBLE_KICK
+        move MOVE_TAIL_WHIP
+        move MOVE_BODY_SLAM
+        ballseal 0
+    endparty
 
 trainerdata 520, "Gina"
-    .byte 0x00, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 520
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_JUMPLUFF
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_VENUSAUR
+        ballseal 0
+    endparty
 
 trainerdata 521, "Mickey"
-    .byte 0x01, 0x05, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 521
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_JUMPLUFF
+        move MOVE_STUN_SPORE
+        move MOVE_SUNNY_DAY
+        move MOVE_LEECH_SEED
+        move MOVE_COTTON_SPORE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_JUMPLUFF
+        move MOVE_SUNNY_DAY
+        move MOVE_SLEEP_POWDER
+        move MOVE_LEECH_SEED
+        move MOVE_COTTON_SPORE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_VENUSAUR
+        move MOVE_SOLAR_BEAM
+        move MOVE_RAZOR_LEAF
+        move MOVE_HEADBUTT
+        move MOVE_MUD_SLAP
+        ballseal 0
+    endparty
 
 trainerdata 522, "Tiffany"
-    .byte 0x01, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 522
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 61
+        pokemon SPECIES_CLEFABLE
+        move MOVE_GRAVITY
+        move MOVE_METRONOME
+        move MOVE_BLIZZARD
+        move MOVE_THUNDER
+        ballseal 0
+    endparty
 
 trainerdata 523, "Anthony"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 523
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_GOLEM
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 55
+        pokemon SPECIES_MACHAMP
+        ballseal 0
+    endparty
 
 trainerdata 524, "Mickey"
-    .byte 0x01, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 524
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_GRAVELER
+        move MOVE_MAGNITUDE
+        move MOVE_SELF_DESTRUCT
+        move MOVE_DEFENSE_CURL
+        move MOVE_ROLLOUT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GOLEM
+        move MOVE_MAGNITUDE
+        move MOVE_SELF_DESTRUCT
+        move MOVE_DEFENSE_CURL
+        move MOVE_ROLLOUT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_MACHOKE
+        move MOVE_KARATE_CHOP
+        move MOVE_VITAL_THROW
+        move MOVE_HEADBUTT
+        move MOVE_DIG
+        ballseal 0
+    endparty
 
 trainerdata 525, "Todd"
-    .byte 0x00, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 525
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_MAGCARGO
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+    endparty
 
 trainerdata 526, "Mickey"
-    .byte 0x01, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 526
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        move MOVE_SELF_DESTRUCT
+        move MOVE_ROCK_THROW
+        move MOVE_HARDEN
+        move MOVE_MAGNITUDE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        move MOVE_SELF_DESTRUCT
+        move MOVE_ROCK_THROW
+        move MOVE_HARDEN
+        move MOVE_MAGNITUDE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_MAGCARGO
+        move MOVE_ROCK_THROW
+        move MOVE_HARDEN
+        move MOVE_AMNESIA
+        move MOVE_FLAMETHROWER
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_GOLDUCK
+        move MOVE_DISABLE
+        move MOVE_PSYCHIC
+        move MOVE_SURF
+        move MOVE_PSYCH_UP
+        ballseal 0
+    endparty
 
 trainerdata 527, "Irwin"
-    .byte 0x01, 0x1F, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_JUGGLER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 527
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_VOLTORB
+        move MOVE_ROLLOUT
+        move MOVE_SPARK
+        move MOVE_SONIC_BOOM
+        move MOVE_CHARGE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_VOLTORB
+        move MOVE_CHARGE_BEAM
+        move MOVE_CHARGE
+        move MOVE_LIGHT_SCREEN
+        move MOVE_SWIFT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_ELECTRODE
+        move MOVE_THUNDER
+        move MOVE_SCREECH
+        move MOVE_CHARGE_BEAM
+        move MOVE_RAIN_DANCE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 51
+        pokemon SPECIES_ELECTRODE
+        move MOVE_THUNDER
+        move MOVE_MIRROR_COAT
+        move MOVE_MAGNET_RISE
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+    endparty
 
 trainerdata 528, "Dana"
-    .byte 0x01, 0x03, 0x00, 0x02, 0x21, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_MOOMOO_MILK
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 528
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 51
+        pokemon SPECIES_GOLDUCK
+        move MOVE_WATER_PULSE
+        move MOVE_AMNESIA
+        move MOVE_CONFUSION
+        move MOVE_SCREECH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_AMPHAROS
+        move MOVE_THUNDER
+        move MOVE_DISCHARGE
+        move MOVE_THUNDER_WAVE
+        move MOVE_SIGNAL_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 529, "Mickey"
-    .byte 0x01, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 529
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_AMPHAROS
+        move MOVE_SWIFT
+        move MOVE_THUNDER_PUNCH
+        move MOVE_THUNDER_WAVE
+        move MOVE_COTTON_SPORE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_GOLDUCK
+        move MOVE_DISABLE
+        move MOVE_SURF
+        move MOVE_PSYCHIC
+        move MOVE_SCREECH
+        ballseal 0
+    endparty
 
 trainerdata 530, "Brent"
-    .byte 0x00, 0x44, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 530
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_LICKITUNG
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_NIDOKING
+        ballseal 0
+    endparty
 
 trainerdata 531, "Mickey"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 531
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_DRATINI
+        move MOVE_THUNDER_WAVE
+        move MOVE_TWISTER
+        move MOVE_ICE_BEAM
+        move MOVE_HEADBUTT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_DRATINI
+        move MOVE_THUNDER_WAVE
+        move MOVE_TWISTER
+        move MOVE_FLAMETHROWER
+        move MOVE_HEADBUTT
+        ballseal 0
+    endparty
 
 trainerdata 532, "Mickey"
-    .byte 0x01, 0x06, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 532
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_CONFUSION
+        move MOVE_POISON_POWDER
+        move MOVE_SUPERSONIC
+        move MOVE_GUST
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_CONFUSION
+        move MOVE_STUN_SPORE
+        move MOVE_SUPERSONIC
+        move MOVE_GUST
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_BEEDRILL
+        move MOVE_FURY_ATTACK
+        move MOVE_PURSUIT
+        move MOVE_TWINEEDLE
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_BUTTERFREE
+        move MOVE_PSYBEAM
+        move MOVE_SLEEP_POWDER
+        move MOVE_GUST
+        move MOVE_WHIRLWIND
+        ballseal 0
+    endparty
 
 trainerdata 533, "Wayne"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 533
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_LEDYBA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_PARAS
+        ballseal 0
+    endparty
 
 trainerdata 534, "Kimberly"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 534
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_CORSOLA
+        ballseal 0
+    endparty
 
 trainerdata 535, "Marigold"
-    .byte 0x00, 0x15, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 535
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 16
+        pokemon SPECIES_MEOWTH
+        ballseal 0
+    endparty
 
 trainerdata 536, "Bertrand"
-    .byte 0x00, 0x04, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 536
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_FEAROW
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_PRIMEAPE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_TAUROS
+        ballseal 0
+    endparty
 
 trainerdata 537, "Harrison"
-    .byte 0x00, 0x44, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKE_MANIAC
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 537
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 30
+        pokemon SPECIES_NIDOKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+    endparty
 
 trainerdata 538, "Hugh"
-    .byte 0x01, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 538
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_SEADRA
+        move MOVE_SMOKESCREEN
+        move MOVE_TWISTER
+        move MOVE_SURF
+        move MOVE_WATERFALL
+        ballseal 0
+    endparty
 
 trainerdata 539, "Markus"
-    .byte 0x01, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 539
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 19
+        pokemon SPECIES_SLOWPOKE
+        move MOVE_CURSE
+        move MOVE_WATER_GUN
+        move MOVE_GROWL
+        move MOVE_STRENGTH
+        ballseal 0
+    endparty
 
 trainerdata 540, "Rex"
-    .byte 0x00, 0x14, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 540
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_PHANPY
+        ballseal 0
+    endparty
 
 trainerdata 541, "Andy"
-    .byte 0x00, 0x14, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 541
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 44
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+    endparty
 
 trainerdata 542, "Mickey"
-    .byte 0x01, 0x4F, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAGE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 542
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_NOCTOWL
+        move MOVE_FORESIGHT
+        move MOVE_HYPNOSIS
+        move MOVE_TAKE_DOWN
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_FLAREON
+        move MOVE_SAND_ATTACK
+        move MOVE_FLAMETHROWER
+        move MOVE_QUICK_ATTACK
+        move MOVE_BITE
+        ballseal 0
+    endparty
 
 trainerdata 543, "Mickey"
-    .byte 0x01, 0x4F, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAGE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 543
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_NOCTOWL
+        move MOVE_FORESIGHT
+        move MOVE_HYPNOSIS
+        move MOVE_TAKE_DOWN
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_JOLTEON
+        move MOVE_SAND_ATTACK
+        move MOVE_THUNDERBOLT
+        move MOVE_QUICK_ATTACK
+        move MOVE_DOUBLE_KICK
+        ballseal 0
+    endparty
 
 trainerdata 544, "Mickey"
-    .byte 0x01, 0x4F, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAGE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 544
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_NOCTOWL
+        move MOVE_FORESIGHT
+        move MOVE_HYPNOSIS
+        move MOVE_TAKE_DOWN
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_VAPOREON
+        move MOVE_SAND_ATTACK
+        move MOVE_SURF
+        move MOVE_QUICK_ATTACK
+        move MOVE_BITE
+        ballseal 0
+    endparty
 
 trainerdata 545, "French"
-    .byte 0x03, 0x18, 0x00, 0x02, 0x38, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 2
+    item ITEM_DIRE_HIT
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 545
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 47
+        pokemon SPECIES_ABSOL
+        item ITEM_NONE
+        move MOVE_PSYCHO_CUT
+        move MOVE_NIGHT_SLASH
+        move MOVE_SLASH
+        move MOVE_QUICK_ATTACK
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 47
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_NONE
+        move MOVE_PSYCHIC
+        move MOVE_FOCUS_BLAST
+        move MOVE_ENERGY_BALL
+        move MOVE_CHARGE_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 546, "Sherman"
-    .byte 0x01, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x47, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_MULTI_BATTLE_PARTNER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 546
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_FURRET
+        move MOVE_DOUBLE_TEAM
+        move MOVE_BATON_PASS
+        move MOVE_AMNESIA
+        move MOVE_SLAM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_PIDGEOT
+        move MOVE_ROOST
+        move MOVE_WING_ATTACK
+        move MOVE_STEEL_WING
+        move MOVE_RETURN
+        ballseal 0
+    endparty
 
 trainerdata 547, "Bruce"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 547
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_RHYDON
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_CLEFAIRY
+        ballseal 0
+    endparty
 
 trainerdata 548, "Manford"
-    .byte 0x01, 0x0E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 548
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 47
+        pokemon SPECIES_POLIWRATH
+        move MOVE_HYDRO_PUMP
+        move MOVE_DYNAMIC_PUNCH
+        move MOVE_MUD_SHOT
+        move MOVE_HYPNOSIS
+        ballseal 0
+    endparty
 
 trainerdata 549, "Zac & Jen"
-    .byte 0x01, 0x79, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_DOUBLE_TEAM
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 549
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 47
+        pokemon SPECIES_ELECTABUZZ
+        move MOVE_DISCHARGE
+        move MOVE_QUICK_ATTACK
+        move MOVE_THUNDERBOLT
+        move MOVE_LOW_KICK
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 47
+        pokemon SPECIES_DUGTRIO
+        move MOVE_DIG
+        move MOVE_MUD_BOMB
+        move MOVE_GROWL
+        move MOVE_NIGHT_SLASH
+        ballseal 0
+    endparty
 
 trainerdata 550, "Ander"
-    .byte 0x00, 0x0E, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 550
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 43
+        pokemon SPECIES_PRIMEAPE
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 44
+        pokemon SPECIES_MACHOKE
+        ballseal 0
+    endparty
 
 trainerdata 551, "Dwight"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 551
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_MAGNETON
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_STEELIX
+        ballseal 0
+    endparty
 
 trainerdata 552, "Regis"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 552
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_ELECTRODE
+        ballseal 0
+    endparty
 
 trainerdata 553, "Moe & Lulu"
-    .byte 0x00, 0x7A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNG_COUPLE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 553
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_LOTAD
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_SEEDOT
+        ballseal 0
+    endparty
 
 trainerdata 554, "Milton"
-    .byte 0x00, 0x22, 0x00, 0x01, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 1
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 554
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_GROWLITHE
+        ballseal 0
+    endparty
 
 trainerdata 555, "Justin"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 555
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_XATU
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 39
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+    endparty
 
 trainerdata 556, "Gail"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 556
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 42
+        pokemon SPECIES_FEAROW
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 39
+        pokemon SPECIES_SPEAROW
+        ballseal 0
+    endparty
 
 trainerdata 557, "Vic & Tara"
-    .byte 0x01, 0x7A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x02, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_YOUNG_COUPLE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_USE_WEATHER | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 557
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_MAGMAR
+        move MOVE_SUNNY_DAY
+        move MOVE_FLAMETHROWER
+        move MOVE_CONFUSE_RAY
+        move MOVE_FIRE_SPIN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_SUNFLORA
+        move MOVE_SOLAR_BEAM
+        move MOVE_RAZOR_LEAF
+        move MOVE_INGRAIN
+        move MOVE_MEGA_DRAIN
+        ballseal 0
+    endparty
 
 trainerdata 558, "Kyler"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 558
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+    endparty
 
 trainerdata 559, "Tim & Sue"
-    .byte 0x00, 0x7A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNG_COUPLE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 559
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_KADABRA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_PSYDUCK
+        ballseal 0
+    endparty
 
 trainerdata 560, "Clark"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 560
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_BUIZEL
+        ballseal 0
+    endparty
 
 trainerdata 561, "Tanner"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 561
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_SUDOWOODO
+        ballseal 0
+    endparty
 
 trainerdata 562, "Piper"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 562
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SPOINK
+        ballseal 0
+    endparty
 
 trainerdata 563, "Ginger"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 563
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_WHISMUR
+        ballseal 0
+    endparty
 
 trainerdata 564, "Clarice"
-    .byte 0x03, 0x4D, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TEACHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 564
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_ZIGZAGOON
+        item ITEM_SITRUS_BERRY
+        move MOVE_BELLY_DRUM
+        move MOVE_FLAIL
+        move MOVE_RETURN
+        move MOVE_IRON_TAIL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_ROSELIA
+        item ITEM_NONE
+        move MOVE_INGRAIN
+        move MOVE_SYNTHESIS
+        move MOVE_TOXIC
+        move MOVE_PETAL_DANCE
+        ballseal 0
+    endparty
 
 trainerdata 565, "Josh"
-    .byte 0x00, 0x45, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 565
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 37
+        pokemon SPECIES_FEAROW
+        ballseal 0
+    endparty
 
 trainerdata 566, "Connor"
-    .byte 0x03, 0x3C, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 566
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_ZIGZAGOON
+        item ITEM_CHESTO_BERRY
+        move MOVE_BELLY_DRUM
+        move MOVE_REST
+        move MOVE_FLAIL
+        move MOVE_SECRET_POWER
+        ballseal 0
+    endparty
 
 trainerdata 567, "Torin"
-    .byte 0x00, 0x3C, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 567
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+    endparty
 
 trainerdata 568, "Travis"
-    .byte 0x01, 0x3C, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 568
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_BUDEW
+        move MOVE_STUN_SPORE
+        move MOVE_GIGA_DRAIN
+        move MOVE_SLUDGE_BOMB
+        move MOVE_NATURE_POWER
+        ballseal 0
+    endparty
 
 trainerdata 569, "Kay & Tia"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 569
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_RAIN_DANCE
+        move MOVE_SURF
+        move MOVE_YAWN
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_AMNESIA
+        move MOVE_SURF
+        move MOVE_YAWN
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 570, "Boone"
-    .byte 0x00, 0x14, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 570
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SPINDA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 41
+        pokemon SPECIES_VOLBEAT
+        ballseal 0
+    endparty
 
 trainerdata 571, "Eleanor"
-    .byte 0x00, 0x15, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 571
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SPINDA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_ILLUMISE
+        ballseal 0
+    endparty
 
 trainerdata 572, "Dale"
-    .byte 0x02, 0x41, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS
+    trainerclass TRAINERCLASS_BIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 572
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 47
+        pokemon SPECIES_GULPIN
+        item ITEM_BLACK_SLUDGE
+        ballseal 0
+    endparty
 
 trainerdata 573, "Jacob"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 573
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 574, "Aiden"
-    .byte 0x00, 0x41, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 574
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 575, "Dan"
-    .byte 0x00, 0x41, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 575
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GULPIN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_WEEZING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_WEEZING
+        ballseal 0
+    endparty
 
 trainerdata 576, "Theron"
-    .byte 0x00, 0x41, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 576
+        // mon 0
+        ivs 0
+        abilityslot 2
+        level 45
+        pokemon SPECIES_CROAGUNK
+        ballseal 0
+    endparty
 
 trainerdata 577, "Markey"
-    .byte 0x00, 0x41, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 577
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 47
+        pokemon SPECIES_SKORUPI
+        ballseal 0
+    endparty
 
 trainerdata 578, "Teddy"
-    .byte 0x00, 0x41, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 578
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_SEVIPER
+        ballseal 0
+    endparty
 
 trainerdata 579, "Ernest"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 579
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 44
+        pokemon SPECIES_MARILL
+        ballseal 0
+    endparty
 
 trainerdata 580, "Pedro"
-    .byte 0x03, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 580
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_LINOONE
+        item ITEM_SITRUS_BERRY
+        move MOVE_BELLY_DRUM
+        move MOVE_SLASH
+        move MOVE_DIG
+        move MOVE_SURF
+        ballseal 0
+    endparty
 
 trainerdata 581, "Adrian"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 581
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_SHROOMISH
+        ballseal 0
+    endparty
 
 trainerdata 582, "Cheyenne"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 582
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 45
+        pokemon SPECIES_SHINX
+        ballseal 0
+    endparty
 
 trainerdata 583, "Bert"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 583
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 46
+        pokemon SPECIES_WINGULL
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 43
+        pokemon SPECIES_FEAROW
+        ballseal 0
+    endparty
 
 trainerdata 584, "Ernie"
-    .byte 0x00, 0x45, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 584
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 48
+        pokemon SPECIES_STARLY
+        ballseal 0
+    endparty
 
 trainerdata 585, "Elmo"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 585
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 586, "Luis"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 586
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 46
+        pokemon SPECIES_SEADRA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 42
+        pokemon SPECIES_QUAGSIRE
+        ballseal 0
+    endparty
 
 trainerdata 587, "Leona"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 587
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_BIDOOF
+        ballseal 0
+    endparty
 
 trainerdata 588, "Mina"
-    .byte 0x00, 0x2B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 588
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_LUVDISC
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_LUVDISC
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_LUVDISC
+        ballseal 0
+    endparty
 
 trainerdata 589, "Murphy"
-    .byte 0x00, 0x0B, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 589
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_CORSOLA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_CORSOLA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_CORSOLA
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_CORSOLA
+        ballseal 0
+    endparty
 
 trainerdata 590, "Liam"
-    .byte 0x00, 0x0B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 590
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_SEADRA
+        ballseal 0
+    endparty
 
 trainerdata 591, "Gideon"
-    .byte 0x01, 0x0B, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 591
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_LANTURN
+        move MOVE_DISCHARGE
+        move MOVE_SIGNAL_BEAM
+        move MOVE_BUBBLE_BEAM
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MANTINE
+        move MOVE_WATER_PULSE
+        move MOVE_WING_ATTACK
+        move MOVE_PSYBEAM
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+    endparty
 
 trainerdata 592, "Chelan"
-    .byte 0x01, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 592
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_AZUMARILL
+        move MOVE_WATERFALL
+        move MOVE_ROLLOUT
+        move MOVE_DEFENSE_CURL
+        move MOVE_DIG
+        ballseal 0
+    endparty
 
 trainerdata 593, "Kendra"
-    .byte 0x00, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 593
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SLOWKING
+        ballseal 0
+    endparty
 
 trainerdata 594, "Esteban"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 594
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+    endparty
 
 trainerdata 595, "Duane"
-    .byte 0x00, 0x2A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SWIMMER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 595
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_KABUTOPS
+        ballseal 0
+    endparty
 
 trainerdata 596, "Kinsley"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 596
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_FEAROW
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 37
+        pokemon SPECIES_PIDGEOTTO
+        ballseal 0
+    endparty
 
 trainerdata 597, "Easton"
-    .byte 0x00, 0x45, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 597
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 35
+        pokemon SPECIES_DODUO
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 35
+        pokemon SPECIES_DODUO
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 35
+        pokemon SPECIES_DODRIO
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 0
+        level 36
+        pokemon SPECIES_DODRIO
+        ballseal 0
+    endparty
 
 trainerdata 598, "Day & Dani"
-    .byte 0x00, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 598
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_PLUSLE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_MINUN
+        ballseal 0
+    endparty
 
 trainerdata 599, "Virgil"
-    .byte 0x00, 0x04, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 599
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SLAKOTH
+        ballseal 0
+    endparty
 
 trainerdata 600, "Selina"
-    .byte 0x00, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 600
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_CHERUBI
+        ballseal 0
+    endparty
 
 trainerdata 601, "Grunt"
-    .byte 0x00, 0x37, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEAM_ROCKET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 601
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 21
+        pokemon SPECIES_KOFFING
+        ballseal 0
+    endparty
 
 trainerdata 602, "Jose"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_X_ATTACK
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 602
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 50
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 52
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 53
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+    endparty
 
 trainerdata 603, "Erin"
-    .byte 0x00, 0x05, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_PICNICKER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 603
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_CHERRIM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 46
+        pokemon SPECIES_SUNFLORA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_BELLOSSOM
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 53
+        pokemon SPECIES_RAPIDASH
+        ballseal 0
+    endparty
 
 trainerdata 604, "Gaven"
-    .byte 0x01, 0x18, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 604
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 52
+        pokemon SPECIES_VICTREEBEL
+        move MOVE_LEAF_STORM
+        move MOVE_TOXIC
+        move MOVE_ACID
+        move MOVE_LEAF_BLADE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 49
+        pokemon SPECIES_KINGLER
+        move MOVE_BRINE
+        move MOVE_CRABHAMMER
+        move MOVE_X_SCISSOR
+        move MOVE_PROTECT
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 50
+        pokemon SPECIES_FLAREON
+        move MOVE_OVERHEAT
+        move MOVE_QUICK_ATTACK
+        move MOVE_WILL_O_WISP
+        move MOVE_ATTRACT
+        ballseal 0
+    endparty
 
 trainerdata 605, "Kenji"
-    .byte 0x00, 0x0E, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BLACK_BELT
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 605
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 41
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 53
+        pokemon SPECIES_MACHAMP
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 49
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 53
+        pokemon SPECIES_HITMONLEE
+        ballseal 0
+    endparty
 
 trainerdata 606, "Parry"
-    .byte 0x00, 0x09, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 606
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_STEELIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_GOLEM
+        ballseal 0
+    endparty
 
 trainerdata 607, "Reena"
-    .byte 0x01, 0x19, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 607
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 54
+        pokemon SPECIES_ARCANINE
+        move MOVE_FLARE_BLITZ
+        move MOVE_EXTREME_SPEED
+        move MOVE_CRUNCH
+        move MOVE_ROAR
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 53
+        pokemon SPECIES_NIDOQUEEN
+        move MOVE_CAPTIVATE
+        move MOVE_POISON_FANG
+        move MOVE_EARTH_POWER
+        move MOVE_BODY_SLAM
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 56
+        pokemon SPECIES_STARMIE
+        move MOVE_SURF
+        move MOVE_MINIMIZE
+        move MOVE_COSMIC_POWER
+        move MOVE_PSYCHIC
+        ballseal 0
+    endparty
 
 trainerdata 608, "Wilton"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 608
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 63
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 609, "Jamie"
-    .byte 0x01, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 609
+        // mon 0
+        ivs 50
+        abilityslot 32
+        level 56
+        pokemon SPECIES_RAPIDASH
+        move MOVE_BOUNCE
+        move MOVE_FIRE_SPIN
+        move MOVE_FLARE_BLITZ
+        move MOVE_EMBER
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 59
+        pokemon SPECIES_AMPHAROS
+        move MOVE_POWER_GEM
+        move MOVE_THUNDER
+        move MOVE_SIGNAL_BEAM
+        move MOVE_CHARGE
+        ballseal 0
+    endparty
 
 trainerdata 610, "Derek"
-    .byte 0x00, 0x14, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 610
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_PICHU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 22
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_URSARING
+        ballseal 0
+    endparty
 
 trainerdata 611, "Beverly"
-    .byte 0x00, 0x15, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_POKEFAN
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 611
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_GRANBULL
+        ballseal 0
+    endparty
 
 trainerdata 612, "Vance"
-    .byte 0x00, 0x45, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 612
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 56
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 54
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+    endparty
 
 trainerdata 613, "Krise"
-    .byte 0x00, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 613
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_ODDISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_CUBONE
+        ballseal 0
+    endparty
 
 trainerdata 614, "Krise"
-    .byte 0x00, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 614
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_GLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_MAROWAK
+        ballseal 0
+    endparty
 
 trainerdata 615, "Krise"
-    .byte 0x00, 0x03, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_LASS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 615
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_VILEPLUME
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_MAROWAK
+        ballseal 0
+    endparty
 
 trainerdata 616, "Ian"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 616
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_MANKEY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_DUGTRIO
+        ballseal 0
+    endparty
 
 trainerdata 617, "Ian"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 617
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_PRIMEAPE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_DUGTRIO
+        ballseal 0
+    endparty
 
 trainerdata 618, "Ian"
-    .byte 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNGSTER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 618
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_PRIMEAPE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_DUGTRIO
+        ballseal 0
+    endparty
 
 trainerdata 619, "Walt"
-    .byte 0x00, 0x40, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 619
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+    endparty
 
 trainerdata 620, "Walt"
-    .byte 0x00, 0x40, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 620
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 34
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+    endparty
 
 trainerdata 621, "Walt"
-    .byte 0x00, 0x40, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FIREBREATHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 621
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_MAGBY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_MAGMAR
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_MAGMORTAR
+        ballseal 0
+    endparty
 
 trainerdata 622, "Doug"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 622
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+    endparty
 
 trainerdata 623, "Doug"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 623
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+    endparty
 
 trainerdata 624, "Doug"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 624
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+    endparty
 
 trainerdata 625, "Rob"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 625
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+    endparty
 
 trainerdata 626, "Rob"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 626
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+    endparty
 
 trainerdata 627, "Rob"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 627
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+    endparty
 
 trainerdata 628, "Reese"
-    .byte 0x01, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 628
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_ARBOK
+        move MOVE_GLARE
+        move MOVE_SCREECH
+        move MOVE_MUD_BOMB
+        move MOVE_CRUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_WEEZING
+        move MOVE_SLUDGE_BOMB
+        move MOVE_DOUBLE_HIT
+        move MOVE_SMOKESCREEN
+        move MOVE_ASSURANCE
+        ballseal 0
+    endparty
 
 trainerdata 629, "Reese"
-    .byte 0x01, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 629
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_ARBOK
+        move MOVE_MUD_BOMB
+        move MOVE_SWALLOW
+        move MOVE_STOCKPILE
+        move MOVE_SPIT_UP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_WEEZING
+        move MOVE_SLUDGE_BOMB
+        move MOVE_DOUBLE_HIT
+        move MOVE_SMOKESCREEN
+        move MOVE_ASSURANCE
+        ballseal 0
+    endparty
 
 trainerdata 630, "Reese"
-    .byte 0x01, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 630
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_ARBOK
+        move MOVE_GUNK_SHOT
+        move MOVE_MUD_BOMB
+        move MOVE_GASTRO_ACID
+        move MOVE_CRUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_WEEZING
+        move MOVE_SLUDGE_BOMB
+        move MOVE_DOUBLE_HIT
+        move MOVE_SMOKESCREEN
+        move MOVE_THUNDER
+        ballseal 0
+    endparty
 
 trainerdata 631, "Aiden"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 631
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_HYPNO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 632, "Aiden"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 632
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_HYPNO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 633, "Aiden"
-    .byte 0x00, 0x41, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 633
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_HYPNO
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_TENTACRUEL
+        ballseal 0
+    endparty
 
 trainerdata 634, "Ernest"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 634
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 47
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+    endparty
 
 trainerdata 635, "Ernest"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 635
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_TEDDIURSA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 49
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+    endparty
 
 trainerdata 636, "Ernest"
-    .byte 0x00, 0x41, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIKER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 636
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_URSARING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 54
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+    endparty
 
 trainerdata 637, "Hillary"
-    .byte 0x00, 0x4D, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEACHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 637
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_AMBIPOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SUNFLORA
+        ballseal 0
+    endparty
 
 trainerdata 638, "Hillary"
-    .byte 0x00, 0x4D, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEACHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 638
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_AMBIPOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_SUNFLORA
+        ballseal 0
+    endparty
 
 trainerdata 639, "Hillary"
-    .byte 0x00, 0x4D, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TEACHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 639
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_AMBIPOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_SUNFLORA
+        ballseal 0
+    endparty
 
 trainerdata 640, "Billy"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 640
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_PARASECT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_DITTO
+        ballseal 0
+    endparty
 
 trainerdata 641, "Billy"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 641
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_PARASECT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_POLIWHIRL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_DITTO
+        ballseal 0
+    endparty
 
 trainerdata 642, "Billy"
-    .byte 0x01, 0x3C, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 642
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_MR_MIME
+        move MOVE_TRICK_ROOM
+        move MOVE_PSYCHIC
+        move MOVE_SUBSTITUTE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_PARASECT
+        move MOVE_SPORE
+        move MOVE_GIGA_DRAIN
+        move MOVE_X_SCISSOR
+        move MOVE_SLASH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_POLIWRATH
+        move MOVE_WAKE_UP_SLAP
+        move MOVE_BELLY_DRUM
+        move MOVE_DYNAMIC_PUNCH
+        move MOVE_HYPNOSIS
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 51
+        pokemon SPECIES_DITTO
+        move MOVE_TRANSFORM
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 643, "Kay & Tia"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 643
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_RAIN_DANCE
+        move MOVE_SURF
+        move MOVE_EARTHQUAKE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_AMNESIA
+        move MOVE_SURF
+        move MOVE_YAWN
+        move MOVE_NONE
+        ballseal 0
+    endparty
 
 trainerdata 644, "Kay & Tia"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 644
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_RAIN_DANCE
+        move MOVE_SURF
+        move MOVE_MUDDY_WATER
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_AMNESIA
+        move MOVE_SURF
+        move MOVE_MUDDY_WATER
+        move MOVE_PROTECT
+        ballseal 0
+    endparty
 
 trainerdata 645, "Kay & Tia"
-    .byte 0x01, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_TWINS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 645
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_AMNESIA
+        move MOVE_SURF
+        move MOVE_YAWN
+        move MOVE_PROTECT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_QUAGSIRE
+        move MOVE_RAIN_DANCE
+        move MOVE_SURF
+        move MOVE_MUDDY_WATER
+        move MOVE_EARTHQUAKE
+        ballseal 0
+    endparty
 
 trainerdata 646, "Josh"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 646
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 47
+        pokemon SPECIES_FEAROW
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 44
+        pokemon SPECIES_SKARMORY
+        ballseal 0
+    endparty
 
 trainerdata 647, "Josh"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 647
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 48
+        pokemon SPECIES_SKARMORY
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 51
+        pokemon SPECIES_FEAROW
+        ballseal 0
+    endparty
 
 trainerdata 648, "Josh"
-    .byte 0x00, 0x45, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BIRD_KEEPER_GS
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 648
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 55
+        pokemon SPECIES_SKARMORY
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 55
+        pokemon SPECIES_FEAROW
+        ballseal 0
+    endparty
 
 trainerdata 649, "Torin"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 649
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_VULPIX
+        ballseal 0
+    endparty
 
 trainerdata 650, "Torin"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 650
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 51
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_VULPIX
+        ballseal 0
+    endparty
 
 trainerdata 651, "Torin"
-    .byte 0x00, 0x3C, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 651
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_VULPIX
+        ballseal 0
+    endparty
 
 trainerdata 652, "Tim & Sue"
-    .byte 0x00, 0x7A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNG_COUPLE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 652
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_KADABRA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_GOLDUCK
+        ballseal 0
+    endparty
 
 trainerdata 653, "Tim & Sue"
-    .byte 0x01, 0x7A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_YOUNG_COUPLE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 653
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_KADABRA
+        move MOVE_RECOVER
+        move MOVE_PSYCHIC
+        move MOVE_ROLE_PLAY
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_GOLDUCK
+        move MOVE_WATER_PULSE
+        move MOVE_AMNESIA
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_BLIZZARD
+        ballseal 0
+    endparty
 
 trainerdata 654, "Tim & Sue"
-    .byte 0x01, 0x7A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_YOUNG_COUPLE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 654
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_ALAKAZAM
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        move MOVE_REFLECT
+        move MOVE_RECOVER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GOLDUCK
+        move MOVE_HYDRO_PUMP
+        move MOVE_AMNESIA
+        move MOVE_AQUA_JET
+        move MOVE_BLIZZARD
+        ballseal 0
+    endparty
 
 trainerdata 655, "Kenny"
-    .byte 0x00, 0x09, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 655
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 33
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_GOLEM
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+    endparty
 
 trainerdata 656, "Kenny"
-    .byte 0x00, 0x09, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 656
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GOLEM
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_ONIX
+        ballseal 0
+    endparty
 
 trainerdata 657, "Kenny"
-    .byte 0x00, 0x09, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 657
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_SANDSLASH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GRAVELER
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_GOLEM
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 54
+        pokemon SPECIES_STEELIX
+        ballseal 0
+    endparty
 
 trainerdata 658, "Tanner"
-    .byte 0x00, 0x04, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 658
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_SUDOWOODO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_CHINCHOU
+        ballseal 0
+    endparty
 
 trainerdata 659, "Tanner"
-    .byte 0x00, 0x04, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 659
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_SUDOWOODO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_LANTURN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+    endparty
 
 trainerdata 660, "Tanner"
-    .byte 0x00, 0x04, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 660
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_SUDOWOODO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_JUMPLUFF
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_LANTURN
+        ballseal 0
+    endparty
 
 trainerdata 661, "Kyle"
-    .byte 0x00, 0x0B, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 661
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SEAKING
+        ballseal 0
+    endparty
 
 trainerdata 662, "Kyle"
-    .byte 0x00, 0x0B, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 662
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 43
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 47
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_KRABBY
+        ballseal 0
+    endparty
 
 trainerdata 663, "Kyle"
-    .byte 0x00, 0x0B, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 663
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 49
+        pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 51
+        pokemon SPECIES_KINGLER
+        ballseal 0
+    endparty
 
 trainerdata 664, "Kyler"
-    .byte 0x00, 0x0B, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 664
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+    endparty
 
 trainerdata 665, "Kyler"
-    .byte 0x00, 0x0B, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 5
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 665
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+    endparty
 
 trainerdata 666, "Kyler"
-    .byte 0x00, 0x0B, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FISHERMAN
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 666
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_MAGIKARP
+        ballseal 0
+    endparty
 
 trainerdata 667, "Cheryl"
-    .byte 0x03, 0x5A, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PKMN_TRAINER_CHERYL
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 667
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_WOBBUFFET
+        item ITEM_NONE
+        move MOVE_COUNTER
+        move MOVE_MIRROR_COAT
+        move MOVE_SAFEGUARD
+        move MOVE_ENCORE
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_DRIFBLIM
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_OMINOUS_WIND
+        move MOVE_FLY
+        move MOVE_PROTECT
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 62
+        pokemon SPECIES_HARIYAMA
+        item ITEM_NONE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_EARTHQUAKE
+        move MOVE_BULLET_PUNCH
+        move MOVE_STONE_EDGE
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 63
+        pokemon SPECIES_WAILORD
+        item ITEM_NONE
+        move MOVE_WATER_SPOUT
+        move MOVE_BRINE
+        move MOVE_EARTHQUAKE
+        move MOVE_AVALANCHE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_BLISSEY
+        item ITEM_SITRUS_BERRY
+        move MOVE_SOFT_BOILED
+        move MOVE_COUNTER
+        move MOVE_PSYCHIC
+        move MOVE_TOXIC
+        ballseal 0
+    endparty
 
 trainerdata 668, "Marley"
-    .byte 0x03, 0x5E, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PKMN_TRAINER_MARLEY
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 668
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_NINJASK
+        item ITEM_NONE
+        move MOVE_X_SCISSOR
+        move MOVE_AERIAL_ACE
+        move MOVE_SWORDS_DANCE
+        move MOVE_SLASH
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_ELECTRODE
+        item ITEM_NONE
+        move MOVE_HYPER_BEAM
+        move MOVE_THUNDER
+        move MOVE_THUNDER_WAVE
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 62
+        pokemon SPECIES_CROBAT
+        item ITEM_NONE
+        move MOVE_AIR_SLASH
+        move MOVE_POISON_FANG
+        move MOVE_CONFUSE_RAY
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 63
+        pokemon SPECIES_WEAVILE
+        item ITEM_NONE
+        move MOVE_ICE_SHARD
+        move MOVE_NIGHT_SLASH
+        move MOVE_ICE_PUNCH
+        move MOVE_AERIAL_ACE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_ARCANINE
+        item ITEM_SITRUS_BERRY
+        move MOVE_EXTREME_SPEED
+        move MOVE_FLARE_BLITZ
+        move MOVE_CRUNCH
+        move MOVE_THUNDER_FANG
+        ballseal 0
+    endparty
 
 trainerdata 669, "Mira"
-    .byte 0x03, 0x5D, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PKMN_TRAINER_MIRA
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 669
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_PORYGON_Z
+        item ITEM_NONE
+        move MOVE_TRI_ATTACK
+        move MOVE_PSYCHIC
+        move MOVE_THUNDERBOLT
+        move MOVE_DARK_PULSE
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_SHADOW_BALL
+        move MOVE_PSYCHIC
+        move MOVE_SLUDGE_BOMB
+        move MOVE_ENERGY_BALL
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 62
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_NONE
+        move MOVE_THUNDER
+        move MOVE_FLASH_CANNON
+        move MOVE_THUNDER_WAVE
+        move MOVE_HYPER_BEAM
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 63
+        pokemon SPECIES_TOGEKISS
+        item ITEM_NONE
+        move MOVE_EXTREME_SPEED
+        move MOVE_AIR_SLASH
+        move MOVE_AURA_SPHERE
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_SITRUS_BERRY
+        move MOVE_PSYCHIC
+        move MOVE_FOCUS_BLAST
+        move MOVE_CALM_MIND
+        move MOVE_HYPER_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 670, "Riley"
-    .byte 0x03, 0x5B, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PKMN_TRAINER_RILEY
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 670
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_ABSOL
+        item ITEM_NONE
+        move MOVE_PSYCHO_CUT
+        move MOVE_NIGHT_SLASH
+        move MOVE_SWORDS_DANCE
+        move MOVE_QUICK_ATTACK
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_URSARING
+        item ITEM_NONE
+        move MOVE_AVALANCHE
+        move MOVE_SLASH
+        move MOVE_AERIAL_ACE
+        move MOVE_SHADOW_CLAW
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 62
+        pokemon SPECIES_METAGROSS
+        item ITEM_NONE
+        move MOVE_METEOR_MASH
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_HAMMER_ARM
+        move MOVE_BULLET_PUNCH
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 63
+        pokemon SPECIES_SALAMENCE
+        item ITEM_NONE
+        move MOVE_DRAGON_CLAW
+        move MOVE_CRUNCH
+        move MOVE_FIRE_FANG
+        move MOVE_THUNDER_FANG
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_LUCARIO
+        item ITEM_SITRUS_BERRY
+        move MOVE_EXTREME_SPEED
+        move MOVE_CLOSE_COMBAT
+        move MOVE_BONE_RUSH
+        move MOVE_BLAZE_KICK
+        ballseal 0
+    endparty
 
 trainerdata 671, "Buck"
-    .byte 0x03, 0x5C, 0x00, 0x05, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PKMN_TRAINER_BUCK
+    nummons 5
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 671
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_SHUCKLE
+        item ITEM_NONE
+        move MOVE_REST
+        move MOVE_TOXIC
+        move MOVE_PROTECT
+        move MOVE_SANDSTORM
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 62
+        pokemon SPECIES_UMBREON
+        item ITEM_NONE
+        move MOVE_DARK_PULSE
+        move MOVE_PSYCHIC
+        move MOVE_CONFUSE_RAY
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_TORKOAL
+        item ITEM_NONE
+        move MOVE_EARTHQUAKE
+        move MOVE_WILL_O_WISP
+        move MOVE_ERUPTION
+        move MOVE_PROTECT
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 63
+        pokemon SPECIES_DUSKNOIR
+        item ITEM_NONE
+        move MOVE_FIRE_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_THUNDER_PUNCH
+        move MOVE_SHADOW_BALL
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_CLAYDOL
+        item ITEM_SITRUS_BERRY
+        move MOVE_EARTH_POWER
+        move MOVE_PSYCHIC
+        move MOVE_ANCIENT_POWER
+        move MOVE_CALM_MIND
+        ballseal 0
+    endparty
 
 trainerdata 672, "Alfred"
-    .byte 0x00, 0x22, 0x00, 0x01, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 1
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 672
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+    endparty
 
 trainerdata 673, "Alfred"
-    .byte 0x00, 0x22, 0x00, 0x01, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 1
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 673
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 42
+        pokemon SPECIES_NOCTOWL
+        ballseal 0
+    endparty
 
 trainerdata 674, "Alfred"
-    .byte 0x01, 0x22, 0x00, 0x01, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_GENTLEMAN
+    nummons 1
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 674
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_NOCTOWL
+        move MOVE_HYPNOSIS
+        move MOVE_DREAM_EATER
+        move MOVE_AIR_SLASH
+        move MOVE_REFLECT
+        ballseal 0
+    endparty
 
 trainerdata 675, "Lance"
-    .byte 0x01, 0x7B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_PKMN_TRAINER_LANCE
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 675
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 40
+        pokemon SPECIES_DRAGONITE
+        move MOVE_FLY
+        move MOVE_TWISTER
+        move MOVE_THUNDER
+        move MOVE_HYPER_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 676, "Parker"
-    .byte 0x01, 0x2E, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 676
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_HORSEA
+        move MOVE_WATER_PULSE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_TWISTER
+        move MOVE_AGILITY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 43
+        pokemon SPECIES_SEADRA
+        move MOVE_WATER_PULSE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_TWISTER
+        move MOVE_AGILITY
+        ballseal 0
+    endparty
 
 trainerdata 677, "Eddie"
-    .byte 0x01, 0x2E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SAILOR
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 677
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 48
+        pokemon SPECIES_AZUMARILL
+        move MOVE_WATER_PULSE
+        move MOVE_AQUA_RING
+        move MOVE_DOUBLE_EDGE
+        move MOVE_AQUA_TAIL
+        ballseal 0
+    endparty
 
 trainerdata 678, "Joy"
-    .byte 0x01, 0x2B, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SWIMMER_F
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 678
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 48
+        pokemon SPECIES_CLOYSTER
+        move MOVE_WATER_PULSE
+        move MOVE_SPIKE_CANNON
+        move MOVE_AURORA_BEAM
+        move MOVE_ATTRACT
+        ballseal 0
+    endparty
 
 trainerdata 679, "Callie"
-    .byte 0x01, 0x24, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 679
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_CLEFABLE
+        move MOVE_GROWL
+        move MOVE_ENCORE
+        move MOVE_DOUBLE_SLAP
+        move MOVE_METRONOME
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_AROMATISSE
+        move MOVE_FAIRY_WIND
+        move MOVE_DRAINING_KISS
+        move MOVE_AROMATHERAPY
+        move MOVE_HEAL_PULSE
+        ballseal 0
+    endparty
 
 trainerdata 680, "Kassandra"
-    .byte 0x01, 0x24, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 680
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_WIGGLYTUFF
+        move MOVE_SING
+        move MOVE_DEFENSE_CURL
+        move MOVE_POUND
+        move MOVE_DISABLE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_SLURPUFF
+        move MOVE_DRAINING_KISS
+        move MOVE_COTTON_SPORE
+        move MOVE_ROUND
+        move MOVE_FAKE_TEARS
+        ballseal 0
+    endparty
 
 trainerdata 681, "Arabella"
-    .byte 0x01, 0x18, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 681
+        // mon 0
+        ivs 60
+        abilityslot 0
+        level 53
+        pokemon SPECIES_STANTLER
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_RETURN
+        move MOVE_ME_FIRST
+        move MOVE_TRICK_ROOM
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 0
+        level 52
+        pokemon SPECIES_TAUROS
+        move MOVE_TAKE_DOWN
+        move MOVE_THUNDER
+        move MOVE_SURF
+        move MOVE_FIRE_BLAST
+        ballseal 0
+    endparty
 
 trainerdata 682, "Bonita"
-    .byte 0x01, 0x18, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 682
+        // mon 0
+        ivs 60
+        abilityslot 0
+        level 50
+        pokemon SPECIES_SPINDA
+        move MOVE_FLAIL
+        move MOVE_FAKE_OUT
+        move MOVE_TEETER_DANCE
+        move MOVE_TRICK_ROOM
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 32
+        level 52
+        pokemon SPECIES_SUDOWOODO
+        move MOVE_WOOD_HAMMER
+        move MOVE_HAMMER_ARM
+        move MOVE_EARTHQUAKE
+        move MOVE_STONE_EDGE
+        ballseal 0
+    endparty
 
 trainerdata 683, "Salma"
-    .byte 0x03, 0x19, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 683
+        // mon 0
+        ivs 60
+        abilityslot 0
+        level 50
+        pokemon SPECIES_SLOWKING
+        item ITEM_ORAN_BERRY
+        move MOVE_SURF
+        move MOVE_PSYCHIC
+        move MOVE_FLAMETHROWER
+        move MOVE_TRICK_ROOM
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 0
+        level 53
+        pokemon SPECIES_LICKILICKY
+        item ITEM_NONE
+        move MOVE_WRING_OUT
+        move MOVE_THUNDERBOLT
+        move MOVE_EARTHQUAKE
+        move MOVE_ICE_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 684, "Elan & Ida"
-    .byte 0x03, 0x79, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_DOUBLE_TEAM
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 684
+        // mon 0
+        ivs 60
+        abilityslot 32
+        level 52
+        pokemon SPECIES_PORYGON2
+        item ITEM_NONE
+        move MOVE_TRI_ATTACK
+        move MOVE_CHARGE_BEAM
+        move MOVE_PROTECT
+        move MOVE_TRICK_ROOM
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 32
+        level 50
+        pokemon SPECIES_AZUMARILL
+        item ITEM_NONE
+        move MOVE_WATERFALL
+        move MOVE_AQUA_JET
+        move MOVE_SUPERPOWER
+        move MOVE_ATTRACT
+        ballseal 0
+    endparty
 
 trainerdata 685, "Edwin"
-    .byte 0x01, 0x09, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_HIKER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 685
+        // mon 0
+        ivs 80
+        abilityslot 0
+        level 50
+        pokemon SPECIES_GOLEM
+        move MOVE_DOUBLE_EDGE
+        move MOVE_ROCK_SLIDE
+        move MOVE_SANDSTORM
+        move MOVE_ROAR
+        ballseal 0
+    endparty
 
 trainerdata 686, "Bryce"
-    .byte 0x00, 0x73, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BOARDER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 686
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_DEWGONG
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_LAPRAS
+        ballseal 0
+    endparty
 
 trainerdata 687, "Shaun"
-    .byte 0x00, 0x73, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BOARDER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 687
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 55
+        pokemon SPECIES_CLOYSTER
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_DEWGONG
+        ballseal 0
+    endparty
 
 trainerdata 688, "Cady"
-    .byte 0x00, 0x38, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_SKIER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 688
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_DELIBIRD
+        ballseal 0
+    endparty
 
 trainerdata 689, "Cary"
-    .byte 0x01, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 689
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 53
+        pokemon SPECIES_TORKOAL
+        move MOVE_OVERHEAT
+        move MOVE_IRON_TAIL
+        move MOVE_BODY_SLAM
+        move MOVE_IRON_DEFENSE
+        ballseal 0
+    endparty
 
 trainerdata 690, "Waldo"
-    .byte 0x01, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 690
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 53
+        pokemon SPECIES_NUMEL
+        move MOVE_OVERHEAT
+        move MOVE_AMNESIA
+        move MOVE_EARTH_POWER
+        move MOVE_MAGNITUDE
+        ballseal 0
+    endparty
 
 trainerdata 691, "Merle"
-    .byte 0x01, 0x4E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SUPER_NERD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 691
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 53
+        pokemon SPECIES_MAGCARGO
+        move MOVE_OVERHEAT
+        move MOVE_ROCK_SLIDE
+        move MOVE_YAWN
+        move MOVE_RECOVER
+        ballseal 0
+    endparty
 
 trainerdata 692, "Lowell"
-    .byte 0x01, 0x71, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 692
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_ARCANINE
+        move MOVE_OVERHEAT
+        move MOVE_EXTREME_SPEED
+        move MOVE_FIRE_FANG
+        move MOVE_THUNDER_FANG
+        ballseal 0
+    endparty
 
 trainerdata 693, "Linden"
-    .byte 0x01, 0x71, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 693
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_MAGMAR
+        move MOVE_OVERHEAT
+        move MOVE_FIRE_PUNCH
+        move MOVE_CONFUSE_RAY
+        move MOVE_FEINT_ATTACK
+        ballseal 0
+    endparty
 
 trainerdata 694, "Daniel"
-    .byte 0x01, 0x71, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_SCIENTIST_GS
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 694
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_NINETALES
+        move MOVE_OVERHEAT
+        move MOVE_WILL_O_WISP
+        move MOVE_QUICK_ATTACK
+        move MOVE_ROAR
+        ballseal 0
+    endparty
 
 trainerdata 695, "Dane"
-    .byte 0x00, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 695
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 48
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+    endparty
 
 trainerdata 696, "Dion"
-    .byte 0x00, 0x06, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 696
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 50
+        pokemon SPECIES_ARIADOS
+        ballseal 0
+    endparty
 
 trainerdata 697, "Stacey"
-    .byte 0x00, 0x06, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 697
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 52
+        pokemon SPECIES_METAPOD
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 56
+        pokemon SPECIES_METAPOD
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_METAPOD
+        ballseal 0
+    endparty
 
 trainerdata 698, "Ellis"
-    .byte 0x00, 0x06, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 698
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_WEEDLE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_KAKUNA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+    endparty
 
 trainerdata 699, "Abner"
-    .byte 0x00, 0x06, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BUG_CATCHER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 699
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_BUTTERFREE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_BEEDRILL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_PIKACHU
+        ballseal 0
+    endparty
 
 trainerdata 700, "Giovanni"
-    .byte 0x03, 0x7C, 0x00, 0x04, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ROCKET_BOSS
+    nummons 4
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 700
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 42
+        pokemon SPECIES_NIDOKING
+        item ITEM_NONE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_FURY_ATTACK
+        move MOVE_DOUBLE_KICK
+        move MOVE_SHADOW_CLAW
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 32
+        level 40
+        pokemon SPECIES_KANGASKHAN
+        item ITEM_NONE
+        move MOVE_DIZZY_PUNCH
+        move MOVE_SUCKER_PUNCH
+        move MOVE_LEER
+        move MOVE_OUTRAGE
+        ballseal 0
+
+        // mon 2
+        ivs 100
+        abilityslot 0
+        level 43
+        pokemon SPECIES_HONCHKROW
+        item ITEM_NONE
+        move MOVE_DARK_PULSE
+        move MOVE_NASTY_PLOT
+        move MOVE_SWAGGER
+        move MOVE_SHADOW_BALL
+        ballseal 0
+
+        // mon 3
+        ivs 100
+        abilityslot 0
+        level 46
+        pokemon SPECIES_NIDOQUEEN
+        item ITEM_NONE
+        move MOVE_EARTH_POWER
+        move MOVE_SUPERPOWER
+        move MOVE_CRUNCH
+        move MOVE_ROAR
+        ballseal 0
+    endparty
 
 trainerdata 701, "Lance"
-    .byte 0x03, 0x56, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_CHAMPION
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 701
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 72
+        pokemon SPECIES_SALAMENCE
+        item ITEM_LUM_BERRY
+        move MOVE_FLAMETHROWER
+        move MOVE_SHADOW_CLAW
+        move MOVE_DRAGON_CLAW
+        move MOVE_REST
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 68
+        pokemon SPECIES_GYARADOS
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_ICE_FANG
+        move MOVE_WATERFALL
+        move MOVE_DRAGON_DANCE
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 72
+        pokemon SPECIES_GARCHOMP
+        item ITEM_NONE
+        move MOVE_SWORDS_DANCE
+        move MOVE_OUTRAGE
+        move MOVE_EARTHQUAKE
+        move MOVE_ROAR
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 73
+        pokemon SPECIES_ALTARIA
+        item ITEM_NONE
+        move MOVE_PERISH_SONG
+        move MOVE_DRAGON_BREATH
+        move MOVE_DOUBLE_TEAM
+        move MOVE_HYPER_BEAM
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 68
+        pokemon SPECIES_CHARIZARD
+        item ITEM_NONE
+        move MOVE_FLAMETHROWER
+        move MOVE_AIR_SLASH
+        move MOVE_DRAGON_CLAW
+        move MOVE_HYPER_BEAM
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 75
+        pokemon SPECIES_DRAGONITE
+        item ITEM_SITRUS_BERRY
+        move MOVE_FIRE_BLAST
+        move MOVE_SAFEGUARD
+        move MOVE_DRACO_METEOR
+        move MOVE_HYPER_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 702, "Will"
-    .byte 0x03, 0x57, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_WILL
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 702
+        // mon 0
+        ivs 250
+        abilityslot 32
+        level 58
+        pokemon SPECIES_BRONZONG
+        item ITEM_NONE
+        move MOVE_REFLECT
+        move MOVE_PAYBACK
+        move MOVE_GRAVITY
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 60
+        pokemon SPECIES_JYNX
+        item ITEM_NONE
+        move MOVE_FAKE_TEARS
+        move MOVE_LOVELY_KISS
+        move MOVE_BLIZZARD
+        move MOVE_DREAM_EATER
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 59
+        pokemon SPECIES_GRUMPIG
+        item ITEM_NONE
+        move MOVE_CONFUSE_RAY
+        move MOVE_SIGNAL_BEAM
+        move MOVE_POWER_GEM
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 60
+        pokemon SPECIES_SLOWBRO
+        item ITEM_NONE
+        move MOVE_CURSE
+        move MOVE_AMNESIA
+        move MOVE_BODY_SLAM
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 61
+        pokemon SPECIES_GARDEVOIR
+        item ITEM_NONE
+        move MOVE_FOCUS_BLAST
+        move MOVE_CHARGE_BEAM
+        move MOVE_CALM_MIND
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 32
+        level 62
+        pokemon SPECIES_XATU
+        item ITEM_SITRUS_BERRY
+        move MOVE_QUICK_ATTACK
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        move MOVE_PSYCHIC
+        ballseal 0
+    endparty
 
 trainerdata 703, "Koga"
-    .byte 0x03, 0x59, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_KOGA
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 703
+        // mon 0
+        ivs 250
+        abilityslot 32
+        level 61
+        pokemon SPECIES_SKUNTANK
+        item ITEM_NONE
+        move MOVE_SUCKER_PUNCH
+        move MOVE_DIG
+        move MOVE_TOXIC
+        move MOVE_EXPLOSION
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 63
+        pokemon SPECIES_VENOMOTH
+        item ITEM_NONE
+        move MOVE_DOUBLE_TEAM
+        move MOVE_BATON_PASS
+        move MOVE_PSYCHIC
+        move MOVE_SILVER_WIND
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 32
+        level 60
+        pokemon SPECIES_TOXICROAK
+        item ITEM_NONE
+        move MOVE_CROSS_CHOP
+        move MOVE_X_SCISSOR
+        move MOVE_SWAGGER
+        move MOVE_GUNK_SHOT
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 62
+        pokemon SPECIES_MUK
+        item ITEM_BLACK_SLUDGE
+        move MOVE_MINIMIZE
+        move MOVE_SCREECH
+        move MOVE_SWAGGER
+        move MOVE_TOXIC
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 64
+        pokemon SPECIES_CROBAT
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_MEAN_LOOK
+        move MOVE_FLY
+        move MOVE_CROSS_POISON
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 32
+        level 62
+        pokemon SPECIES_SWALOT
+        item ITEM_LEFTOVERS
+        move MOVE_YAWN
+        move MOVE_AMNESIA
+        move MOVE_PAIN_SPLIT
+        move MOVE_SLUDGE_BOMB
+        ballseal 0
+    endparty
 
 trainerdata 704, "Bruno"
-    .byte 0x03, 0x70, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 704
+        // mon 0
+        ivs 250
+        abilityslot 32
+        level 62
+        pokemon SPECIES_HITMONTOP
+        item ITEM_NONE
+        move MOVE_COUNTER
+        move MOVE_QUICK_ATTACK
+        move MOVE_CLOSE_COMBAT
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 32
+        level 61
+        pokemon SPECIES_HITMONLEE
+        item ITEM_NONE
+        move MOVE_SWAGGER
+        move MOVE_CLOSE_COMBAT
+        move MOVE_REVERSAL
+        move MOVE_BLAZE_KICK
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 32
+        level 61
+        pokemon SPECIES_HITMONCHAN
+        item ITEM_NONE
+        move MOVE_SUBSTITUTE
+        move MOVE_DRAIN_PUNCH
+        move MOVE_CLOSE_COMBAT
+        move MOVE_BULLET_PUNCH
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 62
+        pokemon SPECIES_HARIYAMA
+        item ITEM_SITRUS_BERRY
+        move MOVE_LOW_KICK
+        move MOVE_PAYBACK
+        move MOVE_BULLET_PUNCH
+        move MOVE_BULK_UP
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 32
+        level 64
+        pokemon SPECIES_MACHAMP
+        item ITEM_NONE
+        move MOVE_BULLET_PUNCH
+        move MOVE_FORESIGHT
+        move MOVE_STONE_EDGE
+        move MOVE_DYNAMIC_PUNCH
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 32
+        level 64
+        pokemon SPECIES_LUCARIO
+        item ITEM_NONE
+        move MOVE_EXTREME_SPEED
+        move MOVE_CLOSE_COMBAT
+        move MOVE_COUNTER
+        move MOVE_IRON_TAIL
+        ballseal 0
+    endparty
 
 trainerdata 705, "Karen"
-    .byte 0x03, 0x58, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_ELITE_FOUR_KAREN
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 705
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 62
+        pokemon SPECIES_WEAVILE
+        item ITEM_NONE
+        move MOVE_ICE_SHARD
+        move MOVE_NIGHT_SLASH
+        move MOVE_ICE_PUNCH
+        move MOVE_LOW_KICK
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 62
+        pokemon SPECIES_SPIRITOMB
+        item ITEM_NONE
+        move MOVE_CURSE
+        move MOVE_CONFUSE_RAY
+        move MOVE_PAIN_SPLIT
+        move MOVE_SUCKER_PUNCH
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 32
+        level 62
+        pokemon SPECIES_ABSOL
+        item ITEM_NONE
+        move MOVE_NIGHT_SLASH
+        move MOVE_PSYCHO_CUT
+        move MOVE_DETECT
+        move MOVE_PERISH_SONG
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 64
+        pokemon SPECIES_HONCHKROW
+        item ITEM_NONE
+        move MOVE_DRILL_PECK
+        move MOVE_WHIRLWIND
+        move MOVE_SUCKER_PUNCH
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 63
+        pokemon SPECIES_HOUNDOOM
+        item ITEM_NONE
+        move MOVE_NASTY_PLOT
+        move MOVE_DARK_PULSE
+        move MOVE_FLAMETHROWER
+        move MOVE_SLUDGE_BOMB
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 64
+        pokemon SPECIES_UMBREON
+        item ITEM_SITRUS_BERRY
+        move MOVE_CURSE
+        move MOVE_PAYBACK
+        move MOVE_CONFUSE_RAY
+        move MOVE_SUCKER_PUNCH
+        ballseal 0
+    endparty
 
 trainerdata 706, "Proton"
-    .byte 0x01, 0x75, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_EXECUTIVE_PROTON
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 706
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 39
+        pokemon SPECIES_SCOLIPEDE
+        move MOVE_SCREECH
+        move MOVE_POISON_TAIL
+        move MOVE_STEAMROLLER
+        move MOVE_BUG_BITE
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 39
+        pokemon SPECIES_GARBODOR
+        move MOVE_SLUDGE_BOMB
+        move MOVE_AMNESIA
+        move MOVE_BODY_SLAM
+        move MOVE_PAIN_SPLIT
+        ballseal 0
+    endparty
 
 trainerdata 707, "Palmer"
-    .byte 0x00, 0x61, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_TOWER_TYCOON
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 707
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 708, "Argenta"
-    .byte 0x00, 0x63, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HALL_MATRON
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 708
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 709, "Thorton"
-    .byte 0x00, 0x64, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_FACTORY_HEAD
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 709
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 710, "Dahlia"
-    .byte 0x00, 0x65, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_ARCADE_STAR
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 710
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 711, "Darach"
-    .byte 0x00, 0x66, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CASTLE_VALET
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 711
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 5
+        pokemon SPECIES_RATTATA
+        ballseal 0
+    endparty
 
 trainerdata 712, "Falkner"
-    .byte 0x03, 0x42, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_FALKNER
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 712
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 50
+        pokemon SPECIES_STARAPTOR
+        item ITEM_NONE
+        move MOVE_ATTRACT
+        move MOVE_BRAVE_BIRD
+        move MOVE_CLOSE_COMBAT
+        move MOVE_U_TURN
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_NOCTOWL
+        item ITEM_NONE
+        move MOVE_ROOST
+        move MOVE_AIR_SLASH
+        move MOVE_SHADOW_BALL
+        move MOVE_FEATHER_DANCE
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_SWELLOW
+        item ITEM_FLAME_ORB
+        move MOVE_FACADE
+        move MOVE_PROTECT
+        move MOVE_DOUBLE_TEAM
+        move MOVE_ENDEAVOR
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_HONCHKROW
+        item ITEM_NONE
+        move MOVE_NIGHT_SLASH
+        move MOVE_SUCKER_PUNCH
+        move MOVE_THUNDER_WAVE
+        move MOVE_DARK_PULSE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_PELIPPER
+        item ITEM_NONE
+        move MOVE_SURF
+        move MOVE_TAILWIND
+        move MOVE_ICE_BEAM
+        move MOVE_HIDDEN_POWER
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_PIDGEOT
+        item ITEM_NONE
+        move MOVE_RETURN
+        move MOVE_DOUBLE_TEAM
+        move MOVE_SWAGGER
+        move MOVE_ROOST
+        ballseal 0
+    endparty
 
 trainerdata 713, "Bugsy"
-    .byte 0x03, 0x43, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BUGSY
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 713
+        // mon 0
+        ivs 200
+        abilityslot 32
+        level 56
+        pokemon SPECIES_SCIZOR
+        item ITEM_SITRUS_BERRY
+        move MOVE_BULLET_PUNCH
+        move MOVE_X_SCISSOR
+        move MOVE_SWORDS_DANCE
+        move MOVE_SUPERPOWER
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 48
+        pokemon SPECIES_SHEDINJA
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_X_SCISSOR
+        move MOVE_SHADOW_SNEAK
+        move MOVE_SWAGGER
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 52
+        pokemon SPECIES_YANMEGA
+        item ITEM_NONE
+        move MOVE_DETECT
+        move MOVE_BUG_BUZZ
+        move MOVE_AIR_SLASH
+        move MOVE_ANCIENT_POWER
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 55
+        pokemon SPECIES_PINSIR
+        item ITEM_NONE
+        move MOVE_EARTHQUAKE
+        move MOVE_GUILLOTINE
+        move MOVE_X_SCISSOR
+        move MOVE_ROCK_TOMB
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_HERACROSS
+        item ITEM_NONE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_MEGAHORN
+        move MOVE_STONE_EDGE
+        move MOVE_COUNTER
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_VESPIQUEN
+        item ITEM_SITRUS_BERRY
+        move MOVE_PROTECT
+        move MOVE_CONFUSE_RAY
+        move MOVE_ATTACK_ORDER
+        move MOVE_DEFEND_ORDER
+        ballseal 0
+    endparty
 
 trainerdata 714, "Whitney"
-    .byte 0x03, 0x46, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x0F, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_WHITNEY
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_PRIORITIZE_STATUS_MOVES | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 714
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 52
+        pokemon SPECIES_GIRAFARIG
+        item ITEM_NONE
+        move MOVE_PSYCHIC
+        move MOVE_SHADOW_BALL
+        move MOVE_CALM_MIND
+        move MOVE_BATON_PASS
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 50
+        pokemon SPECIES_LICKILICKY
+        item ITEM_NONE
+        move MOVE_WRING_OUT
+        move MOVE_FLAMETHROWER
+        move MOVE_ICE_BEAM
+        move MOVE_THUNDERBOLT
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_BIBAREL
+        item ITEM_NONE
+        move MOVE_DOUBLE_TEAM
+        move MOVE_CHARGE_BEAM
+        move MOVE_SURF
+        move MOVE_ICE_BEAM
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 32
+        level 54
+        pokemon SPECIES_DELCATTY
+        item ITEM_NONE
+        move MOVE_FAKE_OUT
+        move MOVE_ASSIST
+        move MOVE_CALM_MIND
+        move MOVE_BATON_PASS
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_CLEFABLE
+        item ITEM_NONE
+        move MOVE_BLIZZARD
+        move MOVE_THUNDER
+        move MOVE_FIRE_BLAST
+        move MOVE_CALM_MIND
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 32
+        level 58
+        pokemon SPECIES_MILTANK
+        item ITEM_LUM_BERRY
+        move MOVE_BODY_SLAM
+        move MOVE_ATTRACT
+        move MOVE_SLEEP_TALK
+        move MOVE_REST
+        ballseal 0
+    endparty
 
 trainerdata 715, "Morty"
-    .byte 0x03, 0x48, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_MORTY
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 715
+        // mon 0
+        ivs 200
+        abilityslot 32
+        level 52
+        pokemon SPECIES_DRIFBLIM
+        item ITEM_SITRUS_BERRY
+        move MOVE_DESTINY_BOND
+        move MOVE_SUBSTITUTE
+        move MOVE_THUNDERBOLT
+        move MOVE_SHADOW_BALL
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_DUSKNOIR
+        item ITEM_NONE
+        move MOVE_PAIN_SPLIT
+        move MOVE_WILL_O_WISP
+        move MOVE_SUBSTITUTE
+        move MOVE_PAYBACK
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_SABLEYE
+        item ITEM_NONE
+        move MOVE_SUCKER_PUNCH
+        move MOVE_BRICK_BREAK
+        move MOVE_ICE_PUNCH
+        move MOVE_FAKE_OUT
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_MISMAGIUS
+        item ITEM_NONE
+        move MOVE_PERISH_SONG
+        move MOVE_MEAN_LOOK
+        move MOVE_CONFUSE_RAY
+        move MOVE_ASTONISH
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 57
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_HYPNOSIS
+        move MOVE_CONFUSE_RAY
+        move MOVE_SHADOW_BALL
+        move MOVE_FOCUS_BLAST
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 57
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_SUBSTITUTE
+        move MOVE_SHADOW_BALL
+        move MOVE_THUNDERBOLT
+        move MOVE_DESTINY_BOND
+        ballseal 0
+    endparty
 
 trainerdata 716, "Pryce"
-    .byte 0x03, 0x49, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_PRYCE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 716
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_ABOMASNOW
+        item ITEM_NONE
+        move MOVE_ICE_SHARD
+        move MOVE_WOOD_HAMMER
+        move MOVE_EARTHQUAKE
+        move MOVE_BLIZZARD
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 58
+        pokemon SPECIES_DEWGONG
+        item ITEM_LUM_BERRY
+        move MOVE_DIVE
+        move MOVE_SHEER_COLD
+        move MOVE_SLEEP_TALK
+        move MOVE_REST
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_GLALIE
+        item ITEM_NONE
+        move MOVE_PAYBACK
+        move MOVE_TORMENT
+        move MOVE_ATTRACT
+        move MOVE_BLIZZARD
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_FROSLASS
+        item ITEM_NONE
+        move MOVE_ICE_SHARD
+        move MOVE_CONFUSE_RAY
+        move MOVE_ATTRACT
+        move MOVE_BLIZZARD
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 54
+        pokemon SPECIES_WALREIN
+        item ITEM_NONE
+        move MOVE_HAIL
+        move MOVE_BODY_SLAM
+        move MOVE_SWAGGER
+        move MOVE_BLIZZARD
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 32
+        level 60
+        pokemon SPECIES_MAMOSWINE
+        item ITEM_SITRUS_BERRY
+        move MOVE_EARTHQUAKE
+        move MOVE_AVALANCHE
+        move MOVE_STONE_EDGE
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+    endparty
 
 trainerdata 717, "Jasmine"
-    .byte 0x03, 0x4A, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_JASMINE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 717
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_METAGROSS
+        item ITEM_NONE
+        move MOVE_METEOR_MASH
+        move MOVE_BULLET_PUNCH
+        move MOVE_GRAVITY
+        move MOVE_EXPLOSION
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 56
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_NONE
+        move MOVE_ZAP_CANNON
+        move MOVE_LOCK_ON
+        move MOVE_MIRROR_COAT
+        move MOVE_METAL_SOUND
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_SKARMORY
+        item ITEM_NONE
+        move MOVE_AIR_SLASH
+        move MOVE_SPIKES
+        move MOVE_NIGHT_SLASH
+        move MOVE_STEEL_WING
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 50
+        pokemon SPECIES_BRONZONG
+        item ITEM_NONE
+        move MOVE_GYRO_BALL
+        move MOVE_HYPNOSIS
+        move MOVE_DREAM_EATER
+        move MOVE_GRAVITY
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_EMPOLEON
+        item ITEM_NONE
+        move MOVE_HYDRO_PUMP
+        move MOVE_BLIZZARD
+        move MOVE_AQUA_JET
+        move MOVE_ROAR
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 32
+        level 62
+        pokemon SPECIES_STEELIX
+        item ITEM_NONE
+        move MOVE_STONE_EDGE
+        move MOVE_STEALTH_ROCK
+        move MOVE_ROAR
+        move MOVE_IRON_TAIL
+        ballseal 0
+    endparty
 
 trainerdata 718, "Chuck"
-    .byte 0x03, 0x4B, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_CHUCK
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 718
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_MEDICHAM
+        item ITEM_SITRUS_BERRY
+        move MOVE_HIGH_JUMP_KICK
+        move MOVE_PSYCHO_CUT
+        move MOVE_ATTRACT
+        move MOVE_THUNDER_PUNCH
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 52
+        pokemon SPECIES_HITMONCHAN
+        item ITEM_NONE
+        move MOVE_MACH_PUNCH
+        move MOVE_SWAGGER
+        move MOVE_FOCUS_PUNCH
+        move MOVE_DOUBLE_TEAM
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 55
+        pokemon SPECIES_HITMONLEE
+        item ITEM_NONE
+        move MOVE_HIGH_JUMP_KICK
+        move MOVE_FAKE_OUT
+        move MOVE_BLAZE_KICK
+        move MOVE_BULK_UP
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 54
+        pokemon SPECIES_BRELOOM
+        item ITEM_TOXIC_ORB
+        move MOVE_SUBSTITUTE
+        move MOVE_FOCUS_PUNCH
+        move MOVE_DRAIN_PUNCH
+        move MOVE_STONE_EDGE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_PRIMEAPE
+        item ITEM_NONE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_PAYBACK
+        move MOVE_THUNDER_PUNCH
+        move MOVE_SWAGGER
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 60
+        pokemon SPECIES_POLIWRATH
+        item ITEM_SITRUS_BERRY
+        move MOVE_DOUBLE_TEAM
+        move MOVE_WATERFALL
+        move MOVE_FOCUS_PUNCH
+        move MOVE_SUBSTITUTE
+        ballseal 0
+    endparty
 
 trainerdata 719, "Clair"
-    .byte 0x03, 0x4C, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_CLAIR
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 719
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GYARADOS
+        item ITEM_WACAN_BERRY
+        move MOVE_DRAGON_DANCE
+        move MOVE_EARTHQUAKE
+        move MOVE_WATERFALL
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_DRAGONAIR
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_DRAGON_RUSH
+        move MOVE_THUNDERBOLT
+        move MOVE_FLAMETHROWER
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_AERODACTYL
+        item ITEM_NONE
+        move MOVE_EARTHQUAKE
+        move MOVE_THUNDER_FANG
+        move MOVE_ROCK_SLIDE
+        move MOVE_ROAR
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 56
+        pokemon SPECIES_KINGDRA
+        item ITEM_NONE
+        move MOVE_YAWN
+        move MOVE_HYDRO_PUMP
+        move MOVE_ICE_BEAM
+        move MOVE_DRAGON_BREATH
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_CHARIZARD
+        item ITEM_NONE
+        move MOVE_SHADOW_CLAW
+        move MOVE_AIR_SLASH
+        move MOVE_DRAGON_CLAW
+        move MOVE_FIRE_FANG
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 60
+        pokemon SPECIES_DRAGONITE
+        item ITEM_SITRUS_BERRY
+        move MOVE_THUNDER
+        move MOVE_SAFEGUARD
+        move MOVE_DRAGON_BREATH
+        move MOVE_HYPER_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 720, "Brock"
-    .byte 0x03, 0x62, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BROCK
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 720
+        // mon 0
+        ivs 200
+        abilityslot 32
+        level 55
+        pokemon SPECIES_GOLEM
+        item ITEM_NONE
+        move MOVE_SANDSTORM
+        move MOVE_ROCK_SLIDE
+        move MOVE_ROCK_POLISH
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 54
+        pokemon SPECIES_RELICANTH
+        item ITEM_LUM_BERRY
+        move MOVE_HEAD_SMASH
+        move MOVE_AQUA_TAIL
+        move MOVE_EARTHQUAKE
+        move MOVE_REST
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 56
+        pokemon SPECIES_OMASTAR
+        item ITEM_NONE
+        move MOVE_ANCIENT_POWER
+        move MOVE_BRINE
+        move MOVE_PROTECT
+        move MOVE_SANDSTORM
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 61
+        pokemon SPECIES_ONIX
+        item ITEM_SITRUS_BERRY
+        move MOVE_STEALTH_ROCK
+        move MOVE_ROCK_SLIDE
+        move MOVE_ROCK_POLISH
+        move MOVE_SANDSTORM
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 55
+        pokemon SPECIES_KABUTOPS
+        item ITEM_NONE
+        move MOVE_ROCK_SLIDE
+        move MOVE_AQUA_JET
+        move MOVE_ENDURE
+        move MOVE_GIGA_DRAIN
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 57
+        pokemon SPECIES_RAMPARDOS
+        item ITEM_NONE
+        move MOVE_EARTHQUAKE
+        move MOVE_STONE_EDGE
+        move MOVE_AVALANCHE
+        move MOVE_ROCK_POLISH
+        ballseal 0
+    endparty
 
 trainerdata 721, "Misty"
-    .byte 0x03, 0x67, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_MISTY
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 721
+        // mon 0
+        ivs 200
+        abilityslot 32
+        level 60
+        pokemon SPECIES_STARMIE
+        item ITEM_COLBUR_BERRY
+        move MOVE_THUNDERBOLT
+        move MOVE_PSYCHIC
+        move MOVE_ICE_BEAM
+        move MOVE_SURF
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 56
+        pokemon SPECIES_QUAGSIRE
+        item ITEM_NONE
+        move MOVE_WATER_PULSE
+        move MOVE_AMNESIA
+        move MOVE_EARTHQUAKE
+        move MOVE_RAIN_DANCE
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_LAPRAS
+        item ITEM_NONE
+        move MOVE_SURF
+        move MOVE_PERISH_SONG
+        move MOVE_BLIZZARD
+        move MOVE_RAIN_DANCE
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_LANTURN
+        item ITEM_NONE
+        move MOVE_CONFUSE_RAY
+        move MOVE_THUNDERBOLT
+        move MOVE_SURF
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_FLOATZEL
+        item ITEM_NONE
+        move MOVE_AGILITY
+        move MOVE_ICE_FANG
+        move MOVE_WATERFALL
+        move MOVE_BATON_PASS
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 60
+        pokemon SPECIES_MILOTIC
+        item ITEM_NONE
+        move MOVE_HYDRO_PUMP
+        move MOVE_ICE_BEAM
+        move MOVE_REST
+        move MOVE_SLEEP_TALK
+        ballseal 0
+    endparty
 
 trainerdata 722, "Lt. Surge"
-    .byte 0x03, 0x68, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_LT_SURGE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 722
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 60
+        pokemon SPECIES_RAICHU
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_QUICK_ATTACK
+        move MOVE_THUNDERBOLT
+        move MOVE_GRASS_KNOT
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_MANECTRIC
+        item ITEM_PINAP_BERRY
+        move MOVE_THUNDER_WAVE
+        move MOVE_NATURAL_GIFT
+        move MOVE_DISCHARGE
+        move MOVE_OVERHEAT
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_NONE
+        move MOVE_THUNDERBOLT
+        move MOVE_DOUBLE_TEAM
+        move MOVE_MAGNET_RISE
+        move MOVE_MIRROR_SHOT
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 32
+        level 52
+        pokemon SPECIES_ELECTRODE
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_DOUBLE_TEAM
+        move MOVE_THUNDERBOLT
+        move MOVE_EXPLOSION
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 58
+        pokemon SPECIES_PACHIRISU
+        item ITEM_NONE
+        move MOVE_QUICK_ATTACK
+        move MOVE_SUPER_FANG
+        move MOVE_DISCHARGE
+        move MOVE_SWEET_KISS
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_ELECTIVIRE
+        item ITEM_SITRUS_BERRY
+        move MOVE_THUNDERBOLT
+        move MOVE_CROSS_CHOP
+        move MOVE_ICE_PUNCH
+        move MOVE_EARTHQUAKE
+        ballseal 0
+    endparty
 
 trainerdata 723, "Erika"
-    .byte 0x03, 0x69, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_ERIKA
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 723
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_SHIFTRY
+        item ITEM_NONE
+        move MOVE_LEAF_STORM
+        move MOVE_SUCKER_PUNCH
+        move MOVE_EXPLOSION
+        move MOVE_SUNNY_DAY
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 53
+        pokemon SPECIES_JUMPLUFF
+        item ITEM_NONE
+        move MOVE_U_TURN
+        move MOVE_MEMENTO
+        move MOVE_SLEEP_POWDER
+        move MOVE_GIGA_DRAIN
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_VICTREEBEL
+        item ITEM_KELPSY_BERRY
+        move MOVE_NATURAL_GIFT
+        move MOVE_SLUDGE_BOMB
+        move MOVE_LEAF_STORM
+        move MOVE_LEAF_BLADE
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_BELLOSSOM
+        item ITEM_NONE
+        move MOVE_SUNNY_DAY
+        move MOVE_SOLAR_BEAM
+        move MOVE_GIGA_DRAIN
+        move MOVE_ATTRACT
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 60
+        pokemon SPECIES_TANGROWTH
+        item ITEM_NONE
+        move MOVE_SWORDS_DANCE
+        move MOVE_POWER_WHIP
+        move MOVE_ROCK_SLIDE
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 55
+        pokemon SPECIES_ROSERADE
+        item ITEM_NONE
+        move MOVE_WEATHER_BALL
+        move MOVE_ENERGY_BALL
+        move MOVE_SLUDGE_BOMB
+        move MOVE_STUN_SPORE
+        ballseal 0
+    endparty
 
 trainerdata 724, "Janine"
-    .byte 0x03, 0x6A, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_JANINE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 724
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_CROBAT
+        item ITEM_NONE
+        move MOVE_HEAT_WAVE
+        move MOVE_CROSS_POISON
+        move MOVE_CONFUSE_RAY
+        move MOVE_U_TURN
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_WEEZING
+        item ITEM_NONE
+        move MOVE_THUNDERBOLT
+        move MOVE_SLUDGE_BOMB
+        move MOVE_TOXIC
+        move MOVE_EXPLOSION
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 52
+        pokemon SPECIES_TOXICROAK
+        item ITEM_NONE
+        move MOVE_CROSS_CHOP
+        move MOVE_POISON_JAB
+        move MOVE_ATTRACT
+        move MOVE_SUBSTITUTE
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 58
+        pokemon SPECIES_ARIADOS
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_BOUNCE
+        move MOVE_SWAGGER
+        move MOVE_NIGHT_SHADE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 59
+        pokemon SPECIES_VENOMOTH
+        item ITEM_SITRUS_BERRY
+        move MOVE_SLEEP_POWDER
+        move MOVE_DOUBLE_TEAM
+        move MOVE_BUG_BUZZ
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 55
+        pokemon SPECIES_DRAPION
+        item ITEM_NONE
+        move MOVE_CROSS_POISON
+        move MOVE_CONFUSE_RAY
+        move MOVE_CRUNCH
+        move MOVE_SWORDS_DANCE
+        ballseal 0
+    endparty
 
 trainerdata 725, "Sabrina"
-    .byte 0x03, 0x6B, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x0F, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_SABRINA
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_PRIORITIZE_STATUS_MOVES | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 725
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 60
+        pokemon SPECIES_ALAKAZAM
+        item ITEM_NONE
+        move MOVE_GRAVITY
+        move MOVE_FOCUS_BLAST
+        move MOVE_ENERGY_BALL
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 58
+        pokemon SPECIES_ESPEON
+        item ITEM_NONE
+        move MOVE_CALM_MIND
+        move MOVE_BATON_PASS
+        move MOVE_SHADOW_BALL
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 56
+        pokemon SPECIES_MR_MIME
+        item ITEM_NONE
+        move MOVE_REFLECT
+        move MOVE_SKILL_SWAP
+        move MOVE_THUNDER
+        move MOVE_PSYCHIC
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_JYNX
+        item ITEM_NONE
+        move MOVE_BLIZZARD
+        move MOVE_PERISH_SONG
+        move MOVE_PSYCHIC
+        move MOVE_FOCUS_BLAST
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 53
+        pokemon SPECIES_WOBBUFFET
+        item ITEM_NONE
+        move MOVE_COUNTER
+        move MOVE_MIRROR_COAT
+        move MOVE_DESTINY_BOND
+        move MOVE_ENCORE
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 53
+        pokemon SPECIES_GALLADE
+        item ITEM_SITRUS_BERRY
+        move MOVE_CLOSE_COMBAT
+        move MOVE_PSYCHO_CUT
+        move MOVE_NIGHT_SLASH
+        move MOVE_STONE_EDGE
+        ballseal 0
+    endparty
 
 trainerdata 726, "Blaine"
-    .byte 0x03, 0x6C, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BLAINE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 726
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 54
+        pokemon SPECIES_TORKOAL
+        item ITEM_NONE
+        move MOVE_SUNNY_DAY
+        move MOVE_YAWN
+        move MOVE_BODY_SLAM
+        move MOVE_OVERHEAT
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 57
+        pokemon SPECIES_CAMERUPT
+        item ITEM_NONE
+        move MOVE_EARTHQUAKE
+        move MOVE_ERUPTION
+        move MOVE_SOLAR_BEAM
+        move MOVE_SUNNY_DAY
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 32
+        level 60
+        pokemon SPECIES_RAPIDASH
+        item ITEM_NONE
+        move MOVE_MEGAHORN
+        move MOVE_QUICK_ATTACK
+        move MOVE_OVERHEAT
+        move MOVE_FLARE_BLITZ
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 58
+        pokemon SPECIES_MAGCARGO
+        item ITEM_NONE
+        move MOVE_CURSE
+        move MOVE_GYRO_BALL
+        move MOVE_OVERHEAT
+        move MOVE_STONE_EDGE
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 54
+        pokemon SPECIES_HOUNDOOM
+        item ITEM_NONE
+        move MOVE_SHADOW_BALL
+        move MOVE_DARK_PULSE
+        move MOVE_FLAMETHROWER
+        move MOVE_SUCKER_PUNCH
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 62
+        pokemon SPECIES_MAGMORTAR
+        item ITEM_NONE
+        move MOVE_THUNDERBOLT
+        move MOVE_LOW_KICK
+        move MOVE_FLAMETHROWER
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+    endparty
 
 trainerdata 727, "Blue"
-    .byte 0x03, 0x6E, 0x00, 0x06, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x17, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_BLUE
+    nummons 6
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 727
+        // mon 0
+        ivs 100
+        abilityslot 0
+        level 67
+        pokemon SPECIES_EXEGGUTOR
+        item ITEM_NONE
+        move MOVE_LEAF_STORM
+        move MOVE_PSYCHIC
+        move MOVE_EXPLOSION
+        move MOVE_TRICK_ROOM
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 32
+        level 69
+        pokemon SPECIES_MACHAMP
+        item ITEM_IRON_BALL
+        move MOVE_DYNAMIC_PUNCH
+        move MOVE_STONE_EDGE
+        move MOVE_FLING
+        move MOVE_ATTRACT
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 32
+        level 70
+        pokemon SPECIES_RHYPERIOR
+        item ITEM_NONE
+        move MOVE_MEGAHORN
+        move MOVE_STONE_EDGE
+        move MOVE_THUNDER_FANG
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 68
+        pokemon SPECIES_ARCANINE
+        item ITEM_NONE
+        move MOVE_FLARE_BLITZ
+        move MOVE_EXTREME_SPEED
+        move MOVE_THUNDER_FANG
+        move MOVE_CRUNCH
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 70
+        pokemon SPECIES_TYRANITAR
+        item ITEM_NONE
+        move MOVE_LOW_KICK
+        move MOVE_FIRE_FANG
+        move MOVE_ROCK_SLIDE
+        move MOVE_EARTHQUAKE
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 72
+        pokemon SPECIES_PIDGEOT
+        item ITEM_SITRUS_BERRY
+        move MOVE_RETURN
+        move MOVE_DOUBLE_TEAM
+        move MOVE_AIR_SLASH
+        move MOVE_STEEL_WING
+        ballseal 0
+    endparty
 
 trainerdata 728, "Charlotte"
-    .byte 0x00, 0x24, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_BEAUTY
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 728
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_BELLOSSOM
+        ballseal 1
+    endparty
 
 trainerdata 729, "Duff & Eda"
-    .byte 0x00, 0x7A, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_YOUNG_COUPLE
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 729
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 22
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 22
+        pokemon SPECIES_CLOYSTER
+        ballseal 0
+    endparty
 
 trainerdata 730, "Thom & Kae"
-    .byte 0x01, 0x79, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x02, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_DOUBLE_TEAM
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype DOUBLE_BATTLE
+    endentry
+
+    party 730
+        // mon 0
+        ivs 50
+        abilityslot 0
+        level 25
+        pokemon SPECIES_ELECTABUZZ
+        move MOVE_THUNDERBOLT
+        move MOVE_LIGHT_SCREEN
+        move MOVE_SWIFT
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 25
+        pokemon SPECIES_MAGMAR
+        move MOVE_FLAMETHROWER
+        move MOVE_CONFUSE_RAY
+        move MOVE_FEINT_ATTACK
+        move MOVE_PROTECT
+        ballseal 0
+    endparty
 
 trainerdata 731, "Devin"
-    .byte 0x00, 0x09, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_HIKER
+    nummons 3
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 731
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_DUNSPARCE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_DUDUNSPARCE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 19
+        pokemon SPECIES_FARIGIRAF
+        ballseal 0
+    endparty
 
 trainerdata 732, "Grant"
-    .byte 0x00, 0x04, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 732
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_SKIPLOOM
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 21
+        pokemon SPECIES_MARILL
+        ballseal 0
+    endparty
 
 trainerdata 733, "Lance"
-    .byte 0x03, 0x56, 0x00, 0x03, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_CHAMPION
+    nummons 3
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 733
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 68
+        pokemon SPECIES_GYARADOS
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_ICE_FANG
+        move MOVE_WATERFALL
+        move MOVE_DRAGON_DANCE
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 68
+        pokemon SPECIES_CHARIZARD
+        item ITEM_NONE
+        move MOVE_FLAMETHROWER
+        move MOVE_AIR_SLASH
+        move MOVE_DRAGON_CLAW
+        move MOVE_HYPER_BEAM
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 75
+        pokemon SPECIES_DRAGONITE
+        item ITEM_NONE
+        move MOVE_FIRE_PUNCH
+        move MOVE_SAFEGUARD
+        move MOVE_DRACO_METEOR
+        move MOVE_HYPER_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 734, "Clair"
-    .byte 0x03, 0x4C, 0x00, 0x03, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_LEADER_CLAIR
+    nummons 3
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 734
+        // mon 0
+        ivs 200
+        abilityslot 0
+        level 52
+        pokemon SPECIES_DRAGONAIR
+        item ITEM_NONE
+        move MOVE_THUNDER_WAVE
+        move MOVE_DRAGON_RUSH
+        move MOVE_THUNDERBOLT
+        move MOVE_FLAMETHROWER
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 32
+        level 56
+        pokemon SPECIES_KINGDRA
+        item ITEM_NONE
+        move MOVE_YAWN
+        move MOVE_HYDRO_PUMP
+        move MOVE_ICE_BEAM
+        move MOVE_DRAGON_BREATH
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 60
+        pokemon SPECIES_DRAGONITE
+        item ITEM_NONE
+        move MOVE_THUNDER
+        move MOVE_PROTECT
+        move MOVE_DRAGON_BREATH
+        move MOVE_HYPER_BEAM
+        ballseal 0
+    endparty
 
 trainerdata 735, "Silver"
-    .byte 0x03, 0x17, 0x00, 0x03, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 3
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 735
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 60
+        pokemon SPECIES_MEGANIUM
+        item ITEM_NONE
+        move MOVE_PETAL_DANCE
+        move MOVE_BODY_SLAM
+        move MOVE_LIGHT_SCREEN
+        move MOVE_SYNTHESIS
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 58
+        pokemon SPECIES_CROBAT
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+    endparty
 
 trainerdata 736, "Silver"
-    .byte 0x03, 0x17, 0x00, 0x03, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 3
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 736
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 60
+        pokemon SPECIES_TYPHLOSION
+        item ITEM_NONE
+        move MOVE_ROLLOUT
+        move MOVE_FLAMETHROWER
+        move MOVE_WILL_O_WISP
+        move MOVE_SWIFT
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 58
+        pokemon SPECIES_CROBAT
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+    endparty
 
 trainerdata 737, "Silver"
-    .byte 0x03, 0x17, 0x00, 0x03, 0x17, 0x00, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 0
-    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 1
-    .byte 0x1E, 0x00, 0x0E, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x10, 0x00, 0x29, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x12, 0x00, 0x99, 0x00, 0x00, 0x00
-    .close
-
-party 2
-    .byte 0x00, 0x00, 0x05, 0x00, 0x9B, 0x00, 0x00, 0x00
-    .close
-
-party 3
-    .byte 0x00, 0x00, 0x05, 0x00, 0x9E, 0x00, 0x00, 0x00
-    .close
-
-party 4
-    .byte 0x00, 0x00, 0x02, 0x00, 0xCA, 0x02, 0x00, 0x00, 0x00, 0x00, 0x02, 0x00, 0x12, 0x03, 0x00, 0x00
-    .byte 0x00, 0x00, 0x03, 0x00, 0x0D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x00, 0x09, 0x01, 0x00, 0x00
-    .close
-
-party 5
-    .byte 0x0A, 0x20, 0x13, 0x00, 0x08, 0x01, 0x00, 0x00, 0x0A, 0x20, 0x12, 0x00, 0x90, 0x01, 0x00, 0x00
-    .byte 0x0A, 0x20, 0x12, 0x00, 0xC6, 0x02, 0x00, 0x00
-    .close
-
-party 6
-    .byte 0x00, 0x00, 0x12, 0x00, 0x3A, 0x00, 0x00, 0x00
-    .close
-
-party 7
-    .byte 0x00, 0x00, 0x14, 0x00, 0x64, 0x00, 0x00, 0x00, 0x00, 0x20, 0x14, 0x00, 0x8D, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0xCC, 0x03, 0x00, 0x00, 0x00, 0x20, 0x16, 0x00, 0x3C, 0x02, 0x00, 0x00
-    .close
-
-party 8
-    .byte 0x00, 0x00, 0x04, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 9
-    .byte 0x00, 0x20, 0x20, 0x00, 0x79, 0x00, 0x00, 0x00
-    .close
-
-party 10
-    .byte 0x0A, 0x20, 0x0A, 0x00, 0xA7, 0x00, 0x00, 0x00, 0x0A, 0x20, 0x0A, 0x00, 0xA5, 0x00, 0x00, 0x00
-    .close
-
-party 11
-    .byte 0x00, 0x00, 0x14, 0x00, 0xBC, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0x25, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0xBC, 0x00, 0x00, 0x00
-    .close
-
-party 12
-    .byte 0x1E, 0x20, 0x0C, 0x00, 0xB2, 0x01, 0x00, 0x00, 0x1E, 0x00, 0x0D, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x0D, 0x00, 0x27, 0x03, 0x00, 0x00
-    .close
-
-party 13
-    .byte 0x1E, 0x00, 0x0D, 0x00, 0x29, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x0E, 0x00, 0x17, 0x00, 0x00, 0x00
-    .close
-
-party 14
-    .byte 0x00, 0x00, 0x28, 0x00, 0x50, 0x01, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0xD3, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0xDD, 0x01, 0x00, 0x00
-    .close
-
-party 15
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x43, 0x01, 0x00, 0x00
-    .close
-
-party 16
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x48, 0x00, 0x00, 0x00, 0x00, 0x20, 0x1F, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 17
-    .byte 0x1E, 0x00, 0x29, 0x00, 0x48, 0x02, 0x00, 0x00
-    .close
-
-party 18
-    .byte 0x00, 0x00, 0x08, 0x00, 0x5D, 0x01, 0x00, 0x00, 0x00, 0x00, 0x08, 0x00, 0xC8, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0F, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x00, 0x76, 0x00, 0x00, 0x00
-    .close
-
-party 19
-    .byte 0x00, 0x00, 0x14, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 20
-    .byte 0x32, 0x00, 0x0C, 0x00, 0xA3, 0x00, 0x00, 0x00, 0x21, 0x00, 0x40, 0x00, 0x5F, 0x00, 0xF4, 0x01
-    .byte 0x00, 0x00, 0x32, 0x00, 0x0C, 0x00, 0x54, 0x00, 0x00, 0x00, 0x62, 0x00, 0xBD, 0x00, 0x40, 0x00
-    .byte 0x2D, 0x00, 0x00, 0x00, 0x32, 0x00, 0x0D, 0x00, 0xA4, 0x00, 0x00, 0x00, 0x21, 0x00, 0x63, 0x01
-    .byte 0x40, 0x00, 0xD2, 0x01, 0x00, 0x00
-    .close
-
-party 21
-    .byte 0x50, 0x20, 0x11, 0x00, 0x7B, 0x00, 0x9E, 0x00, 0x62, 0x00, 0x2B, 0x00, 0x71, 0x01, 0x11, 0x00
-    .byte 0x00, 0x00, 0x50, 0x00, 0x0F, 0x00, 0xA8, 0x00, 0x00, 0x00, 0xB9, 0x00, 0x66, 0x02, 0xA9, 0x01
-    .byte 0x0E, 0x00, 0x00, 0x00, 0x50, 0x00, 0x0F, 0x00, 0xA6, 0x00, 0x00, 0x00, 0x21, 0x00, 0x30, 0x00
-    .byte 0xB7, 0x00, 0x3E, 0x01, 0x00, 0x00
-    .close
-
-party 22
-    .byte 0x0A, 0x00, 0x14, 0x00, 0xD1, 0x00, 0xA7, 0x01, 0xA8, 0x01, 0xA6, 0x01, 0x2C, 0x00, 0x00, 0x00
-    .close
-
-party 23
-    .byte 0x00, 0x20, 0x0D, 0x00, 0x4F, 0x00, 0x00, 0x00
-    .close
-
-party 24
-    .byte 0x00, 0x00, 0x16, 0x00, 0x72, 0x00, 0x00, 0x00
-    .close
-
-party 25
-    .byte 0x00, 0x20, 0x0C, 0x00, 0x4A, 0x00, 0x00, 0x00, 0x00, 0x20, 0x0C, 0x00, 0x3E, 0x02, 0x00, 0x00
-    .byte 0x00, 0x20, 0x0C, 0x00, 0x43, 0x02, 0x00, 0x00
-    .close
-
-party 26
-    .byte 0x00, 0x20, 0x0C, 0x00, 0x20, 0x00, 0x00, 0x00
-    .close
-
-party 27
-    .byte 0x00, 0x20, 0x0C, 0x00, 0x1D, 0x00, 0x00, 0x00
-    .close
-
-party 28
-    .byte 0x32, 0x20, 0x2D, 0x00, 0x2F, 0x00, 0x8D, 0x00, 0x93, 0x00, 0xA5, 0x01, 0x0E, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2D, 0x00, 0x5E, 0x01, 0x41, 0x02, 0x88, 0x01, 0x60, 0x01, 0x1F, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2D, 0x00, 0x83, 0x02, 0x65, 0x00, 0x69, 0x00, 0xF7, 0x00, 0x39, 0x00, 0x00, 0x00
-    .close
-
-party 29
-    .byte 0x1E, 0x00, 0x0A, 0x00, 0x10, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x0A, 0x00, 0xC7, 0x02, 0x00, 0x00
-    .close
-
-party 30
-    .byte 0x64, 0x00, 0x13, 0x00, 0xA2, 0x00, 0x00, 0x00, 0x62, 0x00, 0xEC, 0x01, 0x61, 0x00, 0x9A, 0x00
-    .byte 0x00, 0x00, 0x64, 0x20, 0x14, 0x00, 0xA8, 0x01, 0x00, 0x00, 0x9A, 0x00, 0x41, 0x01, 0x61, 0x00
-    .byte 0xE2, 0x00, 0x00, 0x00, 0x64, 0x20, 0x15, 0x00, 0xF1, 0x00, 0x9D, 0x00, 0xCD, 0x00, 0xD5, 0x00
-    .byte 0x17, 0x00, 0xD0, 0x00, 0x00, 0x00
-    .close
-
-party 31
-    .byte 0x64, 0x00, 0x1A, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x5F, 0x00, 0xB4, 0x00, 0xD4, 0x00, 0xAE, 0x00
-    .byte 0x00, 0x00, 0x64, 0x00, 0x1A, 0x00, 0xC8, 0x00, 0x00, 0x00, 0xFD, 0x01, 0x6D, 0x00, 0x41, 0x02
-    .byte 0x95, 0x00, 0x00, 0x00, 0x64, 0x00, 0x1A, 0x00, 0x5E, 0x00, 0x9E, 0x00, 0x5F, 0x00, 0xF7, 0x00
-    .byte 0xD4, 0x00, 0x85, 0x01, 0x00, 0x00, 0x64, 0x00, 0x1B, 0x00, 0xAD, 0x01, 0x00, 0x00, 0x98, 0x01
-    .byte 0x56, 0x02, 0xFD, 0x01, 0x59, 0x01, 0x00, 0x00
-    .close
-
-party 32
-    .byte 0x96, 0x00, 0x24, 0x00, 0xD7, 0x00, 0x00, 0x00, 0xD7, 0x01, 0xE8, 0x00, 0xA4, 0x01, 0xB9, 0x00
-    .byte 0x00, 0x00, 0x96, 0x00, 0x26, 0x00, 0x57, 0x00, 0x00, 0x00, 0xD6, 0x00, 0xA4, 0x01, 0x3E, 0x00
-    .byte 0x9C, 0x00, 0x00, 0x00, 0x96, 0x20, 0x25, 0x00, 0xCC, 0x01, 0x44, 0x02, 0xA4, 0x01, 0x4B, 0x00
-    .byte 0xC4, 0x01, 0xCF, 0x00, 0x00, 0x00, 0x96, 0x20, 0x25, 0x00, 0xE1, 0x00, 0x9E, 0x00, 0xD9, 0x00
-    .byte 0x41, 0x00, 0xA3, 0x01, 0xA4, 0x00, 0x00, 0x00, 0x96, 0x20, 0x28, 0x00, 0xD9, 0x01, 0x9E, 0x00
-    .byte 0x02, 0x01, 0xA7, 0x01, 0x59, 0x00, 0xA4, 0x01, 0x00, 0x00
-    .close
-
-party 33
-    .byte 0x96, 0x20, 0x28, 0x00, 0xE3, 0x00, 0x00, 0x00, 0x2E, 0x00, 0xD3, 0x00, 0xBE, 0x01, 0xBF, 0x00
-    .byte 0x00, 0x00, 0x96, 0x00, 0x26, 0x00, 0x52, 0x00, 0x00, 0x00, 0x55, 0x00, 0x30, 0x00, 0xA1, 0x00
-    .byte 0x56, 0x00, 0x00, 0x00, 0x96, 0x20, 0x25, 0x00, 0xD4, 0x00, 0xB8, 0x00, 0xA2, 0x01, 0x11, 0x00
-    .byte 0xD2, 0x00, 0x0E, 0x00, 0x00, 0x00, 0x96, 0x20, 0x27, 0x00, 0xCD, 0x00, 0x00, 0x00, 0xDE, 0x01
-    .byte 0xE7, 0x01, 0xC2, 0x01, 0x75, 0x00, 0x00, 0x00, 0x96, 0x20, 0x28, 0x00, 0xD0, 0x00, 0x29, 0x02
-    .byte 0x67, 0x00, 0x5B, 0x00, 0x58, 0x00, 0x68, 0x01, 0x00, 0x00
-    .close
-
-party 34
-    .byte 0x96, 0x00, 0x21, 0x00, 0xED, 0x00, 0x00, 0x00, 0x85, 0x01, 0xA7, 0x00, 0xC5, 0x00, 0xFC, 0x00
-    .byte 0x00, 0x00, 0x96, 0x00, 0x21, 0x00, 0xD6, 0x00, 0x9E, 0x00, 0x1E, 0x00, 0x18, 0x01, 0x2A, 0x00
-    .byte 0x4C, 0x01, 0x00, 0x00, 0x96, 0x00, 0x22, 0x00, 0x39, 0x00, 0x00, 0x00, 0x74, 0x00, 0xEE, 0x00
-    .byte 0x7C, 0x03, 0xCF, 0x00, 0x00, 0x00, 0x96, 0x00, 0x23, 0x00, 0x3E, 0x00, 0x9E, 0x00, 0x5F, 0x00
-    .byte 0x39, 0x00, 0x08, 0x01, 0x22, 0x00, 0x00, 0x00
-    .close
-
-party 35
-    .byte 0xC8, 0x00, 0x2A, 0x00, 0x82, 0x00, 0x24, 0x02, 0x7F, 0x00, 0x52, 0x00, 0x2C, 0x00, 0x96, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x2A, 0x00, 0x94, 0x00, 0x00, 0x00, 0x56, 0x00, 0x7E, 0x00, 0x15, 0x00
-    .byte 0x96, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x2B, 0x00, 0x3E, 0x03, 0x00, 0x00, 0x96, 0x01, 0x46, 0x01
-    .byte 0x71, 0x00, 0xF4, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x2C, 0x00, 0x8E, 0x00, 0x9E, 0x00, 0xA6, 0x01
-    .byte 0xA8, 0x01, 0xA7, 0x01, 0x11, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x2D, 0x00, 0xE6, 0x00, 0x9E, 0x00
-    .byte 0x6C, 0x00, 0x38, 0x00, 0x3F, 0x00, 0x96, 0x01, 0x00, 0x00
-    .close
-
-party 36
-    .byte 0x32, 0x00, 0x2D, 0x00, 0x3D, 0x02, 0x62, 0x00, 0xEB, 0x01, 0x13, 0x02, 0x56, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2D, 0x00, 0x04, 0x01, 0x59, 0x00, 0x9D, 0x00, 0x39, 0x00, 0xF0, 0x00, 0x00, 0x00
-    .close
-
-party 37
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x26, 0x02, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x88, 0x01, 0x00, 0x00
-    .close
-
-party 38
-    .byte 0x00, 0x20, 0x2D, 0x00, 0x23, 0x00, 0x00, 0x00
-    .close
-
-party 39
-    .byte 0x00, 0x00, 0x1D, 0x00, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x20, 0x1E, 0x00, 0x90, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x1E, 0x00, 0x63, 0x00, 0x00, 0x00
-    .close
-
-party 40
-    .byte 0x00, 0x00, 0x14, 0x00, 0x58, 0x00, 0x00, 0x00
-    .close
-
-party 41
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x7D, 0x00, 0x00, 0x00
-    .close
-
-party 42
-    .byte 0x00, 0x00, 0x1A, 0x00, 0xCB, 0x00, 0x00, 0x00
-    .close
-
-party 43
-    .byte 0x00, 0x00, 0x05, 0x00, 0x25, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0xEB, 0x03, 0x00, 0x00
-    .byte 0x00, 0x00, 0x05, 0x00, 0xB6, 0x01, 0x00, 0x00
-    .close
-
-party 44
-    .byte 0x00, 0x00, 0x1A, 0x00, 0x1A, 0x00, 0x68, 0x00, 0x62, 0x00, 0x27, 0x00, 0x54, 0x00, 0x00, 0x00
-    .close
-
-party 45
-    .byte 0x00, 0x00, 0x1F, 0x00, 0xA1, 0x01, 0x68, 0x00, 0x62, 0x00, 0x27, 0x00, 0x54, 0x00, 0x00, 0x00
-    .close
-
-party 46
-    .byte 0x0A, 0x00, 0x19, 0x00, 0xF6, 0x02, 0x00, 0x00, 0x0A, 0x00, 0x19, 0x00, 0xF8, 0x02, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x17, 0x00, 0x3F, 0x03, 0x00, 0x00
-    .close
-
-party 47
-    .byte 0x00, 0x00, 0x02, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0x20, 0x04, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 48
-    .byte 0x00, 0x00, 0x28, 0x00, 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0x0C, 0x00, 0x00, 0x00
-    .close
-
-party 49
-    .byte 0x00, 0x00, 0x0B, 0x00, 0xC5, 0x02, 0x00, 0x00, 0x00, 0x00, 0x0B, 0x00, 0x29, 0x00, 0x00, 0x00
-    .close
-
-party 50
-    .byte 0x1E, 0x00, 0x0B, 0x00, 0x15, 0x00, 0x00, 0x00
-    .close
-
-party 51
-    .byte 0x00, 0x00, 0x04, 0x00, 0x2B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 0x56, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x06, 0x00, 0x45, 0x00, 0x00, 0x00
-    .close
-
-party 52
-    .byte 0x00, 0x00, 0x05, 0x00, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x28, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x06, 0x00, 0x46, 0x02, 0x00, 0x00
-    .close
-
-party 53
-    .byte 0x00, 0x00, 0x07, 0x00, 0x45, 0x00, 0x00, 0x00
-    .close
-
-party 54
-    .byte 0x00, 0x00, 0x07, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x20, 0x07, 0x00, 0xA3, 0x00, 0x00, 0x00
-    .close
-
-party 55
-    .byte 0x00, 0x00, 0x07, 0x00, 0x5C, 0x02, 0x00, 0x00
-    .close
-
-party 56
-    .byte 0x00, 0x20, 0x0D, 0x00, 0xC2, 0x00, 0x00, 0x00
-    .close
-
-party 57
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x76, 0x00, 0x00, 0x00
-    .close
-
-party 58
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x5A, 0x00, 0x00, 0x00
-    .close
-
-party 59
-    .byte 0x00, 0x00, 0x27, 0x00, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x27, 0x00, 0x76, 0x00, 0x00, 0x00
-    .close
-
-party 60
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x3C, 0x00, 0x00, 0x00, 0x00, 0x20, 0x0D, 0x00, 0xE4, 0x02, 0x00, 0x00
-    .close
-
-party 61
-    .byte 0x00, 0x00, 0x0B, 0x00, 0x98, 0x01, 0x00, 0x00, 0x00, 0x20, 0x0B, 0x00, 0x9A, 0x01, 0x00, 0x00
-    .close
-
-party 62
-    .byte 0x00, 0x20, 0x11, 0x00, 0x8F, 0x01, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x1B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x11, 0x00, 0x67, 0x03, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x39, 0x02, 0x00, 0x00
-    .close
-
-party 63
-    .byte 0x1E, 0x00, 0x0E, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 64
-    .byte 0x00, 0x00, 0x10, 0x00, 0x38, 0x00, 0x74, 0x00, 0x0A, 0x00, 0x43, 0x00, 0x2B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0F, 0x00, 0x32, 0x00, 0x36, 0x01, 0x2D, 0x00, 0x0A, 0x00, 0x1C, 0x00, 0x00, 0x00
-    .close
-
-party 65
-    .byte 0x00, 0x00, 0x0D, 0x00, 0xFC, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xBB, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x01, 0x00, 0x00, 0x00
-    .close
-
-party 66
-    .byte 0x00, 0x00, 0x13, 0x00, 0x36, 0x00, 0x00, 0x00
-    .close
-
-party 67
-    .byte 0x0A, 0x00, 0x0D, 0x00, 0x0D, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x0E, 0x00, 0x0E, 0x00, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x0F, 0x00, 0x0F, 0x00, 0x00, 0x00
-    .close
-
-party 68
-    .byte 0x0A, 0x00, 0x0F, 0x00, 0x91, 0x01, 0x00, 0x00, 0x0A, 0x00, 0x0F, 0x00, 0x9C, 0x01, 0x00, 0x00
-    .close
-
-party 69
-    .byte 0x0A, 0x00, 0x10, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .close
-
-party 70
-    .byte 0x0A, 0x20, 0x13, 0x00, 0x26, 0x01, 0xF4, 0x01, 0x50, 0x01, 0x36, 0x01, 0x2C, 0x00, 0x00, 0x00
-    .byte 0x0A, 0x20, 0x10, 0x00, 0x6F, 0x02, 0x20, 0x02, 0x41, 0x01, 0x5E, 0x01, 0x4B, 0x01, 0x00, 0x00
-    .close
-
-party 71
-    .byte 0x0A, 0x00, 0x13, 0x00, 0x27, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x13, 0x00, 0x23, 0x00, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x14, 0x00, 0x29, 0x03, 0x00, 0x00
-    .close
-
-party 72
-    .byte 0x32, 0x00, 0x14, 0x00, 0xDE, 0x03, 0x00, 0x00, 0x32, 0x00, 0x15, 0x00, 0x68, 0x03, 0x00, 0x00
-    .close
-
-party 73
-    .byte 0x32, 0x00, 0x1F, 0x00, 0x12, 0x00, 0x00, 0x00, 0x32, 0x20, 0x1F, 0x00, 0x15, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x1F, 0x00, 0xC9, 0x02, 0x00, 0x00, 0x32, 0x20, 0x1F, 0x00, 0x8E, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x1F, 0x00, 0x69, 0x03, 0x00, 0x00
-    .close
-
-party 74
-    .byte 0x00, 0x00, 0x14, 0x00, 0xAB, 0x01, 0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0xDE, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0xDC, 0x02, 0x00, 0x00
-    .close
-
-party 75
-    .byte 0x00, 0x00, 0x14, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0xB8, 0x00, 0x00, 0x00
-    .close
-
-party 76
-    .byte 0x00, 0x00, 0x15, 0x00, 0x19, 0x00, 0x54, 0x00, 0x2D, 0x00, 0x62, 0x00, 0x68, 0x00, 0x00, 0x00
-    .close
-
-party 77
-    .byte 0x00, 0x00, 0x14, 0x00, 0x26, 0x00, 0x00, 0x00
-    .close
-
-party 78
-    .byte 0x00, 0x00, 0x15, 0x00, 0x31, 0x00, 0x00, 0x00
-    .close
-
-party 79
-    .byte 0x00, 0x20, 0x27, 0x00, 0xA8, 0x00, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0x7F, 0x00, 0x00, 0x00
-    .close
-
-party 80
-    .byte 0x00, 0x00, 0x12, 0x00, 0x3A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x3B, 0x00, 0x00, 0x00
-    .close
-
-party 81
-    .byte 0x00, 0x00, 0x17, 0x00, 0xB8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x17, 0x00, 0xB4, 0x00, 0x00, 0x00
-    .close
-
-party 82
-    .byte 0x32, 0x20, 0x1B, 0x00, 0x55, 0x00, 0x00, 0x00, 0x32, 0x20, 0x1B, 0x00, 0x17, 0x01, 0x00, 0x00
-    .byte 0x32, 0x20, 0x1B, 0x00, 0xE3, 0x00, 0x00, 0x00
-    .close
-
-party 83
-    .byte 0x00, 0x20, 0x30, 0x00, 0x1F, 0x00, 0x8E, 0x01, 0x9E, 0x01, 0x22, 0x00, 0x18, 0x00, 0x00, 0x00
-    .close
-
-party 84
-    .byte 0x00, 0x20, 0x30, 0x00, 0x22, 0x00, 0x8E, 0x01, 0x74, 0x00, 0x9E, 0x01, 0x9B, 0x01, 0x00, 0x00
-    .close
-
-party 85
-    .byte 0x00, 0x20, 0x1F, 0x00, 0xE6, 0x02, 0x00, 0x00, 0x00, 0x20, 0x20, 0x00, 0x83, 0x02, 0x00, 0x00
-    .close
-
-party 86
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x5A, 0x00, 0x30, 0x00, 0x4D, 0x01, 0x6E, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x08, 0x00, 0xE5, 0x00, 0x2C, 0x00, 0x37, 0x00, 0x27, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x1F, 0x00, 0x5B, 0x00, 0x30, 0x00, 0x4D, 0x01, 0x6E, 0x00, 0x19, 0x02, 0x00, 0x00
-    .close
-
-party 87
-    .byte 0x00, 0x00, 0x16, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 88
-    .byte 0x00, 0x00, 0x10, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x5C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x10, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x5C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x10, 0x00, 0x5C, 0x00, 0x00, 0x00
-    .close
-
-party 89
-    .byte 0x0A, 0x00, 0x19, 0x00, 0x92, 0x02, 0x00, 0x00, 0x0A, 0x00, 0x19, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 90
-    .byte 0x00, 0x20, 0x21, 0x00, 0x3D, 0x03, 0x60, 0x01, 0xC5, 0x01, 0x91, 0x01, 0x95, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x77, 0x02, 0x60, 0x01, 0x63, 0x01, 0xB0, 0x01, 0x4C, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x22, 0x00, 0x71, 0x01, 0x91, 0x01, 0x19, 0x01, 0x3D, 0x01, 0x6A, 0x00, 0x00, 0x00
-    .close
-
-party 91
-    .byte 0x00, 0x00, 0x22, 0x00, 0xAB, 0x00, 0x30, 0x00, 0x3D, 0x00, 0x44, 0x01, 0xB3, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x22, 0x00, 0x83, 0x00, 0xC3, 0x00, 0x6A, 0x01, 0x6D, 0x00, 0xA4, 0x01, 0x00, 0x00
-    .close
-
-party 92
-    .byte 0x00, 0x00, 0x16, 0x00, 0x56, 0x00, 0x00, 0x00
-    .close
-
-party 93
-    .byte 0x00, 0x20, 0x14, 0x00, 0x78, 0x00, 0x00, 0x00, 0x00, 0x20, 0x14, 0x00, 0x79, 0x00, 0x00, 0x00
-    .close
-
-party 94
-    .byte 0x00, 0x00, 0x15, 0x00, 0x74, 0x00, 0x91, 0x00, 0x6C, 0x00, 0x2B, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x15, 0x00, 0x74, 0x00, 0x74, 0x00, 0x6C, 0x00, 0x2B, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .close
-
-party 95
-    .byte 0x00, 0x20, 0x1F, 0x00, 0x81, 0x03, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x3F, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x21, 0x00, 0xE3, 0x02, 0x00, 0x00
-    .close
-
-party 96
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x82, 0x00, 0x00, 0x00, 0x00, 0x20, 0x1F, 0x00, 0x86, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x10, 0x01, 0x00, 0x00, 0x00, 0x20, 0x1F, 0x00, 0xDE, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1F, 0x00, 0xE2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0xE0, 0x00, 0x00, 0x00
-    .close
-
-party 97
-    .byte 0x00, 0x00, 0x17, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .close
-
-party 98
-    .byte 0x00, 0x00, 0x14, 0x00, 0x82, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0x82, 0x00, 0x00, 0x00
-    .close
-
-party 99
-    .byte 0x00, 0x00, 0x21, 0x00, 0x56, 0x01, 0x00, 0x00
-    .close
-
-party 100
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x20, 0x20, 0x00, 0x43, 0x00, 0x00, 0x00
-    .close
-
-party 101
-    .byte 0x1E, 0x20, 0x0D, 0x00, 0x13, 0x00, 0x00, 0x00, 0x1E, 0x20, 0x0B, 0x00, 0x58, 0x00, 0x00, 0x00
-    .close
-
-party 102
-    .byte 0x32, 0x00, 0x20, 0x00, 0x47, 0x00, 0x23, 0x00, 0x5C, 0x00, 0x33, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x20, 0x00, 0x63, 0x00, 0x3D, 0x00, 0x17, 0x00, 0x0C, 0x00, 0xB6, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x20, 0x00, 0x88, 0x00, 0x1C, 0x00, 0x62, 0x00, 0x2C, 0x00, 0x34, 0x00, 0x00, 0x00
-    .close
-
-party 103
-    .byte 0x32, 0x20, 0x2C, 0x00, 0xCE, 0x01, 0x55, 0x00, 0x30, 0x00, 0xBB, 0x01, 0x67, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2C, 0x00, 0x4B, 0x02, 0x3D, 0x00, 0x99, 0x01, 0xF0, 0x00, 0x55, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2C, 0x00, 0x66, 0x00, 0x49, 0x00, 0x46, 0x01, 0x4F, 0x00, 0xCA, 0x00, 0x00, 0x00
-    .close
-
-party 104
-    .byte 0x32, 0x00, 0x2D, 0x00, 0xB5, 0x00, 0xB3, 0x01, 0x44, 0x01, 0xB2, 0x00, 0x21, 0x00, 0x00, 0x00
-    .close
-
-party 105
-    .byte 0x00, 0x00, 0x0A, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x04, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0A, 0x00, 0x07, 0x00, 0x00, 0x00
-    .close
-
-party 106
-    .byte 0x00, 0x00, 0x0A, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x04, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0A, 0x00, 0x07, 0x00, 0x00, 0x00
-    .close
-
-party 107
-    .byte 0x00, 0x00, 0x0A, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x04, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0A, 0x00, 0x07, 0x00, 0x00, 0x00
-    .close
-
-party 108
-    .byte 0x32, 0x00, 0x28, 0x00, 0xD8, 0x01, 0xD2, 0x00, 0x03, 0x02, 0x71, 0x01, 0x90, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x28, 0x00, 0xD2, 0x01, 0x09, 0x00, 0x43, 0x00, 0x81, 0x00, 0x67, 0x00, 0x00, 0x00
-    .close
-
-party 109
-    .byte 0x32, 0x00, 0x24, 0x00, 0x03, 0x00, 0x00, 0x00, 0x32, 0x00, 0x24, 0x00, 0x06, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x24, 0x00, 0x09, 0x00, 0x00, 0x00
-    .close
-
-party 110
-    .byte 0x3C, 0x00, 0x28, 0x00, 0x94, 0x00, 0x00, 0x00, 0x3C, 0x20, 0x28, 0x00, 0x75, 0x00, 0x00, 0x00
-    .byte 0x3C, 0x00, 0x28, 0x00, 0xBC, 0x01, 0x00, 0x00
-    .close
-
-party 111
-    .byte 0x3C, 0x00, 0x2B, 0x00, 0x74, 0x01, 0x00, 0x00
-    .close
-
-party 112
-    .byte 0x3C, 0x00, 0x28, 0x00, 0x9F, 0x02, 0x00, 0x00, 0x3C, 0x20, 0x28, 0x00, 0x3A, 0x03, 0x00, 0x00
-    .close
-
-party 113
-    .byte 0x32, 0x20, 0x2D, 0x00, 0x4E, 0x00, 0x17, 0x00, 0x53, 0x00, 0x05, 0x01, 0x61, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2D, 0x00, 0xB5, 0x00, 0xB3, 0x01, 0xB2, 0x00, 0x56, 0x00, 0x0C, 0x01, 0x00, 0x00
-    .close
-
-party 114
-    .byte 0x32, 0x00, 0x24, 0x00, 0x3A, 0x00, 0x00, 0x00, 0x32, 0x00, 0x21, 0x00, 0x1E, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x24, 0x00, 0x78, 0x00, 0x00, 0x00
-    .close
-
-party 115
-    .byte 0x32, 0x00, 0x2C, 0x00, 0x85, 0x01, 0x59, 0x00, 0xC4, 0x01, 0x6E, 0x00, 0xF2, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2C, 0x00, 0x06, 0x03, 0xA9, 0x01, 0x4B, 0x00, 0x85, 0x01, 0x5C, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2C, 0x00, 0xFE, 0x00, 0x94, 0x01, 0x5C, 0x01, 0x90, 0x01, 0x15, 0x02, 0x00, 0x00
-    .close
-
-party 116
-    .byte 0x32, 0x00, 0x22, 0x00, 0xB5, 0x00, 0x54, 0x00, 0xB2, 0x00, 0x56, 0x00, 0x0C, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x22, 0x00, 0x26, 0x00, 0x35, 0x00, 0x62, 0x00, 0x6D, 0x00, 0xA1, 0x01, 0x00, 0x00
-    .close
-
-party 117
-    .byte 0x3C, 0x00, 0x29, 0x00, 0xAC, 0x02, 0x00, 0x00, 0x3C, 0x00, 0x29, 0x00, 0xF3, 0x02, 0x00, 0x00
-    .close
-
-party 118
-    .byte 0x32, 0x00, 0x1A, 0x00, 0x5A, 0x00, 0x00, 0x00, 0x32, 0x00, 0x1C, 0x00, 0x5B, 0x00, 0x00, 0x00
-    .close
-
-party 119
-    .byte 0x3C, 0x20, 0x2C, 0x00, 0x41, 0x03, 0x00, 0x00
-    .close
-
-party 120
-    .byte 0x32, 0x00, 0x16, 0x00, 0x76, 0x00, 0x00, 0x00, 0x32, 0x00, 0x18, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 121
-    .byte 0x32, 0x00, 0x28, 0x00, 0xB8, 0x00, 0x00, 0x00, 0x32, 0x00, 0x28, 0x00, 0x09, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x28, 0x00, 0x8B, 0x01, 0x00, 0x00
-    .close
-
-party 122
-    .byte 0x00, 0x00, 0x20, 0x00, 0x74, 0x03, 0xC9, 0x02, 0x1D, 0x00, 0x8D, 0x01, 0xF2, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x23, 0x00, 0x82, 0x00, 0x25, 0x00, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x1E, 0x03, 0xDD, 0x01, 0x69, 0x00, 0x98, 0x02, 0x2C, 0x00, 0x00, 0x00
-    .close
-
-party 123
-    .byte 0x00, 0x00, 0x24, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .close
-
-party 124
-    .byte 0x00, 0x00, 0x26, 0x00, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x77, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 125
-    .byte 0x00, 0x00, 0x26, 0x00, 0xE0, 0x00, 0xC7, 0x00, 0x3C, 0x00, 0x3E, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x27, 0x00, 0xE0, 0x00, 0xC7, 0x00, 0x3C, 0x00, 0x3E, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .close
-
-party 126
-    .byte 0x00, 0x00, 0x23, 0x00, 0x82, 0x00, 0x00, 0x00
-    .close
-
-party 127
-    .byte 0x00, 0x00, 0x21, 0x00, 0x10, 0x01, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x54, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x21, 0x00, 0x83, 0x02, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x02, 0x04, 0x00, 0x00
-    .close
-
-party 128
-    .byte 0x00, 0x00, 0x21, 0x00, 0x5A, 0x00, 0x00, 0x00, 0x00, 0x20, 0x25, 0x00, 0xE0, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x21, 0x00, 0xDF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0x5B, 0x00, 0x00, 0x00
-    .close
-
-party 129
-    .byte 0x00, 0x00, 0x23, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x22, 0x00, 0x00, 0x00
-    .close
-
-party 130
-    .byte 0x00, 0x00, 0x22, 0x00, 0xE1, 0x02, 0x00, 0x00
-    .close
-
-party 131
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4D, 0x02, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x4C, 0x02, 0x00, 0x00
-    .close
-
-party 132
-    .byte 0x00, 0x20, 0x23, 0x00, 0x06, 0x04, 0x00, 0x00
-    .close
-
-party 133
-    .byte 0x00, 0x20, 0x27, 0x00, 0x6F, 0x00, 0x00, 0x00, 0x00, 0x20, 0x27, 0x00, 0x70, 0x00, 0x00, 0x00
-    .close
-
-party 134
-    .byte 0x00, 0x00, 0x22, 0x00, 0x33, 0x00, 0x00, 0x00, 0x00, 0x20, 0x22, 0x00, 0x4C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x22, 0x00, 0x5B, 0x02, 0x00, 0x00
-    .close
-
-party 135
-    .byte 0x00, 0x00, 0x27, 0x00, 0x45, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x46, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x47, 0x00, 0x00, 0x00
-    .close
-
-party 136
-    .byte 0x00, 0x00, 0x29, 0x00, 0x01, 0x00, 0x5C, 0x00, 0xBC, 0x00, 0x49, 0x00, 0x26, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x02, 0x00, 0x5C, 0x00, 0xBC, 0x00, 0x49, 0x00, 0x26, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x03, 0x00, 0x5C, 0x00, 0xBC, 0x00, 0x49, 0x00, 0x26, 0x00, 0x00, 0x00
-    .close
-
-party 137
-    .byte 0x32, 0x00, 0x28, 0x00, 0xA4, 0x00, 0x00, 0x00, 0x32, 0x00, 0x28, 0x00, 0x12, 0x00, 0x00, 0x00
-    .close
-
-party 138
-    .byte 0x00, 0x00, 0x0F, 0x00, 0x21, 0x00, 0x00, 0x00
-    .close
-
-party 139
-    .byte 0x00, 0x20, 0x29, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 140
-    .byte 0x00, 0x00, 0x27, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0xA8, 0x00, 0x00, 0x00
-    .close
-
-party 141
-    .byte 0x00, 0x00, 0x0F, 0x00, 0x21, 0x00, 0x00, 0x00
-    .close
-
-party 142
-    .byte 0x0A, 0x00, 0x18, 0x00, 0xBB, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x18, 0x00, 0xBB, 0x00, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x20, 0x00, 0x02, 0x00, 0x00, 0x00
-    .close
-
-party 143
-    .byte 0x00, 0x00, 0x28, 0x00, 0x44, 0x00, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0x32, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x40, 0x02, 0x00, 0x00
-    .close
-
-party 144
-    .byte 0x00, 0x20, 0x28, 0x00, 0x60, 0x02, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0xF1, 0x02, 0x00, 0x00
-    .byte 0x00, 0x20, 0x28, 0x00, 0x4C, 0x00, 0x00, 0x00
-    .close
-
-party 145
-    .byte 0x00, 0x00, 0x27, 0x00, 0xD0, 0x00, 0x00, 0x00
-    .close
-
-party 146
-    .byte 0x00, 0x00, 0x29, 0x00, 0x79, 0x03, 0x8D, 0x01, 0xE2, 0x01, 0xEB, 0x01, 0xBE, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1B, 0x00, 0xD0, 0x01, 0x59, 0x00, 0x5E, 0x01, 0x17, 0x00, 0x1E, 0x00, 0x00, 0x00
-    .close
-
-party 147
-    .byte 0x00, 0x20, 0x28, 0x00, 0x05, 0x04, 0x00, 0x00
-    .close
-
-party 148
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x22, 0x00, 0x00, 0x00
-    .close
-
-party 149
-    .byte 0x00, 0x20, 0x2C, 0x00, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x1C, 0x00, 0x00, 0x00
-    .close
-
-party 150
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x33, 0x00, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0x39, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x3E, 0x00, 0x00, 0x00
-    .close
-
-party 151
-    .byte 0x00, 0x20, 0x28, 0x00, 0x4E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0xB6, 0x00, 0x00, 0x00
-    .close
-
-party 152
-    .byte 0x00, 0x00, 0x2C, 0x00, 0xB4, 0x00, 0x00, 0x00
-    .close
-
-party 153
-    .byte 0x00, 0x20, 0x29, 0x00, 0xA2, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2B, 0x00, 0x4E, 0x00, 0x00, 0x00
-    .close
-
-party 154
-    .byte 0x00, 0x20, 0x28, 0x00, 0x8B, 0x00, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0xF7, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x28, 0x00, 0x5C, 0x01, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0x5A, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x28, 0x00, 0x8D, 0x00, 0x00, 0x00
-    .close
-
-party 155
-    .byte 0x00, 0x00, 0x25, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x28, 0x00, 0x43, 0x00, 0x00, 0x00
-    .close
-
-party 156
-    .byte 0x28, 0x20, 0x21, 0x00, 0x6A, 0x00, 0x18, 0x00, 0x60, 0x00, 0x1A, 0x00, 0x74, 0x00, 0x00, 0x00
-    .close
-
-party 157
-    .byte 0x28, 0x20, 0x21, 0x00, 0x6B, 0x00, 0xB7, 0x00, 0x09, 0x00, 0x08, 0x00, 0x07, 0x00, 0x00, 0x00
-    .close
-
-party 158
-    .byte 0x64, 0x20, 0x22, 0x00, 0x6A, 0x00, 0x00, 0x00, 0x64, 0x20, 0x22, 0x00, 0x6B, 0x00, 0x00, 0x00
-    .close
-
-party 159
-    .byte 0x28, 0x00, 0x21, 0x00, 0x25, 0x02, 0x00, 0x00, 0x28, 0x20, 0x21, 0x00, 0x87, 0x01, 0x00, 0x00
-    .byte 0x28, 0x20, 0x21, 0x00, 0x00, 0x01, 0x00, 0x00
-    .close
-
-party 160
-    .byte 0x96, 0x00, 0x26, 0x00, 0xC4, 0x00, 0x00, 0x00, 0x83, 0x01, 0x5E, 0x00, 0xF4, 0x00, 0x81, 0x00
-    .byte 0x00, 0x00
-    .close
-
-party 161
-    .byte 0x96, 0x00, 0x26, 0x00, 0x87, 0x00, 0x00, 0x00, 0x83, 0x01, 0x55, 0x00, 0x68, 0x00, 0x56, 0x00
-    .byte 0x00, 0x00
-    .close
-
-party 162
-    .byte 0x96, 0x00, 0x26, 0x00, 0xC5, 0x00, 0x00, 0x00, 0x83, 0x01, 0x8F, 0x01, 0x6D, 0x00, 0xF7, 0x00
-    .byte 0x00, 0x00
-    .close
-
-party 163
-    .byte 0x96, 0x00, 0x26, 0x00, 0x86, 0x00, 0x00, 0x00, 0x83, 0x01, 0x39, 0x00, 0x62, 0x00, 0x3E, 0x00
-    .byte 0x00, 0x00
-    .close
-
-party 164
-    .byte 0x96, 0x00, 0x26, 0x00, 0x88, 0x00, 0x00, 0x00, 0x83, 0x01, 0x7E, 0x00, 0x62, 0x00, 0x05, 0x01
-    .byte 0x00, 0x00
-    .close
-
-party 165
-    .byte 0x00, 0x00, 0x1C, 0x00, 0x7C, 0x00, 0x00, 0x00
-    .close
-
-party 166
-    .byte 0x00, 0x00, 0x1D, 0x00, 0x57, 0x00, 0x00, 0x00
-    .close
-
-party 167
-    .byte 0x00, 0x00, 0x14, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 168
-    .byte 0x00, 0x00, 0x19, 0x00, 0x56, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1A, 0x00, 0x57, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x19, 0x00, 0x56, 0x00, 0x00, 0x00
-    .close
-
-party 169
-    .byte 0x00, 0x00, 0x1B, 0x00, 0xDD, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1B, 0x00, 0xDD, 0x00, 0x00, 0x00
-    .close
-
-party 170
-    .byte 0x00, 0x00, 0x18, 0x00, 0x5A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x19, 0x00, 0x5B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x18, 0x00, 0x5A, 0x00, 0x00, 0x00
-    .close
-
-party 171
-    .byte 0x00, 0x00, 0x0F, 0x00, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0F, 0x00, 0x74, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0x75, 0x00, 0x00, 0x00
-    .close
-
-party 172
-    .byte 0x00, 0x00, 0x20, 0x00, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x22, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x82, 0x00, 0x00, 0x00
-    .close
-
-party 173
-    .byte 0x00, 0x00, 0x29, 0x00, 0x82, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x6C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0x21, 0x00, 0x00, 0x00
-    .close
-
-party 174
-    .byte 0x00, 0x00, 0x14, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 175
-    .byte 0x00, 0x00, 0x19, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 176
-    .byte 0x00, 0x00, 0x19, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 177
-    .byte 0x00, 0x00, 0x19, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 178
-    .byte 0x00, 0x00, 0x0C, 0x00, 0x2B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0F, 0x00, 0x64, 0x00, 0x00, 0x00
-    .close
-
-party 179
-    .byte 0x00, 0x20, 0x24, 0x00, 0x64, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x51, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x64, 0x00, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0x52, 0x00, 0x00, 0x00
-    .close
-
-party 180
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 181
-    .byte 0x00, 0x00, 0x10, 0x00, 0x1A, 0x00, 0x00, 0x00
-    .close
-
-party 182
-    .byte 0x00, 0x00, 0x10, 0x00, 0xD1, 0x00, 0x00, 0x00
-    .close
-
-party 183
-    .byte 0x00, 0x00, 0x29, 0x00, 0x2C, 0x00, 0x5C, 0x00, 0xBC, 0x00, 0xE6, 0x00, 0x99, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x18, 0x00, 0x8E, 0x01, 0x67, 0x00, 0xF2, 0x00, 0xAA, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x29, 0x00, 0x2D, 0x00, 0x5C, 0x00, 0xBC, 0x00, 0xD5, 0x00, 0x99, 0x01, 0x00, 0x00
-    .close
-
-party 184
-    .byte 0x00, 0x00, 0x0E, 0x00, 0x2B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x11, 0x00, 0x68, 0x00, 0x00, 0x00
-    .close
-
-party 185
-    .byte 0x1E, 0x20, 0x24, 0x00, 0x90, 0x03, 0x00, 0x00, 0x1E, 0x20, 0x24, 0x00, 0xD9, 0x00, 0x00, 0x00
-    .close
-
-party 186
-    .byte 0x1E, 0x00, 0x23, 0x00, 0xB3, 0x01, 0x00, 0x00, 0x1E, 0x00, 0x23, 0x00, 0xB0, 0x01, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x23, 0x00, 0x59, 0x00, 0x00, 0x00
-    .close
-
-party 187
-    .byte 0x1E, 0x20, 0x21, 0x00, 0xB0, 0x01, 0x00, 0x00, 0x1E, 0x20, 0x21, 0x00, 0x2B, 0x02, 0x00, 0x00
-    .byte 0x1E, 0x20, 0x24, 0x00, 0xD6, 0x02, 0x00, 0x00, 0x1E, 0x20, 0x24, 0x00, 0xC6, 0x01, 0x00, 0x00
-    .byte 0x1E, 0x20, 0x24, 0x00, 0x3D, 0x01, 0x00, 0x00
-    .close
-
-party 188
-    .byte 0x1E, 0x00, 0x23, 0x00, 0x0D, 0x01, 0x00, 0x00, 0x1E, 0x00, 0x23, 0x00, 0x0F, 0x00, 0x00, 0x00
-    .close
-
-party 189
-    .byte 0x1E, 0x00, 0x23, 0x00, 0x6E, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x23, 0x00, 0x59, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x23, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x1E, 0x20, 0x23, 0x00, 0x14, 0x00, 0x00, 0x00
-    .close
-
-party 190
-    .byte 0x1E, 0x00, 0x23, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .close
-
-party 191
-    .byte 0x1E, 0x20, 0x23, 0x00, 0x90, 0x03, 0x00, 0x00, 0x1E, 0x00, 0x23, 0x00, 0x31, 0x00, 0x00, 0x00
-    .close
-
-party 192
-    .byte 0x1E, 0x00, 0x23, 0x00, 0xC6, 0x01, 0x00, 0x00, 0x1E, 0x00, 0x23, 0x00, 0xA8, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x23, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .close
-
-party 193
-    .byte 0x1E, 0x00, 0x28, 0x00, 0x59, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x28, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x20, 0x28, 0x00, 0x14, 0x00, 0x00, 0x00
-    .close
-
-party 194
-    .byte 0x00, 0x00, 0x21, 0x00, 0xE4, 0x00, 0x00, 0x00
-    .close
-
-party 195
-    .byte 0x1E, 0x20, 0x28, 0x00, 0xC6, 0x01, 0x00, 0x00
-    .close
-
-party 196
-    .byte 0x1E, 0x20, 0x27, 0x00, 0x14, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x27, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .close
-
-party 197
-    .byte 0x1E, 0x00, 0x27, 0x00, 0x6E, 0x03, 0x00, 0x00, 0x1E, 0x00, 0x27, 0x00, 0x85, 0x03, 0x00, 0x00
-    .close
-
-party 198
-    .byte 0x1E, 0x00, 0x24, 0x00, 0x50, 0x01, 0x00, 0x00
-    .close
-
-party 199
-    .byte 0x1E, 0x00, 0x28, 0x00, 0x4B, 0x02, 0x00, 0x00, 0x1E, 0x00, 0x28, 0x00, 0x6C, 0x03, 0x00, 0x00
-    .close
-
-party 200
-    .byte 0x1E, 0x00, 0x22, 0x00, 0x50, 0x01, 0x00, 0x00, 0x1E, 0x00, 0x22, 0x00, 0x49, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x20, 0x22, 0x00, 0x18, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x22, 0x00, 0x2D, 0x00, 0x00, 0x00
-    .close
-
-party 201
-    .byte 0x00, 0x00, 0x18, 0x00, 0x69, 0x00, 0x00, 0x00, 0x00, 0x00, 0x18, 0x00, 0x69, 0x00, 0x00, 0x00
-    .close
-
-party 202
-    .byte 0x00, 0x20, 0x1A, 0x00, 0x73, 0x00, 0x00, 0x00
-    .close
-
-party 203
-    .byte 0x00, 0x20, 0x17, 0x00, 0x4A, 0x00, 0x00, 0x00, 0x00, 0x20, 0x19, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .close
-
-party 204
-    .byte 0x00, 0x20, 0x17, 0x00, 0x4A, 0x00, 0x00, 0x00, 0x00, 0x20, 0x19, 0x00, 0x42, 0x00, 0x00, 0x00
-    .close
-
-party 205
-    .byte 0x32, 0x00, 0x1A, 0x00, 0x04, 0x00, 0xA8, 0x01, 0x6C, 0x00, 0x52, 0x00, 0xB8, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x1A, 0x00, 0x07, 0x00, 0x6E, 0x00, 0x37, 0x00, 0x2C, 0x00, 0xAE, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x1A, 0x00, 0x01, 0x00, 0x49, 0x00, 0x4D, 0x00, 0x4F, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .close
-
-party 206
-    .byte 0x32, 0x20, 0x1A, 0x00, 0x85, 0x00, 0x00, 0x00, 0x32, 0x00, 0x16, 0x00, 0x88, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x16, 0x00, 0x86, 0x00, 0x00, 0x00, 0x32, 0x00, 0x16, 0x00, 0x87, 0x00, 0x00, 0x00
-    .close
-
-party 207
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 208
-    .byte 0x00, 0x00, 0x10, 0x00, 0xA2, 0x00, 0x00, 0x00
-    .close
-
-party 209
-    .byte 0x00, 0x00, 0x24, 0x00, 0x2D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x0C, 0x00, 0x00, 0x00
-    .close
-
-party 210
-    .byte 0x00, 0x00, 0x26, 0x00, 0xB7, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x56, 0x00, 0x00, 0x00
-    .byte 0x00, 0x02, 0x26, 0x00, 0xB7, 0x00, 0x00, 0x00
-    .close
-
-party 211
-    .byte 0x00, 0x00, 0x20, 0x00, 0x1C, 0x01, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x32, 0x03, 0x00, 0x00
-    .close
-
-party 212
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x41, 0x01, 0x00, 0x00
-    .close
-
-party 213
-    .byte 0x00, 0x00, 0x1F, 0x00, 0xE5, 0x02, 0x60, 0x01, 0x56, 0x01, 0x5C, 0x00, 0xEF, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x1F, 0x00, 0xE7, 0x02, 0x3D, 0x00, 0x8C, 0x01, 0x96, 0x01, 0xC5, 0x01, 0x00, 0x00
-    .close
-
-party 214
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x47, 0x02, 0x00, 0x00, 0x00, 0x20, 0x1F, 0x00, 0xCD, 0x03, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1F, 0x00, 0xFF, 0x03, 0x00, 0x00
-    .close
-
-party 215
-    .byte 0x00, 0x00, 0x1F, 0x00, 0xBA, 0x00, 0x00, 0x00
-    .close
-
-party 216
-    .byte 0x1E, 0x20, 0x1E, 0x00, 0x14, 0x00, 0x00, 0x00, 0x1E, 0x20, 0x1E, 0x00, 0xA4, 0x02, 0x00, 0x00
-    .byte 0x1E, 0x20, 0x1E, 0x00, 0x90, 0x03, 0x00, 0x00, 0x1E, 0x20, 0x1E, 0x00, 0xE3, 0x03, 0x00, 0x00
-    .close
-
-party 217
-    .byte 0x32, 0x00, 0x1F, 0x00, 0xD4, 0x01, 0x00, 0x00, 0x32, 0x00, 0x1F, 0x00, 0xAE, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x1F, 0x00, 0x3B, 0x02, 0x00, 0x00
-    .close
-
-party 218
-    .byte 0x1E, 0x00, 0x21, 0x00, 0xA9, 0x00, 0x00, 0x00
-    .close
-
-party 219
-    .byte 0x1E, 0x20, 0x1F, 0x00, 0x97, 0x01, 0x00, 0x00, 0x1E, 0x00, 0x1F, 0x00, 0x0D, 0x01, 0x00, 0x00
-    .byte 0x1E, 0x20, 0x1F, 0x00, 0xA8, 0x00, 0x00, 0x00
-    .close
-
-party 220
-    .byte 0x1E, 0x00, 0x12, 0x00, 0x30, 0x00, 0x00, 0x00, 0x1E, 0x20, 0x12, 0x00, 0x30, 0x00, 0x00, 0x00
-    .close
-
-party 221
-    .byte 0x64, 0x00, 0x16, 0x00, 0x29, 0x00, 0x00, 0x00
-    .close
-
-party 222
-    .byte 0x1E, 0x20, 0x20, 0x00, 0x2E, 0x02, 0x00, 0x00
-    .close
-
-party 223
-    .byte 0x1E, 0x00, 0x20, 0x00, 0x61, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x23, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .close
-
-party 224
-    .byte 0x1E, 0x00, 0x1E, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x1E, 0x00, 0x59, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x20, 0x1C, 0x00, 0x14, 0x00, 0x00, 0x00
-    .close
-
-party 225
-    .byte 0x0A, 0x00, 0x24, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .close
-
-party 226
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 227
-    .byte 0x1E, 0x00, 0x26, 0x00, 0xE1, 0x03, 0x00, 0x00, 0x1E, 0x00, 0x26, 0x00, 0xE3, 0x03, 0x00, 0x00
-    .close
-
-party 228
-    .byte 0x1E, 0x00, 0x28, 0x00, 0xB3, 0x01, 0x00, 0x00, 0x1E, 0x00, 0x28, 0x00, 0xBA, 0x01, 0x00, 0x00
-    .close
-
-party 229
-    .byte 0x00, 0x00, 0x0F, 0x00, 0x13, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0F, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 230
-    .byte 0x00, 0x20, 0x2C, 0x00, 0x40, 0x00, 0x1D, 0x00, 0x1D, 0x01, 0x5E, 0x00, 0x32, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2F, 0x00, 0xCB, 0x00, 0xF2, 0x00, 0x1D, 0x01, 0xCA, 0x01, 0x5E, 0x00, 0x00, 0x00
-    .close
-
-party 231
-    .byte 0x00, 0x00, 0x29, 0x00, 0x35, 0x00, 0x00, 0x00
-    .close
-
-party 232
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x87, 0x00, 0x5F, 0x01, 0x62, 0x00, 0x2A, 0x00, 0x0E, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x64, 0x00, 0x5F, 0x01, 0x81, 0x00, 0x68, 0x01, 0x67, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x51, 0x00, 0x5F, 0x01, 0x30, 0x00, 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00
-    .close
-
-party 233
-    .byte 0x00, 0x00, 0x10, 0x00, 0x89, 0x02, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0xB4, 0x01, 0x00, 0x00
-    .close
-
-party 234
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2A, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .close
-
-party 235
-    .byte 0x00, 0x00, 0x27, 0x00, 0xB4, 0x01, 0x00, 0x00, 0x00, 0x20, 0x2A, 0x00, 0x4C, 0x00, 0x00, 0x00
-    .close
-
-party 236
-    .byte 0x32, 0x00, 0x2B, 0x00, 0x87, 0x00, 0x18, 0x00, 0x55, 0x00, 0x62, 0x00, 0x1C, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2B, 0x00, 0x72, 0x00, 0xF6, 0x00, 0x4E, 0x00, 0xCA, 0x00, 0x13, 0x01, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2B, 0x00, 0x80, 0x00, 0x24, 0x00, 0xAC, 0x01, 0x73, 0x01, 0xB8, 0x00, 0x00, 0x00
-    .close
-
-party 237
-    .byte 0x32, 0x20, 0x2B, 0x00, 0x65, 0x00, 0x57, 0x00, 0x78, 0x00, 0x81, 0x00, 0xF0, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2B, 0x00, 0x79, 0x00, 0x69, 0x00, 0x6A, 0x01, 0x57, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2B, 0x00, 0x26, 0x00, 0xA1, 0x01, 0x7E, 0x00, 0x6D, 0x00, 0x05, 0x01, 0x00, 0x00
-    .close
-
-party 238
-    .byte 0x00, 0x20, 0x27, 0x00, 0x42, 0x00, 0x00, 0x00, 0x00, 0x20, 0x29, 0x00, 0x43, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x22, 0x00, 0x36, 0x00, 0x00, 0x00
-    .close
-
-party 239
-    .byte 0x00, 0x00, 0x28, 0x00, 0x28, 0x01, 0x00, 0x00, 0x00, 0x20, 0x28, 0x00, 0x14, 0x00, 0x00, 0x00
-    .close
-
-party 240
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x63, 0x00, 0x00, 0x00
-    .close
-
-party 241
-    .byte 0x00, 0x00, 0x24, 0x00, 0x42, 0x00, 0x00, 0x00, 0x00, 0x20, 0x24, 0x00, 0x42, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0x3E, 0x00, 0x00, 0x00, 0x00, 0x20, 0x24, 0x00, 0x42, 0x00, 0x00, 0x00
-    .close
-
-party 242
-    .byte 0x00, 0x20, 0x25, 0x00, 0x7A, 0x00, 0xA4, 0x00, 0x5E, 0x00, 0xE3, 0x00, 0x03, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x7E, 0x00, 0xB4, 0x01, 0x07, 0x00, 0x6D, 0x00, 0xB9, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x43, 0x00, 0x74, 0x00, 0x02, 0x00, 0x45, 0x00, 0x17, 0x01, 0x00, 0x00
-    .close
-
-party 243
-    .byte 0x00, 0x00, 0x29, 0x00, 0x57, 0x00, 0x00, 0x00
-    .close
-
-party 244
-    .byte 0xFA, 0x00, 0x33, 0x00, 0x82, 0x00, 0x00, 0x00, 0xAF, 0x00, 0x96, 0x01, 0x7F, 0x00, 0xA7, 0x01
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x36, 0x00, 0x95, 0x00, 0x00, 0x00, 0x56, 0x00, 0x97, 0x01, 0x13, 0x00
-    .byte 0x3F, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x36, 0x00, 0x95, 0x00, 0x00, 0x00, 0x56, 0x00, 0x97, 0x01
-    .byte 0x3B, 0x00, 0x3F, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x35, 0x00, 0x8E, 0x00, 0x00, 0x00, 0x4C, 0x01
-    .byte 0xF2, 0x00, 0x9D, 0x00, 0xA6, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x35, 0x00, 0x06, 0x00, 0x00, 0x00
-    .byte 0xA5, 0x01, 0x93, 0x01, 0x51, 0x01, 0xA8, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x37, 0x00, 0xF8, 0x00
-    .byte 0x2D, 0x02, 0x59, 0x00, 0xBC, 0x01, 0x25, 0x00, 0xF2, 0x00, 0x00, 0x00
-    .close
-
-party 245
-    .byte 0xFA, 0x00, 0x29, 0x00, 0xB2, 0x00, 0x00, 0x00, 0x71, 0x01, 0x7E, 0x01, 0x6D, 0x00, 0x5E, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x2A, 0x00, 0x7C, 0x00, 0x00, 0x00, 0x03, 0x00, 0x8E, 0x00, 0x08, 0x00
-    .byte 0x5E, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x2B, 0x00, 0x67, 0x00, 0x00, 0x00, 0x73, 0x00, 0x5F, 0x00
-    .byte 0x79, 0x00, 0x5E, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x2B, 0x00, 0xC7, 0x00, 0x00, 0x00, 0xAE, 0x00
-    .byte 0x85, 0x00, 0x60, 0x01, 0x5E, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x2C, 0x00, 0x41, 0x00, 0x1F, 0x02
-    .byte 0x32, 0x00, 0x73, 0x00, 0x5B, 0x01, 0x5E, 0x00, 0x00, 0x00
-    .close
-
-party 246
-    .byte 0xFA, 0x00, 0x2D, 0x00, 0xC5, 0x00, 0x00, 0x00, 0x68, 0x00, 0x6D, 0x00, 0x5C, 0x00, 0x73, 0x01
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x2D, 0x00, 0x2D, 0x00, 0x00, 0x00, 0x4E, 0x00, 0x33, 0x00, 0xEC, 0x00
-    .byte 0x50, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x30, 0x00, 0x5E, 0x00, 0x00, 0x00, 0xF7, 0x00, 0xB4, 0x00
-    .byte 0x9B, 0x01, 0xC2, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x2E, 0x00, 0xAE, 0x01, 0x00, 0x00, 0x6D, 0x01
-    .byte 0x12, 0x00, 0x85, 0x01, 0xB9, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x31, 0x00, 0xE5, 0x00, 0x2C, 0x02
-    .byte 0xA1, 0x01, 0x8F, 0x01, 0x35, 0x00, 0xF2, 0x00, 0x00, 0x00
-    .close
-
-party 247
-    .byte 0xFA, 0x20, 0x2A, 0x00, 0xA8, 0x00, 0x00, 0x00, 0x8E, 0x01, 0x0E, 0x00, 0xE2, 0x00, 0x90, 0x01
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x2A, 0x00, 0x31, 0x00, 0x00, 0x00, 0x30, 0x00, 0x10, 0x00, 0x5E, 0x00
-    .byte 0x5C, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x2D, 0x00, 0xCD, 0x00, 0x00, 0x00, 0xB6, 0x00, 0x81, 0x00
-    .byte 0x99, 0x00, 0x86, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x2C, 0x00, 0x0F, 0x00, 0x1D, 0x02, 0x38, 0x02
-    .byte 0x29, 0x00, 0x8E, 0x01, 0x61, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x2E, 0x00, 0xA9, 0x00, 0x9E, 0x00
-    .byte 0x68, 0x00, 0x62, 0x00, 0x11, 0x00, 0x31, 0x01, 0x00, 0x00
-    .close
-
-party 248
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x9C, 0x01, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0x0C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x0F, 0x00, 0x00, 0x00
-    .close
-
-party 249
-    .byte 0x00, 0x00, 0x04, 0x00, 0x6A, 0x03, 0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 0x0A, 0x00, 0x00, 0x00
-    .close
-
-party 250
-    .byte 0x1E, 0x00, 0x1B, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x20, 0x00, 0x6A, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x1B, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x20, 0x00, 0x43, 0x00, 0x00, 0x00
-    .close
-
-party 251
-    .byte 0x28, 0x20, 0x20, 0x00, 0x62, 0x02, 0xCF, 0x00, 0x18, 0x01, 0x73, 0x01, 0x2B, 0x00, 0x00, 0x00
-    .byte 0x28, 0x20, 0x20, 0x00, 0x1E, 0x01, 0xB7, 0x00, 0x4B, 0x01, 0x4E, 0x00, 0x8B, 0x01, 0x00, 0x00
-    .close
-
-party 252
-    .byte 0x00, 0x20, 0x2A, 0x00, 0xDF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x75, 0x00, 0x00, 0x00
-    .close
-
-party 253
-    .byte 0xC8, 0x20, 0x41, 0x00, 0x4C, 0x00, 0x13, 0x01, 0xBE, 0x01, 0x9D, 0x00, 0xE7, 0x01, 0xC9, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0xEB, 0x02, 0x1F, 0x01, 0x51, 0x01, 0xC9, 0x01, 0x59, 0x00
-    .byte 0xF2, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x67, 0x02, 0x0E, 0x01, 0xC5, 0x01, 0xFB, 0x01
-    .byte 0xF2, 0x00, 0x14, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x5C, 0x01, 0x9E, 0x00, 0x94, 0x01
-    .byte 0x5E, 0x01, 0x18, 0x01, 0xC9, 0x02, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x8E, 0x00, 0x25, 0x02
-    .byte 0x11, 0x00, 0xA8, 0x01, 0xF2, 0x00, 0xA6, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x15, 0x04
-    .byte 0xDC, 0x00, 0xA6, 0x01, 0x9D, 0x00, 0x59, 0x00, 0xA8, 0x01, 0x00, 0x00
-    .close
-
-party 254
-    .byte 0xC8, 0x00, 0x41, 0x00, 0x7E, 0x01, 0x1F, 0x01, 0x43, 0x01, 0x3A, 0x00, 0x57, 0x00, 0x6D, 0x02
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x4B, 0x02, 0xBB, 0x00, 0x99, 0x01, 0xC9, 0x02, 0x59, 0x00
-    .byte 0x08, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x83, 0x00, 0xEA, 0x00, 0xFA, 0x01, 0x2F, 0x00
-    .byte 0x3A, 0x00, 0xC3, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x79, 0x00, 0x0E, 0x01, 0xFA, 0x01
-    .byte 0x5E, 0x00, 0x69, 0x00, 0x3A, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x09, 0x00, 0x1C, 0x02
-    .byte 0x60, 0x01, 0xAE, 0x01, 0xFB, 0x01, 0x96, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x0C, 0x03
-    .byte 0x9E, 0x00, 0x9B, 0x02, 0x4C, 0x02, 0x3A, 0x00, 0x5B, 0x01, 0x00, 0x00
-    .close
-
-party 255
-    .byte 0xC8, 0x00, 0x41, 0x00, 0x86, 0x02, 0x13, 0x01, 0x37, 0x02, 0x56, 0x00, 0x12, 0x02, 0x95, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0xB5, 0x00, 0x28, 0x02, 0xB3, 0x01, 0x96, 0x01, 0x0C, 0x02
-    .byte 0x08, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xCE, 0x01, 0xEA, 0x00, 0x30, 0x00, 0x68, 0x00
-    .byte 0xB3, 0x01, 0xAE, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0xF3, 0x00, 0x29, 0x01, 0x55, 0x00
-    .byte 0xF5, 0x00, 0x0C, 0x02, 0x46, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xD2, 0x01, 0x5C, 0x02
-    .byte 0x08, 0x00, 0x67, 0x02, 0x09, 0x00, 0x72, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x1A, 0x00
-    .byte 0x0E, 0x01, 0x64, 0x02, 0x39, 0x00, 0x55, 0x00, 0x68, 0x00, 0x00, 0x00
-    .close
-
-party 256
-    .byte 0xC8, 0x00, 0x41, 0x00, 0xBD, 0x00, 0x00, 0x00, 0x71, 0x01, 0x49, 0x00, 0x03, 0x02, 0x4B, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xD1, 0x01, 0x59, 0x02, 0xF6, 0x00, 0x4E, 0x00, 0xCA, 0x00
-    .byte 0x4F, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x5E, 0x03, 0x5C, 0x02, 0xC4, 0x01, 0x1A, 0x01
-    .byte 0x15, 0x00, 0xC6, 0x02, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x10, 0x01, 0xEA, 0x00, 0xFC, 0x00
-    .byte 0x39, 0x00, 0xCA, 0x00, 0x3A, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xFE, 0x00, 0x2E, 0x02
-    .byte 0x96, 0x01, 0x9C, 0x01, 0x9A, 0x01, 0x61, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x0C, 0x04
-    .byte 0xDC, 0x00, 0x85, 0x01, 0x92, 0x01, 0x72, 0x01, 0xF2, 0x00, 0x00, 0x00
-    .close
-
-party 257
-    .byte 0xC8, 0x00, 0x41, 0x00, 0xA9, 0x00, 0xDC, 0x00, 0xB8, 0x01, 0x8D, 0x00, 0x71, 0x01, 0x9D, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x81, 0x02, 0x19, 0x01, 0xCA, 0x00, 0xBC, 0x00, 0x5C, 0x00
-    .byte 0x93, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x03, 0x00, 0x19, 0x02, 0xBC, 0x00, 0x3F, 0x02
-    .byte 0x9E, 0x01, 0xCA, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x53, 0x02, 0x13, 0x01, 0x86, 0x01
-    .byte 0xE2, 0x00, 0x61, 0x00, 0xB6, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x06, 0x04, 0x9E, 0x00
-    .byte 0x59, 0x00, 0x8E, 0x01, 0x86, 0x01, 0x85, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x56, 0x03
-    .byte 0x0E, 0x01, 0xDD, 0x01, 0x96, 0x01, 0xA1, 0x01, 0x93, 0x01, 0x00, 0x00
-    .close
-
-party 258
-    .byte 0xC8, 0x00, 0x41, 0x00, 0x75, 0x02, 0xEA, 0x00, 0x71, 0x00, 0x73, 0x00, 0x69, 0x00, 0xDC, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xC4, 0x00, 0x0B, 0x01, 0xF7, 0x00, 0x1D, 0x01, 0x5B, 0x01
-    .byte 0x5E, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x41, 0x00, 0x1A, 0x01, 0x0E, 0x01, 0x4C, 0x02, 0x5E, 0x00
-    .byte 0x11, 0x01, 0x68, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x41, 0x00, 0x29, 0x01, 0x9B, 0x01
-    .byte 0x5E, 0x00, 0x9C, 0x01, 0x60, 0x02, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x78, 0x01, 0x3E, 0x02
-    .byte 0xA2, 0x01, 0xAC, 0x01, 0x35, 0x01, 0x67, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xE8, 0x01
-    .byte 0x9E, 0x00, 0xEC, 0x00, 0xDB, 0x00, 0x5C, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .close
-
-party 259
-    .byte 0xC8, 0x20, 0x50, 0x00, 0x06, 0x00, 0x1B, 0x02, 0x93, 0x01, 0x01, 0x01, 0x35, 0x00, 0xE1, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x50, 0x00, 0xD3, 0x01, 0x29, 0x01, 0xFA, 0x01, 0x35, 0x00, 0x7E, 0x00
-    .byte 0x4C, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x50, 0x00, 0x88, 0x01, 0x0E, 0x01, 0x72, 0x01, 0xB7, 0x00
-    .byte 0xA2, 0x01, 0x8A, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x50, 0x00, 0x26, 0x00, 0xD6, 0x00, 0x4C, 0x02
-    .byte 0x4C, 0x00, 0x35, 0x00, 0xA1, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x50, 0x00, 0x4E, 0x00, 0x1F, 0x01
-    .byte 0x13, 0x02, 0x8A, 0x01, 0xCF, 0x02, 0x8E, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x50, 0x00, 0xB5, 0x02
-    .byte 0x5C, 0x02, 0x31, 0x02, 0x96, 0x01, 0x46, 0x01, 0x30, 0x01, 0x00, 0x00
-    .close
-
-party 260
-    .byte 0xFA, 0x00, 0x64, 0x00, 0x19, 0x00, 0xEC, 0x00, 0x0C, 0x02, 0xC3, 0x01, 0x39, 0x00, 0x55, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x20, 0x64, 0x00, 0x96, 0x00, 0x27, 0x02, 0x1F, 0x02, 0x3A, 0x00, 0x7E, 0x00
-    .byte 0x5B, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x64, 0x00, 0x8F, 0x00, 0xEA, 0x00, 0x9E, 0x02, 0xF2, 0x00
-    .byte 0xE7, 0x01, 0xA0, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x64, 0x00, 0x03, 0x00, 0x19, 0x01, 0xBC, 0x00
-    .byte 0xCA, 0x00, 0x4F, 0x00, 0x9E, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x64, 0x00, 0x06, 0x00, 0x1F, 0x01
-    .byte 0x8A, 0x01, 0x93, 0x01, 0x35, 0x00, 0x96, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x64, 0x00, 0x09, 0x00
-    .byte 0x5C, 0x02, 0x9B, 0x01, 0x34, 0x01, 0x3B, 0x00, 0xAE, 0x01, 0x00, 0x00
-    .close
-
-party 261
-    .byte 0xFA, 0x00, 0x5A, 0x00, 0x97, 0x00, 0xEA, 0x00, 0x5D, 0x01, 0xE2, 0x00, 0x5E, 0x00, 0xF6, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x5A, 0x00, 0x3B, 0x00, 0xDC, 0x00, 0xBA, 0x01, 0x4A, 0x02, 0x8A, 0x01
-    .byte 0xF5, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x5A, 0x00, 0xD0, 0x01, 0x59, 0x02, 0xE0, 0x00, 0xBC, 0x01
-    .byte 0xA6, 0x01, 0x59, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x5A, 0x00, 0x82, 0x00, 0xBA, 0x00, 0xA7, 0x01
-    .byte 0x7F, 0x00, 0x5D, 0x01, 0xD8, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x5A, 0x00, 0x44, 0x00, 0x5C, 0x02
-    .byte 0xDF, 0x00, 0x59, 0x00, 0xBC, 0x01, 0x09, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x5A, 0x00, 0x12, 0x00
-    .byte 0x1E, 0x02, 0x21, 0x02, 0x12, 0x00, 0x63, 0x01, 0x3F, 0x00, 0x00, 0x00
-    .close
-
-party 262
-    .byte 0x1E, 0x00, 0x19, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x19, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x1E, 0x00, 0x18, 0x00, 0x00, 0x00
-    .close
-
-party 263
-    .byte 0x50, 0x00, 0x19, 0x00, 0x5D, 0x00, 0x7A, 0x00, 0x6D, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x16, 0x00, 0x51, 0x00, 0x56, 0x00, 0x54, 0x00, 0x30, 0x00, 0x31, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x19, 0x00, 0x2A, 0x00, 0x31, 0x01, 0x30, 0x00, 0x2C, 0x00, 0x11, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x19, 0x00, 0x99, 0x00, 0xEB, 0x00, 0x73, 0x00, 0x59, 0x01, 0x4D, 0x00, 0x00, 0x00
-    .close
-
-party 264
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xCD, 0x01, 0xA4, 0x01, 0xD7, 0x01, 0xB9, 0x00, 0x9A, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xA9, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xCE, 0x01, 0xB3, 0x01, 0x30, 0x00, 0x56, 0x00, 0xAE, 0x01, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x5E, 0x00, 0xD4, 0x00, 0xBC, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x40, 0x00, 0x32, 0x00, 0x3C, 0x00, 0x69, 0x00, 0x73, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x9A, 0x00, 0x60, 0x02, 0xCA, 0x00, 0x4D, 0x00, 0xEB, 0x00, 0x00, 0x00
-    .close
-
-party 265
-    .byte 0x00, 0x00, 0x05, 0x00, 0x98, 0x00, 0x00, 0x00
-    .close
-
-party 266
-    .byte 0x1E, 0x00, 0x0E, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x10, 0x00, 0x29, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x12, 0x00, 0x9C, 0x00, 0x00, 0x00
-    .close
-
-party 267
-    .byte 0x50, 0x00, 0x19, 0x00, 0x5D, 0x00, 0x7A, 0x00, 0x6D, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x16, 0x00, 0x51, 0x00, 0x56, 0x00, 0x54, 0x00, 0x30, 0x00, 0x31, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x19, 0x00, 0x2A, 0x00, 0x31, 0x01, 0x30, 0x00, 0x2C, 0x00, 0x11, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x16, 0x00, 0x9C, 0x00, 0xAC, 0x00, 0x6C, 0x00, 0x34, 0x00, 0x62, 0x00, 0x00, 0x00
-    .close
-
-party 268
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xCD, 0x01, 0xA4, 0x01, 0xD7, 0x01, 0xB9, 0x00, 0x9A, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xA9, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xCE, 0x01, 0xB3, 0x01, 0x30, 0x00, 0x56, 0x00, 0xAE, 0x01, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x5E, 0x00, 0xD4, 0x00, 0xBC, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x40, 0x00, 0x32, 0x00, 0x3C, 0x00, 0x69, 0x00, 0x73, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x9D, 0x00, 0xB4, 0x01, 0x81, 0x00, 0x62, 0x00, 0x9E, 0x01, 0x00, 0x00
-    .close
-
-party 269
-    .byte 0x1E, 0x00, 0x0E, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x10, 0x00, 0x29, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x12, 0x00, 0x9F, 0x00, 0x00, 0x00
-    .close
-
-party 270
-    .byte 0x50, 0x00, 0x19, 0x00, 0x5D, 0x00, 0x7A, 0x00, 0x6D, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x16, 0x00, 0x51, 0x00, 0x56, 0x00, 0x54, 0x00, 0x30, 0x00, 0x31, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x19, 0x00, 0x2A, 0x00, 0x31, 0x01, 0x30, 0x00, 0x2C, 0x00, 0x11, 0x00, 0x00, 0x00
-    .byte 0x50, 0x00, 0x16, 0x00, 0x9F, 0x00, 0xB8, 0x00, 0xA7, 0x01, 0x37, 0x00, 0x2C, 0x00, 0x00, 0x00
-    .close
-
-party 271
-    .byte 0x78, 0x00, 0x24, 0x00, 0xA9, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0x78, 0x00, 0x24, 0x00, 0x52, 0x00, 0x30, 0x00, 0xB3, 0x01, 0xAE, 0x01, 0x56, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0x5D, 0x00, 0x6D, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0xF7, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0xD7, 0x00, 0xA4, 0x01, 0xE8, 0x00, 0x9A, 0x00, 0xB9, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0xA0, 0x00, 0xA7, 0x01, 0x37, 0x00, 0xF2, 0x00, 0x25, 0x00, 0x00, 0x00
-    .close
-
-party 272
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xCD, 0x01, 0xA4, 0x01, 0xD7, 0x01, 0xB9, 0x00, 0x9A, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xA9, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xCE, 0x01, 0xB3, 0x01, 0x30, 0x00, 0x56, 0x00, 0xAE, 0x01, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x5E, 0x00, 0xD4, 0x00, 0xBC, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0x40, 0x00, 0x32, 0x00, 0x3C, 0x00, 0x69, 0x00, 0x73, 0x00, 0x00, 0x00
-    .byte 0xA0, 0x00, 0x2D, 0x00, 0xA0, 0x00, 0x7F, 0x00, 0xA7, 0x01, 0xF2, 0x00, 0xA3, 0x00, 0x00, 0x00
-    .close
-
-party 273
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x78, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x79, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x10, 0x00, 0x74, 0x00, 0x00, 0x00
-    .close
-
-party 274
-    .byte 0x00, 0x00, 0x11, 0x00, 0x4A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x11, 0x00, 0x4A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x36, 0x00, 0x00, 0x00
-    .close
-
-party 275
-    .byte 0x00, 0x00, 0x17, 0x00, 0x4A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0xDA, 0x00, 0x00, 0x00
-    .close
-
-party 276
-    .byte 0x00, 0x00, 0x23, 0x00, 0x46, 0x00, 0x00, 0x00, 0x00, 0x20, 0x26, 0x00, 0x1E, 0x00, 0x00, 0x00
-    .close
-
-party 277
-    .byte 0x00, 0x00, 0x27, 0x00, 0x46, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x21, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x28, 0x00, 0x1F, 0x00, 0x00, 0x00
-    .close
-
-party 278
-    .byte 0x1E, 0x00, 0x1E, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x25, 0x00, 0x44, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x21, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x29, 0x00, 0x6A, 0x00, 0x00, 0x00
-    .close
-
-party 279
-    .byte 0x00, 0x00, 0x22, 0x00, 0x14, 0x00, 0x00, 0x00
-    .close
-
-party 280
-    .byte 0x00, 0x00, 0x28, 0x00, 0x14, 0x00, 0xA2, 0x00, 0x62, 0x00, 0x9E, 0x00, 0xB8, 0x00, 0x00, 0x00
-    .close
-
-party 281
-    .byte 0x00, 0x00, 0x12, 0x00, 0x05, 0x00, 0x00, 0x00
-    .close
-
-party 282
-    .byte 0x00, 0x00, 0x10, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x11, 0x00, 0x3A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x10, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 283
-    .byte 0x00, 0x00, 0x28, 0x00, 0x3B, 0x00, 0x2E, 0x00, 0xAC, 0x00, 0x2B, 0x00, 0x2C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x49, 0x00, 0x39, 0x00, 0x30, 0x00, 0xEE, 0x01, 0x97, 0x00, 0x00, 0x00
-    .close
-
-party 284
-    .byte 0x00, 0x00, 0x21, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x21, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 285
-    .byte 0xC8, 0x00, 0x2E, 0x00, 0xD7, 0x00, 0x62, 0x00, 0xC4, 0x00, 0xB9, 0x00, 0xA5, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2F, 0x00, 0x2A, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2E, 0x00, 0x52, 0x00, 0xB3, 0x01, 0x30, 0x00, 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x30, 0x00, 0x5E, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x30, 0x00, 0x41, 0x00, 0x32, 0x00, 0x69, 0x00, 0x73, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x32, 0x00, 0x9A, 0x00, 0x50, 0x00, 0x4D, 0x00, 0xEB, 0x00, 0x71, 0x00, 0x00, 0x00
-    .close
-
-party 286
-    .byte 0xC8, 0x00, 0x2E, 0x00, 0xD7, 0x00, 0x62, 0x00, 0xC4, 0x00, 0xB9, 0x00, 0xA5, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2F, 0x00, 0x2A, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2E, 0x00, 0x52, 0x00, 0xB3, 0x01, 0x30, 0x00, 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x30, 0x00, 0x5E, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x30, 0x00, 0x41, 0x00, 0x32, 0x00, 0x69, 0x00, 0x73, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x32, 0x00, 0x9D, 0x00, 0x35, 0x00, 0x62, 0x00, 0xAC, 0x00, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 287
-    .byte 0xC8, 0x00, 0x2E, 0x00, 0xD7, 0x00, 0x62, 0x00, 0xC4, 0x00, 0xB9, 0x00, 0xA5, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2F, 0x00, 0x2A, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2E, 0x00, 0x52, 0x00, 0xB3, 0x01, 0x30, 0x00, 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x30, 0x00, 0x5E, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x30, 0x00, 0x41, 0x00, 0x32, 0x00, 0x69, 0x00, 0x73, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x32, 0x00, 0xA0, 0x00, 0x7F, 0x00, 0xA7, 0x01, 0xF2, 0x00, 0xA3, 0x00, 0x00, 0x00
-    .close
-
-party 288
-    .byte 0x78, 0x00, 0x24, 0x00, 0xA9, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0x78, 0x00, 0x24, 0x00, 0x52, 0x00, 0x30, 0x00, 0xB3, 0x01, 0xAE, 0x01, 0x56, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0x5D, 0x00, 0x6D, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0xF7, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0xD7, 0x00, 0xA4, 0x01, 0xE8, 0x00, 0x9A, 0x00, 0xB9, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0x9A, 0x00, 0x73, 0x00, 0xCA, 0x00, 0x4D, 0x00, 0x60, 0x02, 0x00, 0x00
-    .close
-
-party 289
-    .byte 0x78, 0x00, 0x24, 0x00, 0xA9, 0x00, 0x31, 0x01, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0x78, 0x00, 0x24, 0x00, 0x52, 0x00, 0x30, 0x00, 0xB3, 0x01, 0xAE, 0x01, 0x56, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0x5D, 0x00, 0x6D, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0xF7, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0xD7, 0x00, 0xA4, 0x01, 0xE8, 0x00, 0x9A, 0x00, 0xB9, 0x00, 0x00, 0x00
-    .byte 0x78, 0x00, 0x23, 0x00, 0x9D, 0x00, 0x9E, 0x01, 0x81, 0x00, 0x62, 0x00, 0xAC, 0x00, 0x00, 0x00
-    .close
-
-party 290
-    .byte 0x00, 0x00, 0x08, 0x00, 0x45, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x00, 0xA3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0B, 0x00, 0x46, 0x00, 0x00, 0x00
-    .close
-
-party 291
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x6E, 0x01, 0x00, 0x00
-    .close
-
-party 292
-    .byte 0x00, 0x00, 0x14, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 293
-    .byte 0x00, 0x20, 0x27, 0x00, 0xB7, 0x00, 0x00, 0x00, 0x00, 0x20, 0x27, 0x00, 0xB7, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x83, 0x00, 0x00, 0x00
-    .close
-
-party 294
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x79, 0x00, 0x55, 0x00, 0x39, 0x00, 0x3A, 0x00, 0x69, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x79, 0x00, 0x55, 0x00, 0x39, 0x00, 0x3A, 0x00, 0x69, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x79, 0x00, 0x69, 0x00, 0x60, 0x01, 0x57, 0x00, 0x3B, 0x00, 0x00, 0x00
-    .close
-
-party 295
-    .byte 0x00, 0x00, 0x14, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 296
-    .byte 0x00, 0x00, 0x25, 0x00, 0x56, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x57, 0x00, 0x00, 0x00
-    .close
-
-party 297
-    .byte 0x00, 0x20, 0x30, 0x00, 0x37, 0x00, 0x60, 0x01, 0xAC, 0x01, 0xF4, 0x00, 0x32, 0x00, 0x00, 0x00
-    .close
-
-party 298
-    .byte 0x00, 0x20, 0x2E, 0x00, 0x77, 0x00, 0x60, 0x01, 0x88, 0x01, 0x30, 0x00, 0x8E, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2E, 0x00, 0x77, 0x00, 0x60, 0x01, 0x88, 0x01, 0x30, 0x00, 0x8E, 0x01, 0x00, 0x00
-    .close
-
-party 299
-    .byte 0x32, 0x00, 0x0D, 0x00, 0x10, 0x00, 0x00, 0x00, 0x32, 0x20, 0x2C, 0x00, 0x12, 0x00, 0x00, 0x00
-    .close
-
-party 300
-    .byte 0x32, 0x00, 0x26, 0x00, 0x16, 0x00, 0x00, 0x00, 0x32, 0x00, 0x2C, 0x00, 0x16, 0x00, 0x00, 0x00
-    .close
-
-party 301
-    .byte 0x32, 0x20, 0x27, 0x00, 0x54, 0x00, 0x00, 0x00, 0x32, 0x20, 0x25, 0x00, 0x54, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x29, 0x00, 0x55, 0x00, 0x00, 0x00
-    .close
-
-party 302
-    .byte 0x32, 0x00, 0x30, 0x00, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 303
-    .byte 0x32, 0x00, 0x2C, 0x00, 0x53, 0x00, 0x00, 0x00
-    .close
-
-party 304
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x37, 0x00, 0x00, 0x00
-    .close
-
-party 305
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x37, 0x00, 0x00, 0x00
-    .close
-
-party 306
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x37, 0x00, 0x00, 0x00
-    .close
-
-party 307
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x37, 0x00, 0x00, 0x00
-    .close
-
-party 308
-    .byte 0x50, 0x20, 0x32, 0x00, 0x70, 0x00, 0x9D, 0x00, 0xA3, 0x01, 0x67, 0x01, 0x24, 0x00, 0x00, 0x00
-    .close
-
-party 309
-    .byte 0x00, 0x00, 0x26, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 310
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x88, 0x00, 0x00, 0x00
-    .close
-
-party 311
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 312
-    .byte 0x00, 0x00, 0x29, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0x05, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .close
-
-party 313
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .close
-
-party 314
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .close
-
-party 315
-    .byte 0x00, 0x00, 0x27, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .close
-
-party 316
-    .byte 0x00, 0x00, 0x27, 0x00, 0x66, 0x00, 0x5E, 0x00, 0x5F, 0x00, 0x8C, 0x00, 0x8A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x27, 0x00, 0x66, 0x00, 0x5E, 0x00, 0x5F, 0x00, 0x8C, 0x00, 0x8A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x27, 0x00, 0x67, 0x00, 0x5E, 0x00, 0x5F, 0x00, 0xC4, 0x01, 0x8A, 0x00, 0x00, 0x00
-    .close
-
-party 317
-    .byte 0x00, 0x20, 0x2B, 0x00, 0xB2, 0x00, 0xF8, 0x00, 0x77, 0x01, 0x6D, 0x00, 0x7E, 0x01, 0x00, 0x00
-    .close
-
-party 318
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x6E, 0x00, 0x35, 0x00, 0x99, 0x00, 0xCA, 0x01, 0x7C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0xDB, 0x00, 0xB4, 0x01, 0x85, 0x00, 0xF6, 0x00, 0x69, 0x00, 0x00, 0x00
-    .close
-
-party 319
-    .byte 0x00, 0x00, 0x0C, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0C, 0x00, 0x42, 0x01, 0x00, 0x00
-    .close
-
-party 320
-    .byte 0x00, 0x00, 0x24, 0x00, 0xDF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0xE0, 0x00, 0x00, 0x00
-    .close
-
-party 321
-    .byte 0x00, 0x00, 0x2B, 0x00, 0xC3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 322
-    .byte 0x00, 0x00, 0x28, 0x00, 0x82, 0x00, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0x82, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x82, 0x00, 0x00, 0x00
-    .close
-
-party 323
-    .byte 0x00, 0x00, 0x21, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .close
-
-party 324
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x76, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .close
-
-party 325
-    .byte 0x00, 0x00, 0x20, 0x00, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x76, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 326
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x47, 0x00, 0xCA, 0x00, 0x4F, 0x00, 0xBC, 0x00, 0xB6, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x2D, 0x00, 0xCA, 0x00, 0x4E, 0x00, 0x99, 0x01, 0xD5, 0x00, 0x00, 0x00
-    .close
-
-party 327
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x7C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0x7D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .close
-
-party 328
-    .byte 0x00, 0x00, 0x29, 0x00, 0xB2, 0x00, 0x6D, 0x00, 0x65, 0x00, 0x13, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x41, 0x00, 0x5E, 0x00, 0x5B, 0x01, 0x73, 0x00, 0x9B, 0x01, 0x00, 0x00
-    .close
-
-party 329
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x2B, 0x00, 0x9E, 0x00, 0x00, 0x00
-    .close
-
-party 330
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x72, 0x00, 0x9E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x86, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 331
-    .byte 0x00, 0x20, 0x27, 0x00, 0x2F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x23, 0x00, 0x84, 0x00, 0x00, 0x00
-    .close
-
-party 332
-    .byte 0x00, 0x20, 0x2B, 0x00, 0xBC, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0xBC, 0x00, 0x00, 0x00
-    .close
-
-party 333
-    .byte 0x00, 0x20, 0x29, 0x00, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2D, 0x00, 0x1A, 0x00, 0x00, 0x00
-    .close
-
-party 334
-    .byte 0x00, 0x00, 0x1A, 0x00, 0xBC, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1A, 0x00, 0xBC, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x02, 0x00, 0x00, 0x00
-    .close
-
-party 335
-    .byte 0x00, 0x00, 0x20, 0x00, 0x2C, 0x00, 0x00, 0x00, 0x00, 0x20, 0x29, 0x00, 0x4E, 0x00, 0x00, 0x00
-    .close
-
-party 336
-    .byte 0x00, 0x00, 0x31, 0x00, 0x67, 0x00, 0xCA, 0x00, 0x71, 0x00, 0x79, 0x00, 0x5F, 0x00, 0x00, 0x00
-    .close
-
-party 337
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x19, 0x00, 0xB3, 0x01, 0x71, 0x00, 0x56, 0x00, 0x68, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0xB4, 0x00, 0x5F, 0x01, 0x44, 0x01, 0xC3, 0x01, 0x68, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x35, 0x01, 0x5F, 0x01, 0x2E, 0x00, 0x56, 0x00, 0xA6, 0x01, 0x00, 0x00
-    .close
-
-party 338
-    .byte 0x00, 0x00, 0x14, 0x00, 0x4D, 0x00, 0x00, 0x00
-    .close
-
-party 339
-    .byte 0x1E, 0x20, 0x26, 0x00, 0x43, 0x00, 0x00, 0x00, 0x1E, 0x20, 0x28, 0x00, 0x43, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x2A, 0x00, 0x33, 0x01, 0x00, 0x00
-    .close
-
-party 340
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 341
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 342
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 343
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 344
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 345
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 346
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x2E, 0x00, 0xCA, 0x00, 0x93, 0x00, 0xA3, 0x00, 0xD5, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2C, 0x00, 0xC7, 0x01, 0xCA, 0x00, 0x7A, 0x01, 0x13, 0x01, 0xD5, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x2F, 0x00, 0xCA, 0x00, 0x93, 0x00, 0xD5, 0x00, 0x94, 0x01, 0x00, 0x00
-    .close
-
-party 347
-    .byte 0x00, 0x00, 0x0F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 348
-    .byte 0x00, 0x20, 0x2B, 0x00, 0xC3, 0x00, 0x00, 0x00
-    .close
-
-party 349
-    .byte 0x00, 0x00, 0x20, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x19, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x19, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x19, 0x00, 0x00, 0x00
-    .close
-
-party 350
-    .byte 0x00, 0x00, 0x26, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x04, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x07, 0x00, 0x00, 0x00
-    .close
-
-party 351
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x36, 0x00, 0x00, 0x00
-    .close
-
-party 352
-    .byte 0x00, 0x20, 0x1F, 0x00, 0xA1, 0x00, 0x00, 0x00, 0x00, 0x20, 0x1F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x1F, 0x00, 0xA1, 0x00, 0x00, 0x00, 0x00, 0x20, 0x24, 0x00, 0xA2, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x1F, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 353
-    .byte 0x1E, 0x00, 0x27, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .close
-
-party 354
-    .byte 0x00, 0x00, 0x26, 0x00, 0x2C, 0x00, 0x9E, 0x00, 0x00, 0x00, 0x00, 0x20, 0x29, 0x00, 0x11, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0xB6, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 355
-    .byte 0x00, 0x00, 0x26, 0x00, 0x2E, 0x00, 0x00, 0x00, 0x00, 0x20, 0x26, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x2F, 0x00, 0x00, 0x00
-    .close
-
-party 356
-    .byte 0x00, 0x00, 0x2C, 0x00, 0xBC, 0x00, 0xCA, 0x00, 0x71, 0x01, 0x49, 0x00, 0xF1, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0xBB, 0x00, 0xCA, 0x00, 0x71, 0x01, 0x4E, 0x00, 0x54, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2E, 0x00, 0xBD, 0x00, 0xCA, 0x00, 0x71, 0x01, 0x4F, 0x00, 0xF1, 0x00, 0x00, 0x00
-    .close
-
-party 357
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2D, 0x00, 0x33, 0x00, 0x00, 0x00
-    .close
-
-party 358
-    .byte 0x00, 0x00, 0x1B, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1D, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4C, 0x00, 0x00, 0x00
-    .close
-
-party 359
-    .byte 0x00, 0x20, 0x2D, 0x00, 0x44, 0x00, 0x00, 0x00
-    .close
-
-party 360
-    .byte 0x00, 0x00, 0x24, 0x00, 0x30, 0x00, 0x00, 0x00
-    .close
-
-party 361
-    .byte 0x32, 0x20, 0x30, 0x00, 0x6F, 0x00, 0x24, 0x00, 0xBC, 0x01, 0x20, 0x00, 0x59, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2E, 0x00, 0x05, 0x00, 0x35, 0x00, 0xA3, 0x00, 0xB8, 0x00, 0x4C, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2E, 0x00, 0x08, 0x00, 0x38, 0x00, 0x3A, 0x00, 0x2C, 0x00, 0xCF, 0x00, 0x00, 0x00
-    .close
-
-party 362
-    .byte 0x32, 0x00, 0x2F, 0x00, 0x02, 0x00, 0x4C, 0x00, 0x26, 0x00, 0xEB, 0x00, 0xBC, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2F, 0x00, 0x79, 0x00, 0x3B, 0x00, 0x6D, 0x00, 0x55, 0x00, 0x60, 0x01, 0x00, 0x00
-    .close
-
-party 363
-    .byte 0x32, 0x00, 0x1C, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .close
-
-party 364
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x58, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0x59, 0x00
-    .byte 0x10, 0x01, 0x00, 0x00
-    .close
-
-party 365
-    .byte 0x00, 0x20, 0x28, 0x00, 0x51, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x51, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x28, 0x00, 0x51, 0x00, 0x00, 0x00
-    .close
-
-party 366
-    .byte 0x32, 0x20, 0x2F, 0x00, 0x89, 0x00, 0x00, 0x00, 0xC3, 0x01, 0x44, 0x01, 0x3A, 0x00, 0x4C, 0x00
-    .byte 0x00, 0x00
-    .close
-
-party 367
-    .byte 0x00, 0x20, 0x27, 0x00, 0x51, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0x59, 0x00
-    .byte 0x5C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0x51, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 368
-    .byte 0x00, 0x20, 0x2D, 0x00, 0xB4, 0x01, 0xB9, 0x00, 0x1D, 0x01, 0xDB, 0x00, 0x68, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2D, 0x00, 0x61, 0x00, 0xCF, 0x00, 0x1D, 0x01, 0x3C, 0x00, 0x5F, 0x00, 0x00, 0x00
-    .close
-
-party 369
-    .byte 0x00, 0x20, 0x2C, 0x00, 0x4F, 0x00, 0x1D, 0x01, 0x85, 0x00, 0x32, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2E, 0x00, 0x50, 0x00, 0x1D, 0x01, 0x2F, 0x01, 0x5E, 0x00, 0x19, 0x01, 0x00, 0x00
-    .close
-
-party 370
-    .byte 0x00, 0x20, 0x24, 0x00, 0x75, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x48, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x49, 0x00, 0x00, 0x00, 0x00, 0x20, 0x26, 0x00, 0x76, 0x00, 0x00, 0x00
-    .close
-
-party 371
-    .byte 0x00, 0x00, 0x28, 0x00, 0x5A, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2C, 0x00, 0x5B, 0x00, 0x00, 0x00
-    .close
-
-party 372
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x78, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x79, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x10, 0x00, 0x74, 0x00, 0x00, 0x00
-    .close
-
-party 373
-    .byte 0x00, 0x20, 0x2C, 0x00, 0xB8, 0x00, 0x00, 0x00
-    .close
-
-party 374
-    .byte 0x00, 0x20, 0x2A, 0x00, 0xC3, 0x00, 0x59, 0x00, 0x19, 0x01, 0x39, 0x00, 0x85, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2A, 0x00, 0xE0, 0x00, 0x44, 0x01, 0x7A, 0x01, 0xBE, 0x00, 0x3E, 0x00, 0x00, 0x00
-    .close
-
-party 375
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x78, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x79, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x10, 0x00, 0x74, 0x00, 0x00, 0x00
-    .close
-
-party 376
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x78, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x79, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x10, 0x00, 0x74, 0x00, 0x00, 0x00
-    .close
-
-party 377
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x74, 0x00, 0x60, 0x01, 0x74, 0x00, 0xEF, 0x00, 0x61, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x75, 0x00, 0x60, 0x01, 0x74, 0x00, 0xEF, 0x00, 0x61, 0x00, 0x00, 0x00
-    .close
-
-party 378
-    .byte 0x00, 0x00, 0x26, 0x00, 0x16, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x14, 0x00, 0x00, 0x00
-    .close
-
-party 379
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x14, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x18, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x2F, 0x00, 0x00, 0x00
-    .close
-
-party 380
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x3A, 0x00, 0x00, 0x00
-    .close
-
-party 381
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0xA9, 0x00, 0x00, 0x00
-    .close
-
-party 382
-    .byte 0x00, 0x20, 0x29, 0x00, 0xBF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0xBE, 0x00, 0x00, 0x00
-    .close
-
-party 383
-    .byte 0x32, 0x00, 0x0C, 0x00, 0xC7, 0x02, 0x00, 0x00, 0x32, 0x20, 0x0C, 0x00, 0x8C, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x0C, 0x00, 0x15, 0x00, 0x00, 0x00
-    .close
-
-party 384
-    .byte 0x00, 0x20, 0x0C, 0x00, 0x5F, 0x00, 0x00, 0x00
-    .close
-
-party 385
-    .byte 0x00, 0x00, 0x10, 0x00, 0xB3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0xB7, 0x00, 0x00, 0x00
-    .close
-
-party 386
-    .byte 0x00, 0x00, 0x15, 0x00, 0x60, 0x00, 0x5F, 0x00, 0x32, 0x00, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 387
-    .byte 0x0A, 0x20, 0x0E, 0x00, 0x13, 0x03, 0x00, 0x00, 0x0A, 0x20, 0x0A, 0x00, 0x4F, 0x02, 0x00, 0x00
-    .close
-
-party 388
-    .byte 0x00, 0x00, 0x15, 0x00, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x00, 0xC8, 0x02, 0x00, 0x00
-    .close
-
-party 389
-    .byte 0x00, 0x00, 0x1D, 0x00, 0xC7, 0x00, 0x21, 0x00, 0x2D, 0x00, 0x60, 0x01, 0x5D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x1D, 0x00, 0x50, 0x00, 0xAE, 0x00, 0x1D, 0x00, 0x60, 0x01, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 390
-    .byte 0x00, 0x00, 0x0D, 0x00, 0x25, 0x00, 0x00, 0x00
-    .close
-
-party 391
-    .byte 0x00, 0x00, 0x12, 0x00, 0x6C, 0x00, 0x7A, 0x00, 0x30, 0x00, 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 392
-    .byte 0x00, 0x20, 0x12, 0x00, 0x4B, 0x01, 0x00, 0x00, 0x00, 0x20, 0x12, 0x00, 0x12, 0x01, 0x00, 0x00
-    .close
-
-party 393
-    .byte 0x00, 0x00, 0x12, 0x00, 0x35, 0x01, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x94, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x10, 0x00, 0xE8, 0x02, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x51, 0x00, 0x00, 0x00
-    .close
-
-party 394
-    .byte 0x00, 0x00, 0x0E, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0E, 0x00, 0x04, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x0E, 0x00, 0x07, 0x00, 0x00, 0x00
-    .close
-
-party 395
-    .byte 0x00, 0x00, 0x14, 0x00, 0x74, 0x02, 0x3C, 0x00, 0x94, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0x71, 0x02, 0x3C, 0x00, 0x94, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0x40, 0x00, 0x64, 0x00, 0x86, 0x00, 0x5D, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 396
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x65, 0x00, 0x81, 0x00, 0x5F, 0x01, 0x67, 0x00, 0x99, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x65, 0x00, 0x81, 0x00, 0x5F, 0x01, 0x68, 0x00, 0x71, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x65, 0x00, 0x81, 0x00, 0x5F, 0x01, 0x67, 0x00, 0xCD, 0x00, 0x00, 0x00
-    .close
-
-party 397
-    .byte 0x00, 0x00, 0x1E, 0x00, 0xC4, 0x00, 0x00, 0x00
-    .close
-
-party 398
-    .byte 0x00, 0x00, 0x1C, 0x00, 0xBD, 0x00, 0x48, 0x00, 0x27, 0x00, 0x21, 0x00, 0x4D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x1C, 0x00, 0x55, 0x02, 0x9C, 0x01, 0x4B, 0x02, 0x49, 0x00, 0x4A, 0x00, 0x00, 0x00
-    .close
-
-party 399
-    .byte 0x00, 0x00, 0x24, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0x88, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 400
-    .byte 0x00, 0x00, 0x1C, 0x00, 0xB4, 0x00, 0x21, 0x00, 0x2D, 0x00, 0x54, 0x00, 0x56, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1C, 0x00, 0x37, 0x00, 0x37, 0x00, 0x27, 0x00, 0x32, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 401
-    .byte 0x00, 0x00, 0x23, 0x00, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 402
-    .byte 0x00, 0x00, 0x24, 0x00, 0xD1, 0x02, 0x11, 0x01, 0x47, 0x02, 0x3F, 0x02, 0x4C, 0x02, 0x00, 0x00
-    .close
-
-party 403
-    .byte 0x00, 0x00, 0x23, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x4B, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0xA9, 0x00, 0x00, 0x00
-    .close
-
-party 404
-    .byte 0x1E, 0x00, 0x1F, 0x00, 0x18, 0x00, 0x23, 0x00, 0xA7, 0x01, 0xEE, 0x01, 0xF2, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x21, 0x00, 0x2D, 0x00, 0x3F, 0x02, 0xEC, 0x00, 0x4E, 0x00, 0x4F, 0x00, 0x00, 0x00
-    .close
-
-party 405
-    .byte 0x00, 0x00, 0x2A, 0x00, 0xB2, 0x00, 0x2B, 0x00, 0x65, 0x00, 0x7E, 0x01, 0x6D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x41, 0x00, 0x32, 0x00, 0x3C, 0x00, 0x73, 0x00, 0xC3, 0x01, 0x00, 0x00
-    .close
-
-party 406
-    .byte 0x00, 0x00, 0x28, 0x00, 0xD0, 0x01, 0x00, 0x00
-    .close
-
-party 407
-    .byte 0x32, 0x00, 0x26, 0x00, 0x06, 0x00, 0x34, 0x00, 0x6C, 0x00, 0xA8, 0x01, 0xB8, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x28, 0x00, 0x52, 0x00, 0xD1, 0x00, 0x56, 0x00, 0x30, 0x00, 0x3F, 0x01, 0x00, 0x00
-    .close
-
-party 408
-    .byte 0x32, 0x00, 0x2A, 0x00, 0xB5, 0x00, 0xB3, 0x01, 0xB2, 0x00, 0x0C, 0x01, 0x21, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2A, 0x00, 0xB6, 0x00, 0x48, 0x00, 0x4E, 0x00, 0x33, 0x00, 0x59, 0x01, 0x00, 0x00
-    .close
-
-party 409
-    .byte 0x00, 0x00, 0x12, 0x00, 0xD1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0xB3, 0x00, 0x00, 0x00
-    .close
-
-party 410
-    .byte 0x00, 0x20, 0x14, 0x00, 0xC3, 0x00, 0x37, 0x00, 0xAA, 0x01, 0x15, 0x00, 0x55, 0x01, 0x00, 0x00
-    .close
-
-party 411
-    .byte 0x00, 0x00, 0x2D, 0x00, 0xC4, 0x00, 0x00, 0x00
-    .close
-
-party 412
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x79, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2D, 0x00, 0x07, 0x04, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x08, 0x04, 0x00, 0x00
-    .close
-
-party 413
-    .byte 0x00, 0x20, 0x2D, 0x00, 0xBA, 0x03, 0x38, 0x02, 0x6A, 0x01, 0xF2, 0x00, 0x28, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0xB5, 0x03, 0xAC, 0x01, 0x6D, 0x00, 0x17, 0x00, 0x5F, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x77, 0x00, 0x1F, 0x00, 0x88, 0x01, 0xAF, 0x00, 0x60, 0x01, 0x00, 0x00
-    .close
-
-party 414
-    .byte 0x32, 0x00, 0x28, 0x00, 0x53, 0x00, 0x00, 0x00
-    .close
-
-party 415
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x7A, 0x00, 0x1D, 0x01, 0x5E, 0x00, 0x73, 0x00, 0x71, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x66, 0x00, 0x1D, 0x01, 0x5E, 0x00, 0x4F, 0x00, 0x49, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x66, 0x00, 0x1D, 0x01, 0x5E, 0x00, 0x5F, 0x00, 0xBF, 0x01, 0x00, 0x00
-    .close
-
-party 416
-    .byte 0x00, 0x00, 0x25, 0x00, 0x2D, 0x00, 0xCA, 0x00, 0x4E, 0x00, 0x99, 0x01, 0xD5, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x47, 0x00, 0xCA, 0x00, 0x4F, 0x00, 0xBC, 0x00, 0xB6, 0x00, 0x00, 0x00
-    .close
-
-party 417
-    .byte 0x32, 0x00, 0x18, 0x00, 0x78, 0x00, 0x00, 0x00, 0x32, 0x00, 0x1A, 0x00, 0x79, 0x00, 0x00, 0x00
-    .close
-
-party 418
-    .byte 0xFA, 0x20, 0x2B, 0x00, 0xED, 0x00, 0x00, 0x00, 0x44, 0x00, 0xFC, 0x00, 0x5B, 0x00, 0xA7, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x20, 0x2B, 0x00, 0x6A, 0x00, 0x00, 0x00, 0xCF, 0x00, 0x74, 0x00, 0x88, 0x00
-    .byte 0x2B, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x2B, 0x00, 0x6B, 0x00, 0x00, 0x00, 0x09, 0x00, 0x08, 0x00
-    .byte 0x07, 0x00, 0xA2, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x2C, 0x00, 0xD0, 0x00, 0x00, 0x00, 0xE1, 0x00
-    .byte 0x59, 0x00, 0xC9, 0x00, 0x9D, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x2F, 0x00, 0xD6, 0x00, 0x2B, 0x02
-    .byte 0x2A, 0x00, 0x1F, 0x00, 0x24, 0x01, 0x4B, 0x01, 0x00, 0x00
-    .close
-
-party 419
-    .byte 0x00, 0x00, 0x28, 0x00, 0x28, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0xD2, 0x00, 0x00, 0x00
-    .close
-
-party 420
-    .byte 0x32, 0x20, 0x2A, 0x00, 0x53, 0x00, 0x00, 0x00
-    .close
-
-party 421
-    .byte 0x32, 0x00, 0x29, 0x00, 0x14, 0x01, 0x00, 0x00, 0x32, 0x00, 0x29, 0x00, 0x16, 0x00, 0x00, 0x00
-    .close
-
-party 422
-    .byte 0x00, 0x00, 0x25, 0x00, 0xB1, 0x01, 0x00, 0x00, 0x00, 0x20, 0x29, 0x00, 0x61, 0x00, 0x00, 0x00
-    .close
-
-party 423
-    .byte 0x00, 0x20, 0x24, 0x00, 0x34, 0x00, 0x00, 0x00, 0x00, 0x20, 0x24, 0x00, 0x34, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x24, 0x00, 0x34, 0x00, 0x00, 0x00
-    .close
-
-party 424
-    .byte 0x00, 0x20, 0x28, 0x00, 0xE1, 0x00, 0xD9, 0x00, 0x4C, 0x01, 0xA3, 0x01, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 425
-    .byte 0x00, 0x20, 0x27, 0x00, 0xD8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0xE7, 0x00, 0x00, 0x00
-    .close
-
-party 426
-    .byte 0x00, 0x00, 0x27, 0x00, 0xE7, 0x00, 0x00, 0x00, 0x00, 0x20, 0x27, 0x00, 0xD8, 0x00, 0x00, 0x00
-    .close
-
-party 427
-    .byte 0x00, 0x20, 0x2B, 0x00, 0xB9, 0x01, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0x27, 0x00, 0x00, 0x00
-    .close
-
-party 428
-    .byte 0x00, 0x00, 0x28, 0x00, 0xA6, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x67, 0x00, 0x00, 0x00
-    .close
-
-party 429
-    .byte 0x00, 0x00, 0x28, 0x00, 0xBE, 0x00, 0xEE, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x84, 0x00
-    .byte 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 430
-    .byte 0x00, 0x00, 0x1D, 0x00, 0x2C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x11, 0x00, 0x64, 0x00, 0x00, 0x00
-    .close
-
-party 431
-    .byte 0x00, 0x00, 0x26, 0x00, 0x2D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x65, 0x00, 0x00, 0x00
-    .close
-
-party 432
-    .byte 0x00, 0x00, 0x20, 0x00, 0x72, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0xC1, 0x00, 0x00, 0x00
-    .close
-
-party 433
-    .byte 0x00, 0x00, 0x20, 0x00, 0xB2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0xD1, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0xC3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x22, 0x00, 0xD5, 0x01, 0x00, 0x00
-    .close
-
-party 434
-    .byte 0x00, 0x00, 0x1D, 0x00, 0x7A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x51, 0x00, 0x00, 0x00
-    .close
-
-party 435
-    .byte 0x00, 0x00, 0x27, 0x00, 0x7A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x52, 0x00, 0x00, 0x00
-    .close
-
-party 436
-    .byte 0x00, 0x00, 0x1F, 0x00, 0xD1, 0x00, 0x00, 0x00
-    .close
-
-party 437
-    .byte 0x00, 0x00, 0x2B, 0x00, 0xD2, 0x00, 0x00, 0x00
-    .close
-
-party 438
-    .byte 0x00, 0x00, 0x18, 0x00, 0xD8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x19, 0x00, 0x00, 0x00
-    .close
-
-party 439
-    .byte 0x00, 0x00, 0x0D, 0x00, 0xAC, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0F, 0x00, 0xD8, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1D, 0x00, 0xD8, 0x00, 0x00, 0x00
-    .close
-
-party 440
-    .byte 0x00, 0x00, 0x22, 0x00, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .close
-
-party 441
-    .byte 0x00, 0x00, 0x26, 0x00, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0x3E, 0x00, 0x00, 0x00
-    .close
-
-party 442
-    .byte 0x00, 0x00, 0x15, 0x00, 0xB7, 0x00, 0x00, 0x00
-    .close
-
-party 443
-    .byte 0x00, 0x00, 0x15, 0x00, 0xB7, 0x00, 0x00, 0x00
-    .close
-
-party 444
-    .byte 0x32, 0x00, 0x2D, 0x00, 0xD3, 0x01, 0x00, 0x00, 0x32, 0x00, 0x2D, 0x00, 0x4E, 0x01, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2D, 0x00, 0x0C, 0x03, 0x00, 0x00
-    .close
-
-party 445
-    .byte 0x32, 0x00, 0x2F, 0x00, 0x3B, 0x00, 0x00, 0x00, 0x32, 0x00, 0x2B, 0x00, 0x1F, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2F, 0x00, 0x79, 0x00, 0x00, 0x00
-    .close
-
-party 446
-    .byte 0x32, 0x00, 0x26, 0x00, 0x53, 0x00, 0x00, 0x00, 0x32, 0x00, 0x2D, 0x00, 0x53, 0x00, 0x00, 0x00
-    .close
-
-party 447
-    .byte 0x32, 0x00, 0x21, 0x00, 0xA3, 0x00, 0x00, 0x00, 0x32, 0x00, 0x20, 0x00, 0x11, 0x00, 0x00, 0x00
-    .close
-
-party 448
-    .byte 0x32, 0x00, 0x25, 0x00, 0x11, 0x00, 0x00, 0x00, 0x32, 0x00, 0x26, 0x00, 0x12, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2A, 0x00, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 449
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x31, 0x00, 0x32, 0x00, 0x30, 0x00, 0x5D, 0x00, 0x8D, 0x00, 0x00, 0x00
-    .close
-
-party 450
-    .byte 0x00, 0x00, 0x20, 0x00, 0x76, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x77, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 451
-    .byte 0x00, 0x00, 0x26, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x23, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .close
-
-party 452
-    .byte 0x00, 0x00, 0x29, 0x00, 0xD0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .close
-
-party 453
-    .byte 0x00, 0x00, 0x2E, 0x00, 0xB6, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0xC0, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x30, 0x00, 0x4E, 0x00, 0x00, 0x00
-    .close
-
-party 454
-    .byte 0x00, 0x00, 0x16, 0x00, 0x64, 0x00, 0x00, 0x00, 0x00, 0x20, 0x1A, 0x00, 0x8D, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1C, 0x00, 0xCC, 0x03, 0x00, 0x00, 0x00, 0x20, 0x22, 0x00, 0x3D, 0x02, 0x00, 0x00
-    .close
-
-party 455
-    .byte 0x00, 0x00, 0x22, 0x00, 0x64, 0x00, 0x00, 0x00, 0x00, 0x20, 0x24, 0x00, 0x64, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x64, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2A, 0x00, 0x65, 0x00, 0x00, 0x00
-    .close
-
-party 456
-    .byte 0x32, 0x00, 0x2D, 0x00, 0x32, 0x02, 0x92, 0x01, 0x03, 0x02, 0x03, 0x01, 0x50, 0x02, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2D, 0x00, 0x36, 0x02, 0xFA, 0x01, 0x03, 0x02, 0x0D, 0x01, 0x50, 0x02, 0x00, 0x00
-    .byte 0x32, 0x00, 0x2D, 0x00, 0x34, 0x02, 0xE4, 0x01, 0x03, 0x02, 0x2B, 0x00, 0x50, 0x02, 0x00, 0x00
-    .close
-
-party 457
-    .byte 0x32, 0x00, 0x26, 0x00, 0x47, 0x00, 0x23, 0x00, 0x5C, 0x00, 0x33, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x27, 0x00, 0x63, 0x00, 0x6A, 0x01, 0x17, 0x00, 0x94, 0x01, 0xB6, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x26, 0x00, 0x88, 0x00, 0x7E, 0x00, 0x62, 0x00, 0x1C, 0x00, 0x53, 0x00, 0x00, 0x00
-    .close
-
-party 458
-    .byte 0x32, 0x20, 0x26, 0x00, 0x4E, 0x00, 0x17, 0x00, 0x53, 0x00, 0xAC, 0x00, 0x34, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x25, 0x00, 0xB5, 0x00, 0xB3, 0x01, 0x44, 0x01, 0x0C, 0x01, 0x09, 0x00, 0x00, 0x00
-    .close
-
-party 459
-    .byte 0x32, 0x20, 0x2A, 0x00, 0x4E, 0x00, 0x17, 0x00, 0x53, 0x00, 0x7E, 0x00, 0x34, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x28, 0x00, 0xB5, 0x00, 0xB3, 0x01, 0x44, 0x01, 0x0C, 0x01, 0x56, 0x00, 0x00, 0x00
-    .close
-
-party 460
-    .byte 0x00, 0x00, 0x1C, 0x00, 0x0C, 0x00, 0xC2, 0x01, 0x3E, 0x01, 0x5D, 0x00, 0x10, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x0C, 0x00, 0x95, 0x01, 0x6E, 0x01, 0xBD, 0x01, 0xDB, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x0F, 0x00, 0xC2, 0x01, 0x29, 0x00, 0x8E, 0x01, 0x74, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1C, 0x00, 0x0C, 0x00, 0xC2, 0x01, 0x10, 0x00, 0x4F, 0x00, 0x4E, 0x00, 0x00, 0x00
-    .close
-
-party 461
-    .byte 0x00, 0x00, 0x12, 0x00, 0x0B, 0x00, 0xC2, 0x01, 0x51, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1D, 0x00, 0x0C, 0x00, 0x3C, 0x00, 0x3E, 0x01, 0x30, 0x00, 0x12, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x16, 0x00, 0x0E, 0x00, 0xC2, 0x01, 0x28, 0x00, 0x51, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0x0B, 0x00, 0xC2, 0x01, 0x51, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 462
-    .byte 0x00, 0x00, 0x28, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 463
-    .byte 0x00, 0x00, 0x2D, 0x00, 0xD3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 464
-    .byte 0x00, 0x00, 0x20, 0x00, 0xB4, 0x00, 0xB2, 0x00, 0x0C, 0x01, 0xB3, 0x01, 0x56, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1F, 0x00, 0x36, 0x00, 0x60, 0x01, 0x67, 0x00, 0x32, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .close
-
-party 465
-    .byte 0x00, 0x00, 0x24, 0x00, 0x37, 0x00, 0x60, 0x01, 0x32, 0x00, 0x5D, 0x00, 0x67, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0xB5, 0x00, 0x44, 0x01, 0xB3, 0x01, 0x56, 0x00, 0xB2, 0x00, 0x00, 0x00
-    .close
-
-party 466
-    .byte 0x00, 0x00, 0x22, 0x00, 0x23, 0x00, 0x64, 0x01, 0x2F, 0x00, 0x66, 0x01, 0x76, 0x00, 0x00, 0x00
-    .close
-
-party 467
-    .byte 0x00, 0x00, 0x29, 0x00, 0x24, 0x00, 0x64, 0x01, 0x2F, 0x00, 0x66, 0x01, 0xEC, 0x00, 0x00, 0x00
-    .close
-
-party 468
-    .byte 0x00, 0x00, 0x20, 0x00, 0x6E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x22, 0x00, 0x28, 0x03, 0x00, 0x00
-    .close
-
-party 469
-    .byte 0x00, 0x00, 0x20, 0x00, 0x84, 0x00, 0x00, 0x00
-    .close
-
-party 470
-    .byte 0x00, 0x00, 0x20, 0x00, 0xCD, 0x00, 0x00, 0x00, 0x00, 0x20, 0x22, 0x00, 0xF8, 0x03, 0x00, 0x00
-    .byte 0x00, 0x00, 0x22, 0x00, 0x52, 0x00, 0x00, 0x00
-    .close
-
-party 471
-    .byte 0x00, 0x20, 0x24, 0x00, 0xDC, 0x01, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x8B, 0x02, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0xCE, 0x01, 0x00, 0x00
-    .close
-
-party 472
-    .byte 0x00, 0x20, 0x1E, 0x00, 0xDA, 0x01, 0xA1, 0x00, 0xB0, 0x00, 0x69, 0x00, 0xC3, 0x01, 0x00, 0x00
-    .close
-
-party 473
-    .byte 0x00, 0x00, 0x16, 0x00, 0x6D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 474
-    .byte 0x00, 0x00, 0x18, 0x00, 0x84, 0x00, 0x00, 0x00
-    .close
-
-party 475
-    .byte 0x00, 0x20, 0x14, 0x00, 0x51, 0x00, 0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0x51, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x14, 0x00, 0x51, 0x00, 0x00, 0x00
-    .close
-
-party 476
-    .byte 0x00, 0x00, 0x1B, 0x00, 0x51, 0x00, 0x00, 0x00, 0x00, 0x20, 0x1B, 0x00, 0x51, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1B, 0x00, 0x51, 0x00, 0x00, 0x00
-    .close
-
-party 477
-    .byte 0x00, 0x20, 0x1E, 0x00, 0x89, 0x00, 0xA0, 0x00, 0xB0, 0x00, 0x69, 0x00, 0xA1, 0x00, 0x00, 0x00
-    .close
-
-party 478
-    .byte 0x64, 0x00, 0x28, 0x00, 0x81, 0x02, 0x5C, 0x00, 0xCA, 0x00, 0x13, 0x01, 0xF6, 0x01, 0x00, 0x00
-    .byte 0x64, 0x00, 0x28, 0x00, 0x5B, 0x02, 0xF2, 0x00, 0xCF, 0x00, 0x59, 0x00, 0xD7, 0x01, 0x00, 0x00
-    .byte 0x64, 0x20, 0x28, 0x00, 0xAE, 0x01, 0x11, 0x00, 0xE4, 0x00, 0x36, 0x01, 0x90, 0x01, 0x00, 0x00
-    .close
-
-party 479
-    .byte 0x64, 0x00, 0x23, 0x00, 0x81, 0x02, 0xEB, 0x00, 0xCA, 0x00, 0x13, 0x01, 0x93, 0x00, 0x00, 0x00
-    .byte 0x64, 0x00, 0x23, 0x00, 0x5A, 0x02, 0xF2, 0x00, 0x0E, 0x02, 0xCF, 0x00, 0xD7, 0x01, 0x00, 0x00
-    .byte 0x64, 0x20, 0x23, 0x00, 0xC6, 0x00, 0x11, 0x00, 0xEF, 0x01, 0xCF, 0x00, 0x85, 0x01, 0x00, 0x00
-    .close
-
-party 480
-    .byte 0x0A, 0x00, 0x25, 0x00, 0x7C, 0x00, 0x00, 0x00
-    .close
-
-party 481
-    .byte 0x0A, 0x00, 0x25, 0x00, 0x6D, 0x01, 0x00, 0x00
-    .close
-
-party 482
-    .byte 0x0A, 0x00, 0x22, 0x00, 0x79, 0x02, 0x00, 0x00, 0x0A, 0x00, 0x22, 0x00, 0x6A, 0x01, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x23, 0x00, 0x7A, 0x02, 0x00, 0x00
-    .close
-
-party 483
-    .byte 0x0A, 0x00, 0x23, 0x00, 0xD7, 0x01, 0x00, 0x00, 0x0A, 0x00, 0x23, 0x00, 0x9B, 0x03, 0x00, 0x00
-    .close
-
-party 484
-    .byte 0x0A, 0x00, 0x23, 0x00, 0xFB, 0x02, 0xA7, 0x01, 0xA3, 0x01, 0xAE, 0x00, 0xF2, 0x00, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x24, 0x00, 0xED, 0x02, 0x40, 0x02, 0xF6, 0x00, 0x56, 0x00, 0xE3, 0x00, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x24, 0x00, 0x98, 0x02, 0x2F, 0x02, 0xC5, 0x01, 0x67, 0x02, 0xCB, 0x00, 0x00, 0x00
-    .close
-
-party 485
-    .byte 0xC8, 0x00, 0x2A, 0x00, 0x8F, 0x03, 0x4A, 0x02, 0x85, 0x01, 0xFC, 0x00, 0x67, 0x02, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2A, 0x00, 0x62, 0x02, 0x18, 0x01, 0xF2, 0x00, 0xB6, 0x00, 0x2B, 0x00, 0x00, 0x00
-    .byte 0xC8, 0x00, 0x2A, 0x00, 0xE5, 0x00, 0x35, 0x00, 0xA6, 0x01, 0xEF, 0x01, 0xA1, 0x01, 0x00, 0x00
-    .close
-
-party 486
-    .byte 0x64, 0x00, 0x0D, 0x00, 0x51, 0x02, 0x00, 0x00, 0x64, 0x00, 0x0F, 0x00, 0x6A, 0x02, 0x00, 0x00
-    .close
-
-party 487
-    .byte 0x64, 0x00, 0x27, 0x00, 0xA9, 0x00, 0x31, 0x01, 0x11, 0x00, 0x2C, 0x00, 0x5C, 0x00, 0x00, 0x00
-    .byte 0x64, 0x00, 0x27, 0x00, 0x83, 0x03, 0xB3, 0x01, 0x5C, 0x00, 0xDD, 0x01, 0xEE, 0x01, 0x00, 0x00
-    .byte 0x64, 0x00, 0x28, 0x00, 0x47, 0x00, 0x4F, 0x00, 0xB5, 0x01, 0xE6, 0x00, 0x5C, 0x00, 0x00, 0x00
-    .byte 0x64, 0x00, 0x28, 0x00, 0x6E, 0x00, 0x21, 0x00, 0x99, 0x00, 0x7C, 0x00, 0x6C, 0x00, 0x00, 0x00
-    .byte 0x64, 0x00, 0x29, 0x00, 0xB9, 0x03, 0x8E, 0x01, 0x18, 0x01, 0x0D, 0x01, 0x3E, 0x03, 0x00, 0x00
-    .byte 0x64, 0x00, 0x29, 0x00, 0xBA, 0x03, 0x4A, 0x03, 0x6A, 0x01, 0x6B, 0x00, 0x6A, 0x00, 0x00, 0x00
-    .close
-
-party 488
-    .byte 0x64, 0x00, 0x23, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x64, 0x20, 0x23, 0x00, 0x82, 0x03, 0x00, 0x00
-    .byte 0x64, 0x00, 0x23, 0x00, 0x46, 0x00, 0x00, 0x00
-    .close
-
-party 489
-    .byte 0xFA, 0x00, 0x37, 0x00, 0xD7, 0x00, 0xC4, 0x00, 0xA5, 0x01, 0xB9, 0x00, 0xE8, 0x00, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x3A, 0x00, 0xA9, 0x00, 0x5C, 0x00, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x37, 0x00, 0x52, 0x00, 0xB3, 0x01, 0xAD, 0x01, 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x38, 0x00, 0x5E, 0x00, 0x8F, 0x01, 0xBC, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x38, 0x00, 0x41, 0x00, 0x69, 0x00, 0x9B, 0x01, 0x5E, 0x00, 0x73, 0x00, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x3C, 0x00, 0x9A, 0x00, 0x50, 0x00, 0x22, 0x00, 0x71, 0x00, 0xEB, 0x00, 0x00, 0x00
-    .close
-
-party 490
-    .byte 0xFA, 0x00, 0x37, 0x00, 0xD7, 0x00, 0xC4, 0x00, 0xA5, 0x01, 0xB9, 0x00, 0xE8, 0x00, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x3A, 0x00, 0xA9, 0x00, 0x5C, 0x00, 0x2C, 0x00, 0x6D, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x37, 0x00, 0x52, 0x00, 0xB3, 0x01, 0xAD, 0x01, 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x38, 0x00, 0x5E, 0x00, 0x8F, 0x01, 0xBC, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x38, 0x00, 0x41, 0x00, 0x69, 0x00, 0x9B, 0x01, 0x5E, 0x00, 0x73, 0x00, 0x00, 0x00
-    .byte 0xFA, 0x00, 0x3C, 0x00, 0x9D, 0x00, 0xCD, 0x00, 0x35, 0x00, 0x05, 0x01, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 491
-    .byte 0xFA, 0x00, 0x37, 0x00, 0xD7, 0x00, 0x00, 0x00, 0xC4, 0x00, 0xA5, 0x01, 0xB9, 0x00, 0xE8, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x3A, 0x00, 0xA9, 0x00, 0x00, 0x00, 0x5C, 0x00, 0x2C, 0x00, 0x6D, 0x00
-    .byte 0x3A, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x37, 0x00, 0x52, 0x00, 0x00, 0x00, 0xB3, 0x01, 0xAD, 0x01
-    .byte 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x38, 0x00, 0x5E, 0x00, 0x00, 0x00, 0x8F, 0x01
-    .byte 0xBC, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x38, 0x00, 0x41, 0x00, 0x00, 0x00
-    .byte 0x69, 0x00, 0x9B, 0x01, 0x5E, 0x00, 0x73, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x3C, 0x00, 0xA0, 0x00
-    .byte 0x00, 0x00, 0xF2, 0x00, 0x91, 0x01, 0xA3, 0x00, 0xA7, 0x01, 0x00, 0x00
-    .close
-
-party 492
-    .byte 0x00, 0x20, 0x1D, 0x00, 0x22, 0x00, 0x00, 0x00, 0x00, 0x20, 0x1D, 0x00, 0xC7, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x41, 0x00, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 493
-    .byte 0x0A, 0x00, 0x1A, 0x00, 0x62, 0x01, 0x00, 0x00
-    .close
-
-party 494
-    .byte 0x0A, 0x00, 0x17, 0x00, 0x63, 0x01, 0x00, 0x00, 0x0A, 0x00, 0x18, 0x00, 0xA9, 0x01, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x17, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x18, 0x00, 0x33, 0x03, 0x00, 0x00
-    .byte 0x0A, 0x00, 0x17, 0x00, 0xD9, 0x02, 0x00, 0x00
-    .close
-
-party 495
-    .byte 0x00, 0x00, 0x05, 0x00, 0x98, 0x00, 0x00, 0x00
-    .close
-
-party 496
-    .byte 0x00, 0x00, 0x05, 0x00, 0x9B, 0x00, 0x00, 0x00
-    .close
-
-party 497
-    .byte 0x00, 0x00, 0x05, 0x00, 0x9E, 0x00, 0x00, 0x00
-    .close
-
-party 498
-    .byte 0x96, 0x00, 0x21, 0x00, 0x61, 0x00, 0x8A, 0x00, 0x5F, 0x00, 0x32, 0x00, 0x5D, 0x00, 0x00, 0x00
-    .byte 0x96, 0x00, 0x20, 0x00, 0x5E, 0x00, 0x7A, 0x00, 0x5F, 0x00, 0xD4, 0x00, 0xAE, 0x00, 0x00, 0x00
-    .byte 0x96, 0x20, 0x22, 0x00, 0x65, 0x00, 0x67, 0x00, 0x31, 0x00, 0x57, 0x00, 0xCD, 0x00, 0x00, 0x00
-    .close
-
-party 499
-    .byte 0x1E, 0x00, 0x20, 0x00, 0x63, 0x02, 0x71, 0x00, 0x93, 0x01, 0x3C, 0x00, 0x73, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x1F, 0x00, 0xB3, 0x01, 0x85, 0x01, 0xDD, 0x01, 0x35, 0x00, 0xA3, 0x00, 0x00, 0x00
-    .close
-
-party 500
-    .byte 0x32, 0x00, 0x25, 0x00, 0x94, 0x00, 0x57, 0x00, 0x39, 0x00, 0x52, 0x00, 0xE7, 0x00, 0x00, 0x00
-    .close
-
-party 501
-    .byte 0x32, 0x20, 0x21, 0x00, 0x74, 0x00, 0x6C, 0x00, 0x2B, 0x00, 0x6A, 0x01, 0xEF, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x21, 0x00, 0x74, 0x00, 0x6C, 0x00, 0x2B, 0x00, 0x6A, 0x01, 0xEF, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x23, 0x00, 0x75, 0x00, 0x61, 0x00, 0x2B, 0x00, 0x7F, 0x00, 0xEF, 0x00, 0x00, 0x00
-    .close
-
-party 502
-    .byte 0x00, 0x00, 0x23, 0x00, 0x93, 0x00, 0x56, 0x00, 0xEF, 0x00, 0x55, 0x00, 0x1D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x23, 0x00, 0x93, 0x00, 0x56, 0x00, 0xEF, 0x00, 0x39, 0x00, 0x1D, 0x00, 0x00, 0x00
-    .close
-
-party 503
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x65, 0x00, 0x0C, 0x01, 0xC3, 0x01, 0x81, 0x00, 0xCD, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0x2D, 0x00, 0x4C, 0x00, 0xCA, 0x00, 0xEC, 0x00, 0xF1, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0x3B, 0x00, 0xF5, 0x00, 0x35, 0x00, 0xF2, 0x00, 0xB3, 0x00, 0x00, 0x00
-    .close
-
-party 504
-    .byte 0x00, 0x00, 0x23, 0x00, 0x65, 0x00, 0x67, 0x00, 0x31, 0x00, 0xCD, 0x00, 0x71, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x23, 0x00, 0x3A, 0x00, 0xF1, 0x00, 0x2B, 0x00, 0x24, 0x00, 0xAC, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x2D, 0x00, 0x4C, 0x00, 0x4F, 0x00, 0x33, 0x00, 0xEC, 0x00, 0x00, 0x00
-    .close
-
-party 505
-    .byte 0x00, 0x00, 0x2F, 0x00, 0xB2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0xD1, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2F, 0x00, 0xC3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0xD5, 0x01, 0x00, 0x00
-    .close
-
-party 506
-    .byte 0x00, 0x00, 0x23, 0x00, 0xB2, 0x00, 0x40, 0x00, 0x65, 0x00, 0x81, 0x00, 0xF8, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x72, 0x00, 0x4D, 0x00, 0x16, 0x00, 0x14, 0x00, 0x48, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0xC1, 0x00, 0x62, 0x00, 0x68, 0x00, 0x31, 0x00, 0x30, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x23, 0x00, 0xC3, 0x00, 0x27, 0x00, 0x15, 0x00, 0x85, 0x00, 0x59, 0x00, 0x00, 0x00
-    .close
-
-party 507
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x7A, 0x00, 0xE2, 0x00, 0x68, 0x00, 0x71, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x38, 0x00, 0x52, 0x00, 0x68, 0x01, 0xAD, 0x01, 0x56, 0x00, 0xBB, 0x01, 0x00, 0x00
-    .close
-
-party 508
-    .byte 0x00, 0x00, 0x22, 0x00, 0x7A, 0x00, 0x5E, 0x00, 0x71, 0x00, 0x73, 0x00, 0xE3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x52, 0x00, 0xC0, 0x00, 0x56, 0x00, 0xC7, 0x00, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 509
-    .byte 0x00, 0x00, 0x30, 0x00, 0xBA, 0x00, 0xFA, 0x00, 0xF0, 0x00, 0x22, 0x00, 0xC3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0x3E, 0x00, 0x39, 0x00, 0x46, 0x00, 0x08, 0x00, 0x42, 0x00, 0x00, 0x00
-    .close
-
-party 510
-    .byte 0x00, 0x00, 0x36, 0x00, 0x14, 0x00, 0x9E, 0x00, 0x62, 0x00, 0xA4, 0x00, 0x1B, 0x01, 0x00, 0x00
-    .close
-
-party 511
-    .byte 0x00, 0x00, 0x25, 0x00, 0x14, 0x00, 0x3F, 0x00, 0x62, 0x00, 0x9E, 0x00, 0xE4, 0x00, 0x00, 0x00
-    .close
-
-party 512
-    .byte 0x00, 0x00, 0x24, 0x00, 0x0C, 0x00, 0xC2, 0x01, 0x10, 0x00, 0x30, 0x00, 0x12, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0x0C, 0x00, 0x95, 0x01, 0x4E, 0x00, 0xBD, 0x01, 0x6E, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x0F, 0x00, 0x1B, 0x01, 0x74, 0x00, 0x2A, 0x00, 0xC2, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0x0C, 0x00, 0x4E, 0x00, 0x4F, 0x00, 0xBD, 0x01, 0x6E, 0x01, 0x00, 0x00
-    .close
-
-party 513
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x22, 0x01, 0x5B, 0x00, 0xE8, 0x00, 0xBD, 0x00, 0x8D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x38, 0x00, 0x31, 0x00, 0x10, 0x00, 0x5E, 0x00, 0x31, 0x01, 0x44, 0x01, 0x00, 0x00
-    .close
-
-party 514
-    .byte 0x00, 0x00, 0x28, 0x00, 0x31, 0x00, 0x10, 0x00, 0x30, 0x00, 0x5E, 0x00, 0x5C, 0x00, 0x00, 0x00
-    .close
-
-party 515
-    .byte 0x00, 0x00, 0x35, 0x00, 0xD3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x38, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 516
-    .byte 0x00, 0x00, 0x23, 0x00, 0xD3, 0x00, 0x5C, 0x00, 0x6B, 0x00, 0x39, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x27, 0x00, 0x77, 0x00, 0xCB, 0x00, 0xAF, 0x00, 0x1F, 0x00, 0x7F, 0x00, 0x00, 0x00
-    .close
-
-party 517
-    .byte 0x00, 0x00, 0x29, 0x00, 0x77, 0x00, 0x60, 0x01, 0xF0, 0x00, 0x7F, 0x00, 0x88, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x32, 0x00, 0x77, 0x00, 0x60, 0x01, 0xF0, 0x00, 0x7F, 0x00, 0xE0, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x35, 0x00, 0xD3, 0x00, 0xCD, 0x00, 0x39, 0x00, 0x91, 0x01, 0x6B, 0x00, 0x00, 0x00
-    .close
-
-party 518
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x47, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3A, 0x00, 0x22, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x3C, 0x00, 0x1F, 0x00, 0x00, 0x00
-    .close
-
-party 519
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x46, 0x00, 0x4F, 0x00, 0x4D, 0x00, 0x4E, 0x00, 0xBC, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x22, 0x00, 0x59, 0x00, 0x18, 0x00, 0x28, 0x00, 0xE7, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x1F, 0x00, 0x59, 0x00, 0x18, 0x00, 0x27, 0x00, 0x22, 0x00, 0x00, 0x00
-    .close
-
-party 520
-    .byte 0x00, 0x00, 0x1E, 0x00, 0xBC, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0xBD, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x37, 0x00, 0x03, 0x00, 0x00, 0x00
-    .close
-
-party 521
-    .byte 0x00, 0x00, 0x21, 0x00, 0xBD, 0x00, 0x4E, 0x00, 0xF1, 0x00, 0x49, 0x00, 0xB2, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x21, 0x00, 0xBD, 0x00, 0xF1, 0x00, 0x4F, 0x00, 0x49, 0x00, 0xB2, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x03, 0x00, 0x4C, 0x00, 0x4B, 0x00, 0x1D, 0x00, 0xBD, 0x00, 0x00, 0x00
-    .close
-
-party 522
-    .byte 0x00, 0x00, 0x3D, 0x00, 0x24, 0x00, 0x64, 0x01, 0x76, 0x00, 0x3B, 0x00, 0x57, 0x00, 0x00, 0x00
-    .close
-
-party 523
-    .byte 0x00, 0x00, 0x29, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x31, 0x00, 0x4C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x37, 0x00, 0x44, 0x00, 0x00, 0x00
-    .close
-
-party 524
-    .byte 0x00, 0x00, 0x22, 0x00, 0x4B, 0x00, 0xDE, 0x00, 0x78, 0x00, 0x6F, 0x00, 0xCD, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0x4C, 0x00, 0xDE, 0x00, 0x78, 0x00, 0x6F, 0x00, 0xCD, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x22, 0x00, 0x43, 0x00, 0x02, 0x00, 0xE9, 0x00, 0x1D, 0x00, 0x5B, 0x00, 0x00, 0x00
-    .close
-
-party 525
-    .byte 0x00, 0x00, 0x24, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x36, 0x00, 0xDB, 0x00, 0x00, 0x00, 0x00, 0x00, 0x38, 0x00, 0x37, 0x00, 0x00, 0x00
-    .close
-
-party 526
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x78, 0x00, 0x58, 0x00, 0x6A, 0x00, 0xDE, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x78, 0x00, 0x58, 0x00, 0x6A, 0x00, 0xDE, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0xDB, 0x00, 0x58, 0x00, 0x6A, 0x00, 0x85, 0x00, 0x35, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x22, 0x00, 0x37, 0x00, 0x32, 0x00, 0x5E, 0x00, 0x39, 0x00, 0xF4, 0x00, 0x00, 0x00
-    .close
-
-party 527
-    .byte 0x00, 0x00, 0x28, 0x00, 0x64, 0x00, 0xCD, 0x00, 0xD1, 0x00, 0x31, 0x00, 0x0C, 0x01, 0x00, 0x00
-    .byte 0x00, 0x20, 0x28, 0x00, 0x64, 0x00, 0xC3, 0x01, 0x0C, 0x01, 0x71, 0x00, 0x81, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x65, 0x00, 0x57, 0x00, 0x67, 0x00, 0xC3, 0x01, 0xF0, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x33, 0x00, 0x65, 0x00, 0x57, 0x00, 0xF3, 0x00, 0x89, 0x01, 0x56, 0x00, 0x00, 0x00
-    .close
-
-party 528
-    .byte 0x00, 0x00, 0x33, 0x00, 0x37, 0x00, 0x60, 0x01, 0x85, 0x00, 0x5D, 0x00, 0x67, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x36, 0x00, 0xB5, 0x00, 0x57, 0x00, 0xB3, 0x01, 0x56, 0x00, 0x44, 0x01, 0x00, 0x00
-    .close
-
-party 529
-    .byte 0x00, 0x00, 0x24, 0x00, 0xB5, 0x00, 0x81, 0x00, 0x09, 0x00, 0x56, 0x00, 0xB2, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0x37, 0x00, 0x32, 0x00, 0x39, 0x00, 0x5E, 0x00, 0x67, 0x00, 0x00, 0x00
-    .close
-
-party 530
-    .byte 0x00, 0x00, 0x30, 0x00, 0x82, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x6C, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x3A, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3A, 0x00, 0x22, 0x00, 0x00, 0x00
-    .close
-
-party 531
-    .byte 0x00, 0x00, 0x26, 0x00, 0x93, 0x00, 0x56, 0x00, 0xEF, 0x00, 0x3A, 0x00, 0x1D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x26, 0x00, 0x93, 0x00, 0x56, 0x00, 0xEF, 0x00, 0x35, 0x00, 0x1D, 0x00, 0x00, 0x00
-    .close
-
-party 532
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x0C, 0x00, 0x5D, 0x00, 0x4D, 0x00, 0x30, 0x00, 0x10, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x0C, 0x00, 0x5D, 0x00, 0x4E, 0x00, 0x30, 0x00, 0x10, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x0F, 0x00, 0x1F, 0x00, 0xE4, 0x00, 0x29, 0x00, 0x68, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x22, 0x00, 0x0C, 0x00, 0x3C, 0x00, 0x4F, 0x00, 0x10, 0x00, 0x12, 0x00, 0x00, 0x00
-    .close
-
-party 533
-    .byte 0x00, 0x00, 0x08, 0x00, 0xA5, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .close
-
-party 534
-    .byte 0x00, 0x00, 0x13, 0x00, 0xDE, 0x00, 0x00, 0x00
-    .close
-
-party 535
-    .byte 0x00, 0x20, 0x10, 0x00, 0x34, 0x00, 0x00, 0x00
-    .close
-
-party 536
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x16, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x39, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x1E, 0x00, 0x80, 0x00, 0x00, 0x00
-    .close
-
-party 537
-    .byte 0x00, 0x20, 0x1E, 0x00, 0x22, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x1F, 0x00, 0x00, 0x00
-    .close
-
-party 538
-    .byte 0x00, 0x00, 0x27, 0x00, 0x75, 0x00, 0x6C, 0x00, 0xEF, 0x00, 0x39, 0x00, 0x7F, 0x00, 0x00, 0x00
-    .close
-
-party 539
-    .byte 0x00, 0x20, 0x13, 0x00, 0x4F, 0x00, 0xAE, 0x00, 0x37, 0x00, 0x2D, 0x00, 0x46, 0x00, 0x00, 0x00
-    .close
-
-party 540
-    .byte 0x00, 0x00, 0x2D, 0x00, 0xE7, 0x00, 0x00, 0x00
-    .close
-
-party 541
-    .byte 0x00, 0x20, 0x2C, 0x00, 0xD8, 0x00, 0x00, 0x00
-    .close
-
-party 542
-    .byte 0x00, 0x00, 0x20, 0x00, 0xA4, 0x00, 0xC1, 0x00, 0x5F, 0x00, 0x24, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x88, 0x00, 0x1C, 0x00, 0x35, 0x00, 0x62, 0x00, 0x2C, 0x00, 0x00, 0x00
-    .close
-
-party 543
-    .byte 0x00, 0x00, 0x20, 0x00, 0xA4, 0x00, 0xC1, 0x00, 0x5F, 0x00, 0x24, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x87, 0x00, 0x1C, 0x00, 0x55, 0x00, 0x62, 0x00, 0x18, 0x00, 0x00, 0x00
-    .close
-
-party 544
-    .byte 0x00, 0x00, 0x20, 0x00, 0xA4, 0x00, 0xC1, 0x00, 0x5F, 0x00, 0x24, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x20, 0x00, 0x86, 0x00, 0x1C, 0x00, 0x39, 0x00, 0x62, 0x00, 0x2C, 0x00, 0x00, 0x00
-    .close
-
-party 545
-    .byte 0x32, 0x20, 0x2F, 0x00, 0x67, 0x01, 0x00, 0x00, 0xAB, 0x01, 0x90, 0x01, 0xA3, 0x00, 0x62, 0x00
-    .byte 0x00, 0x00, 0x32, 0x00, 0x2F, 0x00, 0x41, 0x00, 0x00, 0x00, 0x5E, 0x00, 0x9B, 0x01, 0x9C, 0x01
-    .byte 0xC3, 0x01, 0x00, 0x00
-    .close
-
-party 546
-    .byte 0x00, 0x00, 0x2B, 0x00, 0xA2, 0x00, 0x68, 0x00, 0xE2, 0x00, 0x85, 0x00, 0x15, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x12, 0x00, 0x63, 0x01, 0x11, 0x00, 0xD3, 0x00, 0xD8, 0x00, 0x00, 0x00
-    .close
-
-party 547
-    .byte 0x00, 0x00, 0x27, 0x00, 0x4B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0x70, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x23, 0x00, 0x00, 0x00
-    .close
-
-party 548
-    .byte 0x1E, 0x00, 0x2F, 0x00, 0x3E, 0x00, 0x38, 0x00, 0xDF, 0x00, 0x55, 0x01, 0x5F, 0x00, 0x00, 0x00
-    .close
-
-party 549
-    .byte 0x32, 0x00, 0x2F, 0x00, 0x7D, 0x00, 0xB3, 0x01, 0x62, 0x00, 0x55, 0x00, 0x43, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x2F, 0x00, 0x33, 0x00, 0x5B, 0x00, 0xAA, 0x01, 0x2D, 0x00, 0x90, 0x01, 0x00, 0x00
-    .close
-
-party 550
-    .byte 0x1E, 0x00, 0x2B, 0x00, 0x39, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x27, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x2C, 0x00, 0x43, 0x00, 0x00, 0x00
-    .close
-
-party 551
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x52, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0xD0, 0x00, 0x00, 0x00
-    .close
-
-party 552
-    .byte 0x00, 0x00, 0x28, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x65, 0x00, 0x00, 0x00
-    .close
-
-party 553
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x0E, 0x01, 0x00, 0x00, 0x00, 0x20, 0x2B, 0x00, 0x11, 0x01, 0x00, 0x00
-    .close
-
-party 554
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x3A, 0x00, 0x00, 0x00
-    .close
-
-party 555
-    .byte 0x32, 0x00, 0x2C, 0x00, 0xB2, 0x00, 0x00, 0x00, 0x32, 0x00, 0x27, 0x00, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 556
-    .byte 0x32, 0x00, 0x2A, 0x00, 0x16, 0x00, 0x00, 0x00, 0x32, 0x00, 0x27, 0x00, 0x15, 0x00, 0x00, 0x00
-    .close
-
-party 557
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x7E, 0x00, 0xF1, 0x00, 0x35, 0x00, 0x6D, 0x00, 0x53, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2B, 0x00, 0xC0, 0x00, 0x4C, 0x00, 0x4B, 0x00, 0x13, 0x01, 0x48, 0x00, 0x00, 0x00
-    .close
-
-party 558
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 559
-    .byte 0x00, 0x00, 0x29, 0x00, 0x40, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E, 0x00, 0x36, 0x00, 0x00, 0x00
-    .close
-
-party 560
-    .byte 0x00, 0x00, 0x28, 0x00, 0xA2, 0x01, 0x00, 0x00
-    .close
-
-party 561
-    .byte 0x00, 0x00, 0x26, 0x00, 0xB9, 0x00, 0x00, 0x00
-    .close
-
-party 562
-    .byte 0x00, 0x00, 0x28, 0x00, 0x45, 0x01, 0x00, 0x00
-    .close
-
-party 563
-    .byte 0x00, 0x00, 0x29, 0x00, 0x25, 0x01, 0x00, 0x00
-    .close
-
-party 564
-    .byte 0x00, 0x20, 0x29, 0x00, 0x07, 0x01, 0x9E, 0x00, 0xBB, 0x00, 0xAF, 0x00, 0xD8, 0x00, 0xE7, 0x00
-    .byte 0x00, 0x00, 0x00, 0x20, 0x2B, 0x00, 0x3B, 0x01, 0x00, 0x00, 0x13, 0x01, 0xEB, 0x00, 0x5C, 0x00
-    .byte 0x50, 0x00, 0x00, 0x00
-    .close
-
-party 565
-    .byte 0x32, 0x00, 0x25, 0x00, 0x16, 0x00, 0x00, 0x00
-    .close
-
-party 566
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x07, 0x01, 0x96, 0x00, 0xBB, 0x00, 0x9C, 0x00, 0xAF, 0x00, 0x22, 0x01
-    .byte 0x00, 0x00
-    .close
-
-party 567
-    .byte 0x00, 0x00, 0x29, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .close
-
-party 568
-    .byte 0x00, 0x20, 0x2A, 0x00, 0x96, 0x01, 0x4E, 0x00, 0xCA, 0x00, 0xBC, 0x00, 0x0B, 0x01, 0x00, 0x00
-    .close
-
-party 569
-    .byte 0x00, 0x00, 0x29, 0x00, 0xC3, 0x00, 0xF0, 0x00, 0x39, 0x00, 0x19, 0x01, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x29, 0x00, 0xC3, 0x00, 0x85, 0x00, 0x39, 0x00, 0x19, 0x01, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 570
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x47, 0x01, 0x00, 0x00, 0x00, 0x20, 0x29, 0x00, 0x39, 0x01, 0x00, 0x00
-    .close
-
-party 571
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x47, 0x01, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0x3A, 0x01, 0x00, 0x00
-    .close
-
-party 572
-    .byte 0x00, 0x20, 0x2F, 0x00, 0x3C, 0x01, 0x19, 0x01, 0x00, 0x00
-    .close
-
-party 573
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2B, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 574
-    .byte 0x00, 0x20, 0x2D, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 575
-    .byte 0x00, 0x00, 0x27, 0x00, 0x3C, 0x01, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x6E, 0x00, 0x00, 0x00
-    .close
-
-party 576
-    .byte 0x00, 0x02, 0x2D, 0x00, 0xC5, 0x01, 0x00, 0x00
-    .close
-
-party 577
-    .byte 0x00, 0x20, 0x2F, 0x00, 0xC3, 0x01, 0x00, 0x00
-    .close
-
-party 578
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x50, 0x01, 0x00, 0x00
-    .close
-
-party 579
-    .byte 0x00, 0x20, 0x2D, 0x00, 0xD8, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2C, 0x00, 0xB7, 0x00, 0x00, 0x00
-    .close
-
-party 580
-    .byte 0x00, 0x20, 0x2D, 0x00, 0x08, 0x01, 0x9E, 0x00, 0xBB, 0x00, 0xA3, 0x00, 0x5B, 0x00, 0x39, 0x00
-    .byte 0x00, 0x00
-    .close
-
-party 581
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x1D, 0x01, 0x00, 0x00
-    .close
-
-party 582
-    .byte 0x00, 0x20, 0x2D, 0x00, 0x93, 0x01, 0x00, 0x00
-    .close
-
-party 583
-    .byte 0x32, 0x00, 0x2E, 0x00, 0x16, 0x01, 0x00, 0x00, 0x32, 0x00, 0x2B, 0x00, 0x16, 0x00, 0x00, 0x00
-    .close
-
-party 584
-    .byte 0x32, 0x00, 0x30, 0x00, 0x8C, 0x01, 0x00, 0x00
-    .close
-
-party 585
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x3D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 586
-    .byte 0x00, 0x20, 0x2E, 0x00, 0x75, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2A, 0x00, 0xC3, 0x00, 0x00, 0x00
-    .close
-
-party 587
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x8F, 0x01, 0x00, 0x00
-    .close
-
-party 588
-    .byte 0x00, 0x00, 0x26, 0x00, 0x72, 0x01, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0x72, 0x01, 0x00, 0x00
-    .byte 0x00, 0x00, 0x29, 0x00, 0x72, 0x01, 0x00, 0x00
-    .close
-
-party 589
-    .byte 0x00, 0x00, 0x20, 0x00, 0xDE, 0x00, 0x00, 0x00, 0x00, 0x00, 0x22, 0x00, 0xDE, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x24, 0x00, 0xDE, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0xDE, 0x00, 0x00, 0x00
-    .close
-
-party 590
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x75, 0x00, 0x00, 0x00
-    .close
-
-party 591
-    .byte 0x00, 0x00, 0x2C, 0x00, 0xAB, 0x00, 0xB3, 0x01, 0x44, 0x01, 0x3D, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0xE2, 0x00, 0x60, 0x01, 0x11, 0x00, 0x3C, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 592
-    .byte 0x00, 0x20, 0x28, 0x00, 0xB8, 0x00, 0x7F, 0x00, 0xCD, 0x00, 0x6F, 0x00, 0x5B, 0x00, 0x00, 0x00
-    .close
-
-party 593
-    .byte 0x00, 0x00, 0x2B, 0x00, 0xC7, 0x00, 0x00, 0x00
-    .close
-
-party 594
-    .byte 0x00, 0x00, 0x26, 0x00, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .close
-
-party 595
-    .byte 0x00, 0x00, 0x28, 0x00, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x8D, 0x00, 0x00, 0x00
-    .close
-
-party 596
-    .byte 0x32, 0x00, 0x24, 0x00, 0x53, 0x00, 0x00, 0x00, 0x32, 0x00, 0x24, 0x00, 0x16, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x25, 0x00, 0x11, 0x00, 0x00, 0x00
-    .close
-
-party 597
-    .byte 0x32, 0x00, 0x23, 0x00, 0x54, 0x00, 0x00, 0x00, 0x32, 0x00, 0x23, 0x00, 0x54, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x23, 0x00, 0x55, 0x00, 0x00, 0x00, 0x32, 0x00, 0x24, 0x00, 0x55, 0x00, 0x00, 0x00
-    .close
-
-party 598
-    .byte 0x00, 0x00, 0x29, 0x00, 0x37, 0x01, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0x38, 0x01, 0x00, 0x00
-    .close
-
-party 599
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x1F, 0x01, 0x00, 0x00
-    .close
-
-party 600
-    .byte 0x00, 0x00, 0x2A, 0x00, 0xA4, 0x01, 0x00, 0x00
-    .close
-
-party 601
-    .byte 0x1E, 0x00, 0x15, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 602
-    .byte 0x32, 0x00, 0x32, 0x00, 0x53, 0x00, 0x00, 0x00, 0x32, 0x00, 0x34, 0x00, 0x53, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x35, 0x00, 0x53, 0x00, 0x00, 0x00
-    .close
-
-party 603
-    .byte 0x00, 0x00, 0x2A, 0x00, 0xA5, 0x01, 0x00, 0x00, 0x00, 0x20, 0x2E, 0x00, 0xC0, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x31, 0x00, 0xB6, 0x00, 0x00, 0x00, 0x00, 0x20, 0x35, 0x00, 0x4E, 0x00, 0x00, 0x00
-    .close
-
-party 604
-    .byte 0x32, 0x00, 0x34, 0x00, 0x47, 0x00, 0xB5, 0x01, 0x5C, 0x00, 0x33, 0x00, 0x5C, 0x01, 0x00, 0x00
-    .byte 0x32, 0x00, 0x31, 0x00, 0x63, 0x00, 0x6A, 0x01, 0x98, 0x00, 0x94, 0x01, 0xB6, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x32, 0x00, 0x88, 0x00, 0x3B, 0x01, 0x62, 0x00, 0x05, 0x01, 0xD5, 0x00, 0x00, 0x00
-    .close
-
-party 605
-    .byte 0x1E, 0x00, 0x29, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x35, 0x00, 0x44, 0x00, 0x00, 0x00
-    .byte 0x1E, 0x00, 0x31, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x35, 0x00, 0x6A, 0x00, 0x00, 0x00
-    .close
-
-party 606
-    .byte 0x00, 0x00, 0x38, 0x00, 0xD0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x34, 0x00, 0x4C, 0x00, 0x00, 0x00
-    .close
-
-party 607
-    .byte 0x32, 0x00, 0x36, 0x00, 0x3B, 0x00, 0x8A, 0x01, 0xF5, 0x00, 0xF2, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x35, 0x00, 0x1F, 0x00, 0xBD, 0x01, 0x31, 0x01, 0x9E, 0x01, 0x22, 0x00, 0x00, 0x00
-    .byte 0x32, 0x20, 0x38, 0x00, 0x79, 0x00, 0x39, 0x00, 0x6B, 0x00, 0x42, 0x01, 0x5E, 0x00, 0x00, 0x00
-    .close
-
-party 608
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E, 0x00, 0x77, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x3F, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 609
-    .byte 0x32, 0x20, 0x38, 0x00, 0x4E, 0x00, 0x54, 0x01, 0x53, 0x00, 0x8A, 0x01, 0x34, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x3B, 0x00, 0xB5, 0x00, 0x98, 0x01, 0x57, 0x00, 0x44, 0x01, 0x0C, 0x01, 0x00, 0x00
-    .close
-
-party 610
-    .byte 0x00, 0x00, 0x12, 0x00, 0xAC, 0x00, 0x00, 0x00, 0x00, 0x00, 0x16, 0x00, 0xD8, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x27, 0x00, 0x19, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2F, 0x00, 0xD9, 0x00, 0x00, 0x00
-    .close
-
-party 611
-    .byte 0x00, 0x00, 0x35, 0x00, 0xD2, 0x00, 0x00, 0x00
-    .close
-
-party 612
-    .byte 0x32, 0x00, 0x38, 0x00, 0x12, 0x00, 0x00, 0x00, 0x32, 0x00, 0x2C, 0x00, 0x12, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x36, 0x00, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 613
-    .byte 0x00, 0x00, 0x15, 0x00, 0x2B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x68, 0x00, 0x00, 0x00
-    .close
-
-party 614
-    .byte 0x00, 0x00, 0x20, 0x00, 0x2C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x69, 0x00, 0x00, 0x00
-    .close
-
-party 615
-    .byte 0x00, 0x00, 0x35, 0x00, 0x2D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0x69, 0x00, 0x00, 0x00
-    .close
-
-party 616
-    .byte 0x00, 0x00, 0x1B, 0x00, 0x38, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x33, 0x00, 0x00, 0x00
-    .close
-
-party 617
-    .byte 0x00, 0x00, 0x26, 0x00, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0x33, 0x00, 0x00, 0x00
-    .close
-
-party 618
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3A, 0x00, 0x33, 0x00, 0x00, 0x00
-    .close
-
-party 619
-    .byte 0x00, 0x00, 0x19, 0x00, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .close
-
-party 620
-    .byte 0x00, 0x00, 0x22, 0x00, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .close
-
-party 621
-    .byte 0x00, 0x00, 0x1A, 0x00, 0xF0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x31, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x3A, 0x00, 0xD3, 0x01, 0x00, 0x00
-    .close
-
-party 622
-    .byte 0x00, 0x00, 0x28, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28, 0x00, 0xA8, 0x00, 0x00, 0x00
-    .close
-
-party 623
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E, 0x00, 0xA8, 0x00, 0x00, 0x00
-    .close
-
-party 624
-    .byte 0x00, 0x00, 0x34, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x32, 0x00, 0xA8, 0x00, 0x00, 0x00
-    .close
-
-party 625
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A, 0x00, 0x0C, 0x00, 0x00, 0x00
-    .close
-
-party 626
-    .byte 0x00, 0x00, 0x34, 0x00, 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x30, 0x00, 0x0C, 0x00, 0x00, 0x00
-    .close
-
-party 627
-    .byte 0x00, 0x00, 0x38, 0x00, 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x38, 0x00, 0x0C, 0x00, 0x00, 0x00
-    .close
-
-party 628
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x18, 0x00, 0x89, 0x00, 0x67, 0x00, 0xAA, 0x01, 0xF2, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x30, 0x00, 0x6E, 0x00, 0xBC, 0x00, 0xCA, 0x01, 0x6C, 0x00, 0x74, 0x01, 0x00, 0x00
-    .close
-
-party 629
-    .byte 0x00, 0x00, 0x30, 0x00, 0x18, 0x00, 0xAA, 0x01, 0x00, 0x01, 0xFE, 0x00, 0xFF, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x32, 0x00, 0x6E, 0x00, 0xBC, 0x00, 0xCA, 0x01, 0x6C, 0x00, 0x74, 0x01, 0x00, 0x00
-    .close
-
-party 630
-    .byte 0x00, 0x00, 0x38, 0x00, 0x18, 0x00, 0xB9, 0x01, 0xAA, 0x01, 0x7C, 0x01, 0xF2, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x37, 0x00, 0x6E, 0x00, 0xBC, 0x00, 0xCA, 0x01, 0x6C, 0x00, 0x57, 0x00, 0x00, 0x00
-    .close
-
-party 631
-    .byte 0x00, 0x00, 0x32, 0x00, 0x61, 0x00, 0x00, 0x00, 0x00, 0x00, 0x31, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 632
-    .byte 0x00, 0x00, 0x37, 0x00, 0x61, 0x00, 0x00, 0x00, 0x00, 0x00, 0x37, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 633
-    .byte 0x00, 0x00, 0x37, 0x00, 0x49, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3A, 0x00, 0x61, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x3A, 0x00, 0x49, 0x00, 0x00, 0x00
-    .close
-
-party 634
-    .byte 0x00, 0x00, 0x2E, 0x00, 0xD8, 0x00, 0x00, 0x00, 0x00, 0x20, 0x2F, 0x00, 0xB8, 0x00, 0x00, 0x00
-    .close
-
-party 635
-    .byte 0x00, 0x00, 0x30, 0x00, 0xD8, 0x00, 0x00, 0x00, 0x00, 0x20, 0x31, 0x00, 0xB8, 0x00, 0x00, 0x00
-    .close
-
-party 636
-    .byte 0x00, 0x00, 0x3A, 0x00, 0xD9, 0x00, 0x00, 0x00, 0x00, 0x20, 0x36, 0x00, 0xB8, 0x00, 0x00, 0x00
-    .close
-
-party 637
-    .byte 0x00, 0x00, 0x2B, 0x00, 0xA8, 0x01, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0xC0, 0x00, 0x00, 0x00
-    .close
-
-party 638
-    .byte 0x00, 0x00, 0x31, 0x00, 0xA8, 0x01, 0x00, 0x00, 0x00, 0x00, 0x31, 0x00, 0xC0, 0x00, 0x00, 0x00
-    .close
-
-party 639
-    .byte 0x00, 0x00, 0x37, 0x00, 0xA8, 0x01, 0x00, 0x00, 0x00, 0x00, 0x37, 0x00, 0xC0, 0x00, 0x00, 0x00
-    .close
-
-party 640
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x2F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x28, 0x00, 0x84, 0x00, 0x00, 0x00
-    .close
-
-party 641
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x2F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2F, 0x00, 0x3D, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x84, 0x00, 0x00, 0x00
-    .close
-
-party 642
-    .byte 0x00, 0x00, 0x32, 0x00, 0x7A, 0x00, 0xB1, 0x01, 0x5E, 0x00, 0xA4, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x37, 0x00, 0x2F, 0x00, 0x93, 0x00, 0xCA, 0x00, 0x94, 0x01, 0xA3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x35, 0x00, 0x3E, 0x00, 0x66, 0x01, 0xBB, 0x00, 0xDF, 0x00, 0x5F, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x33, 0x00, 0x84, 0x00, 0x90, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 643
-    .byte 0x00, 0x00, 0x30, 0x00, 0xC3, 0x00, 0xF0, 0x00, 0x39, 0x00, 0x59, 0x00, 0x00, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x30, 0x00, 0xC3, 0x00, 0x85, 0x00, 0x39, 0x00, 0x19, 0x01, 0x00, 0x00, 0x00, 0x00
-    .close
-
-party 644
-    .byte 0x00, 0x00, 0x35, 0x00, 0xC3, 0x00, 0xF0, 0x00, 0x39, 0x00, 0x4A, 0x01, 0x59, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x35, 0x00, 0xC3, 0x00, 0x85, 0x00, 0x39, 0x00, 0x4A, 0x01, 0xB6, 0x00, 0x00, 0x00
-    .close
-
-party 645
-    .byte 0x00, 0x00, 0x37, 0x00, 0xC3, 0x00, 0x85, 0x00, 0x39, 0x00, 0x19, 0x01, 0xB6, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x37, 0x00, 0xC3, 0x00, 0xF0, 0x00, 0x39, 0x00, 0x4A, 0x01, 0x59, 0x00, 0x00, 0x00
-    .close
-
-party 646
-    .byte 0x32, 0x00, 0x2F, 0x00, 0x16, 0x00, 0x00, 0x00, 0x32, 0x00, 0x2C, 0x00, 0xE3, 0x00, 0x00, 0x00
-    .close
-
-party 647
-    .byte 0x32, 0x00, 0x30, 0x00, 0xE3, 0x00, 0x00, 0x00, 0x32, 0x00, 0x33, 0x00, 0x16, 0x00, 0x00, 0x00
-    .close
-
-party 648
-    .byte 0x32, 0x00, 0x37, 0x00, 0xE3, 0x00, 0x00, 0x00, 0x32, 0x00, 0x37, 0x00, 0x16, 0x00, 0x00, 0x00
-    .close
-
-party 649
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2D, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x29, 0x00, 0x25, 0x00, 0x00, 0x00
-    .close
-
-party 650
-    .byte 0x00, 0x00, 0x30, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x33, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x30, 0x00, 0x25, 0x00, 0x00, 0x00
-    .close
-
-party 651
-    .byte 0x00, 0x00, 0x34, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x35, 0x00, 0x2A, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0x25, 0x00, 0x00, 0x00
-    .close
-
-party 652
-    .byte 0x00, 0x00, 0x2D, 0x00, 0x40, 0x00, 0x00, 0x00, 0x00, 0x00, 0x32, 0x00, 0x37, 0x00, 0x00, 0x00
-    .close
-
-party 653
-    .byte 0x00, 0x00, 0x30, 0x00, 0x40, 0x00, 0x69, 0x00, 0x5E, 0x00, 0x10, 0x01, 0x73, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0x37, 0x00, 0x60, 0x01, 0x85, 0x00, 0xAC, 0x01, 0x3B, 0x00, 0x00, 0x00
-    .close
-
-party 654
-    .byte 0x00, 0x00, 0x36, 0x00, 0x41, 0x00, 0x5E, 0x00, 0x5B, 0x01, 0x73, 0x00, 0x69, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x38, 0x00, 0x37, 0x00, 0x38, 0x00, 0x85, 0x00, 0xC5, 0x01, 0x3B, 0x00, 0x00, 0x00
-    .close
-
-party 655
-    .byte 0x00, 0x00, 0x10, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x21, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x25, 0x00, 0x4C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x1C, 0x00, 0x00, 0x00
-    .close
-
-party 656
-    .byte 0x00, 0x00, 0x2A, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x25, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x4C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E, 0x00, 0x5F, 0x00, 0x00, 0x00
-    .close
-
-party 657
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0x4B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x31, 0x00, 0x4C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0xD0, 0x00, 0x00, 0x00
-    .close
-
-party 658
-    .byte 0x00, 0x00, 0x29, 0x00, 0xB9, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0xAA, 0x00, 0x00, 0x00
-    .close
-
-party 659
-    .byte 0x00, 0x00, 0x30, 0x00, 0xB9, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2F, 0x00, 0xAB, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2C, 0x00, 0xBC, 0x00, 0x00, 0x00
-    .close
-
-party 660
-    .byte 0x00, 0x00, 0x34, 0x00, 0xB9, 0x00, 0x00, 0x00, 0x00, 0x00, 0x34, 0x00, 0xBD, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0xAB, 0x00, 0x00, 0x00
-    .close
-
-party 661
-    .byte 0x00, 0x00, 0x28, 0x00, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x77, 0x00, 0x00, 0x00
-    .close
-
-party 662
-    .byte 0x00, 0x00, 0x2B, 0x00, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2F, 0x00, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x27, 0x00, 0x62, 0x00, 0x00, 0x00
-    .close
-
-party 663
-    .byte 0x00, 0x00, 0x30, 0x00, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x31, 0x00, 0xD3, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x34, 0x00, 0x77, 0x00, 0x00, 0x00, 0x00, 0x00, 0x33, 0x00, 0x63, 0x00, 0x00, 0x00
-    .close
-
-party 664
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 665
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 666
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x00, 0x12, 0x00, 0x81, 0x00, 0x00, 0x00
-    .close
-
-party 667
-    .byte 0xC8, 0x00, 0x3D, 0x00, 0xCA, 0x00, 0x00, 0x00, 0x44, 0x00, 0xF3, 0x00, 0xDB, 0x00, 0xE3, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x3D, 0x00, 0xAA, 0x01, 0x00, 0x00, 0x5C, 0x00, 0xD2, 0x01, 0x13, 0x00
-    .byte 0xB6, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3E, 0x00, 0x29, 0x01, 0x00, 0x00, 0x72, 0x01, 0x59, 0x00
-    .byte 0xA2, 0x01, 0xBC, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x3F, 0x00, 0x41, 0x01, 0x00, 0x00, 0x43, 0x01
-    .byte 0x6A, 0x01, 0x59, 0x00, 0xA3, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xF2, 0x00, 0x9E, 0x00
-    .byte 0x87, 0x00, 0x44, 0x00, 0x5E, 0x00, 0x5C, 0x00, 0x00, 0x00
-    .close
-
-party 668
-    .byte 0xC8, 0x00, 0x3D, 0x00, 0x23, 0x01, 0x00, 0x00, 0x94, 0x01, 0x4C, 0x01, 0x0E, 0x00, 0xA3, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x3D, 0x00, 0x65, 0x00, 0x00, 0x00, 0x3F, 0x00, 0x57, 0x00, 0x56, 0x00
-    .byte 0x68, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3E, 0x00, 0xA9, 0x00, 0x00, 0x00, 0x93, 0x01, 0x31, 0x01
-    .byte 0x6D, 0x00, 0x68, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3F, 0x00, 0xCD, 0x01, 0x00, 0x00, 0xA4, 0x01
-    .byte 0x90, 0x01, 0x08, 0x00, 0x4C, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x3B, 0x00, 0x9E, 0x00
-    .byte 0xF5, 0x00, 0x8A, 0x01, 0xF2, 0x00, 0xA6, 0x01, 0x00, 0x00
-    .close
-
-party 669
-    .byte 0xC8, 0x00, 0x3D, 0x00, 0xDA, 0x01, 0x00, 0x00, 0xA1, 0x00, 0x5E, 0x00, 0x55, 0x00, 0x8F, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x3D, 0x00, 0x5E, 0x00, 0x00, 0x00, 0xF7, 0x00, 0x5E, 0x00, 0xBC, 0x00
-    .byte 0x9C, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x3E, 0x00, 0xCE, 0x01, 0x00, 0x00, 0x57, 0x00, 0xAE, 0x01
-    .byte 0x56, 0x00, 0x3F, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3F, 0x00, 0xD4, 0x01, 0x00, 0x00, 0xF5, 0x00
-    .byte 0x93, 0x01, 0x8C, 0x01, 0x5E, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x41, 0x00, 0x9E, 0x00
-    .byte 0x5E, 0x00, 0x9B, 0x01, 0x5B, 0x01, 0x3F, 0x00, 0x00, 0x00
-    .close
-
-party 670
-    .byte 0xC8, 0x00, 0x3D, 0x00, 0x67, 0x01, 0x00, 0x00, 0xAB, 0x01, 0x90, 0x01, 0x0E, 0x00, 0x62, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x3D, 0x00, 0xD9, 0x00, 0x00, 0x00, 0xA3, 0x01, 0xA3, 0x00, 0x4C, 0x01
-    .byte 0xA5, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x3E, 0x00, 0x78, 0x01, 0x00, 0x00, 0x35, 0x01, 0xAC, 0x01
-    .byte 0x67, 0x01, 0xA2, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x3F, 0x00, 0x75, 0x01, 0x00, 0x00, 0x51, 0x01
-    .byte 0xF2, 0x00, 0xA8, 0x01, 0xA6, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0xC0, 0x01, 0x9E, 0x00
-    .byte 0xF5, 0x00, 0x72, 0x01, 0xC6, 0x00, 0x2B, 0x01, 0x00, 0x00
-    .close
-
-party 671
-    .byte 0xC8, 0x00, 0x3D, 0x00, 0xD5, 0x00, 0x00, 0x00, 0x9C, 0x00, 0x5C, 0x00, 0xB6, 0x00, 0xC9, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x3E, 0x00, 0xC5, 0x00, 0x00, 0x00, 0x8F, 0x01, 0x5E, 0x00, 0x6D, 0x00
-    .byte 0x68, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3D, 0x00, 0x44, 0x01, 0x00, 0x00, 0x59, 0x00, 0x05, 0x01
-    .byte 0x1C, 0x01, 0xB6, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3F, 0x00, 0xDD, 0x01, 0x00, 0x00, 0x07, 0x00
-    .byte 0x08, 0x00, 0x09, 0x00, 0xF7, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x41, 0x00, 0x58, 0x01, 0x9E, 0x00
-    .byte 0x9E, 0x01, 0x5E, 0x00, 0xF6, 0x00, 0x5B, 0x01, 0x00, 0x00
-    .close
-
-party 672
-    .byte 0x00, 0x00, 0x24, 0x00, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 673
-    .byte 0x00, 0x00, 0x2A, 0x00, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 674
-    .byte 0x00, 0x00, 0x3A, 0x00, 0xA4, 0x00, 0x5F, 0x00, 0x8A, 0x00, 0x93, 0x01, 0x73, 0x00, 0x00, 0x00
-    .close
-
-party 675
-    .byte 0xFA, 0x00, 0x28, 0x00, 0x95, 0x00, 0x13, 0x00, 0xEF, 0x00, 0x57, 0x00, 0x3F, 0x00, 0x00, 0x00
-    .close
-
-party 676
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x74, 0x00, 0x60, 0x01, 0x74, 0x00, 0xEF, 0x00, 0x61, 0x00, 0x00, 0x00
-    .byte 0x00, 0x20, 0x2B, 0x00, 0x75, 0x00, 0x60, 0x01, 0x74, 0x00, 0xEF, 0x00, 0x61, 0x00, 0x00, 0x00
-    .close
-
-party 677
-    .byte 0x00, 0x20, 0x30, 0x00, 0xB8, 0x00, 0x60, 0x01, 0x88, 0x01, 0x26, 0x00, 0x91, 0x01, 0x00, 0x00
-    .close
-
-party 678
-    .byte 0x00, 0x20, 0x30, 0x00, 0x5B, 0x00, 0x60, 0x01, 0x83, 0x00, 0x3E, 0x00, 0xD5, 0x00, 0x00, 0x00
-    .close
-
-party 679
-    .byte 0x00, 0x00, 0x15, 0x00, 0x24, 0x00, 0x2D, 0x00, 0xE3, 0x00, 0x03, 0x00, 0x76, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x15, 0x00, 0xDD, 0x02, 0x4B, 0x02, 0x44, 0x02, 0x38, 0x01, 0xFC, 0x01, 0x00, 0x00
-    .close
-
-party 680
-    .byte 0x00, 0x00, 0x15, 0x00, 0x28, 0x00, 0x2F, 0x00, 0x6F, 0x00, 0x01, 0x00, 0x32, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x15, 0x00, 0xDF, 0x02, 0x44, 0x02, 0xB2, 0x00, 0xF3, 0x01, 0x39, 0x01, 0x00, 0x00
-    .close
-
-party 681
-    .byte 0x3C, 0x00, 0x35, 0x00, 0xEA, 0x00, 0xAC, 0x01, 0xD8, 0x00, 0x7E, 0x01, 0xB1, 0x01, 0x00, 0x00
-    .byte 0x3C, 0x00, 0x34, 0x00, 0x80, 0x00, 0x24, 0x00, 0x57, 0x00, 0x39, 0x00, 0x7E, 0x00, 0x00, 0x00
-    .close
-
-party 682
-    .byte 0x3C, 0x00, 0x32, 0x00, 0x47, 0x01, 0xAF, 0x00, 0xFC, 0x00, 0x2A, 0x01, 0xB1, 0x01, 0x00, 0x00
-    .byte 0x3C, 0x20, 0x34, 0x00, 0xB9, 0x00, 0xC4, 0x01, 0x67, 0x01, 0x59, 0x00, 0xBC, 0x01, 0x00, 0x00
-    .close
-
-party 683
-    .byte 0x3C, 0x00, 0x32, 0x00, 0xC7, 0x00, 0x9B, 0x00, 0x39, 0x00, 0x5E, 0x00, 0x35, 0x00, 0xB1, 0x01
-    .byte 0x00, 0x00, 0x3C, 0x00, 0x35, 0x00, 0xCF, 0x01, 0x00, 0x00, 0x7A, 0x01, 0x55, 0x00, 0x59, 0x00
-    .byte 0x3A, 0x00, 0x00, 0x00
-    .close
-
-party 684
-    .byte 0x3C, 0x20, 0x34, 0x00, 0xE9, 0x00, 0x00, 0x00, 0xA1, 0x00, 0xC3, 0x01, 0xB6, 0x00, 0xB1, 0x01
-    .byte 0x00, 0x00, 0x3C, 0x20, 0x32, 0x00, 0xB8, 0x00, 0x00, 0x00, 0x7F, 0x00, 0xC5, 0x01, 0x14, 0x01
-    .byte 0xD5, 0x00, 0x00, 0x00
-    .close
-
-party 685
-    .byte 0x50, 0x00, 0x32, 0x00, 0x4C, 0x00, 0x26, 0x00, 0x9D, 0x00, 0xC9, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .close
-
-party 686
-    .byte 0x00, 0x00, 0x37, 0x00, 0x57, 0x00, 0x00, 0x00, 0x00, 0x00, 0x32, 0x00, 0x83, 0x00, 0x00, 0x00
-    .close
-
-party 687
-    .byte 0x00, 0x00, 0x37, 0x00, 0x5B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x32, 0x00, 0x57, 0x00, 0x00, 0x00
-    .close
-
-party 688
-    .byte 0x00, 0x00, 0x35, 0x00, 0xE1, 0x00, 0x00, 0x00
-    .close
-
-party 689
-    .byte 0x00, 0x00, 0x35, 0x00, 0x44, 0x01, 0x3B, 0x01, 0xE7, 0x00, 0x22, 0x00, 0x4E, 0x01, 0x00, 0x00
-    .close
-
-party 690
-    .byte 0x00, 0x20, 0x35, 0x00, 0x42, 0x01, 0x3B, 0x01, 0x85, 0x00, 0x9E, 0x01, 0xDE, 0x00, 0x00, 0x00
-    .close
-
-party 691
-    .byte 0x00, 0x20, 0x35, 0x00, 0xDB, 0x00, 0x3B, 0x01, 0x9D, 0x00, 0x19, 0x01, 0x69, 0x00, 0x00, 0x00
-    .close
-
-party 692
-    .byte 0x00, 0x00, 0x32, 0x00, 0x3B, 0x00, 0x3B, 0x01, 0xF5, 0x00, 0xA8, 0x01, 0xA6, 0x01, 0x00, 0x00
-    .close
-
-party 693
-    .byte 0x00, 0x00, 0x32, 0x00, 0x7E, 0x00, 0x3B, 0x01, 0x07, 0x00, 0x6D, 0x00, 0xB9, 0x00, 0x00, 0x00
-    .close
-
-party 694
-    .byte 0x00, 0x00, 0x32, 0x00, 0x26, 0x00, 0x3B, 0x01, 0x05, 0x01, 0x62, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .close
-
-party 695
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x30, 0x00, 0x0C, 0x00, 0x00, 0x00
-    .close
-
-party 696
-    .byte 0x00, 0x00, 0x32, 0x00, 0xA8, 0x00, 0x00, 0x00
-    .close
-
-party 697
-    .byte 0x00, 0x00, 0x34, 0x00, 0x0B, 0x00, 0x00, 0x00, 0x00, 0x00, 0x38, 0x00, 0x0B, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x3C, 0x00, 0x0B, 0x00, 0x00, 0x00
-    .close
-
-party 698
-    .byte 0x00, 0x00, 0x1C, 0x00, 0x0D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x00, 0x0E, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2E, 0x00, 0x0F, 0x00, 0x00, 0x00
-    .close
-
-party 699
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C, 0x00, 0x0F, 0x00, 0x00, 0x00
-    .byte 0x00, 0x00, 0x2C, 0x00, 0x19, 0x00, 0x00, 0x00
-    .close
-
-party 700
-    .byte 0x64, 0x00, 0x2A, 0x00, 0x22, 0x00, 0x00, 0x00, 0x74, 0x00, 0x1F, 0x00, 0x18, 0x00, 0xA5, 0x01
-    .byte 0x00, 0x00, 0x64, 0x20, 0x28, 0x00, 0x73, 0x00, 0x00, 0x00, 0x92, 0x00, 0x85, 0x01, 0x2B, 0x00
-    .byte 0xC8, 0x00, 0x00, 0x00, 0x64, 0x00, 0x2B, 0x00, 0xAE, 0x01, 0x00, 0x00, 0x8F, 0x01, 0xA1, 0x01
-    .byte 0xCF, 0x00, 0xF7, 0x00, 0x00, 0x00, 0x64, 0x00, 0x2E, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x9E, 0x01
-    .byte 0x14, 0x01, 0xF2, 0x00, 0x2E, 0x00, 0x00, 0x00
-    .close
-
-party 701
-    .byte 0xFA, 0x00, 0x48, 0x00, 0x75, 0x01, 0x9D, 0x00, 0x35, 0x00, 0xA5, 0x01, 0x51, 0x01, 0x9C, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x44, 0x00, 0x82, 0x00, 0x00, 0x00, 0x56, 0x00, 0xA7, 0x01, 0x7F, 0x00
-    .byte 0x5D, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x48, 0x00, 0xBD, 0x01, 0x00, 0x00, 0x0E, 0x00, 0xC8, 0x00
-    .byte 0x59, 0x00, 0x2E, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x49, 0x00, 0x4E, 0x01, 0x00, 0x00, 0xC3, 0x00
-    .byte 0xE1, 0x00, 0x68, 0x00, 0x3F, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x44, 0x00, 0x06, 0x00, 0x00, 0x00
-    .byte 0x35, 0x00, 0x93, 0x01, 0x51, 0x01, 0x3F, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x4B, 0x00, 0x95, 0x00
-    .byte 0x9E, 0x00, 0x7E, 0x00, 0xDB, 0x00, 0xB2, 0x01, 0x3F, 0x00, 0x00, 0x00
-    .close
-
-party 702
-    .byte 0xFA, 0x20, 0x3A, 0x00, 0xB5, 0x01, 0x00, 0x00, 0x73, 0x00, 0x73, 0x01, 0x64, 0x01, 0x5E, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x3C, 0x00, 0x7C, 0x00, 0x00, 0x00, 0x39, 0x01, 0x8E, 0x00, 0x3B, 0x00
-    .byte 0x8A, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x3B, 0x00, 0x46, 0x01, 0x00, 0x00, 0x6D, 0x00, 0x44, 0x01
-    .byte 0x98, 0x01, 0x5E, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x3C, 0x00, 0x50, 0x00, 0x00, 0x00, 0xAE, 0x00
-    .byte 0x85, 0x00, 0x22, 0x00, 0x5E, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x3D, 0x00, 0x1A, 0x01, 0x00, 0x00
-    .byte 0x9B, 0x01, 0xC3, 0x01, 0x5B, 0x01, 0x5E, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x3E, 0x00, 0xB2, 0x00
-    .byte 0x9E, 0x00, 0x62, 0x00, 0xF7, 0x00, 0x6D, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .close
-
-party 703
-    .byte 0xFA, 0x20, 0x3D, 0x00, 0xB3, 0x01, 0x00, 0x00, 0x85, 0x01, 0x5B, 0x00, 0x5C, 0x00, 0x99, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x3F, 0x00, 0x31, 0x00, 0x00, 0x00, 0x68, 0x00, 0xE2, 0x00, 0x5E, 0x00
-    .byte 0x3E, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x3C, 0x00, 0xC6, 0x01, 0x00, 0x00, 0xEE, 0x00, 0x94, 0x01
-    .byte 0xCF, 0x00, 0xB9, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x3E, 0x00, 0x59, 0x00, 0x19, 0x01, 0x6B, 0x00
-    .byte 0x67, 0x00, 0xCF, 0x00, 0x5C, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x40, 0x00, 0xA9, 0x00, 0x00, 0x00
-    .byte 0x5C, 0x00, 0xD4, 0x00, 0x13, 0x00, 0xB8, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x3E, 0x00, 0x3D, 0x01
-    .byte 0xEA, 0x00, 0x19, 0x01, 0x85, 0x00, 0xDC, 0x00, 0xBC, 0x00, 0x00, 0x00
-    .close
-
-party 704
-    .byte 0xFA, 0x20, 0x3E, 0x00, 0xED, 0x00, 0x00, 0x00, 0x44, 0x00, 0x62, 0x00, 0x72, 0x01, 0x59, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x20, 0x3D, 0x00, 0x6A, 0x00, 0x00, 0x00, 0xCF, 0x00, 0x72, 0x01, 0xB3, 0x00
-    .byte 0x2B, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x3D, 0x00, 0x6B, 0x00, 0x00, 0x00, 0xA4, 0x00, 0x99, 0x01
-    .byte 0x72, 0x01, 0xA2, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x3E, 0x00, 0x29, 0x01, 0x9E, 0x00, 0x43, 0x00
-    .byte 0x73, 0x01, 0xA2, 0x01, 0x53, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x40, 0x00, 0x44, 0x00, 0x00, 0x00
-    .byte 0xA2, 0x01, 0xC1, 0x00, 0xBC, 0x01, 0xDF, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x40, 0x00, 0xC0, 0x01
-    .byte 0x00, 0x00, 0xF5, 0x00, 0x72, 0x01, 0x44, 0x00, 0xE7, 0x00, 0x00, 0x00
-    .close
-
-party 705
-    .byte 0xFA, 0x00, 0x3E, 0x00, 0xCD, 0x01, 0x00, 0x00, 0xA4, 0x01, 0x90, 0x01, 0x08, 0x00, 0x43, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x3E, 0x00, 0xBA, 0x01, 0x00, 0x00, 0xAE, 0x00, 0x6D, 0x00, 0xDC, 0x00
-    .byte 0x85, 0x01, 0x00, 0x00, 0xFA, 0x20, 0x3E, 0x00, 0x67, 0x01, 0x00, 0x00, 0x90, 0x01, 0xAB, 0x01
-    .byte 0xC5, 0x00, 0xC3, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x40, 0x00, 0xAE, 0x01, 0x00, 0x00, 0x41, 0x00
-    .byte 0x12, 0x00, 0x85, 0x01, 0x56, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x3F, 0x00, 0xE5, 0x00, 0x00, 0x00
-    .byte 0xA1, 0x01, 0x8F, 0x01, 0x35, 0x00, 0xBC, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x40, 0x00, 0xC5, 0x00
-    .byte 0x9E, 0x00, 0xAE, 0x00, 0x73, 0x01, 0x6D, 0x00, 0x85, 0x01, 0x00, 0x00
-    .close
-
-party 706
-    .byte 0x64, 0x00, 0x27, 0x00, 0x53, 0x02, 0x67, 0x00, 0x56, 0x01, 0x1C, 0x02, 0xC2, 0x01, 0x00, 0x00
-    .byte 0x64, 0x00, 0x27, 0x00, 0x6B, 0x02, 0xBC, 0x00, 0x85, 0x00, 0x22, 0x00, 0xDC, 0x00, 0x00, 0x00
-    .close
-
-party 707
-    .byte 0x00, 0x00, 0x05, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 708
-    .byte 0x00, 0x00, 0x05, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 709
-    .byte 0x00, 0x00, 0x05, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 710
-    .byte 0x00, 0x00, 0x05, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 711
-    .byte 0x00, 0x00, 0x05, 0x00, 0x13, 0x00, 0x00, 0x00
-    .close
-
-party 712
-    .byte 0xC8, 0x00, 0x32, 0x00, 0x8E, 0x01, 0x00, 0x00, 0xD5, 0x00, 0x9D, 0x01, 0x72, 0x01, 0x71, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0xA4, 0x00, 0x00, 0x00, 0x63, 0x01, 0x93, 0x01, 0xF7, 0x00
-    .byte 0x29, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x15, 0x01, 0x11, 0x01, 0x07, 0x01, 0xB6, 0x00
-    .byte 0x68, 0x00, 0x1B, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x36, 0x00, 0xAE, 0x01, 0x00, 0x00, 0x90, 0x01
-    .byte 0x85, 0x01, 0x56, 0x00, 0x8F, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x30, 0x00, 0x17, 0x01, 0x00, 0x00
-    .byte 0x39, 0x00, 0x6E, 0x01, 0x3A, 0x00, 0xED, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0x12, 0x00
-    .byte 0x00, 0x00, 0xD8, 0x00, 0x68, 0x00, 0xCF, 0x00, 0x63, 0x01, 0x00, 0x00
-    .close
-
-party 713
-    .byte 0xC8, 0x20, 0x38, 0x00, 0xD4, 0x00, 0x9E, 0x00, 0xA2, 0x01, 0x94, 0x01, 0x0E, 0x00, 0x14, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x30, 0x00, 0x24, 0x01, 0x00, 0x00, 0x5C, 0x00, 0x94, 0x01, 0xA9, 0x01
-    .byte 0xCF, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x34, 0x00, 0xD5, 0x01, 0x00, 0x00, 0xC5, 0x00, 0x95, 0x01
-    .byte 0x93, 0x01, 0xF6, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x37, 0x00, 0x7F, 0x00, 0x00, 0x00, 0x59, 0x00
-    .byte 0x0C, 0x00, 0x94, 0x01, 0x3D, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x36, 0x00, 0xD6, 0x00, 0x00, 0x00
-    .byte 0x72, 0x01, 0xE0, 0x00, 0xBC, 0x01, 0x44, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0xA0, 0x01
-    .byte 0x9E, 0x00, 0xB6, 0x00, 0x6D, 0x00, 0xC6, 0x01, 0xC7, 0x01, 0x00, 0x00
-    .close
-
-party 714
-    .byte 0xFA, 0x00, 0x34, 0x00, 0xCB, 0x00, 0x00, 0x00, 0x5E, 0x00, 0xF7, 0x00, 0x5B, 0x01, 0xE2, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x32, 0x00, 0xCF, 0x01, 0x00, 0x00, 0x7A, 0x01, 0x35, 0x00, 0x3A, 0x00
-    .byte 0x55, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x36, 0x00, 0x90, 0x01, 0x00, 0x00, 0x68, 0x00, 0xC3, 0x01
-    .byte 0x39, 0x00, 0x3A, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x36, 0x00, 0x2D, 0x01, 0x00, 0x00, 0xFC, 0x00
-    .byte 0x12, 0x01, 0x5B, 0x01, 0xE2, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x24, 0x00, 0x00, 0x00
-    .byte 0x3B, 0x00, 0x57, 0x00, 0x7E, 0x00, 0x5B, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x3A, 0x00, 0xF1, 0x00
-    .byte 0x9D, 0x00, 0x22, 0x00, 0xD5, 0x00, 0xD6, 0x00, 0x9C, 0x00, 0x00, 0x00
-    .close
-
-party 715
-    .byte 0xC8, 0x20, 0x34, 0x00, 0xAA, 0x01, 0x9E, 0x00, 0xC2, 0x00, 0xA4, 0x00, 0x55, 0x00, 0xF7, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0xDD, 0x01, 0x00, 0x00, 0xDC, 0x00, 0x05, 0x01, 0xA4, 0x00
-    .byte 0x73, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x2E, 0x01, 0x00, 0x00, 0x85, 0x01, 0x18, 0x01
-    .byte 0x08, 0x00, 0xFC, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x36, 0x00, 0xAD, 0x01, 0x00, 0x00, 0xC3, 0x00
-    .byte 0xD4, 0x00, 0x6D, 0x00, 0x36, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x39, 0x00, 0x5E, 0x00, 0x00, 0x00
-    .byte 0x5F, 0x00, 0x6D, 0x00, 0xF7, 0x00, 0x9B, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x39, 0x00, 0x5E, 0x00
-    .byte 0x00, 0x00, 0xA4, 0x00, 0xF7, 0x00, 0x55, 0x00, 0xC2, 0x00, 0x00, 0x00
-    .close
-
-party 716
-    .byte 0xC8, 0x00, 0x38, 0x00, 0xCC, 0x01, 0x00, 0x00, 0xA4, 0x01, 0xC4, 0x01, 0x59, 0x00, 0x3B, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x3A, 0x00, 0x57, 0x00, 0x9D, 0x00, 0x23, 0x01, 0x49, 0x01, 0xD6, 0x00
-    .byte 0x9C, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x6A, 0x01, 0x00, 0x00, 0x73, 0x01, 0x03, 0x01
-    .byte 0xD5, 0x00, 0x3B, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0xDE, 0x01, 0x00, 0x00, 0xA4, 0x01
-    .byte 0x6D, 0x00, 0xD5, 0x00, 0x3B, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x36, 0x00, 0x6D, 0x01, 0x00, 0x00
-    .byte 0x02, 0x01, 0x22, 0x00, 0xCF, 0x00, 0x3B, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x3C, 0x00, 0xD9, 0x01
-    .byte 0x9E, 0x00, 0x59, 0x00, 0xA3, 0x01, 0xBC, 0x01, 0x68, 0x00, 0x00, 0x00
-    .close
-
-party 717
-    .byte 0xC8, 0x00, 0x34, 0x00, 0x78, 0x01, 0x00, 0x00, 0x35, 0x01, 0xA2, 0x01, 0x64, 0x01, 0x99, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x38, 0x00, 0xCE, 0x01, 0x00, 0x00, 0xC0, 0x00, 0xC7, 0x00, 0xF3, 0x00
-    .byte 0x3F, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0xE3, 0x00, 0x00, 0x00, 0x93, 0x01, 0xBF, 0x00
-    .byte 0x90, 0x01, 0xD3, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x32, 0x00, 0xB5, 0x01, 0x00, 0x00, 0x68, 0x01
-    .byte 0x5F, 0x00, 0x8A, 0x00, 0x64, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x8B, 0x01, 0x00, 0x00
-    .byte 0x38, 0x00, 0x3B, 0x00, 0xC5, 0x01, 0x2E, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x3E, 0x00, 0xD0, 0x00
-    .byte 0x00, 0x00, 0xBC, 0x01, 0xBE, 0x01, 0x2E, 0x00, 0xE7, 0x00, 0x00, 0x00
-    .close
-
-party 718
-    .byte 0xC8, 0x00, 0x36, 0x00, 0x34, 0x01, 0x9E, 0x00, 0x88, 0x00, 0xAB, 0x01, 0xD5, 0x00, 0x09, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x34, 0x00, 0x6B, 0x00, 0x00, 0x00, 0xB7, 0x00, 0xCF, 0x00, 0x08, 0x01
-    .byte 0x68, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x37, 0x00, 0x6A, 0x00, 0x00, 0x00, 0x88, 0x00, 0xFC, 0x00
-    .byte 0x2B, 0x01, 0x53, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x36, 0x00, 0x1E, 0x01, 0x10, 0x01, 0xA4, 0x00
-    .byte 0x08, 0x01, 0x99, 0x01, 0xBC, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0x39, 0x00, 0x00, 0x00
-    .byte 0x72, 0x01, 0x73, 0x01, 0x09, 0x00, 0xCF, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3C, 0x00, 0x3E, 0x00
-    .byte 0x9E, 0x00, 0x68, 0x00, 0x7F, 0x00, 0x08, 0x01, 0xA4, 0x00, 0x00, 0x00
-    .close
-
-party 719
-    .byte 0xC8, 0x00, 0x38, 0x00, 0x82, 0x00, 0xBA, 0x00, 0x5D, 0x01, 0x59, 0x00, 0x7F, 0x00, 0x96, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x94, 0x00, 0x00, 0x00, 0x56, 0x00, 0x97, 0x01, 0x55, 0x00
-    .byte 0x35, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x8E, 0x00, 0x00, 0x00, 0x59, 0x00, 0xA6, 0x01
-    .byte 0x9D, 0x00, 0x2E, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x38, 0x00, 0xE6, 0x00, 0x00, 0x00, 0x19, 0x01
-    .byte 0x38, 0x00, 0x3A, 0x00, 0xE1, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x06, 0x00, 0x00, 0x00
-    .byte 0xA5, 0x01, 0x93, 0x01, 0x51, 0x01, 0xA8, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x3C, 0x00, 0x95, 0x00
-    .byte 0x9E, 0x00, 0x57, 0x00, 0xDB, 0x00, 0xE1, 0x00, 0x3F, 0x00, 0x00, 0x00
-    .close
-
-party 720
-    .byte 0xC8, 0x20, 0x37, 0x00, 0x4C, 0x00, 0x00, 0x00, 0xC9, 0x00, 0x9D, 0x00, 0x8D, 0x01, 0x59, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x36, 0x00, 0x71, 0x01, 0x9D, 0x00, 0xC9, 0x01, 0x91, 0x01, 0x59, 0x00
-    .byte 0x9C, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x38, 0x00, 0x8B, 0x00, 0x00, 0x00, 0xF6, 0x00, 0x6A, 0x01
-    .byte 0xB6, 0x00, 0xC9, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3D, 0x00, 0x5F, 0x00, 0x9E, 0x00, 0xBE, 0x01
-    .byte 0x9D, 0x00, 0x8D, 0x01, 0xC9, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x37, 0x00, 0x8D, 0x00, 0x00, 0x00
-    .byte 0x9D, 0x00, 0xC5, 0x01, 0xCB, 0x00, 0xCA, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x39, 0x00, 0x99, 0x01
-    .byte 0x00, 0x00, 0x59, 0x00, 0xBC, 0x01, 0xA3, 0x01, 0x8D, 0x01, 0x00, 0x00
-    .close
-
-party 721
-    .byte 0xC8, 0x20, 0x3C, 0x00, 0x79, 0x00, 0xC6, 0x00, 0x55, 0x00, 0x5E, 0x00, 0x3A, 0x00, 0x39, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x38, 0x00, 0xC3, 0x00, 0x00, 0x00, 0x60, 0x01, 0x85, 0x00, 0x59, 0x00
-    .byte 0xF0, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0x83, 0x00, 0x00, 0x00, 0x39, 0x00, 0xC3, 0x00
-    .byte 0x3B, 0x00, 0xF0, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x36, 0x00, 0xAB, 0x00, 0x00, 0x00, 0x6D, 0x00
-    .byte 0x55, 0x00, 0x39, 0x00, 0x56, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x36, 0x00, 0xA3, 0x01, 0x00, 0x00
-    .byte 0x61, 0x00, 0xA7, 0x01, 0x7F, 0x00, 0xE2, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3C, 0x00, 0x5E, 0x01
-    .byte 0x00, 0x00, 0x38, 0x00, 0x3A, 0x00, 0x9C, 0x00, 0xD6, 0x00, 0x00, 0x00
-    .close
-
-party 722
-    .byte 0xC8, 0x00, 0x3C, 0x00, 0x1A, 0x00, 0x00, 0x00, 0x56, 0x00, 0x62, 0x00, 0x55, 0x00, 0xBF, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0x36, 0x01, 0xA8, 0x00, 0x56, 0x00, 0x6B, 0x01, 0xB3, 0x01
-    .byte 0x3B, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x34, 0x00, 0xCE, 0x01, 0x00, 0x00, 0x55, 0x00, 0x68, 0x00
-    .byte 0x89, 0x01, 0xAD, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x34, 0x00, 0x65, 0x00, 0x00, 0x00, 0x56, 0x00
-    .byte 0x68, 0x00, 0x55, 0x00, 0x99, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3A, 0x00, 0xA1, 0x01, 0x00, 0x00
-    .byte 0x62, 0x00, 0xA2, 0x00, 0xB3, 0x01, 0xBA, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0xD2, 0x01
-    .byte 0x9E, 0x00, 0x55, 0x00, 0xEE, 0x00, 0x08, 0x00, 0x59, 0x00, 0x00, 0x00
-    .close
-
-party 723
-    .byte 0xC8, 0x00, 0x36, 0x00, 0x13, 0x01, 0x00, 0x00, 0xB5, 0x01, 0x85, 0x01, 0x99, 0x00, 0xF1, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x35, 0x00, 0xBD, 0x00, 0x00, 0x00, 0x71, 0x01, 0x06, 0x01, 0x4F, 0x00
-    .byte 0xCA, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0x47, 0x00, 0xAA, 0x00, 0x6B, 0x01, 0xBC, 0x00
-    .byte 0xB5, 0x01, 0x5C, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0xB6, 0x00, 0x00, 0x00, 0xF1, 0x00
-    .byte 0x4C, 0x00, 0xCA, 0x00, 0xD5, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3C, 0x00, 0xD1, 0x01, 0x00, 0x00
-    .byte 0x0E, 0x00, 0xB6, 0x01, 0x9D, 0x00, 0x59, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x37, 0x00, 0x97, 0x01
-    .byte 0x00, 0x00, 0x37, 0x01, 0x9C, 0x01, 0xBC, 0x00, 0x4E, 0x00, 0x00, 0x00
-    .close
-
-party 724
-    .byte 0xC8, 0x00, 0x34, 0x00, 0xA9, 0x00, 0x00, 0x00, 0x01, 0x01, 0xB8, 0x01, 0x6D, 0x00, 0x71, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0x6E, 0x00, 0x00, 0x00, 0x55, 0x00, 0xBC, 0x00, 0x5C, 0x00
-    .byte 0x99, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x34, 0x00, 0xC6, 0x01, 0x00, 0x00, 0xEE, 0x00, 0x8E, 0x01
-    .byte 0xD5, 0x00, 0xA4, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3A, 0x00, 0xA8, 0x00, 0x00, 0x00, 0x5C, 0x00
-    .byte 0x54, 0x01, 0xCF, 0x00, 0x65, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3B, 0x00, 0x31, 0x00, 0x9E, 0x00
-    .byte 0x4F, 0x00, 0x68, 0x00, 0x95, 0x01, 0x5E, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x37, 0x00, 0xC4, 0x01
-    .byte 0x00, 0x00, 0xB8, 0x01, 0x6D, 0x00, 0xF2, 0x00, 0x0E, 0x00, 0x00, 0x00
-    .close
-
-party 725
-    .byte 0xC8, 0x00, 0x3C, 0x00, 0x41, 0x00, 0x00, 0x00, 0x64, 0x01, 0x9B, 0x01, 0x9C, 0x01, 0x5E, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x3A, 0x00, 0xC4, 0x00, 0x00, 0x00, 0x5B, 0x01, 0xE2, 0x00, 0xF7, 0x00
-    .byte 0x5E, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x38, 0x00, 0x7A, 0x00, 0x00, 0x00, 0x73, 0x00, 0x1D, 0x01
-    .byte 0x57, 0x00, 0x5E, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x36, 0x00, 0x7C, 0x00, 0x00, 0x00, 0x3B, 0x00
-    .byte 0xC3, 0x00, 0x5E, 0x00, 0x9B, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x35, 0x00, 0xCA, 0x00, 0x00, 0x00
-    .byte 0x44, 0x00, 0xF3, 0x00, 0xC2, 0x00, 0xE3, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x35, 0x00, 0xDB, 0x01
-    .byte 0x9E, 0x00, 0x72, 0x01, 0xAB, 0x01, 0x90, 0x01, 0xBC, 0x01, 0x00, 0x00
-    .close
-
-party 726
-    .byte 0xC8, 0x00, 0x36, 0x00, 0x44, 0x01, 0x00, 0x00, 0xF1, 0x00, 0x19, 0x01, 0x22, 0x00, 0x3B, 0x01
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x39, 0x00, 0x43, 0x01, 0x00, 0x00, 0x59, 0x00, 0x1C, 0x01, 0x4C, 0x00
-    .byte 0xF1, 0x00, 0x00, 0x00, 0xC8, 0x20, 0x3C, 0x00, 0x4E, 0x00, 0x00, 0x00, 0xE0, 0x00, 0x62, 0x00
-    .byte 0x3B, 0x01, 0x8A, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x3A, 0x00, 0xDB, 0x00, 0x00, 0x00, 0xAE, 0x00
-    .byte 0x68, 0x01, 0x3B, 0x01, 0xBC, 0x01, 0x00, 0x00, 0xC8, 0x20, 0x36, 0x00, 0xE5, 0x00, 0x00, 0x00
-    .byte 0xF7, 0x00, 0x8F, 0x01, 0x35, 0x00, 0x85, 0x01, 0x00, 0x00, 0xC8, 0x00, 0x3E, 0x00, 0xD3, 0x01
-    .byte 0x00, 0x00, 0x55, 0x00, 0x43, 0x00, 0x35, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 727
-    .byte 0x64, 0x00, 0x43, 0x00, 0x67, 0x00, 0x00, 0x00, 0xB5, 0x01, 0x5E, 0x00, 0x99, 0x00, 0xB1, 0x01
-    .byte 0x00, 0x00, 0xFA, 0x20, 0x45, 0x00, 0x44, 0x00, 0x16, 0x01, 0xDF, 0x00, 0xBC, 0x01, 0x76, 0x01
-    .byte 0xD5, 0x00, 0x00, 0x00, 0xFA, 0x20, 0x46, 0x00, 0xD0, 0x01, 0x00, 0x00, 0xE0, 0x00, 0xBC, 0x01
-    .byte 0xA6, 0x01, 0x59, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x44, 0x00, 0x3B, 0x00, 0x00, 0x00, 0x8A, 0x01
-    .byte 0xF5, 0x00, 0xA6, 0x01, 0xF2, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x46, 0x00, 0xF8, 0x00, 0x00, 0x00
-    .byte 0x43, 0x00, 0xA8, 0x01, 0x9D, 0x00, 0x59, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x48, 0x00, 0x12, 0x00
-    .byte 0x9E, 0x00, 0xD8, 0x00, 0x68, 0x00, 0x93, 0x01, 0xD3, 0x00, 0x00, 0x00
-    .close
-
-party 728
-    .byte 0x00, 0x00, 0x10, 0x00, 0xB6, 0x00, 0x01, 0x00
-    .close
-
-party 729
-    .byte 0x00, 0x20, 0x16, 0x00, 0x5F, 0x00, 0x00, 0x00, 0x00, 0x20, 0x16, 0x00, 0x5B, 0x00, 0x00, 0x00
-    .close
-
-party 730
-    .byte 0x32, 0x00, 0x19, 0x00, 0x7D, 0x00, 0x55, 0x00, 0x71, 0x00, 0x81, 0x00, 0x56, 0x00, 0x00, 0x00
-    .byte 0x32, 0x00, 0x19, 0x00, 0x7E, 0x00, 0x35, 0x00, 0x6D, 0x00, 0xB9, 0x00, 0xB6, 0x00, 0x00, 0x00
-    .close
-
-party 731
-    .byte 0x00, 0x00, 0x13, 0x00, 0xCE, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13, 0x00, 0x08, 0x04, 0x00, 0x00
-    .byte 0x00, 0x00, 0x13, 0x00, 0x07, 0x04, 0x00, 0x00
-    .close
-
-party 732
-    .byte 0x00, 0x00, 0x15, 0x00, 0xBC, 0x00, 0x00, 0x00, 0x00, 0x20, 0x15, 0x00, 0xB7, 0x00, 0x00, 0x00
-    .close
-
-party 733
-    .byte 0xFA, 0x00, 0x44, 0x00, 0x82, 0x00, 0x00, 0x00, 0x56, 0x00, 0xA7, 0x01, 0x7F, 0x00, 0x5D, 0x01
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x44, 0x00, 0x06, 0x00, 0x00, 0x00, 0x35, 0x00, 0x93, 0x01, 0x51, 0x01
-    .byte 0x3F, 0x00, 0x00, 0x00, 0xFA, 0x00, 0x4B, 0x00, 0x95, 0x00, 0x00, 0x00, 0x07, 0x00, 0xDB, 0x00
-    .byte 0xB2, 0x01, 0x3F, 0x00, 0x00, 0x00
-    .close
-
-party 734
-    .byte 0xC8, 0x00, 0x34, 0x00, 0x94, 0x00, 0x00, 0x00, 0x56, 0x00, 0x97, 0x01, 0x55, 0x00, 0x35, 0x00
-    .byte 0x00, 0x00, 0xC8, 0x20, 0x38, 0x00, 0xE6, 0x00, 0x00, 0x00, 0x19, 0x01, 0x38, 0x00, 0x3A, 0x00
-    .byte 0xE1, 0x00, 0x00, 0x00, 0xC8, 0x00, 0x3C, 0x00, 0x95, 0x00, 0x00, 0x00, 0x57, 0x00, 0xB6, 0x00
-    .byte 0xE1, 0x00, 0x3F, 0x00, 0x00, 0x00
-    .close
-
-party 735
-    .byte 0xFA, 0x00, 0x3C, 0x00, 0x9A, 0x00, 0x00, 0x00, 0x50, 0x00, 0x22, 0x00, 0x71, 0x00, 0xEB, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x3A, 0x00, 0xA9, 0x00, 0x00, 0x00, 0x5C, 0x00, 0x2C, 0x00, 0x6D, 0x00
-    .byte 0x3A, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x38, 0x00, 0x5E, 0x00, 0x00, 0x00, 0x8F, 0x01, 0xBC, 0x00
-    .byte 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 736
-    .byte 0xFA, 0x00, 0x3C, 0x00, 0x9D, 0x00, 0x00, 0x00, 0xCD, 0x00, 0x35, 0x00, 0x05, 0x01, 0x81, 0x00
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x3A, 0x00, 0xA9, 0x00, 0x00, 0x00, 0x5C, 0x00, 0x2C, 0x00, 0x6D, 0x00
-    .byte 0x3A, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x38, 0x00, 0x5E, 0x00, 0x00, 0x00, 0x8F, 0x01, 0xBC, 0x00
-    .byte 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
-party 737
-    .byte 0xFA, 0x00, 0x3C, 0x00, 0xA0, 0x00, 0x00, 0x00, 0xF2, 0x00, 0x91, 0x01, 0xA3, 0x00, 0xA7, 0x01
-    .byte 0x00, 0x00, 0xFA, 0x00, 0x3A, 0x00, 0xA9, 0x00, 0x00, 0x00, 0x5C, 0x00, 0x2C, 0x00, 0x6D, 0x00
-    .byte 0x3A, 0x01, 0x00, 0x00, 0xFA, 0x00, 0x38, 0x00, 0x5E, 0x00, 0x00, 0x00, 0x8F, 0x01, 0xBC, 0x00
-    .byte 0xF7, 0x00, 0x6D, 0x00, 0x00, 0x00
-    .close
-
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass TRAINERCLASS_RIVAL
+    nummons 3
+    item ITEM_FULL_RESTORE
+    item ITEM_FULL_RESTORE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 737
+        // mon 0
+        ivs 250
+        abilityslot 0
+        level 60
+        pokemon SPECIES_FERALIGATR
+        item ITEM_NONE
+        move MOVE_CRUNCH
+        move MOVE_AQUA_TAIL
+        move MOVE_SLASH
+        move MOVE_ICE_FANG
+        ballseal 0
+
+        // mon 1
+        ivs 250
+        abilityslot 0
+        level 58
+        pokemon SPECIES_CROBAT
+        item ITEM_NONE
+        move MOVE_TOXIC
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GENGAR
+        item ITEM_NONE
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+    endparty
